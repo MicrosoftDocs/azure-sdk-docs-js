@@ -1,0 +1,884 @@
+name: Reference
+landingPageType: Root
+expanded: false
+items:
+  - name: Communication
+    landingPageType: Service
+    items:
+      - name: '@azure/communication-administration'
+        items:
+          - name: Overview
+            uid: '@azure/communication-administration'
+          - uid: '@azure/communication-administration.AcquiredPhoneNumber'
+            name: AcquiredPhoneNumber
+          - uid: '@azure/communication-administration.AcquiredPhoneNumbers'
+            name: AcquiredPhoneNumbers
+          - uid: '@azure/communication-administration.ActivationState'
+            name: ActivationState
+          - uid: '@azure/communication-administration.AreaCodes'
+            name: AreaCodes
+          - uid: '@azure/communication-administration.AssignmentStatus'
+            name: AssignmentStatus
+          - uid: >-
+              @azure/communication-administration.BeginPurchaseReservationOptions
+            name: BeginPurchaseReservationOptions
+          - uid: >-
+              @azure/communication-administration.BeginReleasePhoneNumbersOptions
+            name: BeginReleasePhoneNumbersOptions
+          - uid: >-
+              @azure/communication-administration.BeginReservePhoneNumbersOptions
+            name: BeginReservePhoneNumbersOptions
+          - uid: '@azure/communication-administration.CancelReservationOptions'
+            name: CancelReservationOptions
+          - uid: '@azure/communication-administration.CapabilitiesUpdateStatus'
+            name: CapabilitiesUpdateStatus
+          - uid: '@azure/communication-administration.Capability'
+            name: Capability
+          - uid: '@azure/communication-administration.CarrierDetails'
+            name: CarrierDetails
+          - uid: '@azure/communication-administration.CommunicationIdentityClient'
+            name: CommunicationIdentityClient
+          - uid: '@azure/communication-administration.CommunicationIdentityOptions'
+            name: CommunicationIdentityOptions
+          - uid: '@azure/communication-administration.CommunicationIdentityToken'
+            name: CommunicationIdentityToken
+          - uid: '@azure/communication-administration.CommunicationTokenRequest'
+            name: CommunicationTokenRequest
+          - uid: '@azure/communication-administration.CommunicationUserToken'
+            name: CommunicationUserToken
+          - uid: '@azure/communication-administration.ConfigurePhoneNumberOptions'
+            name: ConfigurePhoneNumberOptions
+          - uid: '@azure/communication-administration.ConfigurePhoneNumberRequest'
+            name: ConfigurePhoneNumberRequest
+          - uid: >-
+              @azure/communication-administration.CreatePhoneNumberReservationResponse
+            name: CreatePhoneNumberReservationResponse
+          - uid: '@azure/communication-administration.CreateReservationOptions'
+            name: CreateReservationOptions
+          - uid: '@azure/communication-administration.CreateReservationRequest'
+            name: CreateReservationRequest
+          - uid: '@azure/communication-administration.CreateReservationResponse'
+            name: CreateReservationResponse
+          - uid: '@azure/communication-administration.CreateUserResponse'
+            name: CreateUserResponse
+          - uid: '@azure/communication-administration.GetAreaCodesOptions'
+            name: GetAreaCodesOptions
+          - uid: '@azure/communication-administration.GetAreaCodesRequest'
+            name: GetAreaCodesRequest
+          - uid: '@azure/communication-administration.GetAreaCodesResponse'
+            name: GetAreaCodesResponse
+          - uid: '@azure/communication-administration.GetCapabilitiesUpdateOptions'
+            name: GetCapabilitiesUpdateOptions
+          - uid: '@azure/communication-administration.GetCapabilitiesUpdateResponse'
+            name: GetCapabilitiesUpdateResponse
+          - uid: >-
+              @azure/communication-administration.GetPhoneNumberConfigurationOptions
+            name: GetPhoneNumberConfigurationOptions
+          - uid: >-
+              @azure/communication-administration.GetPhoneNumberConfigurationResponse
+            name: GetPhoneNumberConfigurationResponse
+          - uid: >-
+              @azure/communication-administration.GetPhonePlanLocationOptionsOptions
+            name: GetPhonePlanLocationOptionsOptions
+          - uid: >-
+              @azure/communication-administration.GetPhonePlanLocationOptionsRequest
+            name: GetPhonePlanLocationOptionsRequest
+          - uid: >-
+              @azure/communication-administration.GetPhonePlanLocationOptionsResponse
+            name: GetPhonePlanLocationOptionsResponse
+          - uid: '@azure/communication-administration.GetReleaseOptions'
+            name: GetReleaseOptions
+          - uid: '@azure/communication-administration.GetReleaseResponse'
+            name: GetReleaseResponse
+          - uid: '@azure/communication-administration.GetReservationOptions'
+            name: GetReservationOptions
+          - uid: '@azure/communication-administration.GetReservationResponse'
+            name: GetReservationResponse
+          - uid: '@azure/communication-administration.IssueTokenResponse'
+            name: IssueTokenResponse
+          - uid: '@azure/communication-administration.ListPhoneNumbersOptions'
+            name: ListPhoneNumbersOptions
+          - uid: '@azure/communication-administration.ListPhonePlanGroupsOptions'
+            name: ListPhonePlanGroupsOptions
+          - uid: '@azure/communication-administration.ListPhonePlansOptions'
+            name: ListPhonePlansOptions
+          - uid: '@azure/communication-administration.ListPhonePlansRequest'
+            name: ListPhonePlansRequest
+          - uid: '@azure/communication-administration.ListSupportedCountriesOptions'
+            name: ListSupportedCountriesOptions
+          - uid: '@azure/communication-administration.LocalizationOptions'
+            name: LocalizationOptions
+          - uid: '@azure/communication-administration.LocationOptions'
+            name: LocationOptions
+          - uid: '@azure/communication-administration.LocationOptionsDetails'
+            name: LocationOptionsDetails
+          - uid: '@azure/communication-administration.LocationOptionsQueries'
+            name: LocationOptionsQueries
+          - uid: '@azure/communication-administration.LocationOptionsQuery'
+            name: LocationOptionsQuery
+          - uid: '@azure/communication-administration.LocationOptionsResponse'
+            name: LocationOptionsResponse
+          - uid: '@azure/communication-administration.LocationType'
+            name: LocationType
+          - uid: '@azure/communication-administration.NumberConfiguration'
+            name: NumberConfiguration
+          - uid: '@azure/communication-administration.NumberConfigurationResponse'
+            name: NumberConfigurationResponse
+          - uid: '@azure/communication-administration.NumberUpdateCapabilities'
+            name: NumberUpdateCapabilities
+          - uid: '@azure/communication-administration.PageableLocalizationOptions'
+            name: PageableLocalizationOptions
+          - uid: '@azure/communication-administration.PageableOptions'
+            name: PageableOptions
+          - uid: >-
+              @azure/communication-administration.PhoneNumberAdministrationClient
+            name: PhoneNumberAdministrationClient
+          - uid: >-
+              @azure/communication-administration.PhoneNumberAdministrationClientOptions
+            name: PhoneNumberAdministrationClientOptions
+          - uid: >-
+              @azure/communication-administration.PhoneNumberAdministrationGetAllAreaCodesResponse
+            name: PhoneNumberAdministrationGetAllAreaCodesResponse
+          - uid: >-
+              @azure/communication-administration.PhoneNumberAdministrationGetCapabilitiesUpdateResponse
+            name: PhoneNumberAdministrationGetCapabilitiesUpdateResponse
+          - uid: >-
+              @azure/communication-administration.PhoneNumberAdministrationGetNumberConfigurationResponse
+            name: PhoneNumberAdministrationGetNumberConfigurationResponse
+          - uid: >-
+              @azure/communication-administration.PhoneNumberAdministrationGetPhonePlanLocationOptionsResponse
+            name: PhoneNumberAdministrationGetPhonePlanLocationOptionsResponse
+          - uid: >-
+              @azure/communication-administration.PhoneNumberAdministrationGetReleaseByIdResponse
+            name: PhoneNumberAdministrationGetReleaseByIdResponse
+          - uid: >-
+              @azure/communication-administration.PhoneNumberAdministrationReleasePhoneNumbersResponse
+            name: PhoneNumberAdministrationReleasePhoneNumbersResponse
+          - uid: '@azure/communication-administration.PhoneNumberCapabilitiesUpdates'
+            name: PhoneNumberCapabilitiesUpdates
+          - uid: '@azure/communication-administration.PhoneNumberCountries'
+            name: PhoneNumberCountries
+          - uid: '@azure/communication-administration.PhoneNumberCountry'
+            name: PhoneNumberCountry
+          - uid: '@azure/communication-administration.PhoneNumberEntities'
+            name: PhoneNumberEntities
+          - uid: '@azure/communication-administration.PhoneNumberEntity'
+            name: PhoneNumberEntity
+          - uid: '@azure/communication-administration.PhoneNumberPollerOptionsBase'
+            name: PhoneNumberPollerOptionsBase
+          - uid: '@azure/communication-administration.PhoneNumberRelease'
+            name: PhoneNumberRelease
+          - uid: '@azure/communication-administration.PhoneNumberReleaseDetails'
+            name: PhoneNumberReleaseDetails
+          - uid: '@azure/communication-administration.PhoneNumberReleaseStatus'
+            name: PhoneNumberReleaseStatus
+          - uid: '@azure/communication-administration.PhoneNumberReservation'
+            name: PhoneNumberReservation
+          - uid: '@azure/communication-administration.PhoneNumberType'
+            name: PhoneNumberType
+          - uid: '@azure/communication-administration.PhonePlan'
+            name: PhonePlan
+          - uid: '@azure/communication-administration.PhonePlanGroup'
+            name: PhonePlanGroup
+          - uid: '@azure/communication-administration.PhonePlanGroups'
+            name: PhonePlanGroups
+          - uid: '@azure/communication-administration.PhonePlansResponse'
+            name: PhonePlansResponse
+          - uid: '@azure/communication-administration.PstnConfiguration'
+            name: PstnConfiguration
+          - uid: '@azure/communication-administration.PurchaseReservationOptions'
+            name: PurchaseReservationOptions
+          - uid: '@azure/communication-administration.RateInformation'
+            name: RateInformation
+          - uid: '@azure/communication-administration.ReleasePhoneNumbersOptions'
+            name: ReleasePhoneNumbersOptions
+          - uid: '@azure/communication-administration.ReleasePhoneNumbersResponse'
+            name: ReleasePhoneNumbersResponse
+          - uid: '@azure/communication-administration.ReleaseResponse'
+            name: ReleaseResponse
+          - uid: '@azure/communication-administration.ReleaseStatus'
+            name: ReleaseStatus
+          - uid: '@azure/communication-administration.SearchStatus'
+            name: SearchStatus
+          - uid: '@azure/communication-administration.TokenScope'
+            name: TokenScope
+          - uid: '@azure/communication-administration.UnconfigurePhoneNumberOptions'
+            name: UnconfigurePhoneNumberOptions
+          - uid: '@azure/communication-administration.UpdateCapabilitiesOptions'
+            name: UpdateCapabilitiesOptions
+          - uid: >-
+              @azure/communication-administration.UpdateNumberCapabilitiesResponse
+            name: UpdateNumberCapabilitiesResponse
+          - uid: >-
+              @azure/communication-administration.UpdateNumbersCapabilitiesResponse
+            name: UpdateNumbersCapabilitiesResponse
+          - uid: >-
+              @azure/communication-administration.UpdatePhoneNumberCapabilitiesResponse
+            name: UpdatePhoneNumberCapabilitiesResponse
+          - uid: '@azure/communication-administration.VoidResponse'
+            name: VoidResponse
+          - uid: '@azure/communication-administration.WithResponse'
+            name: WithResponse
+      - name: '@azure/communication-chat'
+        items:
+          - name: Overview
+            uid: '@azure/communication-chat'
+          - uid: '@azure/communication-chat.AddChatThreadMembersRequest'
+            name: AddChatThreadMembersRequest
+          - uid: '@azure/communication-chat.AddMembersOptions'
+            name: AddMembersOptions
+          - uid: '@azure/communication-chat.AddMembersOptions'
+            name: AddMembersOptions
+          - uid: '@azure/communication-chat.AddMembersRequest'
+            name: AddMembersRequest
+          - uid: '@azure/communication-chat.AddMembersRequest'
+            name: AddMembersRequest
+          - uid: '@azure/communication-chat.ChatApiClient'
+            name: ChatApiClient
+          - uid: '@azure/communication-chat.ChatApiClientContext'
+            name: ChatApiClientContext
+          - uid: '@azure/communication-chat.ChatApiClientCreateChatThreadResponse'
+            name: ChatApiClientCreateChatThreadResponse
+          - uid: '@azure/communication-chat.ChatApiClientGetChatMessageResponse'
+            name: ChatApiClientGetChatMessageResponse
+          - uid: '@azure/communication-chat.ChatApiClientGetChatThreadResponse'
+            name: ChatApiClientGetChatThreadResponse
+          - uid: >-
+              @azure/communication-chat.ChatApiClientListChatMessagesNextOptionalParams
+            name: ChatApiClientListChatMessagesNextOptionalParams
+          - uid: >-
+              @azure/communication-chat.ChatApiClientListChatMessagesNextResponse
+            name: ChatApiClientListChatMessagesNextResponse
+          - uid: >-
+              @azure/communication-chat.ChatApiClientListChatMessagesOptionalParams
+            name: ChatApiClientListChatMessagesOptionalParams
+          - uid: '@azure/communication-chat.ChatApiClientListChatMessagesResponse'
+            name: ChatApiClientListChatMessagesResponse
+          - uid: >-
+              @azure/communication-chat.ChatApiClientListChatReadReceiptsNextResponse
+            name: ChatApiClientListChatReadReceiptsNextResponse
+          - uid: >-
+              @azure/communication-chat.ChatApiClientListChatReadReceiptsResponse
+            name: ChatApiClientListChatReadReceiptsResponse
+          - uid: >-
+              @azure/communication-chat.ChatApiClientListChatThreadMembersNextResponse
+            name: ChatApiClientListChatThreadMembersNextResponse
+          - uid: >-
+              @azure/communication-chat.ChatApiClientListChatThreadMembersResponse
+            name: ChatApiClientListChatThreadMembersResponse
+          - uid: >-
+              @azure/communication-chat.ChatApiClientListChatThreadsNextOptionalParams
+            name: ChatApiClientListChatThreadsNextOptionalParams
+          - uid: '@azure/communication-chat.ChatApiClientListChatThreadsNextResponse'
+            name: ChatApiClientListChatThreadsNextResponse
+          - uid: >-
+              @azure/communication-chat.ChatApiClientListChatThreadsOptionalParams
+            name: ChatApiClientListChatThreadsOptionalParams
+          - uid: '@azure/communication-chat.ChatApiClientListChatThreadsResponse'
+            name: ChatApiClientListChatThreadsResponse
+          - uid: '@azure/communication-chat.ChatApiClientOptionalParams'
+            name: ChatApiClientOptionalParams
+          - uid: '@azure/communication-chat.ChatApiClientSendChatMessageResponse'
+            name: ChatApiClientSendChatMessageResponse
+          - uid: '@azure/communication-chat.ChatClient'
+            name: ChatClient
+          - uid: '@azure/communication-chat.ChatClient'
+            name: ChatClient
+          - uid: '@azure/communication-chat.ChatClientOptions'
+            name: ChatClientOptions
+          - uid: '@azure/communication-chat.ChatClientOptions'
+            name: ChatClientOptions
+          - uid: '@azure/communication-chat.ChatMessage'
+            name: ChatMessage
+          - uid: '@azure/communication-chat.ChatMessage'
+            name: ChatMessage
+          - uid: '@azure/communication-chat.ChatMessage'
+            name: ChatMessage
+          - uid: '@azure/communication-chat.ChatMessagePriority'
+            name: ChatMessagePriority
+          - uid: '@azure/communication-chat.ChatMessagePriority'
+            name: ChatMessagePriority
+          - uid: '@azure/communication-chat.ChatMessagesCollection'
+            name: ChatMessagesCollection
+          - uid: '@azure/communication-chat.ChatThread'
+            name: ChatThread
+          - uid: '@azure/communication-chat.ChatThread'
+            name: ChatThread
+          - uid: '@azure/communication-chat.ChatThread'
+            name: ChatThread
+          - uid: '@azure/communication-chat.ChatThreadClient'
+            name: ChatThreadClient
+          - uid: '@azure/communication-chat.ChatThreadClient'
+            name: ChatThreadClient
+          - uid: '@azure/communication-chat.ChatThreadClientOptions'
+            name: ChatThreadClientOptions
+          - uid: '@azure/communication-chat.ChatThreadClientOptions'
+            name: ChatThreadClientOptions
+          - uid: '@azure/communication-chat.ChatThreadInfo'
+            name: ChatThreadInfo
+          - uid: '@azure/communication-chat.ChatThreadInfo'
+            name: ChatThreadInfo
+          - uid: '@azure/communication-chat.ChatThreadMember'
+            name: ChatThreadMember
+          - uid: '@azure/communication-chat.ChatThreadMember'
+            name: ChatThreadMember
+          - uid: '@azure/communication-chat.ChatThreadMember'
+            name: ChatThreadMember
+          - uid: '@azure/communication-chat.ChatThreadMembersCollection'
+            name: ChatThreadMembersCollection
+          - uid: '@azure/communication-chat.ChatThreadsInfoCollection'
+            name: ChatThreadsInfoCollection
+          - uid: '@azure/communication-chat.CommunicationUserCredentialPolicy'
+            name: CommunicationUserCredentialPolicy
+          - uid: '@azure/communication-chat.CreateChatThreadOptions'
+            name: CreateChatThreadOptions
+          - uid: '@azure/communication-chat.CreateChatThreadOptions'
+            name: CreateChatThreadOptions
+          - uid: '@azure/communication-chat.CreateChatThreadRequest'
+            name: CreateChatThreadRequest
+          - uid: '@azure/communication-chat.CreateChatThreadRequest'
+            name: CreateChatThreadRequest
+          - uid: '@azure/communication-chat.CreateChatThreadRequest'
+            name: CreateChatThreadRequest
+          - uid: '@azure/communication-chat.DeleteChatThreadOptions'
+            name: DeleteChatThreadOptions
+          - uid: '@azure/communication-chat.DeleteChatThreadOptions'
+            name: DeleteChatThreadOptions
+          - uid: '@azure/communication-chat.DeleteMessageOptions'
+            name: DeleteMessageOptions
+          - uid: '@azure/communication-chat.DeleteMessageOptions'
+            name: DeleteMessageOptions
+          - uid: '@azure/communication-chat.ErrorModel'
+            name: ErrorModel
+          - uid: '@azure/communication-chat.GetChatMessageResponse'
+            name: GetChatMessageResponse
+          - uid: '@azure/communication-chat.GetChatMessageResponse'
+            name: GetChatMessageResponse
+          - uid: '@azure/communication-chat.GetChatThreadOptions'
+            name: GetChatThreadOptions
+          - uid: '@azure/communication-chat.GetChatThreadOptions'
+            name: GetChatThreadOptions
+          - uid: '@azure/communication-chat.GetChatThreadResponse'
+            name: GetChatThreadResponse
+          - uid: '@azure/communication-chat.GetChatThreadResponse'
+            name: GetChatThreadResponse
+          - uid: '@azure/communication-chat.GetMessageOptions'
+            name: GetMessageOptions
+          - uid: '@azure/communication-chat.GetMessageOptions'
+            name: GetMessageOptions
+          - uid: '@azure/communication-chat.IndividualStatusResponse'
+            name: IndividualStatusResponse
+          - uid: '@azure/communication-chat.ListChatThreadsOptions'
+            name: ListChatThreadsOptions
+          - uid: '@azure/communication-chat.ListChatThreadsOptions'
+            name: ListChatThreadsOptions
+          - uid: '@azure/communication-chat.ListMembersOptions'
+            name: ListMembersOptions
+          - uid: '@azure/communication-chat.ListMembersOptions'
+            name: ListMembersOptions
+          - uid: '@azure/communication-chat.ListMessagesOptions'
+            name: ListMessagesOptions
+          - uid: '@azure/communication-chat.ListMessagesOptions'
+            name: ListMessagesOptions
+          - uid: '@azure/communication-chat.ListPageSettings'
+            name: ListPageSettings
+          - uid: '@azure/communication-chat.ListPageSettings'
+            name: ListPageSettings
+          - uid: '@azure/communication-chat.ListReadReceiptsOptions'
+            name: ListReadReceiptsOptions
+          - uid: '@azure/communication-chat.ListReadReceiptsOptions'
+            name: ListReadReceiptsOptions
+          - uid: '@azure/communication-chat.MultiStatusResponse'
+            name: MultiStatusResponse
+          - uid: '@azure/communication-chat.OperationResponse'
+            name: OperationResponse
+          - uid: '@azure/communication-chat.OperationResponse'
+            name: OperationResponse
+          - uid: '@azure/communication-chat.ReadReceipt'
+            name: ReadReceipt
+          - uid: '@azure/communication-chat.ReadReceipt'
+            name: ReadReceipt
+          - uid: '@azure/communication-chat.ReadReceipt'
+            name: ReadReceipt
+          - uid: '@azure/communication-chat.ReadReceiptsCollection'
+            name: ReadReceiptsCollection
+          - uid: '@azure/communication-chat.RecordedClient'
+            name: RecordedClient
+          - uid: '@azure/communication-chat.RemoveMemberOptions'
+            name: RemoveMemberOptions
+          - uid: '@azure/communication-chat.RemoveMemberOptions'
+            name: RemoveMemberOptions
+          - uid: '@azure/communication-chat.RestAddMembersRequest'
+            name: RestAddMembersRequest
+          - uid: '@azure/communication-chat.RestChatMessage'
+            name: RestChatMessage
+          - uid: '@azure/communication-chat.RestChatThread'
+            name: RestChatThread
+          - uid: '@azure/communication-chat.RestChatThreadMember'
+            name: RestChatThreadMember
+          - uid: '@azure/communication-chat.RestCreateChatThreadRequest'
+            name: RestCreateChatThreadRequest
+          - uid: '@azure/communication-chat.RestListChatThreadsOptions'
+            name: RestListChatThreadsOptions
+          - uid: '@azure/communication-chat.RestListMessagesOptions'
+            name: RestListMessagesOptions
+          - uid: '@azure/communication-chat.RestReadReceipt'
+            name: RestReadReceipt
+          - uid: '@azure/communication-chat.RestUpdateMessageOptions'
+            name: RestUpdateMessageOptions
+          - uid: '@azure/communication-chat.RestUpdateThreadOptions'
+            name: RestUpdateThreadOptions
+          - uid: '@azure/communication-chat.SendChatMessageRequest'
+            name: SendChatMessageRequest
+          - uid: '@azure/communication-chat.SendChatMessageRequest'
+            name: SendChatMessageRequest
+          - uid: '@azure/communication-chat.SendChatMessageResponse'
+            name: SendChatMessageResponse
+          - uid: '@azure/communication-chat.SendChatMessageResponse'
+            name: SendChatMessageResponse
+          - uid: '@azure/communication-chat.SendChatMessageResult'
+            name: SendChatMessageResult
+          - uid: '@azure/communication-chat.SendChatMessageResult'
+            name: SendChatMessageResult
+          - uid: '@azure/communication-chat.SendMessageOptions'
+            name: SendMessageOptions
+          - uid: '@azure/communication-chat.SendMessageOptions'
+            name: SendMessageOptions
+          - uid: '@azure/communication-chat.SendMessageRequest'
+            name: SendMessageRequest
+          - uid: '@azure/communication-chat.SendMessageRequest'
+            name: SendMessageRequest
+          - uid: '@azure/communication-chat.SendReadReceiptOptions'
+            name: SendReadReceiptOptions
+          - uid: '@azure/communication-chat.SendReadReceiptOptions'
+            name: SendReadReceiptOptions
+          - uid: '@azure/communication-chat.SendReadReceiptRequest'
+            name: SendReadReceiptRequest
+          - uid: '@azure/communication-chat.SendReadReceiptRequest'
+            name: SendReadReceiptRequest
+          - uid: '@azure/communication-chat.SendTypingNotificationOptions'
+            name: SendTypingNotificationOptions
+          - uid: '@azure/communication-chat.SendTypingNotificationOptions'
+            name: SendTypingNotificationOptions
+          - uid: '@azure/communication-chat.UpdateChatMessageRequest'
+            name: UpdateChatMessageRequest
+          - uid: '@azure/communication-chat.UpdateChatThreadRequest'
+            name: UpdateChatThreadRequest
+          - uid: '@azure/communication-chat.UpdateMessageOptions'
+            name: UpdateMessageOptions
+          - uid: '@azure/communication-chat.UpdateMessageOptions'
+            name: UpdateMessageOptions
+          - uid: '@azure/communication-chat.UpdateThreadOptions'
+            name: UpdateThreadOptions
+          - uid: '@azure/communication-chat.UpdateThreadOptions'
+            name: UpdateThreadOptions
+          - uid: '@azure/communication-chat.WithResponse'
+            name: WithResponse
+          - uid: '@azure/communication-chat.WithResponse'
+            name: WithResponse
+      - name: '@azure/communication-common'
+        items:
+          - name: Overview
+            uid: '@azure/communication-common'
+          - uid: '@azure/communication-common.AzureCommunicationTokenCredential'
+            name: AzureCommunicationTokenCredential
+          - uid: '@azure/communication-common.CallingApplicationIdentifier'
+            name: CallingApplicationIdentifier
+          - uid: '@azure/communication-common.CallingApplicationKind'
+            name: CallingApplicationKind
+          - uid: '@azure/communication-common.CommunicationIdentifier'
+            name: CommunicationIdentifier
+          - uid: '@azure/communication-common.CommunicationIdentifierKind'
+            name: CommunicationIdentifierKind
+          - uid: '@azure/communication-common.CommunicationTokenCredential'
+            name: CommunicationTokenCredential
+          - uid: '@azure/communication-common.CommunicationTokenRefreshOptions'
+            name: CommunicationTokenRefreshOptions
+          - uid: '@azure/communication-common.CommunicationUserIdentifier'
+            name: CommunicationUserIdentifier
+          - uid: '@azure/communication-common.CommunicationUserKind'
+            name: CommunicationUserKind
+          - uid: '@azure/communication-common.EndpointCredential'
+            name: EndpointCredential
+          - uid: '@azure/communication-common.MicrosoftTeamsUserIdentifier'
+            name: MicrosoftTeamsUserIdentifier
+          - uid: '@azure/communication-common.MicrosoftTeamsUserKind'
+            name: MicrosoftTeamsUserKind
+          - uid: '@azure/communication-common.PhoneNumberIdentifier'
+            name: PhoneNumberIdentifier
+          - uid: '@azure/communication-common.PhoneNumberKind'
+            name: PhoneNumberKind
+          - uid: '@azure/communication-common.UnknownIdentifier'
+            name: UnknownIdentifier
+          - uid: '@azure/communication-common.UnknownIdentifierKind'
+            name: UnknownIdentifierKind
+          - uid: '@azure/communication-common.UrlWithCredential'
+            name: UrlWithCredential
+          - uid: '@azure/communication-common.WithOptionalFullId'
+            name: WithOptionalFullId
+      - name: '@azure/communication-sms'
+        items:
+          - name: Overview
+            uid: '@azure/communication-sms'
+          - uid: '@azure/communication-sms.SendOptions'
+            name: SendOptions
+          - uid: '@azure/communication-sms.SendRequest'
+            name: SendRequest
+          - uid: '@azure/communication-sms.SmsClient'
+            name: SmsClient
+          - uid: '@azure/communication-sms.SmsClientOptions'
+            name: SmsClientOptions
+  - name: Key Vault
+    items:
+      - name: Overview
+        href: >-
+          https://github.com/MicrosoftDocs/azure-docs-sdk-node/blob/master/docs-ref-services/latest/key-vault-index.md
+      - name: '@azure/keyvault-secrets'
+        items:
+          - name: Overview
+            uid: '@azure/keyvault-secrets'
+          - uid: '@azure/keyvault-secrets.BackupSecretOptions'
+            name: BackupSecretOptions
+          - uid: '@azure/keyvault-secrets.BeginDeleteSecretOptions'
+            name: BeginDeleteSecretOptions
+          - uid: '@azure/keyvault-secrets.BeginRecoverDeletedSecretOptions'
+            name: BeginRecoverDeletedSecretOptions
+          - uid: '@azure/keyvault-secrets.DeletedSecret'
+            name: DeletedSecret
+          - uid: '@azure/keyvault-secrets.DeletionRecoveryLevel'
+            name: DeletionRecoveryLevel
+          - uid: '@azure/keyvault-secrets.GetDeletedSecretOptions'
+            name: GetDeletedSecretOptions
+          - uid: '@azure/keyvault-secrets.GetSecretOptions'
+            name: GetSecretOptions
+          - uid: '@azure/keyvault-secrets.KeyVaultSecret'
+            name: KeyVaultSecret
+          - uid: '@azure/keyvault-secrets.KeyVaultSecretId'
+            name: KeyVaultSecretId
+          - uid: '@azure/keyvault-secrets.ListDeletedSecretsOptions'
+            name: ListDeletedSecretsOptions
+          - uid: '@azure/keyvault-secrets.ListPropertiesOfSecretsOptions'
+            name: ListPropertiesOfSecretsOptions
+          - uid: '@azure/keyvault-secrets.ListPropertiesOfSecretVersionsOptions'
+            name: ListPropertiesOfSecretVersionsOptions
+          - uid: '@azure/keyvault-secrets.PurgeDeletedSecretOptions'
+            name: PurgeDeletedSecretOptions
+          - uid: '@azure/keyvault-secrets.RestoreSecretBackupOptions'
+            name: RestoreSecretBackupOptions
+          - uid: '@azure/keyvault-secrets.SecretClient'
+            name: SecretClient
+          - uid: '@azure/keyvault-secrets.SecretClientOptions'
+            name: SecretClientOptions
+          - uid: '@azure/keyvault-secrets.SecretPollerOptions'
+            name: SecretPollerOptions
+          - uid: '@azure/keyvault-secrets.SecretProperties'
+            name: SecretProperties
+          - uid: '@azure/keyvault-secrets.SetSecretOptions'
+            name: SetSecretOptions
+          - uid: '@azure/keyvault-secrets.UpdateSecretPropertiesOptions'
+            name: UpdateSecretPropertiesOptions
+      - name: '@azure/keyvault-keys'
+        items:
+          - name: Overview
+            uid: '@azure/keyvault-keys'
+          - uid: '@azure/keyvault-keys.BackupKeyOptions'
+            name: BackupKeyOptions
+          - uid: '@azure/keyvault-keys.BeginDeleteKeyOptions'
+            name: BeginDeleteKeyOptions
+          - uid: '@azure/keyvault-keys.BeginRecoverDeletedKeyOptions'
+            name: BeginRecoverDeletedKeyOptions
+          - uid: '@azure/keyvault-keys.CreateEcKeyOptions'
+            name: CreateEcKeyOptions
+          - uid: '@azure/keyvault-keys.CreateKeyOptions'
+            name: CreateKeyOptions
+          - uid: '@azure/keyvault-keys.CreateRsaKeyOptions'
+            name: CreateRsaKeyOptions
+          - uid: '@azure/keyvault-keys.CryptographyClient'
+            name: CryptographyClient
+          - uid: '@azure/keyvault-keys.CryptographyClientOptions'
+            name: CryptographyClientOptions
+          - uid: '@azure/keyvault-keys.CryptographyOptions'
+            name: CryptographyOptions
+          - uid: '@azure/keyvault-keys.DecryptOptions'
+            name: DecryptOptions
+          - uid: '@azure/keyvault-keys.DecryptResult'
+            name: DecryptResult
+          - uid: '@azure/keyvault-keys.DeletedKey'
+            name: DeletedKey
+          - uid: '@azure/keyvault-keys.DeletionRecoveryLevel'
+            name: DeletionRecoveryLevel
+          - uid: '@azure/keyvault-keys.EncryptionAlgorithm'
+            name: EncryptionAlgorithm
+          - uid: '@azure/keyvault-keys.EncryptOptions'
+            name: EncryptOptions
+          - uid: '@azure/keyvault-keys.EncryptResult'
+            name: EncryptResult
+          - uid: '@azure/keyvault-keys.GetDeletedKeyOptions'
+            name: GetDeletedKeyOptions
+          - uid: '@azure/keyvault-keys.GetKeyOptions'
+            name: GetKeyOptions
+          - uid: '@azure/keyvault-keys.ImportKeyOptions'
+            name: ImportKeyOptions
+          - uid: '@azure/keyvault-keys.JsonWebKey'
+            name: JsonWebKey
+          - uid: '@azure/keyvault-keys.KeyClient'
+            name: KeyClient
+          - uid: '@azure/keyvault-keys.KeyClientOptions'
+            name: KeyClientOptions
+          - uid: '@azure/keyvault-keys.KeyCurveName'
+            name: KeyCurveName
+          - uid: '@azure/keyvault-keys.KeyOperation'
+            name: KeyOperation
+          - uid: '@azure/keyvault-keys.KeyOperationsOptions'
+            name: KeyOperationsOptions
+          - uid: '@azure/keyvault-keys.KeyPollerOptions'
+            name: KeyPollerOptions
+          - uid: '@azure/keyvault-keys.KeyProperties'
+            name: KeyProperties
+          - uid: '@azure/keyvault-keys.KeyType'
+            name: KeyType
+          - uid: '@azure/keyvault-keys.KeyVaultKey'
+            name: KeyVaultKey
+          - uid: '@azure/keyvault-keys.KeyVaultKeyId'
+            name: KeyVaultKeyId
+          - uid: '@azure/keyvault-keys.KeyWrapAlgorithm'
+            name: KeyWrapAlgorithm
+          - uid: '@azure/keyvault-keys.ListDeletedKeysOptions'
+            name: ListDeletedKeysOptions
+          - uid: '@azure/keyvault-keys.ListPropertiesOfKeysOptions'
+            name: ListPropertiesOfKeysOptions
+          - uid: '@azure/keyvault-keys.ListPropertiesOfKeyVersionsOptions'
+            name: ListPropertiesOfKeyVersionsOptions
+          - uid: '@azure/keyvault-keys.LocalCryptographyClient'
+            name: LocalCryptographyClient
+          - uid: '@azure/keyvault-keys.LocalSupportedAlgorithmName'
+            name: LocalSupportedAlgorithmName
+          - uid: '@azure/keyvault-keys.PurgeDeletedKeyOptions'
+            name: PurgeDeletedKeyOptions
+          - uid: '@azure/keyvault-keys.RestoreKeyBackupOptions'
+            name: RestoreKeyBackupOptions
+          - uid: '@azure/keyvault-keys.SignatureAlgorithm'
+            name: SignatureAlgorithm
+          - uid: '@azure/keyvault-keys.SignOptions'
+            name: SignOptions
+          - uid: '@azure/keyvault-keys.SignResult'
+            name: SignResult
+          - uid: '@azure/keyvault-keys.UnwrapKeyOptions'
+            name: UnwrapKeyOptions
+          - uid: '@azure/keyvault-keys.UnwrapResult'
+            name: UnwrapResult
+          - uid: '@azure/keyvault-keys.UpdateKeyPropertiesOptions'
+            name: UpdateKeyPropertiesOptions
+          - uid: '@azure/keyvault-keys.VerifyOptions'
+            name: VerifyOptions
+          - uid: '@azure/keyvault-keys.VerifyResult'
+            name: VerifyResult
+          - uid: '@azure/keyvault-keys.WrapKeyOptions'
+            name: WrapKeyOptions
+          - uid: '@azure/keyvault-keys.WrapResult'
+            name: WrapResult
+      - name: '@azure/keyvault-certificates'
+        items:
+          - name: Overview
+            uid: '@azure/keyvault-certificates'
+          - uid: '@azure/keyvault-certificates.ActionType'
+            name: ActionType
+          - uid: '@azure/keyvault-certificates.AdministratorContact'
+            name: AdministratorContact
+          - uid: '@azure/keyvault-certificates.ArrayOneOrMore'
+            name: ArrayOneOrMore
+          - uid: '@azure/keyvault-certificates.BackupCertificateOptions'
+            name: BackupCertificateOptions
+          - uid: '@azure/keyvault-certificates.BackupCertificateResult'
+            name: BackupCertificateResult
+          - uid: '@azure/keyvault-certificates.BeginCreateCertificateOptions'
+            name: BeginCreateCertificateOptions
+          - uid: '@azure/keyvault-certificates.BeginDeleteCertificateOptions'
+            name: BeginDeleteCertificateOptions
+          - uid: '@azure/keyvault-certificates.BeginRecoverDeletedCertificateOptions'
+            name: BeginRecoverDeletedCertificateOptions
+          - uid: '@azure/keyvault-certificates.CertificateClient'
+            name: CertificateClient
+          - uid: '@azure/keyvault-certificates.CertificateClientOptions'
+            name: CertificateClientOptions
+          - uid: '@azure/keyvault-certificates.CertificateContact'
+            name: CertificateContact
+          - uid: '@azure/keyvault-certificates.CertificateContactAll'
+            name: CertificateContactAll
+          - uid: '@azure/keyvault-certificates.CertificateContentType'
+            name: CertificateContentType
+          - uid: '@azure/keyvault-certificates.CertificateIssuer'
+            name: CertificateIssuer
+          - uid: '@azure/keyvault-certificates.CertificateKeyCurveName'
+            name: CertificateKeyCurveName
+          - uid: '@azure/keyvault-certificates.CertificateKeyType'
+            name: CertificateKeyType
+          - uid: '@azure/keyvault-certificates.CertificateOperation'
+            name: CertificateOperation
+          - uid: '@azure/keyvault-certificates.CertificateOperationError'
+            name: CertificateOperationError
+          - uid: '@azure/keyvault-certificates.CertificateOperationState'
+            name: CertificateOperationState
+          - uid: '@azure/keyvault-certificates.CertificatePolicy'
+            name: CertificatePolicy
+          - uid: '@azure/keyvault-certificates.CertificatePolicyAction'
+            name: CertificatePolicyAction
+          - uid: '@azure/keyvault-certificates.CertificatePolicyProperties'
+            name: CertificatePolicyProperties
+          - uid: '@azure/keyvault-certificates.CertificatePollerOptions'
+            name: CertificatePollerOptions
+          - uid: '@azure/keyvault-certificates.CertificateProperties'
+            name: CertificateProperties
+          - uid: '@azure/keyvault-certificates.CertificateTags'
+            name: CertificateTags
+          - uid: '@azure/keyvault-certificates.CoreSubjectAlternativeNames'
+            name: CoreSubjectAlternativeNames
+          - uid: '@azure/keyvault-certificates.CreateCertificateOptions'
+            name: CreateCertificateOptions
+          - uid: '@azure/keyvault-certificates.CreateCertificateState'
+            name: CreateCertificateState
+          - uid: '@azure/keyvault-certificates.CreateIssuerOptions'
+            name: CreateIssuerOptions
+          - uid: '@azure/keyvault-certificates.DeleteCertificateOperationOptions'
+            name: DeleteCertificateOperationOptions
+          - uid: '@azure/keyvault-certificates.DeleteCertificateState'
+            name: DeleteCertificateState
+          - uid: '@azure/keyvault-certificates.DeleteContactsOptions'
+            name: DeleteContactsOptions
+          - uid: '@azure/keyvault-certificates.DeletedCertificate'
+            name: DeletedCertificate
+          - uid: '@azure/keyvault-certificates.DeleteIssuerOptions'
+            name: DeleteIssuerOptions
+          - uid: '@azure/keyvault-certificates.DeletionRecoveryLevel'
+            name: DeletionRecoveryLevel
+          - uid: '@azure/keyvault-certificates.ErrorModel'
+            name: ErrorModel
+          - uid: '@azure/keyvault-certificates.GetCertificateOperationOptions'
+            name: GetCertificateOperationOptions
+          - uid: '@azure/keyvault-certificates.GetCertificateOptions'
+            name: GetCertificateOptions
+          - uid: '@azure/keyvault-certificates.GetCertificatePolicyOptions'
+            name: GetCertificatePolicyOptions
+          - uid: '@azure/keyvault-certificates.GetCertificateVersionOptions'
+            name: GetCertificateVersionOptions
+          - uid: '@azure/keyvault-certificates.GetContactsOptions'
+            name: GetContactsOptions
+          - uid: '@azure/keyvault-certificates.GetDeletedCertificateOptions'
+            name: GetDeletedCertificateOptions
+          - uid: '@azure/keyvault-certificates.GetIssuerOptions'
+            name: GetIssuerOptions
+          - uid: '@azure/keyvault-certificates.GetPlainCertificateOperationOptions'
+            name: GetPlainCertificateOperationOptions
+          - uid: '@azure/keyvault-certificates.ImportCertificateOptions'
+            name: ImportCertificateOptions
+          - uid: '@azure/keyvault-certificates.IssuerAttributes'
+            name: IssuerAttributes
+          - uid: '@azure/keyvault-certificates.IssuerCredentials'
+            name: IssuerCredentials
+          - uid: '@azure/keyvault-certificates.IssuerParameters'
+            name: IssuerParameters
+          - uid: '@azure/keyvault-certificates.IssuerProperties'
+            name: IssuerProperties
+          - uid: '@azure/keyvault-certificates.KeyUsageType'
+            name: KeyUsageType
+          - uid: '@azure/keyvault-certificates.KeyVaultCertificate'
+            name: KeyVaultCertificate
+          - uid: '@azure/keyvault-certificates.KeyVaultCertificateId'
+            name: KeyVaultCertificateId
+          - uid: '@azure/keyvault-certificates.KeyVaultCertificateWithPolicy'
+            name: KeyVaultCertificateWithPolicy
+          - uid: '@azure/keyvault-certificates.KVPollerLike'
+            name: KVPollerLike
+          - uid: '@azure/keyvault-certificates.LifetimeAction'
+            name: LifetimeAction
+          - uid: '@azure/keyvault-certificates.ListDeletedCertificatesOptions'
+            name: ListDeletedCertificatesOptions
+          - uid: '@azure/keyvault-certificates.ListPropertiesOfCertificatesOptions'
+            name: ListPropertiesOfCertificatesOptions
+          - uid: >-
+              @azure/keyvault-certificates.ListPropertiesOfCertificateVersionsOptions
+            name: ListPropertiesOfCertificateVersionsOptions
+          - uid: '@azure/keyvault-certificates.ListPropertiesOfIssuersOptions'
+            name: ListPropertiesOfIssuersOptions
+          - uid: '@azure/keyvault-certificates.MergeCertificateOptions'
+            name: MergeCertificateOptions
+          - uid: '@azure/keyvault-certificates.PolicySubjectProperties'
+            name: PolicySubjectProperties
+          - uid: '@azure/keyvault-certificates.PurgeDeletedCertificateOptions'
+            name: PurgeDeletedCertificateOptions
+          - uid: '@azure/keyvault-certificates.RecoverDeletedCertificateState'
+            name: RecoverDeletedCertificateState
+          - uid: '@azure/keyvault-certificates.RequireAtLeastOne'
+            name: RequireAtLeastOne
+          - uid: '@azure/keyvault-certificates.RestoreCertificateBackupOptions'
+            name: RestoreCertificateBackupOptions
+          - uid: '@azure/keyvault-certificates.SetContactsOptions'
+            name: SetContactsOptions
+          - uid: '@azure/keyvault-certificates.SubjectAlternativeNames'
+            name: SubjectAlternativeNames
+          - uid: '@azure/keyvault-certificates.SubjectAlternativeNamesAll'
+            name: SubjectAlternativeNamesAll
+          - uid: '@azure/keyvault-certificates.UpdateCertificateOptions'
+            name: UpdateCertificateOptions
+          - uid: '@azure/keyvault-certificates.UpdateCertificatePolicyOptions'
+            name: UpdateCertificatePolicyOptions
+          - uid: '@azure/keyvault-certificates.UpdateIssuerOptions'
+            name: UpdateIssuerOptions
+          - uid: '@azure/keyvault-certificates.WellKnownIssuer'
+            name: WellKnownIssuer
+          - uid: '@azure/keyvault-certificates.X509CertificateProperties'
+            name: X509CertificateProperties
+      - name: '@azure/keyvault-admin'
+        items:
+          - name: Overview
+            uid: '@azure/keyvault-admin'
+          - uid: '@azure/keyvault-admin.AccessControlClientOptions'
+            name: AccessControlClientOptions
+          - uid: '@azure/keyvault-admin.BackupClientOptions'
+            name: BackupClientOptions
+          - uid: '@azure/keyvault-admin.BackupOperationState'
+            name: BackupOperationState
+          - uid: '@azure/keyvault-admin.BackupPollerOptions'
+            name: BackupPollerOptions
+          - uid: '@azure/keyvault-admin.BeginBackupOptions'
+            name: BeginBackupOptions
+          - uid: '@azure/keyvault-admin.BeginRestoreOptions'
+            name: BeginRestoreOptions
+          - uid: '@azure/keyvault-admin.BeginSelectiveRestoreOptions'
+            name: BeginSelectiveRestoreOptions
+          - uid: '@azure/keyvault-admin.CreateRoleAssignmentOptions'
+            name: CreateRoleAssignmentOptions
+          - uid: '@azure/keyvault-admin.DeleteRoleAssignmentOptions'
+            name: DeleteRoleAssignmentOptions
+          - uid: '@azure/keyvault-admin.GetRoleAssignmentOptions'
+            name: GetRoleAssignmentOptions
+          - uid: '@azure/keyvault-admin.KeyVaultAccessControlClient'
+            name: KeyVaultAccessControlClient
+          - uid: '@azure/keyvault-admin.KeyVaultBackupClient'
+            name: KeyVaultBackupClient
+          - uid: '@azure/keyvault-admin.KeyVaultPermission'
+            name: KeyVaultPermission
+          - uid: '@azure/keyvault-admin.KeyVaultRoleAssignment'
+            name: KeyVaultRoleAssignment
+          - uid: '@azure/keyvault-admin.KeyVaultRoleAssignmentProperties'
+            name: KeyVaultRoleAssignmentProperties
+          - uid: '@azure/keyvault-admin.KeyVaultRoleAssignmentPropertiesWithScope'
+            name: KeyVaultRoleAssignmentPropertiesWithScope
+          - uid: '@azure/keyvault-admin.KeyVaultRoleDefinition'
+            name: KeyVaultRoleDefinition
+          - uid: '@azure/keyvault-admin.ListRoleAssignmentsOptions'
+            name: ListRoleAssignmentsOptions
+          - uid: '@azure/keyvault-admin.ListRoleAssignmentsPageSettings'
+            name: ListRoleAssignmentsPageSettings
+          - uid: '@azure/keyvault-admin.ListRoleDefinitionsOptions'
+            name: ListRoleDefinitionsOptions
+          - uid: '@azure/keyvault-admin.ListRoleDefinitionsPageSettings'
+            name: ListRoleDefinitionsPageSettings
+          - uid: '@azure/keyvault-admin.RestoreOperationState'
+            name: RestoreOperationState
+          - uid: '@azure/keyvault-admin.RoleAssignmentScope'
+            name: RoleAssignmentScope
+          - uid: '@azure/keyvault-admin.SelectiveRestoreOperationState'
+            name: SelectiveRestoreOperationState
+          - uid: '@azure/keyvault-admin.SUPPORTED_API_VERSIONS'
+            name: SUPPORTED_API_VERSIONS
