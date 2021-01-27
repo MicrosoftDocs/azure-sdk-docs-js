@@ -7,7 +7,7 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "docs-ref-autogen",
+        "src": "preview/docs-ref-autogen",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
