@@ -290,6 +290,101 @@ items:
             name: WellKnownIssuer
           - uid: '@azure/keyvault-certificates.X509CertificateProperties'
             name: X509CertificateProperties
+  - name: Service Bus
+    items:
+      - name: Overview
+        href: >-
+          https://github.com/MicrosoftDocs/azure-docs-sdk-node/blob/master/docs-ref-services/latest/service-bus.md
+      - name: '@azure/service-bus'
+        items:
+          - name: Overview
+            uid: '@azure/service-bus'
+          - uid: '@azure/service-bus.AuthorizationRule'
+            name: AuthorizationRule
+          - uid: '@azure/service-bus.CorrelationRuleFilter'
+            name: CorrelationRuleFilter
+          - uid: '@azure/service-bus.CreateMessageBatchOptions'
+            name: CreateMessageBatchOptions
+          - uid: '@azure/service-bus.CreateQueueOptions'
+            name: CreateQueueOptions
+          - uid: '@azure/service-bus.CreateSubscriptionOptions'
+            name: CreateSubscriptionOptions
+          - uid: '@azure/service-bus.CreateTopicOptions'
+            name: CreateTopicOptions
+          - uid: '@azure/service-bus.DeadLetterOptions'
+            name: DeadLetterOptions
+          - uid: '@azure/service-bus.EntitiesResponse'
+            name: EntitiesResponse
+          - uid: '@azure/service-bus.EntityAvailabilityStatus'
+            name: EntityAvailabilityStatus
+          - uid: '@azure/service-bus.EntityStatus'
+            name: EntityStatus
+          - uid: '@azure/service-bus.GetMessageIteratorOptions'
+            name: GetMessageIteratorOptions
+          - uid: '@azure/service-bus.MessageHandlers'
+            name: MessageHandlers
+          - uid: '@azure/service-bus.NamespaceProperties'
+            name: NamespaceProperties
+          - uid: '@azure/service-bus.OperationOptionsBase'
+            name: OperationOptionsBase
+          - uid: '@azure/service-bus.PeekMessagesOptions'
+            name: PeekMessagesOptions
+          - uid: '@azure/service-bus.ProcessErrorArgs'
+            name: ProcessErrorArgs
+          - uid: '@azure/service-bus.QueueProperties'
+            name: QueueProperties
+          - uid: '@azure/service-bus.QueueRuntimeProperties'
+            name: QueueRuntimeProperties
+          - uid: '@azure/service-bus.ReceiveMessagesOptions'
+            name: ReceiveMessagesOptions
+          - uid: '@azure/service-bus.RuleProperties'
+            name: RuleProperties
+          - uid: '@azure/service-bus.ServiceBusAdministrationClient'
+            name: ServiceBusAdministrationClient
+          - uid: '@azure/service-bus.ServiceBusClient'
+            name: ServiceBusClient
+          - uid: '@azure/service-bus.ServiceBusClientOptions'
+            name: ServiceBusClientOptions
+          - uid: '@azure/service-bus.ServiceBusConnectionStringProperties'
+            name: ServiceBusConnectionStringProperties
+          - uid: '@azure/service-bus.ServiceBusError'
+            name: ServiceBusError
+          - uid: '@azure/service-bus.ServiceBusErrorCode'
+            name: ServiceBusErrorCode
+          - uid: '@azure/service-bus.ServiceBusMessage'
+            name: ServiceBusMessage
+          - uid: '@azure/service-bus.ServiceBusMessageBatch'
+            name: ServiceBusMessageBatch
+          - uid: '@azure/service-bus.ServiceBusReceivedMessage'
+            name: ServiceBusReceivedMessage
+          - uid: '@azure/service-bus.ServiceBusReceiver'
+            name: ServiceBusReceiver
+          - uid: '@azure/service-bus.ServiceBusReceiverOptions'
+            name: ServiceBusReceiverOptions
+          - uid: '@azure/service-bus.ServiceBusSender'
+            name: ServiceBusSender
+          - uid: '@azure/service-bus.ServiceBusSessionReceiver'
+            name: ServiceBusSessionReceiver
+          - uid: '@azure/service-bus.ServiceBusSessionReceiverOptions'
+            name: ServiceBusSessionReceiverOptions
+          - uid: '@azure/service-bus.SqlRuleAction'
+            name: SqlRuleAction
+          - uid: '@azure/service-bus.SqlRuleFilter'
+            name: SqlRuleFilter
+          - uid: '@azure/service-bus.SubscribeOptions'
+            name: SubscribeOptions
+          - uid: '@azure/service-bus.SubscriptionProperties'
+            name: SubscriptionProperties
+          - uid: '@azure/service-bus.SubscriptionRuntimeProperties'
+            name: SubscriptionRuntimeProperties
+          - uid: '@azure/service-bus.TopicProperties'
+            name: TopicProperties
+          - uid: '@azure/service-bus.TopicRuntimeProperties'
+            name: TopicRuntimeProperties
+          - uid: '@azure/service-bus.TryAddOptions'
+            name: TryAddOptions
+          - uid: '@azure/service-bus.WithResponse'
+            name: WithResponse
   - name: Storage
     items:
       - name: Overview
