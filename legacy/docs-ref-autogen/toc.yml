@@ -1,0 +1,62 @@
+name: Reference
+landingPageType: Root
+expanded: false
+items:
+  - name: Service Bus
+    items:
+      - name: Overview
+        href: >-
+          https://github.com/MicrosoftDocs/azure-docs-sdk-node/blob/master/docs-ref-services/latest/service-bus.md
+      - name: '@azure/service-bus'
+        items:
+          - name: Overview
+            uid: '@azure/service-bus'
+          - uid: '@azure/service-bus.Client'
+            name: Client
+          - uid: '@azure/service-bus.CorrelationFilter'
+            name: CorrelationFilter
+          - uid: '@azure/service-bus.DeadLetterOptions'
+            name: DeadLetterOptions
+          - uid: '@azure/service-bus.MessageHandlerOptions'
+            name: MessageHandlerOptions
+          - uid: '@azure/service-bus.OnError'
+            name: OnError
+          - uid: '@azure/service-bus.OnMessage'
+            name: OnMessage
+          - uid: '@azure/service-bus.QueueClient'
+            name: QueueClient
+          - uid: '@azure/service-bus.ReceivedMessage'
+            name: ReceivedMessage
+          - uid: '@azure/service-bus.ReceivedMessageInfo'
+            name: ReceivedMessageInfo
+          - uid: '@azure/service-bus.ReceiveMode'
+            name: ReceiveMode
+          - uid: '@azure/service-bus.Receiver'
+            name: Receiver
+          - uid: '@azure/service-bus.RuleDescription'
+            name: RuleDescription
+          - uid: '@azure/service-bus.SendableMessageInfo'
+            name: SendableMessageInfo
+          - uid: '@azure/service-bus.Sender'
+            name: Sender
+          - uid: '@azure/service-bus.ServiceBusClient'
+            name: ServiceBusClient
+          - uid: '@azure/service-bus.ServiceBusClientOptions'
+            name: ServiceBusClientOptions
+          - uid: '@azure/service-bus.ServiceBusMessage'
+            name: ServiceBusMessage
+          - uid: '@azure/service-bus.SessionMessageHandlerOptions'
+            name: SessionMessageHandlerOptions
+          - uid: '@azure/service-bus.SessionReceiver'
+            name: SessionReceiver
+          - uid: '@azure/service-bus.SessionReceiverOptions'
+            name: SessionReceiverOptions
+          - uid: '@azure/service-bus.SubscriptionClient'
+            name: SubscriptionClient
+          - uid: '@azure/service-bus.TopicClient'
+            name: TopicClient
+  - name: Storage
+    items:
+      - name: Overview
+        href: >-
+          https://github.com/Azure/azure-sdk-for-js/blob/master/sdk/storage/README.md
