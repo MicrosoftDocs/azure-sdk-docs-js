@@ -9,6 +9,7 @@
         ],
         "src": "latest/docs-ref-autogen",
         "group": "stable",
+        "dest":"prototype",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -25,6 +26,7 @@
         ],
         "src": "preview/docs-ref-autogen",
         "group": "preview",
+        "dest":"prototype",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -41,6 +43,7 @@
         ],
         "src": "legacy/docs-ref-autogen",
         "group": "legacy",
+        "dest":"prototype",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
