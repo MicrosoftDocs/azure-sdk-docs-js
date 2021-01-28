@@ -7,7 +7,40 @@
           "**/*.md",
           "**/*.yml"
         ],
+        "src": "latest/docs-ref-autogen",
+        "group": "stable",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
         "src": "preview/docs-ref-autogen",
+        "group": "preview",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "legacy/docs-ref-autogen",
+        "group": "legacy",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -45,6 +78,20 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "~/breadcrumb/toc.yml"
+    },
+    "groups": {
+      "preview": {
+        "dest": "preview",
+        "moniker_range": "azure-node-preview"
+      },
+      "legacy": {
+        "dest": "legacy",
+        "moniker_range": "azure-node-legacy"
+      },
+      "stable": {
+        "dest": "stable",
+        "moniker_range": "azure-node-latest"
+      }
     },
     "fileMetadata": {},
     "template": [],
