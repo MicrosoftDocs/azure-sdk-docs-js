@@ -2,6 +2,420 @@ name: Reference
 landingPageType: Root
 expanded: false
 items:
+  - name: Core
+    landingPageType: Service
+    items:
+      - name: '@azure/abort-controller'
+        items:
+          - name: Overview
+            uid: '@azure/abort-controller'
+          - uid: '@azure/abort-controller.AbortController'
+            name: AbortController
+          - uid: '@azure/abort-controller.AbortError'
+            name: AbortError
+          - uid: '@azure/abort-controller.AbortSignal'
+            name: AbortSignal
+          - uid: '@azure/abort-controller.AbortSignalLike'
+            name: AbortSignalLike
+      - name: '@azure/core-amqp'
+        items:
+          - name: Overview
+            uid: '@azure/core-amqp'
+          - uid: '@azure/core-amqp.AmqpAnnotatedMessage'
+            name: AmqpAnnotatedMessage
+          - uid: '@azure/core-amqp.AmqpMessageHeader'
+            name: AmqpMessageHeader
+          - uid: '@azure/core-amqp.AmqpMessageProperties'
+            name: AmqpMessageProperties
+          - uid: '@azure/core-amqp.CbsClient'
+            name: CbsClient
+          - uid: '@azure/core-amqp.CbsResponse'
+            name: CbsResponse
+          - uid: '@azure/core-amqp.ConditionErrorNameMapper'
+            name: ConditionErrorNameMapper
+          - uid: '@azure/core-amqp.ConnectionConfig'
+            name: ConnectionConfig
+          - uid: '@azure/core-amqp.ConnectionConfigOptions'
+            name: ConnectionConfigOptions
+          - uid: '@azure/core-amqp.ConnectionContextBase'
+            name: ConnectionContextBase
+          - uid: '@azure/core-amqp.ConnectionProperties'
+            name: ConnectionProperties
+          - uid: '@azure/core-amqp.CreateConnectionContextBaseParameters'
+            name: CreateConnectionContextBaseParameters
+          - uid: '@azure/core-amqp.ErrorNameConditionMapper'
+            name: ErrorNameConditionMapper
+          - uid: '@azure/core-amqp.MessagingError'
+            name: MessagingError
+          - uid: '@azure/core-amqp.NetworkSystemError'
+            name: NetworkSystemError
+          - uid: '@azure/core-amqp.ParsedOutput'
+            name: ParsedOutput
+          - uid: '@azure/core-amqp.RequestResponseLink'
+            name: RequestResponseLink
+          - uid: '@azure/core-amqp.RetryConfig'
+            name: RetryConfig
+          - uid: '@azure/core-amqp.RetryMode'
+            name: RetryMode
+          - uid: '@azure/core-amqp.RetryOperationType'
+            name: RetryOperationType
+          - uid: '@azure/core-amqp.RetryOptions'
+            name: RetryOptions
+          - uid: '@azure/core-amqp.SendRequestOptions'
+            name: SendRequestOptions
+          - uid: '@azure/core-amqp.SystemErrorConditionMapper'
+            name: SystemErrorConditionMapper
+          - uid: '@azure/core-amqp.TokenType'
+            name: TokenType
+          - uid: '@azure/core-amqp.WebSocketOptions'
+            name: WebSocketOptions
+      - name: '@azure/core-auth'
+        items:
+          - name: Overview
+            uid: '@azure/core-auth'
+          - uid: '@azure/core-auth.AccessToken'
+            name: AccessToken
+          - uid: '@azure/core-auth.AzureKeyCredential'
+            name: AzureKeyCredential
+          - uid: '@azure/core-auth.GetTokenOptions'
+            name: GetTokenOptions
+          - uid: '@azure/core-auth.KeyCredential'
+            name: KeyCredential
+          - uid: '@azure/core-auth.SpanContext'
+            name: SpanContext
+          - uid: '@azure/core-auth.SpanOptions'
+            name: SpanOptions
+          - uid: '@azure/core-auth.TokenCredential'
+            name: TokenCredential
+      - name: '@azure/core-http'
+        items:
+          - name: Overview
+            uid: '@azure/core-http'
+          - uid: '@azure/core-http.AccessTokenCache'
+            name: AccessTokenCache
+          - uid: '@azure/core-http.AccessTokenRefresher'
+            name: AccessTokenRefresher
+          - uid: '@azure/core-http.ApiKeyCredentialOptions'
+            name: ApiKeyCredentialOptions
+          - uid: '@azure/core-http.ApiKeyCredentials'
+            name: ApiKeyCredentials
+          - uid: '@azure/core-http.Authenticator'
+            name: Authenticator
+          - uid: '@azure/core-http.BaseMapper'
+            name: BaseMapper
+          - uid: '@azure/core-http.BaseRequestPolicy'
+            name: BaseRequestPolicy
+          - uid: '@azure/core-http.BasicAuthenticationCredentials'
+            name: BasicAuthenticationCredentials
+          - uid: '@azure/core-http.BearerTokenAuthenticationPolicy'
+            name: BearerTokenAuthenticationPolicy
+          - uid: '@azure/core-http.BrowserFetchHttpClient'
+            name: BrowserFetchHttpClient
+          - uid: '@azure/core-http.CommonRequestInfo'
+            name: CommonRequestInfo
+          - uid: '@azure/core-http.CommonRequestInit'
+            name: CommonRequestInit
+          - uid: '@azure/core-http.CommonResponse'
+            name: CommonResponse
+          - uid: '@azure/core-http.CompositeMapper'
+            name: CompositeMapper
+          - uid: '@azure/core-http.CompositeMapperType'
+            name: CompositeMapperType
+          - uid: '@azure/core-http.ConsoleHttpPipelineLogger'
+            name: ConsoleHttpPipelineLogger
+          - uid: '@azure/core-http.DeserializationContentTypes'
+            name: DeserializationContentTypes
+          - uid: '@azure/core-http.DeserializationOptions'
+            name: DeserializationOptions
+          - uid: '@azure/core-http.DeserializationPolicy'
+            name: DeserializationPolicy
+          - uid: '@azure/core-http.DictionaryMapper'
+            name: DictionaryMapper
+          - uid: '@azure/core-http.DictionaryMapperType'
+            name: DictionaryMapperType
+          - uid: '@azure/core-http.DisableResponseDecompressionPolicy'
+            name: DisableResponseDecompressionPolicy
+          - uid: '@azure/core-http.DisableResponseDecompressionPolicy'
+            name: DisableResponseDecompressionPolicy
+          - uid: '@azure/core-http.EnumMapper'
+            name: EnumMapper
+          - uid: '@azure/core-http.EnumMapperType'
+            name: EnumMapperType
+          - uid: '@azure/core-http.ExpiringAccessTokenCache'
+            name: ExpiringAccessTokenCache
+          - uid: '@azure/core-http.ExponentialRetryPolicy'
+            name: ExponentialRetryPolicy
+          - uid: '@azure/core-http.FetchHttpClient'
+            name: FetchHttpClient
+          - uid: '@azure/core-http.GenerateClientRequestIdPolicy'
+            name: GenerateClientRequestIdPolicy
+          - uid: '@azure/core-http.HttpClient'
+            name: HttpClient
+          - uid: '@azure/core-http.HttpHeader'
+            name: HttpHeader
+          - uid: '@azure/core-http.HttpHeaders'
+            name: HttpHeaders
+          - uid: '@azure/core-http.HttpHeadersLike'
+            name: HttpHeadersLike
+          - uid: '@azure/core-http.HttpMethods'
+            name: HttpMethods
+          - uid: '@azure/core-http.HttpOperationResponse'
+            name: HttpOperationResponse
+          - uid: '@azure/core-http.HttpPipelineLogger'
+            name: HttpPipelineLogger
+          - uid: '@azure/core-http.HttpPipelineLogLevel'
+            name: HttpPipelineLogLevel
+          - uid: '@azure/core-http.HttpRequestBody'
+            name: HttpRequestBody
+          - uid: '@azure/core-http.HttpResponse'
+            name: HttpResponse
+          - uid: '@azure/core-http.InternalPipelineOptions'
+            name: InternalPipelineOptions
+          - uid: '@azure/core-http.KeepAliveOptions'
+            name: KeepAliveOptions
+          - uid: '@azure/core-http.KeepAlivePolicy'
+            name: KeepAlivePolicy
+          - uid: '@azure/core-http.LogPolicy'
+            name: LogPolicy
+          - uid: '@azure/core-http.LogPolicyOptions'
+            name: LogPolicyOptions
+          - uid: '@azure/core-http.Mapper'
+            name: Mapper
+          - uid: '@azure/core-http.MapperConstraints'
+            name: MapperConstraints
+          - uid: '@azure/core-http.MapperType'
+            name: MapperType
+          - uid: '@azure/core-http.NodeFetchHttpClient'
+            name: NodeFetchHttpClient
+          - uid: '@azure/core-http.OperationArguments'
+            name: OperationArguments
+          - uid: '@azure/core-http.OperationOptions'
+            name: OperationOptions
+          - uid: '@azure/core-http.OperationParameter'
+            name: OperationParameter
+          - uid: '@azure/core-http.OperationQueryParameter'
+            name: OperationQueryParameter
+          - uid: '@azure/core-http.OperationRequestOptions'
+            name: OperationRequestOptions
+          - uid: '@azure/core-http.OperationResponse'
+            name: OperationResponse
+          - uid: '@azure/core-http.OperationSpec'
+            name: OperationSpec
+          - uid: '@azure/core-http.OperationURLParameter'
+            name: OperationURLParameter
+          - uid: '@azure/core-http.ParameterPath'
+            name: ParameterPath
+          - uid: '@azure/core-http.ParameterValue'
+            name: ParameterValue
+          - uid: '@azure/core-http.PipelineOptions'
+            name: PipelineOptions
+          - uid: '@azure/core-http.PolymorphicDiscriminator'
+            name: PolymorphicDiscriminator
+          - uid: '@azure/core-http.PropertyParent'
+            name: PropertyParent
+          - uid: '@azure/core-http.ProxyAgent'
+            name: ProxyAgent
+          - uid: '@azure/core-http.ProxyOptions'
+            name: ProxyOptions
+          - uid: '@azure/core-http.ProxyPolicy'
+            name: ProxyPolicy
+          - uid: '@azure/core-http.ProxyPolicy'
+            name: ProxyPolicy
+          - uid: '@azure/core-http.ProxySettings'
+            name: ProxySettings
+          - uid: '@azure/core-http.QueryCollectionFormat'
+            name: QueryCollectionFormat
+          - uid: '@azure/core-http.RawHttpHeaders'
+            name: RawHttpHeaders
+          - uid: '@azure/core-http.RedirectOptions'
+            name: RedirectOptions
+          - uid: '@azure/core-http.RedirectPolicy'
+            name: RedirectPolicy
+          - uid: '@azure/core-http.ReportTransform'
+            name: ReportTransform
+          - uid: '@azure/core-http.RequestOptionsBase'
+            name: RequestOptionsBase
+          - uid: '@azure/core-http.RequestPolicy'
+            name: RequestPolicy
+          - uid: '@azure/core-http.RequestPolicyFactory'
+            name: RequestPolicyFactory
+          - uid: '@azure/core-http.RequestPolicyOptions'
+            name: RequestPolicyOptions
+          - uid: '@azure/core-http.RequestPolicyOptionsLike'
+            name: RequestPolicyOptionsLike
+          - uid: '@azure/core-http.RequestPrepareOptions'
+            name: RequestPrepareOptions
+          - uid: '@azure/core-http.ResponseHandler'
+            name: ResponseHandler
+          - uid: '@azure/core-http.RestError'
+            name: RestError
+          - uid: '@azure/core-http.RestResponse'
+            name: RestResponse
+          - uid: '@azure/core-http.RetryData'
+            name: RetryData
+          - uid: '@azure/core-http.RetryError'
+            name: RetryError
+          - uid: '@azure/core-http.RetryMode'
+            name: RetryMode
+          - uid: '@azure/core-http.RetryOptions'
+            name: RetryOptions
+          - uid: '@azure/core-http.RPRegistrationPolicy'
+            name: RPRegistrationPolicy
+          - uid: '@azure/core-http.Sanitizer'
+            name: Sanitizer
+          - uid: '@azure/core-http.SanitizerOptions'
+            name: SanitizerOptions
+          - uid: '@azure/core-http.SequenceMapper'
+            name: SequenceMapper
+          - uid: '@azure/core-http.SequenceMapperType'
+            name: SequenceMapperType
+          - uid: '@azure/core-http.Serializer'
+            name: Serializer
+          - uid: '@azure/core-http.SerializerOptions'
+            name: SerializerOptions
+          - uid: '@azure/core-http.ServiceCallback'
+            name: ServiceCallback
+          - uid: '@azure/core-http.ServiceClient'
+            name: ServiceClient
+          - uid: '@azure/core-http.ServiceClientCredentials'
+            name: ServiceClientCredentials
+          - uid: '@azure/core-http.ServiceClientOptions'
+            name: ServiceClientOptions
+          - uid: '@azure/core-http.SigningPolicy'
+            name: SigningPolicy
+          - uid: '@azure/core-http.SimpleMapperType'
+            name: SimpleMapperType
+          - uid: '@azure/core-http.SpanConfig'
+            name: SpanConfig
+          - uid: '@azure/core-http.SystemErrorRetryPolicy'
+            name: SystemErrorRetryPolicy
+          - uid: '@azure/core-http.TelemetryInfo'
+            name: TelemetryInfo
+          - uid: '@azure/core-http.ThrottlingRetryPolicy'
+            name: ThrottlingRetryPolicy
+          - uid: '@azure/core-http.TopicCredentials'
+            name: TopicCredentials
+          - uid: '@azure/core-http.TracingPolicy'
+            name: TracingPolicy
+          - uid: '@azure/core-http.TracingPolicyOptions'
+            name: TracingPolicyOptions
+          - uid: '@azure/core-http.TransferProgressEvent'
+            name: TransferProgressEvent
+          - uid: '@azure/core-http.URLBuilder'
+            name: URLBuilder
+          - uid: '@azure/core-http.UrlParameterValue'
+            name: UrlParameterValue
+          - uid: '@azure/core-http.URLQuery'
+            name: URLQuery
+          - uid: '@azure/core-http.URLToken'
+            name: URLToken
+          - uid: '@azure/core-http.URLTokenizer'
+            name: URLTokenizer
+          - uid: '@azure/core-http.URLTokenizerState'
+            name: URLTokenizerState
+          - uid: '@azure/core-http.URLTokenType'
+            name: URLTokenType
+          - uid: '@azure/core-http.UserAgentOptions'
+            name: UserAgentOptions
+          - uid: '@azure/core-http.UserAgentPolicy'
+            name: UserAgentPolicy
+          - uid: '@azure/core-http.WebResource'
+            name: WebResource
+          - uid: '@azure/core-http.WebResourceLike'
+            name: WebResourceLike
+          - uid: '@azure/core-http.XhrHttpClient'
+            name: XhrHttpClient
+      - name: '@azure/logger'
+        items:
+          - name: Overview
+            uid: '@azure/logger'
+          - uid: '@azure/logger.AzureClientLogger'
+            name: AzureClientLogger
+          - uid: '@azure/logger.AzureLogger'
+            name: AzureLogger
+          - uid: '@azure/logger.AzureLogLevel'
+            name: AzureLogLevel
+          - uid: '@azure/logger.Debugger'
+            name: Debugger
+      - name: '@azure/core-lro'
+        items:
+          - name: Overview
+            uid: '@azure/core-lro'
+          - uid: '@azure/core-lro.CancelOnProgress'
+            name: CancelOnProgress
+          - uid: '@azure/core-lro.Poller'
+            name: Poller
+          - uid: '@azure/core-lro.PollerCancelledError'
+            name: PollerCancelledError
+          - uid: '@azure/core-lro.PollerLike'
+            name: PollerLike
+          - uid: '@azure/core-lro.PollerStoppedError'
+            name: PollerStoppedError
+          - uid: '@azure/core-lro.PollOperation'
+            name: PollOperation
+          - uid: '@azure/core-lro.PollOperationState'
+            name: PollOperationState
+          - uid: '@azure/core-lro.PollProgressCallback'
+            name: PollProgressCallback
+  - name: Identity
+    landingPageType: Service
+    items:
+      - name: '@azure/identity'
+        items:
+          - name: Overview
+            uid: '@azure/identity'
+          - uid: '@azure/identity.AggregateAuthenticationError'
+            name: AggregateAuthenticationError
+          - uid: '@azure/identity.AuthenticationError'
+            name: AuthenticationError
+          - uid: '@azure/identity.AuthenticationRecord'
+            name: AuthenticationRecord
+          - uid: '@azure/identity.AuthorizationCodeCredential'
+            name: AuthorizationCodeCredential
+          - uid: '@azure/identity.AzureAuthorityHosts'
+            name: AzureAuthorityHosts
+          - uid: '@azure/identity.AzureCliCredential'
+            name: AzureCliCredential
+          - uid: '@azure/identity.BrowserLoginStyle'
+            name: BrowserLoginStyle
+          - uid: '@azure/identity.ChainedTokenCredential'
+            name: ChainedTokenCredential
+          - uid: '@azure/identity.ClientCertificateCredential'
+            name: ClientCertificateCredential
+          - uid: '@azure/identity.ClientCertificateCredentialOptions'
+            name: ClientCertificateCredentialOptions
+          - uid: '@azure/identity.ClientSecretCredential'
+            name: ClientSecretCredential
+          - uid: '@azure/identity.CredentialUnavailable'
+            name: CredentialUnavailable
+          - uid: '@azure/identity.DefaultAzureCredential'
+            name: DefaultAzureCredential
+          - uid: '@azure/identity.DefaultAzureCredentialOptions'
+            name: DefaultAzureCredentialOptions
+          - uid: '@azure/identity.DeviceCodeCredential'
+            name: DeviceCodeCredential
+          - uid: '@azure/identity.DeviceCodeInfo'
+            name: DeviceCodeInfo
+          - uid: '@azure/identity.DeviceCodePromptCallback'
+            name: DeviceCodePromptCallback
+          - uid: '@azure/identity.EnvironmentCredential'
+            name: EnvironmentCredential
+          - uid: '@azure/identity.ErrorResponse'
+            name: ErrorResponse
+          - uid: '@azure/identity.InteractiveBrowserCredential'
+            name: InteractiveBrowserCredential
+          - uid: '@azure/identity.InteractiveBrowserCredentialOptions'
+            name: InteractiveBrowserCredentialOptions
+          - uid: '@azure/identity.ManagedIdentityCredential'
+            name: ManagedIdentityCredential
+          - uid: '@azure/identity.TokenCredentialOptions'
+            name: TokenCredentialOptions
+          - uid: '@azure/identity.UsernamePasswordCredential'
+            name: UsernamePasswordCredential
+          - uid: '@azure/identity.VisualStudioCodeCredential'
+            name: VisualStudioCodeCredential
+          - uid: '@azure/identity.VisualStudioCodeCredentialOptions'
+            name: VisualStudioCodeCredentialOptions
   - name: Key Vault
     items:
       - name: Overview
@@ -290,6 +704,132 @@ items:
             name: WellKnownIssuer
           - uid: '@azure/keyvault-certificates.X509CertificateProperties'
             name: X509CertificateProperties
+      - name: '@azure/arm-keyvault'
+        items:
+          - name: Overview
+            uid: '@azure/arm-keyvault'
+          - uid: '@azure/arm-keyvault.AccessPolicyEntry'
+            name: AccessPolicyEntry
+          - uid: '@azure/arm-keyvault.AccessPolicyUpdateKind'
+            name: AccessPolicyUpdateKind
+          - uid: '@azure/arm-keyvault.CertificatePermissions'
+            name: CertificatePermissions
+          - uid: '@azure/arm-keyvault.CheckNameAvailabilityResult'
+            name: CheckNameAvailabilityResult
+          - uid: '@azure/arm-keyvault.CreateMode'
+            name: CreateMode
+          - uid: '@azure/arm-keyvault.DeletedVault'
+            name: DeletedVault
+          - uid: '@azure/arm-keyvault.DeletedVaultListResult'
+            name: DeletedVaultListResult
+          - uid: '@azure/arm-keyvault.DeletedVaultProperties'
+            name: DeletedVaultProperties
+          - uid: '@azure/arm-keyvault.IPRule'
+            name: IPRule
+          - uid: '@azure/arm-keyvault.KeyPermissions'
+            name: KeyPermissions
+          - uid: '@azure/arm-keyvault.KeyVaultManagementClient'
+            name: KeyVaultManagementClient
+          - uid: '@azure/arm-keyvault.KeyVaultManagementClientContext'
+            name: KeyVaultManagementClientContext
+          - uid: '@azure/arm-keyvault.KeyVaultManagementClientOptions'
+            name: KeyVaultManagementClientOptions
+          - uid: '@azure/arm-keyvault.LogSpecification'
+            name: LogSpecification
+          - uid: '@azure/arm-keyvault.NetworkRuleAction'
+            name: NetworkRuleAction
+          - uid: '@azure/arm-keyvault.NetworkRuleBypassOptions'
+            name: NetworkRuleBypassOptions
+          - uid: '@azure/arm-keyvault.NetworkRuleSet'
+            name: NetworkRuleSet
+          - uid: '@azure/arm-keyvault.Operation'
+            name: Operation
+          - uid: '@azure/arm-keyvault.OperationDisplay'
+            name: OperationDisplay
+          - uid: '@azure/arm-keyvault.OperationListResult'
+            name: OperationListResult
+          - uid: '@azure/arm-keyvault.Operations'
+            name: Operations
+          - uid: '@azure/arm-keyvault.OperationsListNextResponse'
+            name: OperationsListNextResponse
+          - uid: '@azure/arm-keyvault.OperationsListResponse'
+            name: OperationsListResponse
+          - uid: '@azure/arm-keyvault.Permissions'
+            name: Permissions
+          - uid: '@azure/arm-keyvault.Reason'
+            name: Reason
+          - uid: '@azure/arm-keyvault.Resource'
+            name: Resource
+          - uid: '@azure/arm-keyvault.ResourceListResult'
+            name: ResourceListResult
+          - uid: '@azure/arm-keyvault.SecretPermissions'
+            name: SecretPermissions
+          - uid: '@azure/arm-keyvault.ServiceSpecification'
+            name: ServiceSpecification
+          - uid: '@azure/arm-keyvault.Sku'
+            name: Sku
+          - uid: '@azure/arm-keyvault.SkuName'
+            name: SkuName
+          - uid: '@azure/arm-keyvault.StoragePermissions'
+            name: StoragePermissions
+          - uid: '@azure/arm-keyvault.Vault'
+            name: Vault
+          - uid: '@azure/arm-keyvault.VaultAccessPolicyParameters'
+            name: VaultAccessPolicyParameters
+          - uid: '@azure/arm-keyvault.VaultAccessPolicyProperties'
+            name: VaultAccessPolicyProperties
+          - uid: '@azure/arm-keyvault.VaultCheckNameAvailabilityParameters'
+            name: VaultCheckNameAvailabilityParameters
+          - uid: '@azure/arm-keyvault.VaultCreateOrUpdateParameters'
+            name: VaultCreateOrUpdateParameters
+          - uid: '@azure/arm-keyvault.VaultListResult'
+            name: VaultListResult
+          - uid: '@azure/arm-keyvault.VaultPatchParameters'
+            name: VaultPatchParameters
+          - uid: '@azure/arm-keyvault.VaultPatchProperties'
+            name: VaultPatchProperties
+          - uid: '@azure/arm-keyvault.VaultProperties'
+            name: VaultProperties
+          - uid: '@azure/arm-keyvault.Vaults'
+            name: Vaults
+          - uid: '@azure/arm-keyvault.VaultsBeginCreateOrUpdateResponse'
+            name: VaultsBeginCreateOrUpdateResponse
+          - uid: '@azure/arm-keyvault.VaultsCheckNameAvailabilityResponse'
+            name: VaultsCheckNameAvailabilityResponse
+          - uid: '@azure/arm-keyvault.VaultsCreateOrUpdateResponse'
+            name: VaultsCreateOrUpdateResponse
+          - uid: '@azure/arm-keyvault.VaultsGetDeletedResponse'
+            name: VaultsGetDeletedResponse
+          - uid: '@azure/arm-keyvault.VaultsGetResponse'
+            name: VaultsGetResponse
+          - uid: '@azure/arm-keyvault.VaultsListByResourceGroupNextResponse'
+            name: VaultsListByResourceGroupNextResponse
+          - uid: '@azure/arm-keyvault.VaultsListByResourceGroupOptionalParams'
+            name: VaultsListByResourceGroupOptionalParams
+          - uid: '@azure/arm-keyvault.VaultsListByResourceGroupResponse'
+            name: VaultsListByResourceGroupResponse
+          - uid: '@azure/arm-keyvault.VaultsListBySubscriptionNextResponse'
+            name: VaultsListBySubscriptionNextResponse
+          - uid: '@azure/arm-keyvault.VaultsListBySubscriptionOptionalParams'
+            name: VaultsListBySubscriptionOptionalParams
+          - uid: '@azure/arm-keyvault.VaultsListBySubscriptionResponse'
+            name: VaultsListBySubscriptionResponse
+          - uid: '@azure/arm-keyvault.VaultsListDeletedNextResponse'
+            name: VaultsListDeletedNextResponse
+          - uid: '@azure/arm-keyvault.VaultsListDeletedResponse'
+            name: VaultsListDeletedResponse
+          - uid: '@azure/arm-keyvault.VaultsListNextResponse'
+            name: VaultsListNextResponse
+          - uid: '@azure/arm-keyvault.VaultsListOptionalParams'
+            name: VaultsListOptionalParams
+          - uid: '@azure/arm-keyvault.VaultsListResponse'
+            name: VaultsListResponse
+          - uid: '@azure/arm-keyvault.VaultsUpdateAccessPolicyResponse'
+            name: VaultsUpdateAccessPolicyResponse
+          - uid: '@azure/arm-keyvault.VaultsUpdateResponse'
+            name: VaultsUpdateResponse
+          - uid: '@azure/arm-keyvault.VirtualNetworkRule'
+            name: VirtualNetworkRule
   - name: Service Bus
     items:
       - name: Overview
@@ -385,6 +925,318 @@ items:
             name: TryAddOptions
           - uid: '@azure/service-bus.WithResponse'
             name: WithResponse
+      - name: '@azure/arm-servicebus'
+        items:
+          - name: Overview
+            uid: '@azure/arm-servicebus'
+          - uid: '@azure/arm-servicebus.AccessKeys'
+            name: AccessKeys
+          - uid: '@azure/arm-servicebus.AccessRights'
+            name: AccessRights
+          - uid: '@azure/arm-servicebus.Action'
+            name: Action
+          - uid: '@azure/arm-servicebus.ArmDisasterRecovery'
+            name: ArmDisasterRecovery
+          - uid: '@azure/arm-servicebus.ArmDisasterRecoveryListResult'
+            name: ArmDisasterRecoveryListResult
+          - uid: '@azure/arm-servicebus.AuthorizationRuleProperties'
+            name: AuthorizationRuleProperties
+          - uid: '@azure/arm-servicebus.CaptureDescription'
+            name: CaptureDescription
+          - uid: '@azure/arm-servicebus.CheckNameAvailability'
+            name: CheckNameAvailability
+          - uid: '@azure/arm-servicebus.CheckNameAvailabilityResult'
+            name: CheckNameAvailabilityResult
+          - uid: '@azure/arm-servicebus.CorrelationFilter'
+            name: CorrelationFilter
+          - uid: '@azure/arm-servicebus.DefaultAction'
+            name: DefaultAction
+          - uid: '@azure/arm-servicebus.Destination'
+            name: Destination
+          - uid: '@azure/arm-servicebus.DisasterRecoveryConfigs'
+            name: DisasterRecoveryConfigs
+          - uid: >-
+              @azure/arm-servicebus.DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse
+            name: DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse
+          - uid: >-
+              @azure/arm-servicebus.DisasterRecoveryConfigsCreateOrUpdateResponse
+            name: DisasterRecoveryConfigsCreateOrUpdateResponse
+          - uid: >-
+              @azure/arm-servicebus.DisasterRecoveryConfigsGetAuthorizationRuleResponse
+            name: DisasterRecoveryConfigsGetAuthorizationRuleResponse
+          - uid: '@azure/arm-servicebus.DisasterRecoveryConfigsGetResponse'
+            name: DisasterRecoveryConfigsGetResponse
+          - uid: >-
+              @azure/arm-servicebus.DisasterRecoveryConfigsListAuthorizationRulesNextResponse
+            name: DisasterRecoveryConfigsListAuthorizationRulesNextResponse
+          - uid: >-
+              @azure/arm-servicebus.DisasterRecoveryConfigsListAuthorizationRulesResponse
+            name: DisasterRecoveryConfigsListAuthorizationRulesResponse
+          - uid: '@azure/arm-servicebus.DisasterRecoveryConfigsListKeysResponse'
+            name: DisasterRecoveryConfigsListKeysResponse
+          - uid: '@azure/arm-servicebus.DisasterRecoveryConfigsListNextResponse'
+            name: DisasterRecoveryConfigsListNextResponse
+          - uid: '@azure/arm-servicebus.DisasterRecoveryConfigsListResponse'
+            name: DisasterRecoveryConfigsListResponse
+          - uid: '@azure/arm-servicebus.EncodingCaptureDescription'
+            name: EncodingCaptureDescription
+          - uid: '@azure/arm-servicebus.EntityStatus'
+            name: EntityStatus
+          - uid: '@azure/arm-servicebus.ErrorResponse'
+            name: ErrorResponse
+          - uid: '@azure/arm-servicebus.Eventhub'
+            name: Eventhub
+          - uid: '@azure/arm-servicebus.EventHubListResult'
+            name: EventHubListResult
+          - uid: '@azure/arm-servicebus.EventHubs'
+            name: EventHubs
+          - uid: '@azure/arm-servicebus.EventHubsListByNamespaceNextResponse'
+            name: EventHubsListByNamespaceNextResponse
+          - uid: '@azure/arm-servicebus.EventHubsListByNamespaceResponse'
+            name: EventHubsListByNamespaceResponse
+          - uid: '@azure/arm-servicebus.FilterType'
+            name: FilterType
+          - uid: '@azure/arm-servicebus.KeyType'
+            name: KeyType
+          - uid: '@azure/arm-servicebus.MessageCountDetails'
+            name: MessageCountDetails
+          - uid: '@azure/arm-servicebus.MigrationConfigListResult'
+            name: MigrationConfigListResult
+          - uid: '@azure/arm-servicebus.MigrationConfigProperties'
+            name: MigrationConfigProperties
+          - uid: '@azure/arm-servicebus.MigrationConfigs'
+            name: MigrationConfigs
+          - uid: >-
+              @azure/arm-servicebus.MigrationConfigsBeginCreateAndStartMigrationResponse
+            name: MigrationConfigsBeginCreateAndStartMigrationResponse
+          - uid: >-
+              @azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationResponse
+            name: MigrationConfigsCreateAndStartMigrationResponse
+          - uid: '@azure/arm-servicebus.MigrationConfigsGetResponse'
+            name: MigrationConfigsGetResponse
+          - uid: '@azure/arm-servicebus.MigrationConfigsListNextResponse'
+            name: MigrationConfigsListNextResponse
+          - uid: '@azure/arm-servicebus.MigrationConfigsListResponse'
+            name: MigrationConfigsListResponse
+          - uid: '@azure/arm-servicebus.Namespaces'
+            name: Namespaces
+          - uid: '@azure/arm-servicebus.NamespacesBeginCreateOrUpdateResponse'
+            name: NamespacesBeginCreateOrUpdateResponse
+          - uid: >-
+              @azure/arm-servicebus.NamespacesCheckNameAvailabilityMethodResponse
+            name: NamespacesCheckNameAvailabilityMethodResponse
+          - uid: >-
+              @azure/arm-servicebus.NamespacesCreateOrUpdateAuthorizationRuleResponse
+            name: NamespacesCreateOrUpdateAuthorizationRuleResponse
+          - uid: >-
+              @azure/arm-servicebus.NamespacesCreateOrUpdateNetworkRuleSetResponse
+            name: NamespacesCreateOrUpdateNetworkRuleSetResponse
+          - uid: '@azure/arm-servicebus.NamespacesCreateOrUpdateResponse'
+            name: NamespacesCreateOrUpdateResponse
+          - uid: '@azure/arm-servicebus.NamespacesGetAuthorizationRuleResponse'
+            name: NamespacesGetAuthorizationRuleResponse
+          - uid: '@azure/arm-servicebus.NamespacesGetNetworkRuleSetResponse'
+            name: NamespacesGetNetworkRuleSetResponse
+          - uid: '@azure/arm-servicebus.NamespacesGetResponse'
+            name: NamespacesGetResponse
+          - uid: '@azure/arm-servicebus.NamespacesListAuthorizationRulesNextResponse'
+            name: NamespacesListAuthorizationRulesNextResponse
+          - uid: '@azure/arm-servicebus.NamespacesListAuthorizationRulesResponse'
+            name: NamespacesListAuthorizationRulesResponse
+          - uid: '@azure/arm-servicebus.NamespacesListByResourceGroupNextResponse'
+            name: NamespacesListByResourceGroupNextResponse
+          - uid: '@azure/arm-servicebus.NamespacesListByResourceGroupResponse'
+            name: NamespacesListByResourceGroupResponse
+          - uid: '@azure/arm-servicebus.NamespacesListKeysResponse'
+            name: NamespacesListKeysResponse
+          - uid: '@azure/arm-servicebus.NamespacesListNetworkRuleSetsNextResponse'
+            name: NamespacesListNetworkRuleSetsNextResponse
+          - uid: '@azure/arm-servicebus.NamespacesListNetworkRuleSetsResponse'
+            name: NamespacesListNetworkRuleSetsResponse
+          - uid: '@azure/arm-servicebus.NamespacesListNextResponse'
+            name: NamespacesListNextResponse
+          - uid: '@azure/arm-servicebus.NamespacesListResponse'
+            name: NamespacesListResponse
+          - uid: '@azure/arm-servicebus.NamespacesRegenerateKeysResponse'
+            name: NamespacesRegenerateKeysResponse
+          - uid: '@azure/arm-servicebus.NamespacesUpdateResponse'
+            name: NamespacesUpdateResponse
+          - uid: '@azure/arm-servicebus.NameSpaceType'
+            name: NameSpaceType
+          - uid: '@azure/arm-servicebus.NetworkRuleIPAction'
+            name: NetworkRuleIPAction
+          - uid: '@azure/arm-servicebus.NetworkRuleSet'
+            name: NetworkRuleSet
+          - uid: '@azure/arm-servicebus.NetworkRuleSetListResult'
+            name: NetworkRuleSetListResult
+          - uid: '@azure/arm-servicebus.NWRuleSetIpRules'
+            name: NWRuleSetIpRules
+          - uid: '@azure/arm-servicebus.NWRuleSetVirtualNetworkRules'
+            name: NWRuleSetVirtualNetworkRules
+          - uid: '@azure/arm-servicebus.Operation'
+            name: Operation
+          - uid: '@azure/arm-servicebus.OperationDisplay'
+            name: OperationDisplay
+          - uid: '@azure/arm-servicebus.OperationListResult'
+            name: OperationListResult
+          - uid: '@azure/arm-servicebus.Operations'
+            name: Operations
+          - uid: '@azure/arm-servicebus.OperationsListNextResponse'
+            name: OperationsListNextResponse
+          - uid: '@azure/arm-servicebus.OperationsListResponse'
+            name: OperationsListResponse
+          - uid: '@azure/arm-servicebus.PremiumMessagingRegions'
+            name: PremiumMessagingRegions
+          - uid: '@azure/arm-servicebus.PremiumMessagingRegionsListNextResponse'
+            name: PremiumMessagingRegionsListNextResponse
+          - uid: '@azure/arm-servicebus.PremiumMessagingRegionsListResponse'
+            name: PremiumMessagingRegionsListResponse
+          - uid: '@azure/arm-servicebus.PremiumMessagingRegionsListResult'
+            name: PremiumMessagingRegionsListResult
+          - uid: '@azure/arm-servicebus.PremiumMessagingRegionsOperations'
+            name: PremiumMessagingRegionsOperations
+          - uid: '@azure/arm-servicebus.PremiumMessagingRegionsProperties'
+            name: PremiumMessagingRegionsProperties
+          - uid: '@azure/arm-servicebus.ProvisioningStateDR'
+            name: ProvisioningStateDR
+          - uid: '@azure/arm-servicebus.Queues'
+            name: Queues
+          - uid: >-
+              @azure/arm-servicebus.QueuesCreateOrUpdateAuthorizationRuleResponse
+            name: QueuesCreateOrUpdateAuthorizationRuleResponse
+          - uid: '@azure/arm-servicebus.QueuesCreateOrUpdateResponse'
+            name: QueuesCreateOrUpdateResponse
+          - uid: '@azure/arm-servicebus.QueuesGetAuthorizationRuleResponse'
+            name: QueuesGetAuthorizationRuleResponse
+          - uid: '@azure/arm-servicebus.QueuesGetResponse'
+            name: QueuesGetResponse
+          - uid: '@azure/arm-servicebus.QueuesListAuthorizationRulesNextResponse'
+            name: QueuesListAuthorizationRulesNextResponse
+          - uid: '@azure/arm-servicebus.QueuesListAuthorizationRulesResponse'
+            name: QueuesListAuthorizationRulesResponse
+          - uid: '@azure/arm-servicebus.QueuesListByNamespaceNextResponse'
+            name: QueuesListByNamespaceNextResponse
+          - uid: '@azure/arm-servicebus.QueuesListByNamespaceOptionalParams'
+            name: QueuesListByNamespaceOptionalParams
+          - uid: '@azure/arm-servicebus.QueuesListByNamespaceResponse'
+            name: QueuesListByNamespaceResponse
+          - uid: '@azure/arm-servicebus.QueuesListKeysResponse'
+            name: QueuesListKeysResponse
+          - uid: '@azure/arm-servicebus.QueuesRegenerateKeysResponse'
+            name: QueuesRegenerateKeysResponse
+          - uid: '@azure/arm-servicebus.RegenerateAccessKeyParameters'
+            name: RegenerateAccessKeyParameters
+          - uid: '@azure/arm-servicebus.Regions'
+            name: Regions
+          - uid: '@azure/arm-servicebus.RegionsListBySkuNextResponse'
+            name: RegionsListBySkuNextResponse
+          - uid: '@azure/arm-servicebus.RegionsListBySkuResponse'
+            name: RegionsListBySkuResponse
+          - uid: '@azure/arm-servicebus.Resource'
+            name: Resource
+          - uid: '@azure/arm-servicebus.ResourceNamespacePatch'
+            name: ResourceNamespacePatch
+          - uid: '@azure/arm-servicebus.RoleDisasterRecovery'
+            name: RoleDisasterRecovery
+          - uid: '@azure/arm-servicebus.Rule'
+            name: Rule
+          - uid: '@azure/arm-servicebus.RuleListResult'
+            name: RuleListResult
+          - uid: '@azure/arm-servicebus.Rules'
+            name: Rules
+          - uid: '@azure/arm-servicebus.RulesCreateOrUpdateResponse'
+            name: RulesCreateOrUpdateResponse
+          - uid: '@azure/arm-servicebus.RulesGetResponse'
+            name: RulesGetResponse
+          - uid: '@azure/arm-servicebus.RulesListBySubscriptionsNextResponse'
+            name: RulesListBySubscriptionsNextResponse
+          - uid: '@azure/arm-servicebus.RulesListBySubscriptionsOptionalParams'
+            name: RulesListBySubscriptionsOptionalParams
+          - uid: '@azure/arm-servicebus.RulesListBySubscriptionsResponse'
+            name: RulesListBySubscriptionsResponse
+          - uid: '@azure/arm-servicebus.SBAuthorizationRule'
+            name: SBAuthorizationRule
+          - uid: '@azure/arm-servicebus.SBAuthorizationRuleListResult'
+            name: SBAuthorizationRuleListResult
+          - uid: '@azure/arm-servicebus.SBNamespace'
+            name: SBNamespace
+          - uid: '@azure/arm-servicebus.SBNamespaceListResult'
+            name: SBNamespaceListResult
+          - uid: '@azure/arm-servicebus.SBNamespaceMigrate'
+            name: SBNamespaceMigrate
+          - uid: '@azure/arm-servicebus.SBNamespaceUpdateParameters'
+            name: SBNamespaceUpdateParameters
+          - uid: '@azure/arm-servicebus.SBQueue'
+            name: SBQueue
+          - uid: '@azure/arm-servicebus.SBQueueListResult'
+            name: SBQueueListResult
+          - uid: '@azure/arm-servicebus.SBSku'
+            name: SBSku
+          - uid: '@azure/arm-servicebus.SBSubscription'
+            name: SBSubscription
+          - uid: '@azure/arm-servicebus.SBSubscriptionListResult'
+            name: SBSubscriptionListResult
+          - uid: '@azure/arm-servicebus.SBTopic'
+            name: SBTopic
+          - uid: '@azure/arm-servicebus.SBTopicListResult'
+            name: SBTopicListResult
+          - uid: '@azure/arm-servicebus.ServiceBusManagementClient'
+            name: ServiceBusManagementClient
+          - uid: '@azure/arm-servicebus.ServiceBusManagementClientContext'
+            name: ServiceBusManagementClientContext
+          - uid: '@azure/arm-servicebus.ServiceBusManagementClientOptions'
+            name: ServiceBusManagementClientOptions
+          - uid: '@azure/arm-servicebus.SkuName'
+            name: SkuName
+          - uid: '@azure/arm-servicebus.SkuTier'
+            name: SkuTier
+          - uid: '@azure/arm-servicebus.SqlFilter'
+            name: SqlFilter
+          - uid: '@azure/arm-servicebus.SqlRuleAction'
+            name: SqlRuleAction
+          - uid: '@azure/arm-servicebus.Subnet'
+            name: Subnet
+          - uid: '@azure/arm-servicebus.Subscriptions'
+            name: Subscriptions
+          - uid: '@azure/arm-servicebus.SubscriptionsCreateOrUpdateResponse'
+            name: SubscriptionsCreateOrUpdateResponse
+          - uid: '@azure/arm-servicebus.SubscriptionsGetResponse'
+            name: SubscriptionsGetResponse
+          - uid: '@azure/arm-servicebus.SubscriptionsListByTopicNextResponse'
+            name: SubscriptionsListByTopicNextResponse
+          - uid: '@azure/arm-servicebus.SubscriptionsListByTopicOptionalParams'
+            name: SubscriptionsListByTopicOptionalParams
+          - uid: '@azure/arm-servicebus.SubscriptionsListByTopicResponse'
+            name: SubscriptionsListByTopicResponse
+          - uid: '@azure/arm-servicebus.Topics'
+            name: Topics
+          - uid: >-
+              @azure/arm-servicebus.TopicsCreateOrUpdateAuthorizationRuleResponse
+            name: TopicsCreateOrUpdateAuthorizationRuleResponse
+          - uid: '@azure/arm-servicebus.TopicsCreateOrUpdateResponse'
+            name: TopicsCreateOrUpdateResponse
+          - uid: '@azure/arm-servicebus.TopicsGetAuthorizationRuleResponse'
+            name: TopicsGetAuthorizationRuleResponse
+          - uid: '@azure/arm-servicebus.TopicsGetResponse'
+            name: TopicsGetResponse
+          - uid: '@azure/arm-servicebus.TopicsListAuthorizationRulesNextResponse'
+            name: TopicsListAuthorizationRulesNextResponse
+          - uid: '@azure/arm-servicebus.TopicsListAuthorizationRulesResponse'
+            name: TopicsListAuthorizationRulesResponse
+          - uid: '@azure/arm-servicebus.TopicsListByNamespaceNextResponse'
+            name: TopicsListByNamespaceNextResponse
+          - uid: '@azure/arm-servicebus.TopicsListByNamespaceOptionalParams'
+            name: TopicsListByNamespaceOptionalParams
+          - uid: '@azure/arm-servicebus.TopicsListByNamespaceResponse'
+            name: TopicsListByNamespaceResponse
+          - uid: '@azure/arm-servicebus.TopicsListKeysResponse'
+            name: TopicsListKeysResponse
+          - uid: '@azure/arm-servicebus.TopicsRegenerateKeysResponse'
+            name: TopicsRegenerateKeysResponse
+          - uid: '@azure/arm-servicebus.TrackedResource'
+            name: TrackedResource
+          - uid: '@azure/arm-servicebus.UnavailableReason'
+            name: UnavailableReason
   - name: Storage
     items:
       - name: Overview
@@ -2069,3 +2921,612 @@ items:
             name: StorageSharedKeyCredential
           - uid: '@azure/storage-queue.StorageSharedKeyCredentialPolicy'
             name: StorageSharedKeyCredentialPolicy
+      - name: '@azure/arm-storage'
+        items:
+          - name: Overview
+            uid: '@azure/arm-storage'
+          - uid: '@azure/arm-storage.AccessTier'
+            name: AccessTier
+          - uid: '@azure/arm-storage.AccountSasParameters'
+            name: AccountSasParameters
+          - uid: '@azure/arm-storage.AccountStatus'
+            name: AccountStatus
+          - uid: '@azure/arm-storage.Action'
+            name: Action
+          - uid: '@azure/arm-storage.Action1'
+            name: Action1
+          - uid: '@azure/arm-storage.ActiveDirectoryProperties'
+            name: ActiveDirectoryProperties
+          - uid: '@azure/arm-storage.AzureEntityResource'
+            name: AzureEntityResource
+          - uid: '@azure/arm-storage.AzureFilesIdentityBasedAuthentication'
+            name: AzureFilesIdentityBasedAuthentication
+          - uid: '@azure/arm-storage.BlobContainer'
+            name: BlobContainer
+          - uid: '@azure/arm-storage.BlobContainers'
+            name: BlobContainers
+          - uid: '@azure/arm-storage.BlobContainersClearLegalHoldResponse'
+            name: BlobContainersClearLegalHoldResponse
+          - uid: >-
+              @azure/arm-storage.BlobContainersCreateOrUpdateImmutabilityPolicyHeaders
+            name: BlobContainersCreateOrUpdateImmutabilityPolicyHeaders
+          - uid: >-
+              @azure/arm-storage.BlobContainersCreateOrUpdateImmutabilityPolicyOptionalParams
+            name: BlobContainersCreateOrUpdateImmutabilityPolicyOptionalParams
+          - uid: >-
+              @azure/arm-storage.BlobContainersCreateOrUpdateImmutabilityPolicyResponse
+            name: BlobContainersCreateOrUpdateImmutabilityPolicyResponse
+          - uid: '@azure/arm-storage.BlobContainersCreateResponse'
+            name: BlobContainersCreateResponse
+          - uid: '@azure/arm-storage.BlobContainersDeleteImmutabilityPolicyHeaders'
+            name: BlobContainersDeleteImmutabilityPolicyHeaders
+          - uid: '@azure/arm-storage.BlobContainersDeleteImmutabilityPolicyResponse'
+            name: BlobContainersDeleteImmutabilityPolicyResponse
+          - uid: '@azure/arm-storage.BlobContainersExtendImmutabilityPolicyHeaders'
+            name: BlobContainersExtendImmutabilityPolicyHeaders
+          - uid: >-
+              @azure/arm-storage.BlobContainersExtendImmutabilityPolicyOptionalParams
+            name: BlobContainersExtendImmutabilityPolicyOptionalParams
+          - uid: '@azure/arm-storage.BlobContainersExtendImmutabilityPolicyResponse'
+            name: BlobContainersExtendImmutabilityPolicyResponse
+          - uid: '@azure/arm-storage.BlobContainersGetImmutabilityPolicyHeaders'
+            name: BlobContainersGetImmutabilityPolicyHeaders
+          - uid: >-
+              @azure/arm-storage.BlobContainersGetImmutabilityPolicyOptionalParams
+            name: BlobContainersGetImmutabilityPolicyOptionalParams
+          - uid: '@azure/arm-storage.BlobContainersGetImmutabilityPolicyResponse'
+            name: BlobContainersGetImmutabilityPolicyResponse
+          - uid: '@azure/arm-storage.BlobContainersGetResponse'
+            name: BlobContainersGetResponse
+          - uid: '@azure/arm-storage.BlobContainersLeaseOptionalParams'
+            name: BlobContainersLeaseOptionalParams
+          - uid: '@azure/arm-storage.BlobContainersLeaseResponse'
+            name: BlobContainersLeaseResponse
+          - uid: '@azure/arm-storage.BlobContainersListNextOptionalParams'
+            name: BlobContainersListNextOptionalParams
+          - uid: '@azure/arm-storage.BlobContainersListNextResponse'
+            name: BlobContainersListNextResponse
+          - uid: '@azure/arm-storage.BlobContainersListOptionalParams'
+            name: BlobContainersListOptionalParams
+          - uid: '@azure/arm-storage.BlobContainersListResponse'
+            name: BlobContainersListResponse
+          - uid: '@azure/arm-storage.BlobContainersLockImmutabilityPolicyHeaders'
+            name: BlobContainersLockImmutabilityPolicyHeaders
+          - uid: '@azure/arm-storage.BlobContainersLockImmutabilityPolicyResponse'
+            name: BlobContainersLockImmutabilityPolicyResponse
+          - uid: '@azure/arm-storage.BlobContainersSetLegalHoldResponse'
+            name: BlobContainersSetLegalHoldResponse
+          - uid: '@azure/arm-storage.BlobContainersUpdateResponse'
+            name: BlobContainersUpdateResponse
+          - uid: '@azure/arm-storage.BlobInventoryPolicies'
+            name: BlobInventoryPolicies
+          - uid: >-
+              @azure/arm-storage.BlobInventoryPoliciesCreateOrUpdateOptionalParams
+            name: BlobInventoryPoliciesCreateOrUpdateOptionalParams
+          - uid: '@azure/arm-storage.BlobInventoryPoliciesCreateOrUpdateResponse'
+            name: BlobInventoryPoliciesCreateOrUpdateResponse
+          - uid: '@azure/arm-storage.BlobInventoryPoliciesGetResponse'
+            name: BlobInventoryPoliciesGetResponse
+          - uid: '@azure/arm-storage.BlobInventoryPoliciesListResponse'
+            name: BlobInventoryPoliciesListResponse
+          - uid: '@azure/arm-storage.BlobInventoryPolicy'
+            name: BlobInventoryPolicy
+          - uid: '@azure/arm-storage.BlobInventoryPolicyDefinition'
+            name: BlobInventoryPolicyDefinition
+          - uid: '@azure/arm-storage.BlobInventoryPolicyFilter'
+            name: BlobInventoryPolicyFilter
+          - uid: '@azure/arm-storage.BlobInventoryPolicyRule'
+            name: BlobInventoryPolicyRule
+          - uid: '@azure/arm-storage.BlobInventoryPolicySchema'
+            name: BlobInventoryPolicySchema
+          - uid: '@azure/arm-storage.BlobRestoreParameters'
+            name: BlobRestoreParameters
+          - uid: '@azure/arm-storage.BlobRestoreProgressStatus'
+            name: BlobRestoreProgressStatus
+          - uid: '@azure/arm-storage.BlobRestoreRange'
+            name: BlobRestoreRange
+          - uid: '@azure/arm-storage.BlobRestoreStatus'
+            name: BlobRestoreStatus
+          - uid: '@azure/arm-storage.BlobServiceItems'
+            name: BlobServiceItems
+          - uid: '@azure/arm-storage.BlobServiceProperties'
+            name: BlobServiceProperties
+          - uid: '@azure/arm-storage.BlobServices'
+            name: BlobServices
+          - uid: '@azure/arm-storage.BlobServicesGetServicePropertiesResponse'
+            name: BlobServicesGetServicePropertiesResponse
+          - uid: '@azure/arm-storage.BlobServicesListResponse'
+            name: BlobServicesListResponse
+          - uid: '@azure/arm-storage.BlobServicesSetServicePropertiesResponse'
+            name: BlobServicesSetServicePropertiesResponse
+          - uid: '@azure/arm-storage.Bypass'
+            name: Bypass
+          - uid: '@azure/arm-storage.ChangeFeed'
+            name: ChangeFeed
+          - uid: '@azure/arm-storage.CheckNameAvailabilityResult'
+            name: CheckNameAvailabilityResult
+          - uid: '@azure/arm-storage.CorsRule'
+            name: CorsRule
+          - uid: '@azure/arm-storage.CorsRules'
+            name: CorsRules
+          - uid: '@azure/arm-storage.CreatedByType'
+            name: CreatedByType
+          - uid: '@azure/arm-storage.CustomDomain'
+            name: CustomDomain
+          - uid: '@azure/arm-storage.DateAfterCreation'
+            name: DateAfterCreation
+          - uid: '@azure/arm-storage.DateAfterModification'
+            name: DateAfterModification
+          - uid: '@azure/arm-storage.DefaultAction'
+            name: DefaultAction
+          - uid: '@azure/arm-storage.DeletedAccount'
+            name: DeletedAccount
+          - uid: '@azure/arm-storage.DeletedAccountListResult'
+            name: DeletedAccountListResult
+          - uid: '@azure/arm-storage.DeletedAccounts'
+            name: DeletedAccounts
+          - uid: '@azure/arm-storage.DeletedAccountsGetResponse'
+            name: DeletedAccountsGetResponse
+          - uid: '@azure/arm-storage.DeletedAccountsListNextResponse'
+            name: DeletedAccountsListNextResponse
+          - uid: '@azure/arm-storage.DeletedAccountsListResponse'
+            name: DeletedAccountsListResponse
+          - uid: '@azure/arm-storage.DeletedShare'
+            name: DeletedShare
+          - uid: '@azure/arm-storage.DeleteRetentionPolicy'
+            name: DeleteRetentionPolicy
+          - uid: '@azure/arm-storage.Dimension'
+            name: Dimension
+          - uid: '@azure/arm-storage.DirectoryServiceOptions'
+            name: DirectoryServiceOptions
+          - uid: '@azure/arm-storage.EnabledProtocols'
+            name: EnabledProtocols
+          - uid: '@azure/arm-storage.Encryption'
+            name: Encryption
+          - uid: '@azure/arm-storage.EncryptionScope'
+            name: EncryptionScope
+          - uid: '@azure/arm-storage.EncryptionScopeKeyVaultProperties'
+            name: EncryptionScopeKeyVaultProperties
+          - uid: '@azure/arm-storage.EncryptionScopeListResult'
+            name: EncryptionScopeListResult
+          - uid: '@azure/arm-storage.EncryptionScopes'
+            name: EncryptionScopes
+          - uid: '@azure/arm-storage.EncryptionScopesGetResponse'
+            name: EncryptionScopesGetResponse
+          - uid: '@azure/arm-storage.EncryptionScopesListNextResponse'
+            name: EncryptionScopesListNextResponse
+          - uid: '@azure/arm-storage.EncryptionScopesListResponse'
+            name: EncryptionScopesListResponse
+          - uid: '@azure/arm-storage.EncryptionScopeSource'
+            name: EncryptionScopeSource
+          - uid: '@azure/arm-storage.EncryptionScopesPatchResponse'
+            name: EncryptionScopesPatchResponse
+          - uid: '@azure/arm-storage.EncryptionScopesPutResponse'
+            name: EncryptionScopesPutResponse
+          - uid: '@azure/arm-storage.EncryptionScopeState'
+            name: EncryptionScopeState
+          - uid: '@azure/arm-storage.EncryptionService'
+            name: EncryptionService
+          - uid: '@azure/arm-storage.EncryptionServices'
+            name: EncryptionServices
+          - uid: '@azure/arm-storage.Endpoints'
+            name: Endpoints
+          - uid: '@azure/arm-storage.ErrorResponse'
+            name: ErrorResponse
+          - uid: '@azure/arm-storage.ErrorResponseBody'
+            name: ErrorResponseBody
+          - uid: '@azure/arm-storage.ExtendedLocation'
+            name: ExtendedLocation
+          - uid: '@azure/arm-storage.ExtendedLocationTypes'
+            name: ExtendedLocationTypes
+          - uid: '@azure/arm-storage.FileServiceItems'
+            name: FileServiceItems
+          - uid: '@azure/arm-storage.FileServiceProperties'
+            name: FileServiceProperties
+          - uid: '@azure/arm-storage.FileServices'
+            name: FileServices
+          - uid: '@azure/arm-storage.FileServicesGetServicePropertiesResponse'
+            name: FileServicesGetServicePropertiesResponse
+          - uid: '@azure/arm-storage.FileServicesListResponse'
+            name: FileServicesListResponse
+          - uid: '@azure/arm-storage.FileServicesSetServicePropertiesResponse'
+            name: FileServicesSetServicePropertiesResponse
+          - uid: '@azure/arm-storage.FileShare'
+            name: FileShare
+          - uid: '@azure/arm-storage.FileShareItem'
+            name: FileShareItem
+          - uid: '@azure/arm-storage.FileShareItems'
+            name: FileShareItems
+          - uid: '@azure/arm-storage.FileShares'
+            name: FileShares
+          - uid: '@azure/arm-storage.FileSharesCreateOptionalParams'
+            name: FileSharesCreateOptionalParams
+          - uid: '@azure/arm-storage.FileSharesCreateResponse'
+            name: FileSharesCreateResponse
+          - uid: '@azure/arm-storage.FileSharesDeleteMethodOptionalParams'
+            name: FileSharesDeleteMethodOptionalParams
+          - uid: '@azure/arm-storage.FileSharesGetOptionalParams'
+            name: FileSharesGetOptionalParams
+          - uid: '@azure/arm-storage.FileSharesGetResponse'
+            name: FileSharesGetResponse
+          - uid: '@azure/arm-storage.FileSharesListNextOptionalParams'
+            name: FileSharesListNextOptionalParams
+          - uid: '@azure/arm-storage.FileSharesListNextResponse'
+            name: FileSharesListNextResponse
+          - uid: '@azure/arm-storage.FileSharesListOptionalParams'
+            name: FileSharesListOptionalParams
+          - uid: '@azure/arm-storage.FileSharesListResponse'
+            name: FileSharesListResponse
+          - uid: '@azure/arm-storage.FileSharesUpdateResponse'
+            name: FileSharesUpdateResponse
+          - uid: '@azure/arm-storage.GeoReplicationStats'
+            name: GeoReplicationStats
+          - uid: '@azure/arm-storage.GeoReplicationStatus'
+            name: GeoReplicationStatus
+          - uid: '@azure/arm-storage.GetShareExpand'
+            name: GetShareExpand
+          - uid: '@azure/arm-storage.HttpProtocol'
+            name: HttpProtocol
+          - uid: '@azure/arm-storage.Identity'
+            name: Identity
+          - uid: '@azure/arm-storage.ImmutabilityPolicy'
+            name: ImmutabilityPolicy
+          - uid: '@azure/arm-storage.ImmutabilityPolicyProperties'
+            name: ImmutabilityPolicyProperties
+          - uid: '@azure/arm-storage.ImmutabilityPolicyState'
+            name: ImmutabilityPolicyState
+          - uid: '@azure/arm-storage.ImmutabilityPolicyUpdateType'
+            name: ImmutabilityPolicyUpdateType
+          - uid: '@azure/arm-storage.IPRule'
+            name: IPRule
+          - uid: '@azure/arm-storage.KeyPermission'
+            name: KeyPermission
+          - uid: '@azure/arm-storage.KeySource'
+            name: KeySource
+          - uid: '@azure/arm-storage.KeyType'
+            name: KeyType
+          - uid: '@azure/arm-storage.KeyVaultProperties'
+            name: KeyVaultProperties
+          - uid: '@azure/arm-storage.Kind'
+            name: Kind
+          - uid: '@azure/arm-storage.LargeFileSharesState'
+            name: LargeFileSharesState
+          - uid: '@azure/arm-storage.LastAccessTimeTrackingPolicy'
+            name: LastAccessTimeTrackingPolicy
+          - uid: '@azure/arm-storage.LeaseContainerRequest'
+            name: LeaseContainerRequest
+          - uid: '@azure/arm-storage.LeaseContainerResponse'
+            name: LeaseContainerResponse
+          - uid: '@azure/arm-storage.LeaseDuration'
+            name: LeaseDuration
+          - uid: '@azure/arm-storage.LeaseState'
+            name: LeaseState
+          - uid: '@azure/arm-storage.LeaseStatus'
+            name: LeaseStatus
+          - uid: '@azure/arm-storage.LegalHold'
+            name: LegalHold
+          - uid: '@azure/arm-storage.LegalHoldProperties'
+            name: LegalHoldProperties
+          - uid: '@azure/arm-storage.ListAccountSasResponse'
+            name: ListAccountSasResponse
+          - uid: '@azure/arm-storage.ListBlobInventoryPolicy'
+            name: ListBlobInventoryPolicy
+          - uid: '@azure/arm-storage.ListContainerItem'
+            name: ListContainerItem
+          - uid: '@azure/arm-storage.ListContainerItems'
+            name: ListContainerItems
+          - uid: '@azure/arm-storage.ListContainersInclude'
+            name: ListContainersInclude
+          - uid: '@azure/arm-storage.ListKeyExpand'
+            name: ListKeyExpand
+          - uid: '@azure/arm-storage.ListQueue'
+            name: ListQueue
+          - uid: '@azure/arm-storage.ListQueueResource'
+            name: ListQueueResource
+          - uid: '@azure/arm-storage.ListQueueServices'
+            name: ListQueueServices
+          - uid: '@azure/arm-storage.ListServiceSasResponse'
+            name: ListServiceSasResponse
+          - uid: '@azure/arm-storage.ListSharesExpand'
+            name: ListSharesExpand
+          - uid: '@azure/arm-storage.ListTableResource'
+            name: ListTableResource
+          - uid: '@azure/arm-storage.ListTableServices'
+            name: ListTableServices
+          - uid: '@azure/arm-storage.ManagementPolicies'
+            name: ManagementPolicies
+          - uid: '@azure/arm-storage.ManagementPoliciesCreateOrUpdateResponse'
+            name: ManagementPoliciesCreateOrUpdateResponse
+          - uid: '@azure/arm-storage.ManagementPoliciesGetResponse'
+            name: ManagementPoliciesGetResponse
+          - uid: '@azure/arm-storage.ManagementPolicy'
+            name: ManagementPolicy
+          - uid: '@azure/arm-storage.ManagementPolicyAction'
+            name: ManagementPolicyAction
+          - uid: '@azure/arm-storage.ManagementPolicyBaseBlob'
+            name: ManagementPolicyBaseBlob
+          - uid: '@azure/arm-storage.ManagementPolicyDefinition'
+            name: ManagementPolicyDefinition
+          - uid: '@azure/arm-storage.ManagementPolicyFilter'
+            name: ManagementPolicyFilter
+          - uid: '@azure/arm-storage.ManagementPolicyRule'
+            name: ManagementPolicyRule
+          - uid: '@azure/arm-storage.ManagementPolicySchema'
+            name: ManagementPolicySchema
+          - uid: '@azure/arm-storage.ManagementPolicySnapShot'
+            name: ManagementPolicySnapShot
+          - uid: '@azure/arm-storage.MetricSpecification'
+            name: MetricSpecification
+          - uid: '@azure/arm-storage.MinimumTlsVersion'
+            name: MinimumTlsVersion
+          - uid: '@azure/arm-storage.Multichannel'
+            name: Multichannel
+          - uid: '@azure/arm-storage.Name'
+            name: Name
+          - uid: '@azure/arm-storage.NetworkRuleSet'
+            name: NetworkRuleSet
+          - uid: '@azure/arm-storage.ObjectReplicationPolicies'
+            name: ObjectReplicationPolicies
+          - uid: '@azure/arm-storage.ObjectReplicationPoliciesCreateOrUpdateResponse'
+            name: ObjectReplicationPoliciesCreateOrUpdateResponse
+          - uid: '@azure/arm-storage.ObjectReplicationPoliciesGetResponse'
+            name: ObjectReplicationPoliciesGetResponse
+          - uid: '@azure/arm-storage.ObjectReplicationPoliciesListResponse'
+            name: ObjectReplicationPoliciesListResponse
+          - uid: '@azure/arm-storage.ObjectReplicationPoliciesOperations'
+            name: ObjectReplicationPoliciesOperations
+          - uid: '@azure/arm-storage.ObjectReplicationPolicy'
+            name: ObjectReplicationPolicy
+          - uid: '@azure/arm-storage.ObjectReplicationPolicyFilter'
+            name: ObjectReplicationPolicyFilter
+          - uid: '@azure/arm-storage.ObjectReplicationPolicyRule'
+            name: ObjectReplicationPolicyRule
+          - uid: '@azure/arm-storage.Operation'
+            name: Operation
+          - uid: '@azure/arm-storage.OperationDisplay'
+            name: OperationDisplay
+          - uid: '@azure/arm-storage.OperationListResult'
+            name: OperationListResult
+          - uid: '@azure/arm-storage.Operations'
+            name: Operations
+          - uid: '@azure/arm-storage.OperationsListResponse'
+            name: OperationsListResponse
+          - uid: '@azure/arm-storage.Permissions'
+            name: Permissions
+          - uid: '@azure/arm-storage.PrivateEndpoint'
+            name: PrivateEndpoint
+          - uid: '@azure/arm-storage.PrivateEndpointConnection'
+            name: PrivateEndpointConnection
+          - uid: '@azure/arm-storage.PrivateEndpointConnectionListResult'
+            name: PrivateEndpointConnectionListResult
+          - uid: '@azure/arm-storage.PrivateEndpointConnectionProvisioningState'
+            name: PrivateEndpointConnectionProvisioningState
+          - uid: '@azure/arm-storage.PrivateEndpointConnections'
+            name: PrivateEndpointConnections
+          - uid: '@azure/arm-storage.PrivateEndpointConnectionsGetResponse'
+            name: PrivateEndpointConnectionsGetResponse
+          - uid: '@azure/arm-storage.PrivateEndpointConnectionsListResponse'
+            name: PrivateEndpointConnectionsListResponse
+          - uid: '@azure/arm-storage.PrivateEndpointConnectionsPutResponse'
+            name: PrivateEndpointConnectionsPutResponse
+          - uid: '@azure/arm-storage.PrivateEndpointServiceConnectionStatus'
+            name: PrivateEndpointServiceConnectionStatus
+          - uid: '@azure/arm-storage.PrivateLinkResource'
+            name: PrivateLinkResource
+          - uid: '@azure/arm-storage.PrivateLinkResourceListResult'
+            name: PrivateLinkResourceListResult
+          - uid: '@azure/arm-storage.PrivateLinkResources'
+            name: PrivateLinkResources
+          - uid: >-
+              @azure/arm-storage.PrivateLinkResourcesListByStorageAccountResponse
+            name: PrivateLinkResourcesListByStorageAccountResponse
+          - uid: '@azure/arm-storage.PrivateLinkServiceConnectionState'
+            name: PrivateLinkServiceConnectionState
+          - uid: '@azure/arm-storage.ProtocolSettings'
+            name: ProtocolSettings
+          - uid: '@azure/arm-storage.ProvisioningState'
+            name: ProvisioningState
+          - uid: '@azure/arm-storage.ProxyResource'
+            name: ProxyResource
+          - uid: '@azure/arm-storage.PublicAccess'
+            name: PublicAccess
+          - uid: '@azure/arm-storage.PutSharesExpand'
+            name: PutSharesExpand
+          - uid: '@azure/arm-storage.Queue'
+            name: Queue
+          - uid: '@azure/arm-storage.QueueCreateOptionalParams'
+            name: QueueCreateOptionalParams
+          - uid: '@azure/arm-storage.QueueCreateResponse'
+            name: QueueCreateResponse
+          - uid: '@azure/arm-storage.QueueGetResponse'
+            name: QueueGetResponse
+          - uid: '@azure/arm-storage.QueueListNextOptionalParams'
+            name: QueueListNextOptionalParams
+          - uid: '@azure/arm-storage.QueueListNextResponse'
+            name: QueueListNextResponse
+          - uid: '@azure/arm-storage.QueueListOptionalParams'
+            name: QueueListOptionalParams
+          - uid: '@azure/arm-storage.QueueListResponse'
+            name: QueueListResponse
+          - uid: '@azure/arm-storage.QueueServiceProperties'
+            name: QueueServiceProperties
+          - uid: '@azure/arm-storage.QueueServices'
+            name: QueueServices
+          - uid: '@azure/arm-storage.QueueServicesGetServicePropertiesResponse'
+            name: QueueServicesGetServicePropertiesResponse
+          - uid: '@azure/arm-storage.QueueServicesListResponse'
+            name: QueueServicesListResponse
+          - uid: '@azure/arm-storage.QueueServicesSetServicePropertiesOptionalParams'
+            name: QueueServicesSetServicePropertiesOptionalParams
+          - uid: '@azure/arm-storage.QueueServicesSetServicePropertiesResponse'
+            name: QueueServicesSetServicePropertiesResponse
+          - uid: '@azure/arm-storage.QueueUpdateOptionalParams'
+            name: QueueUpdateOptionalParams
+          - uid: '@azure/arm-storage.QueueUpdateResponse'
+            name: QueueUpdateResponse
+          - uid: '@azure/arm-storage.Reason'
+            name: Reason
+          - uid: '@azure/arm-storage.ReasonCode'
+            name: ReasonCode
+          - uid: '@azure/arm-storage.Resource'
+            name: Resource
+          - uid: '@azure/arm-storage.ResourceAccessRule'
+            name: ResourceAccessRule
+          - uid: '@azure/arm-storage.RestorePolicyProperties'
+            name: RestorePolicyProperties
+          - uid: '@azure/arm-storage.Restriction'
+            name: Restriction
+          - uid: '@azure/arm-storage.RootSquashType'
+            name: RootSquashType
+          - uid: '@azure/arm-storage.RoutingChoice'
+            name: RoutingChoice
+          - uid: '@azure/arm-storage.RoutingPreference'
+            name: RoutingPreference
+          - uid: '@azure/arm-storage.Services'
+            name: Services
+          - uid: '@azure/arm-storage.ServiceSasParameters'
+            name: ServiceSasParameters
+          - uid: '@azure/arm-storage.ServiceSpecification'
+            name: ServiceSpecification
+          - uid: '@azure/arm-storage.ShareAccessTier'
+            name: ShareAccessTier
+          - uid: '@azure/arm-storage.SignedResource'
+            name: SignedResource
+          - uid: '@azure/arm-storage.SignedResourceTypes'
+            name: SignedResourceTypes
+          - uid: '@azure/arm-storage.Sku'
+            name: Sku
+          - uid: '@azure/arm-storage.SKUCapability'
+            name: SKUCapability
+          - uid: '@azure/arm-storage.SkuInformation'
+            name: SkuInformation
+          - uid: '@azure/arm-storage.SkuName'
+            name: SkuName
+          - uid: '@azure/arm-storage.Skus'
+            name: Skus
+          - uid: '@azure/arm-storage.SkusListResponse'
+            name: SkusListResponse
+          - uid: '@azure/arm-storage.SkuTier'
+            name: SkuTier
+          - uid: '@azure/arm-storage.SmbSetting'
+            name: SmbSetting
+          - uid: '@azure/arm-storage.State'
+            name: State
+          - uid: '@azure/arm-storage.StorageAccount'
+            name: StorageAccount
+          - uid: '@azure/arm-storage.StorageAccountCheckNameAvailabilityParameters'
+            name: StorageAccountCheckNameAvailabilityParameters
+          - uid: '@azure/arm-storage.StorageAccountCreateParameters'
+            name: StorageAccountCreateParameters
+          - uid: '@azure/arm-storage.StorageAccountExpand'
+            name: StorageAccountExpand
+          - uid: '@azure/arm-storage.StorageAccountInternetEndpoints'
+            name: StorageAccountInternetEndpoints
+          - uid: '@azure/arm-storage.StorageAccountKey'
+            name: StorageAccountKey
+          - uid: '@azure/arm-storage.StorageAccountListKeysResult'
+            name: StorageAccountListKeysResult
+          - uid: '@azure/arm-storage.StorageAccountListResult'
+            name: StorageAccountListResult
+          - uid: '@azure/arm-storage.StorageAccountMicrosoftEndpoints'
+            name: StorageAccountMicrosoftEndpoints
+          - uid: '@azure/arm-storage.StorageAccountRegenerateKeyParameters'
+            name: StorageAccountRegenerateKeyParameters
+          - uid: '@azure/arm-storage.StorageAccounts'
+            name: StorageAccounts
+          - uid: '@azure/arm-storage.StorageAccountsBeginCreateResponse'
+            name: StorageAccountsBeginCreateResponse
+          - uid: '@azure/arm-storage.StorageAccountsBeginRestoreBlobRangesResponse'
+            name: StorageAccountsBeginRestoreBlobRangesResponse
+          - uid: '@azure/arm-storage.StorageAccountsCheckNameAvailabilityResponse'
+            name: StorageAccountsCheckNameAvailabilityResponse
+          - uid: '@azure/arm-storage.StorageAccountsCreateResponse'
+            name: StorageAccountsCreateResponse
+          - uid: '@azure/arm-storage.StorageAccountsGetPropertiesOptionalParams'
+            name: StorageAccountsGetPropertiesOptionalParams
+          - uid: '@azure/arm-storage.StorageAccountsGetPropertiesResponse'
+            name: StorageAccountsGetPropertiesResponse
+          - uid: '@azure/arm-storage.StorageAccountsListAccountSASResponse'
+            name: StorageAccountsListAccountSASResponse
+          - uid: '@azure/arm-storage.StorageAccountsListByResourceGroupNextResponse'
+            name: StorageAccountsListByResourceGroupNextResponse
+          - uid: '@azure/arm-storage.StorageAccountsListByResourceGroupResponse'
+            name: StorageAccountsListByResourceGroupResponse
+          - uid: '@azure/arm-storage.StorageAccountsListKeysOptionalParams'
+            name: StorageAccountsListKeysOptionalParams
+          - uid: '@azure/arm-storage.StorageAccountsListKeysResponse'
+            name: StorageAccountsListKeysResponse
+          - uid: '@azure/arm-storage.StorageAccountsListNextResponse'
+            name: StorageAccountsListNextResponse
+          - uid: '@azure/arm-storage.StorageAccountsListResponse'
+            name: StorageAccountsListResponse
+          - uid: '@azure/arm-storage.StorageAccountsListServiceSASResponse'
+            name: StorageAccountsListServiceSASResponse
+          - uid: '@azure/arm-storage.StorageAccountsRegenerateKeyResponse'
+            name: StorageAccountsRegenerateKeyResponse
+          - uid: '@azure/arm-storage.StorageAccountsRestoreBlobRangesResponse'
+            name: StorageAccountsRestoreBlobRangesResponse
+          - uid: '@azure/arm-storage.StorageAccountsUpdateResponse'
+            name: StorageAccountsUpdateResponse
+          - uid: '@azure/arm-storage.StorageAccountUpdateParameters'
+            name: StorageAccountUpdateParameters
+          - uid: '@azure/arm-storage.StorageManagementClient'
+            name: StorageManagementClient
+          - uid: '@azure/arm-storage.StorageManagementClientContext'
+            name: StorageManagementClientContext
+          - uid: '@azure/arm-storage.StorageManagementClientOptions'
+            name: StorageManagementClientOptions
+          - uid: '@azure/arm-storage.StorageQueue'
+            name: StorageQueue
+          - uid: '@azure/arm-storage.StorageSkuListResult'
+            name: StorageSkuListResult
+          - uid: '@azure/arm-storage.SystemData'
+            name: SystemData
+          - uid: '@azure/arm-storage.Table'
+            name: Table
+          - uid: '@azure/arm-storage.TableCreateResponse'
+            name: TableCreateResponse
+          - uid: '@azure/arm-storage.TableGetResponse'
+            name: TableGetResponse
+          - uid: '@azure/arm-storage.TableListNextResponse'
+            name: TableListNextResponse
+          - uid: '@azure/arm-storage.TableListResponse'
+            name: TableListResponse
+          - uid: '@azure/arm-storage.TableOperations'
+            name: TableOperations
+          - uid: '@azure/arm-storage.TableServiceProperties'
+            name: TableServiceProperties
+          - uid: '@azure/arm-storage.TableServices'
+            name: TableServices
+          - uid: '@azure/arm-storage.TableServicesGetServicePropertiesResponse'
+            name: TableServicesGetServicePropertiesResponse
+          - uid: '@azure/arm-storage.TableServicesListResponse'
+            name: TableServicesListResponse
+          - uid: '@azure/arm-storage.TableServicesSetServicePropertiesOptionalParams'
+            name: TableServicesSetServicePropertiesOptionalParams
+          - uid: '@azure/arm-storage.TableServicesSetServicePropertiesResponse'
+            name: TableServicesSetServicePropertiesResponse
+          - uid: '@azure/arm-storage.TableUpdateResponse'
+            name: TableUpdateResponse
+          - uid: '@azure/arm-storage.TagFilter'
+            name: TagFilter
+          - uid: '@azure/arm-storage.TagProperty'
+            name: TagProperty
+          - uid: '@azure/arm-storage.TrackedResource'
+            name: TrackedResource
+          - uid: '@azure/arm-storage.UpdateHistoryProperty'
+            name: UpdateHistoryProperty
+          - uid: '@azure/arm-storage.Usage'
+            name: Usage
+          - uid: '@azure/arm-storage.UsageListResult'
+            name: UsageListResult
+          - uid: '@azure/arm-storage.UsageName'
+            name: UsageName
+          - uid: '@azure/arm-storage.Usages'
+            name: Usages
+          - uid: '@azure/arm-storage.UsagesListByLocationResponse'
+            name: UsagesListByLocationResponse
+          - uid: '@azure/arm-storage.UsageUnit'
+            name: UsageUnit
+          - uid: '@azure/arm-storage.VirtualNetworkRule'
+            name: VirtualNetworkRule
