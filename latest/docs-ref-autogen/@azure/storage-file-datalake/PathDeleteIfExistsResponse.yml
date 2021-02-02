@@ -3,7 +3,7 @@ name: PathDeleteIfExistsResponse
 uid: '@azure/storage-file-datalake.PathDeleteIfExistsResponse'
 package: '@azure/storage-file-datalake'
 summary: >-
-  Contains response data for the <xref:DataLakePathClient.deleteIfExists>
+  Contains response data for the <xref:@azure/storage-file-datalake.DataLakePathClient.deleteIfExists>
   operation.
 fullName: PathDeleteIfExistsResponse
 remarks: ''

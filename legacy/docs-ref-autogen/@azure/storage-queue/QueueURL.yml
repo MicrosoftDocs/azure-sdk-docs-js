@@ -79,7 +79,7 @@ methods:
           type: <xref uid="@azure/storage-queue.IQueueCreateOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueCreateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.QueueCreateResponse" />&gt;
         description: ''
   - name: delete(Aborter)
     uid: '@azure/storage-queue.QueueURL.delete'
@@ -98,7 +98,7 @@ methods:
             Aborter.timeout(),
                                      goto documents of Aborter for more examples about request cancellation
       return:
-        type: Promise&lt;<xref uid="Models.QueueDeleteResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.QueueDeleteResponse" />&gt;
         description: ''
   - name: 'fromServiceURL(ServiceURL, string)'
     uid: '@azure/storage-queue.QueueURL.fromServiceURL'
@@ -170,7 +170,7 @@ methods:
             Aborter.timeout(),
                                      goto documents of Aborter for more examples about request cancellation
       return:
-        type: Promise&lt;<xref uid="Models.QueueGetPropertiesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.QueueGetPropertiesResponse" />&gt;
         description: ''
   - name: 'newPipeline(Credential, INewPipelineOptions)'
     uid: '@azure/storage-queue.QueueURL.newPipeline'
@@ -219,7 +219,7 @@ methods:
           type: '<xref uid="@azure/storage-queue.ISignedIdentifier" />[]'
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueSetAccessPolicyResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.QueueSetAccessPolicyResponse" />&gt;
         description: ''
   - name: 'setMetadata(Aborter, IMetadata)'
     uid: '@azure/storage-queue.QueueURL.setMetadata'
@@ -247,7 +247,7 @@ methods:
           type: <xref uid="@azure/storage-queue.IMetadata" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueSetMetadataResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.QueueSetMetadataResponse" />&gt;
         description: ''
   - name: withPipeline(Pipeline)
     uid: '@azure/storage-queue.QueueURL.withPipeline'

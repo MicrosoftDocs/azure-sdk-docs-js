@@ -47,5 +47,5 @@ properties:
     syntax:
       content: 'sourceModifiedAccessConditions?: Models.ModifiedAccessConditions'
       return:
-        type: <xref uid="Models.ModifiedAccessConditions" />
+        type: <xref uid="@azure/storage-blob.ModifiedAccessConditions" />
         description: ''

@@ -81,7 +81,7 @@ methods:
             Aborter.timeout(),
                                      goto documents of Aborter for more examples about request cancellation
       return:
-        type: Promise&lt;<xref uid="Models.ServiceGetPropertiesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.ServiceGetPropertiesResponse" />&gt;
         description: ''
   - name: getStatistics(Aborter)
     uid: '@azure/storage-queue.ServiceURL.getStatistics'
@@ -104,7 +104,7 @@ methods:
           type: <xref uid="@azure/storage-queue.Aborter" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceGetStatisticsResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.ServiceGetStatisticsResponse" />&gt;
         description: ''
   - name: >-
       listQueuesSegment(Aborter, undefined | string,
@@ -133,7 +133,7 @@ methods:
           type: <xref uid="@azure/storage-queue.IServiceListQueuesSegmentOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceListQueuesSegmentResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.ServiceListQueuesSegmentResponse" />&gt;
         description: ''
   - name: 'newPipeline(Credential, INewPipelineOptions)'
     uid: '@azure/storage-queue.ServiceURL.newPipeline'
@@ -185,7 +185,7 @@ methods:
           type: <xref uid="@azure/storage-queue.StorageServiceProperties" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceSetPropertiesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.ServiceSetPropertiesResponse" />&gt;
         description: ''
   - name: withPipeline(Pipeline)
     uid: '@azure/storage-queue.ServiceURL.withPipeline'

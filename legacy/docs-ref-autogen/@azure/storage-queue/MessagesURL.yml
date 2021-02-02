@@ -78,7 +78,7 @@ methods:
             Aborter.timeout(),
                                      goto documents of Aborter for more examples about request cancellation
       return:
-        type: Promise&lt;<xref uid="Models.MessagesClearResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.MessagesClearResponse" />&gt;
         description: ''
   - name: 'dequeue(Aborter, Models.MessagesDequeueOptionalParams)'
     uid: '@azure/storage-queue.MessagesURL.dequeue'
@@ -99,7 +99,7 @@ methods:
             Aborter.timeout(),
                                      goto documents of Aborter for more examples about request cancellation
         - id: options
-          type: <xref uid="Models.MessagesDequeueOptionalParams" />
+          type: <xref uid="@azure/storage-queue.MessagesDequeueOptionalParams" />
           description: ''
       return:
         type: >-
@@ -138,7 +138,7 @@ methods:
           type: string
           description: ''
         - id: options
-          type: <xref uid="Models.MessagesEnqueueOptionalParams" />
+          type: <xref uid="@azure/storage-queue.MessagesEnqueueOptionalParams" />
           description: ''
       return:
         type: >-
@@ -205,7 +205,7 @@ methods:
             Aborter.timeout(),
                                      goto documents of Aborter for more examples about request cancellation
         - id: options
-          type: <xref uid="Models.MessagesPeekOptionalParams" />
+          type: <xref uid="@azure/storage-queue.MessagesPeekOptionalParams" />
           description: ''
       return:
         type: >-

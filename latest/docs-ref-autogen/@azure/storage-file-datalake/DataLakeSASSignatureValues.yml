@@ -235,8 +235,8 @@ properties:
     summary: >-
       Optional only when identifier is provided.
 
-      Please refer to <xref:FileSystemSASPermissions>,
-      <xref:DirectorySASPermissions> or <xref:DataLakeSASPermissions> depending
+      Please refer to <xref:@azure/storage-file-datalake.FileSystemSASPermissions>,
+      <xref:@azure/storage-file-datalake.DirectorySASPermissions> or <xref:DataLakeSASPermissions> depending
       on the resource
 
       being accessed for help constructing the permissions string.

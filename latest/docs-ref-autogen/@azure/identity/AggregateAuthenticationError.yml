@@ -3,10 +3,10 @@ name: AggregateAuthenticationError
 uid: '@azure/identity.AggregateAuthenticationError'
 package: '@azure/identity'
 summary: >-
-  Provides an `errors` array containing <xref:AuthenticationError> instance
+  Provides an `errors` array containing <xref:@azure/identity.AuthenticationError> instance
 
   for authentication failures from credentials in a
-  <xref:ChainedTokenCredential>.
+  <xref:@azure/identity.ChainedTokenCredential>.
 fullName: AggregateAuthenticationError
 remarks: ''
 isPreview: false
@@ -48,7 +48,7 @@ properties:
     package: '@azure/identity'
     summary: |-
       The array of error objects that were thrown while trying to authenticate
-      with the credentials in a <xref:ChainedTokenCredential>.
+      with the credentials in a <xref:@azure/identity.ChainedTokenCredential>.
     fullName: errors
     remarks: ''
     isPreview: false

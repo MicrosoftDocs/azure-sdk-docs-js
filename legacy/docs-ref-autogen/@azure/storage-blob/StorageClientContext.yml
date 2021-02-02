@@ -29,7 +29,7 @@ constructors:
 
             operation.
         - id: options
-          type: <xref uid="Models.StorageClientOptions" />
+          type: <xref uid="@azure/storage-blob.StorageClientOptions" />
           description: ''
 properties:
   - name: pathRenameMode
@@ -43,7 +43,7 @@ properties:
     syntax:
       content: 'pathRenameMode?: Models.PathRenameMode'
       return:
-        type: <xref uid="Models.PathRenameMode" />
+        type: <xref uid="@azure/storage-blob.PathRenameMode" />
         description: ''
   - name: url
     uid: '@azure/storage-blob.StorageClientContext.url'

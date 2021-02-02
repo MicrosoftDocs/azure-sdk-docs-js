@@ -40,10 +40,10 @@ methods:
           type: number
           description: The length of the request.
         - id: options
-          type: <xref uid="Models.PageBlobClearPagesOptionalParams" />
+          type: <xref uid="@azure/storage-blob.PageBlobClearPagesOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.PageBlobClearPagesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.PageBlobClearPagesResponse" />&gt;
         description: Promise<Models.PageBlobClearPagesResponse>
   - name: >-
       clearPages(number, PageBlobClearPagesOptionalParams,
@@ -127,10 +127,10 @@ methods:
 
             via a shared access signature.
         - id: options
-          type: <xref uid="Models.PageBlobCopyIncrementalOptionalParams" />
+          type: <xref uid="@azure/storage-blob.PageBlobCopyIncrementalOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.PageBlobCopyIncrementalResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.PageBlobCopyIncrementalResponse" />&gt;
         description: Promise<Models.PageBlobCopyIncrementalResponse>
   - name: >-
       copyIncremental(string, PageBlobCopyIncrementalOptionalParams,
@@ -220,10 +220,10 @@ methods:
 
             The page blob size must be aligned to a 512-byte boundary.
         - id: options
-          type: <xref uid="Models.PageBlobCreateOptionalParams" />
+          type: <xref uid="@azure/storage-blob.PageBlobCreateOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.PageBlobCreateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.PageBlobCreateResponse" />&gt;
         description: Promise<Models.PageBlobCreateResponse>
   - name: >-
       create(number, number, PageBlobCreateOptionalParams,
@@ -299,10 +299,10 @@ methods:
         Models.PageBlobGetPageRangesOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.PageBlobGetPageRangesOptionalParams" />
+          type: <xref uid="@azure/storage-blob.PageBlobGetPageRangesOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.PageBlobGetPageRangesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.PageBlobGetPageRangesResponse" />&gt;
         description: Promise<Models.PageBlobGetPageRangesResponse>
   - name: >-
       getPageRanges(PageBlobGetPageRangesOptionalParams,
@@ -358,10 +358,10 @@ methods:
         Models.PageBlobGetPageRangesDiffOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.PageBlobGetPageRangesDiffOptionalParams" />
+          type: <xref uid="@azure/storage-blob.PageBlobGetPageRangesDiffOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.PageBlobGetPageRangesDiffResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.PageBlobGetPageRangesDiffResponse" />&gt;
         description: Promise<Models.PageBlobGetPageRangesDiffResponse>
   - name: >-
       getPageRangesDiff(PageBlobGetPageRangesDiffOptionalParams,
@@ -421,10 +421,10 @@ methods:
 
             The page blob size must be aligned to a 512-byte boundary.
         - id: options
-          type: <xref uid="Models.PageBlobResizeOptionalParams" />
+          type: <xref uid="@azure/storage-blob.PageBlobResizeOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.PageBlobResizeResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.PageBlobResizeResponse" />&gt;
         description: Promise<Models.PageBlobResizeResponse>
   - name: 'resize(number, PageBlobResizeOptionalParams, ServiceCallback<void>)'
     uid: '@azure/storage-blob.PageBlob.resize_2'
@@ -491,7 +491,7 @@ methods:
         Models.PageBlobUpdateSequenceNumberOptionalParams)
       parameters:
         - id: sequenceNumberAction
-          type: <xref uid="Models.SequenceNumberActionType" />
+          type: <xref uid="@azure/storage-blob.SequenceNumberActionType" />
           description: >-
             Required if the x-ms-blob-sequence-number header is set for the
 
@@ -501,7 +501,7 @@ methods:
             should modify the blob's sequence number. Possible values include:
             'max', 'update', 'increment'
         - id: options
-          type: <xref uid="Models.PageBlobUpdateSequenceNumberOptionalParams" />
+          type: <xref uid="@azure/storage-blob.PageBlobUpdateSequenceNumberOptionalParams" />
           description: ''
       return:
         type: >-
@@ -525,7 +525,7 @@ methods:
         ServiceCallback<void>)
       parameters:
         - id: sequenceNumberAction
-          type: <xref uid="Models.SequenceNumberActionType" />
+          type: <xref uid="@azure/storage-blob.SequenceNumberActionType" />
           description: >-
             Required if the x-ms-blob-sequence-number header is set for the
 
@@ -559,7 +559,7 @@ methods:
         Models.SequenceNumberActionType, callback: ServiceCallback<void>)
       parameters:
         - id: sequenceNumberAction
-          type: <xref uid="Models.SequenceNumberActionType" />
+          type: <xref uid="@azure/storage-blob.SequenceNumberActionType" />
           description: >-
             Required if the x-ms-blob-sequence-number header is set for the
 
@@ -593,10 +593,10 @@ methods:
           type: number
           description: The length of the request.
         - id: options
-          type: <xref uid="Models.PageBlobUploadPagesOptionalParams" />
+          type: <xref uid="@azure/storage-blob.PageBlobUploadPagesOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.PageBlobUploadPagesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.PageBlobUploadPagesResponse" />&gt;
         description: Promise<Models.PageBlobUploadPagesResponse>
   - name: >-
       uploadPages(msRest.HttpRequestBody, number,
@@ -689,7 +689,7 @@ methods:
 
             512 aligned and range-end is required.
         - id: options
-          type: <xref uid="Models.PageBlobUploadPagesFromURLOptionalParams" />
+          type: <xref uid="@azure/storage-blob.PageBlobUploadPagesFromURLOptionalParams" />
           description: ''
       return:
         type: >-

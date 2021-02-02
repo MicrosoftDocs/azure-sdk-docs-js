@@ -62,10 +62,10 @@ methods:
         Models.ContainerAcquireLeaseOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.ContainerAcquireLeaseOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ContainerAcquireLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerAcquireLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerAcquireLeaseResponse" />&gt;
         description: Promise<Models.ContainerAcquireLeaseResponse>
   - name: acquireLease(ServiceCallback<void>)
     uid: '@azure/storage-blob.Container.acquireLease_1'
@@ -115,10 +115,10 @@ methods:
       content: 'function breakLease(options?: Models.ContainerBreakLeaseOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.ContainerBreakLeaseOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ContainerBreakLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerBreakLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerBreakLeaseResponse" />&gt;
         description: Promise<Models.ContainerBreakLeaseResponse>
   - name: breakLease(ServiceCallback<void>)
     uid: '@azure/storage-blob.Container.breakLease_1'
@@ -200,10 +200,10 @@ methods:
 
             (String) for a list of valid GUID string formats.
         - id: options
-          type: <xref uid="Models.ContainerChangeLeaseOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ContainerChangeLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerChangeLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerChangeLeaseResponse" />&gt;
         description: Promise<Models.ContainerChangeLeaseResponse>
   - name: 'changeLease(string, string, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Container.changeLease_1'
@@ -268,10 +268,10 @@ methods:
       content: 'function create(options?: Models.ContainerCreateOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.ContainerCreateOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ContainerCreateOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerCreateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerCreateResponse" />&gt;
         description: Promise<Models.ContainerCreateResponse>
   - name: create(ServiceCallback<void>)
     uid: '@azure/storage-blob.Container.create_1'
@@ -325,10 +325,10 @@ methods:
         Models.ContainerDeleteMethodOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.ContainerDeleteMethodOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ContainerDeleteMethodOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerDeleteResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerDeleteResponse" />&gt;
         description: Promise<Models.ContainerDeleteResponse>
   - name: deleteMethod(ServiceCallback<void>)
     uid: '@azure/storage-blob.Container.deleteMethod_1'
@@ -387,10 +387,10 @@ methods:
         Models.ContainerGetAccessPolicyOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.ContainerGetAccessPolicyOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ContainerGetAccessPolicyOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerGetAccessPolicyResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerGetAccessPolicyResponse" />&gt;
         description: Promise<Models.ContainerGetAccessPolicyResponse>
   - name: 'getAccessPolicy(ServiceCallback<SignedIdentifier[]>)'
     uid: '@azure/storage-blob.Container.getAccessPolicy_1'
@@ -422,7 +422,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerGetAccountInfoResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerGetAccountInfoResponse" />&gt;
         description: Promise<Models.ContainerGetAccountInfoResponse>
   - name: 'getAccountInfo(RequestOptionsBase, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Container.getAccountInfo_2'
@@ -495,10 +495,10 @@ methods:
         Models.ContainerGetPropertiesOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.ContainerGetPropertiesOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ContainerGetPropertiesOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerGetPropertiesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerGetPropertiesResponse" />&gt;
         description: Promise<Models.ContainerGetPropertiesResponse>
   - name: getProperties(ServiceCallback<void>)
     uid: '@azure/storage-blob.Container.getProperties_1'
@@ -556,7 +556,7 @@ methods:
         Models.ContainerListBlobFlatSegmentOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.ContainerListBlobFlatSegmentOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams" />
           description: ''
       return:
         type: >-
@@ -740,10 +740,10 @@ methods:
           type: string
           description: Specifies the current lease ID on the resource.
         - id: options
-          type: <xref uid="Models.ContainerReleaseLeaseOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ContainerReleaseLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerReleaseLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerReleaseLeaseResponse" />&gt;
         description: Promise<Models.ContainerReleaseLeaseResponse>
   - name: 'releaseLease(string, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Container.releaseLease_1'
@@ -806,10 +806,10 @@ methods:
           type: string
           description: Specifies the current lease ID on the resource.
         - id: options
-          type: <xref uid="Models.ContainerRenewLeaseOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ContainerRenewLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerRenewLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerRenewLeaseResponse" />&gt;
         description: Promise<Models.ContainerRenewLeaseResponse>
   - name: 'renewLease(string, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Container.renewLease_1'
@@ -868,10 +868,10 @@ methods:
         Models.ContainerSetAccessPolicyOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.ContainerSetAccessPolicyOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ContainerSetAccessPolicyOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerSetAccessPolicyResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerSetAccessPolicyResponse" />&gt;
         description: Promise<Models.ContainerSetAccessPolicyResponse>
   - name: setAccessPolicy(ServiceCallback<void>)
     uid: '@azure/storage-blob.Container.setAccessPolicy_1'
@@ -923,10 +923,10 @@ methods:
         Models.ContainerSetMetadataOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.ContainerSetMetadataOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ContainerSetMetadataOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerSetMetadataResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerSetMetadataResponse" />&gt;
         description: Promise<Models.ContainerSetMetadataResponse>
   - name: setMetadata(ServiceCallback<void>)
     uid: '@azure/storage-blob.Container.setMetadata_1'

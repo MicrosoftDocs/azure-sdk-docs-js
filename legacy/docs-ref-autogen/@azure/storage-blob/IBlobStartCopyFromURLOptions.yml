@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'rehydratePriority?: Models.RehydratePriority'
       return:
-        type: <xref uid="Models.RehydratePriority" />
+        type: <xref uid="@azure/storage-blob.RehydratePriority" />
         description: ''
   - name: sourceModifiedAccessConditions
     uid: >-
@@ -60,7 +60,7 @@ properties:
     syntax:
       content: 'sourceModifiedAccessConditions?: Models.ModifiedAccessConditions'
       return:
-        type: <xref uid="Models.ModifiedAccessConditions" />
+        type: <xref uid="@azure/storage-blob.ModifiedAccessConditions" />
         description: ''
   - name: tier
     uid: '@azure/storage-blob.IBlobStartCopyFromURLOptions.tier'

@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'deleteSnapshots?: Models.DeleteSnapshotsOptionType'
       return:
-        type: <xref uid="Models.DeleteSnapshotsOptionType" />
+        type: <xref uid="@azure/storage-blob.DeleteSnapshotsOptionType" />
         description: ''

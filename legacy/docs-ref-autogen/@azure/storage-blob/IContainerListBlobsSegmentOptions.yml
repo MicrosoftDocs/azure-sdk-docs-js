@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'include?: Models.ListBlobsIncludeItem[]'
       return:
-        type: '<xref uid="Models.ListBlobsIncludeItem" />[]'
+        type: '<xref uid="@azure/storage-blob.ListBlobsIncludeItem" />[]'
         description: ''
   - name: maxresults
     uid: '@azure/storage-blob.IContainerListBlobsSegmentOptions.maxresults'

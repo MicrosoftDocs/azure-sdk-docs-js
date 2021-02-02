@@ -5,7 +5,7 @@ package: '@azure/storage-file-datalake'
 summary: |
   Option interface for Data Lake file - query operations
   See:
-  - <xref:DataLakeFileClient.query>
+  - <xref:@azure/storage-file-datalake.DataLakeFileClient.query>
 fullName: FileQueryOptions
 remarks: ''
 isPreview: false

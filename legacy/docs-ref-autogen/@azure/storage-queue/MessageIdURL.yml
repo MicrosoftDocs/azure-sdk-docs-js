@@ -83,7 +83,7 @@ methods:
             A valid pop receipt value returned from an earlier call to the
             dequeue messages or update message operation.
       return:
-        type: Promise&lt;<xref uid="Models.MessageIdDeleteResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.MessageIdDeleteResponse" />&gt;
         description: ''
   - name: 'fromMessagesURL(MessagesURL, string)'
     uid: '@azure/storage-queue.MessageIdURL.fromMessagesURL'
@@ -172,7 +172,7 @@ methods:
           type: string
           description: Message to update.
       return:
-        type: Promise&lt;<xref uid="Models.MessageIdUpdateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.MessageIdUpdateResponse" />&gt;
         description: ''
   - name: withPipeline(Pipeline)
     uid: '@azure/storage-queue.MessageIdURL.withPipeline'

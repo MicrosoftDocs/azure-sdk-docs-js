@@ -252,7 +252,7 @@ properties:
     summary: >-
       Optional only when identifier is provided.
 
-      Please refer to <xref:@azure/storage-blob.AccountSASPermissions>, <xref:BlobSASPermissions>,
+      Please refer to <xref:@azure/storage-blob.AccountSASPermissions>, <xref:@azure/storage-blob.BlobSASPermissions>,
       or <xref:@azure/storage-blob.ContainerSASPermissions> for
 
       more details.

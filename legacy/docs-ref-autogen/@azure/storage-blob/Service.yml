@@ -38,7 +38,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceGetAccountInfoResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ServiceGetAccountInfoResponse" />&gt;
         description: Promise<Models.ServiceGetAccountInfoResponse>
   - name: 'getAccountInfo(RequestOptionsBase, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Service.getAccountInfo_2'
@@ -90,10 +90,10 @@ methods:
         Models.ServiceGetPropertiesOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.ServiceGetPropertiesOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ServiceGetPropertiesOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceGetPropertiesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ServiceGetPropertiesResponse" />&gt;
         description: Promise<Models.ServiceGetPropertiesResponse>
   - name: getProperties(ServiceCallback<StorageServiceProperties>)
     uid: '@azure/storage-blob.Service.getProperties_1'
@@ -158,10 +158,10 @@ methods:
         Models.ServiceGetStatisticsOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.ServiceGetStatisticsOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ServiceGetStatisticsOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceGetStatisticsResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ServiceGetStatisticsResponse" />&gt;
         description: Promise<Models.ServiceGetStatisticsResponse>
   - name: getStatistics(ServiceCallback<StorageServiceStats>)
     uid: '@azure/storage-blob.Service.getStatistics_1'
@@ -226,7 +226,7 @@ methods:
           type: <xref uid="@azure/storage-blob.KeyInfo" />
           description: ''
         - id: options
-          type: <xref uid="Models.ServiceGetUserDelegationKeyOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ServiceGetUserDelegationKeyOptionalParams" />
           description: ''
       return:
         type: >-
@@ -301,7 +301,7 @@ methods:
         Models.ServiceListContainersSegmentOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.ServiceListContainersSegmentOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ServiceListContainersSegmentOptionalParams" />
           description: ''
       return:
         type: >-
@@ -376,10 +376,10 @@ methods:
           type: <xref uid="@azure/storage-blob.StorageServiceProperties" />
           description: The StorageService properties.
         - id: options
-          type: <xref uid="Models.ServiceSetPropertiesOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ServiceSetPropertiesOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceSetPropertiesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ServiceSetPropertiesResponse" />&gt;
         description: Promise<Models.ServiceSetPropertiesResponse>
   - name: 'setProperties(StorageServiceProperties, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Service.setProperties_1'
@@ -458,10 +458,10 @@ methods:
             batch boundary. Example header value: multipart/mixed;
             boundary=batch_<GUID>
         - id: options
-          type: <xref uid="Models.ServiceSubmitBatchOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ServiceSubmitBatchOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceSubmitBatchResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ServiceSubmitBatchResponse" />&gt;
         description: Promise<Models.ServiceSubmitBatchResponse>
   - name: 'submitBatch(msRest.HttpRequestBody, number, string, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Service.submitBatch_1'

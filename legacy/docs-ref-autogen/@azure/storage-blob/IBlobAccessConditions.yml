@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'leaseAccessConditions?: Models.LeaseAccessConditions'
       return:
-        type: <xref uid="Models.LeaseAccessConditions" />
+        type: <xref uid="@azure/storage-blob.LeaseAccessConditions" />
         description: ''
   - name: modifiedAccessConditions
     uid: '@azure/storage-blob.IBlobAccessConditions.modifiedAccessConditions'
@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'modifiedAccessConditions?: Models.ModifiedAccessConditions'
       return:
-        type: <xref uid="Models.ModifiedAccessConditions" />
+        type: <xref uid="@azure/storage-blob.ModifiedAccessConditions" />
         description: ''

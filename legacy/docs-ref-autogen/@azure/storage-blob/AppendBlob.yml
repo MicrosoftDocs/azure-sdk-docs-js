@@ -83,10 +83,10 @@ methods:
           type: number
           description: The length of the request.
         - id: options
-          type: <xref uid="Models.AppendBlobAppendBlockOptionalParams" />
+          type: <xref uid="@azure/storage-blob.AppendBlobAppendBlockOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.AppendBlobAppendBlockResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.AppendBlobAppendBlockResponse" />&gt;
         description: Promise<Models.AppendBlobAppendBlockResponse>
   - name: 'appendBlock(msRest.HttpRequestBody, number, ServiceCallback<void>)'
     uid: '@azure/storage-blob.AppendBlob.appendBlock_1'
@@ -172,7 +172,7 @@ methods:
           type: number
           description: The length of the request.
         - id: options
-          type: <xref uid="Models.AppendBlobAppendBlockFromUrlOptionalParams" />
+          type: <xref uid="@azure/storage-blob.AppendBlobAppendBlockFromUrlOptionalParams" />
           description: ''
       return:
         type: >-
@@ -239,10 +239,10 @@ methods:
           type: number
           description: The length of the request.
         - id: options
-          type: <xref uid="Models.AppendBlobCreateOptionalParams" />
+          type: <xref uid="@azure/storage-blob.AppendBlobCreateOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.AppendBlobCreateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.AppendBlobCreateResponse" />&gt;
         description: Promise<Models.AppendBlobCreateResponse>
   - name: 'create(number, ServiceCallback<void>)'
     uid: '@azure/storage-blob.AppendBlob.create_1'

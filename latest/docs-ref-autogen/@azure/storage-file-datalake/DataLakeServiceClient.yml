@@ -161,7 +161,7 @@ methods:
   - name: getFileSystemClient(string)
     uid: '@azure/storage-file-datalake.DataLakeServiceClient.getFileSystemClient'
     package: '@azure/storage-file-datalake'
-    summary: 'Creates a <xref:DataLakeFileSystemClient> object.'
+    summary: 'Creates a <xref:@azure/storage-file-datalake.DataLakeFileSystemClient> object.'
     remarks: ''
     isPreview: false
     isDeprecated: false

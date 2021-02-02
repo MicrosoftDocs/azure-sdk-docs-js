@@ -2,7 +2,7 @@
 name: FileSetExpiryOptions
 uid: '@azure/storage-file-datalake.FileSetExpiryOptions'
 package: '@azure/storage-file-datalake'
-summary: 'Option interface for the <xref:DataLakeFileClient.setExpiry> operation.'
+summary: 'Option interface for the <xref:@azure/storage-file-datalake.DataLakeFileClient.setExpiry> operation.'
 fullName: FileSetExpiryOptions
 remarks: ''
 isPreview: false
@@ -32,7 +32,7 @@ properties:
     package: '@azure/storage-file-datalake'
     summary: >-
       The time to set the file to expire on, used in combination with the
-      "Absolute" <xref:FileExpiryMode>.
+      "Absolute" <xref:@azure/storage-file-datalake.FileExpiryMode>.
 
       A time in the past is not allowed and milliseconds will be dropped.
     fullName: expiresOn
@@ -50,7 +50,7 @@ properties:
     summary: >-
       The number of milliseconds to elapse before the file expires, used in
       combination with the "RelativeToCreation" or "RelativeToNow"
-      <xref:FileExpiryMode>.
+      <xref:@azure/storage-file-datalake.FileExpiryMode>.
     fullName: timeToExpireInMs
     remarks: ''
     isPreview: false

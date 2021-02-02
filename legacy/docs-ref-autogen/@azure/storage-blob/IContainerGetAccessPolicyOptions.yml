@@ -20,5 +20,5 @@ properties:
     syntax:
       content: 'leaseAccessConditions?: Models.LeaseAccessConditions'
       return:
-        type: <xref uid="Models.LeaseAccessConditions" />
+        type: <xref uid="@azure/storage-blob.LeaseAccessConditions" />
         description: ''

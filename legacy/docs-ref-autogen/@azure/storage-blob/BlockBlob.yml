@@ -87,10 +87,10 @@ methods:
           type: <xref uid="@azure/storage-blob.BlockLookupList" />
           description: ''
         - id: options
-          type: <xref uid="Models.BlockBlobCommitBlockListOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlockBlobCommitBlockListOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlockBlobCommitBlockListResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlockBlobCommitBlockListResponse" />&gt;
         description: Promise<Models.BlockBlobCommitBlockListResponse>
   - name: 'commitBlockList(BlockLookupList, ServiceCallback<void>)'
     uid: '@azure/storage-blob.BlockBlob.commitBlockList_1'
@@ -127,7 +127,7 @@ methods:
         ServiceCallback<BlockList>)
       parameters:
         - id: listType
-          type: <xref uid="Models.BlockListType" />
+          type: <xref uid="@azure/storage-blob.BlockListType" />
           description: >-
             Specifies whether to return the list of committed blocks, the list
             of
@@ -164,7 +164,7 @@ methods:
         Models.BlockBlobGetBlockListOptionalParams)
       parameters:
         - id: listType
-          type: <xref uid="Models.BlockListType" />
+          type: <xref uid="@azure/storage-blob.BlockListType" />
           description: >-
             Specifies whether to return the list of committed blocks, the list
             of
@@ -174,10 +174,10 @@ methods:
 
             'all'
         - id: options
-          type: <xref uid="Models.BlockBlobGetBlockListOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlockBlobGetBlockListOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlockBlobGetBlockListResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlockBlobGetBlockListResponse" />&gt;
         description: Promise<Models.BlockBlobGetBlockListResponse>
   - name: 'getBlockList(Models.BlockListType, ServiceCallback<BlockList>)'
     uid: '@azure/storage-blob.BlockBlob.getBlockList_1'
@@ -192,7 +192,7 @@ methods:
         ServiceCallback<BlockList>)
       parameters:
         - id: listType
-          type: <xref uid="Models.BlockListType" />
+          type: <xref uid="@azure/storage-blob.BlockListType" />
           description: >-
             Specifies whether to return the list of committed blocks, the list
             of
@@ -279,10 +279,10 @@ methods:
           type: <xref uid="msRest.HttpRequestBody" />
           description: Initial data
         - id: options
-          type: <xref uid="Models.BlockBlobStageBlockOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlockBlobStageBlockOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlockBlobStageBlockResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlockBlobStageBlockResponse" />&gt;
         description: Promise<Models.BlockBlobStageBlockResponse>
   - name: 'stageBlock(string, number, msRest.HttpRequestBody, ServiceCallback<void>)'
     uid: '@azure/storage-blob.BlockBlob.stageBlock_1'
@@ -396,7 +396,7 @@ methods:
           type: string
           description: Specify a URL to the copy source.
         - id: options
-          type: <xref uid="Models.BlockBlobStageBlockFromURLOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlockBlobStageBlockFromURLOptionalParams" />
           description: ''
       return:
         type: >-
@@ -497,10 +497,10 @@ methods:
           type: number
           description: The length of the request.
         - id: options
-          type: <xref uid="Models.BlockBlobUploadOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlockBlobUploadOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlockBlobUploadResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlockBlobUploadResponse" />&gt;
         description: Promise<Models.BlockBlobUploadResponse>
   - name: 'upload(msRest.HttpRequestBody, number, ServiceCallback<void>)'
     uid: '@azure/storage-blob.BlockBlob.upload_1'

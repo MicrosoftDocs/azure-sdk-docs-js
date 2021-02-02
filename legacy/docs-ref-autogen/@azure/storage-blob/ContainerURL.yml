@@ -104,7 +104,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IContainerAcquireLeaseOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerAcquireLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerAcquireLeaseResponse" />&gt;
         description: ''
   - name: 'breakLease(Aborter, number, IContainerBreakLeaseOptions)'
     uid: '@azure/storage-blob.ContainerURL.breakLease'
@@ -133,7 +133,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IContainerBreakLeaseOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerBreakLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerBreakLeaseResponse" />&gt;
         description: ''
   - name: 'changeLease(Aborter, string, string, IContainerChangeLeaseOptions)'
     uid: '@azure/storage-blob.ContainerURL.changeLease'
@@ -163,7 +163,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IContainerChangeLeaseOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerChangeLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerChangeLeaseResponse" />&gt;
         description: ''
   - name: 'create(Aborter, IContainerCreateOptions)'
     uid: '@azure/storage-blob.ContainerURL.create'
@@ -187,7 +187,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IContainerCreateOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerCreateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerCreateResponse" />&gt;
         description: ''
   - name: 'delete(Aborter, IContainerDeleteMethodOptions)'
     uid: '@azure/storage-blob.ContainerURL.delete'
@@ -213,7 +213,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IContainerDeleteMethodOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerDeleteResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerDeleteResponse" />&gt;
         description: ''
   - name: 'fromServiceURL(ServiceURL, string)'
     uid: '@azure/storage-blob.ContainerURL.fromServiceURL'
@@ -298,7 +298,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IContainerGetPropertiesOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerGetPropertiesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerGetPropertiesResponse" />&gt;
         description: ''
   - name: >-
       listBlobFlatSegment(Aborter, undefined | string,
@@ -434,7 +434,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IContainerReleaseLeaseOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerReleaseLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerReleaseLeaseResponse" />&gt;
         description: ''
   - name: 'renewLease(Aborter, string, IContainerRenewLeaseOptions)'
     uid: '@azure/storage-blob.ContainerURL.renewLease'
@@ -461,7 +461,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IContainerRenewLeaseOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerRenewLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerRenewLeaseResponse" />&gt;
         description: ''
   - name: >-
       setAccessPolicy(Aborter, Models.PublicAccessType, ISignedIdentifier[],
@@ -495,7 +495,7 @@ methods:
             Aborter.timeout(),
                                      goto documents of Aborter for more examples about request cancellation
         - id: access
-          type: <xref uid="Models.PublicAccessType" />
+          type: <xref uid="@azure/storage-blob.PublicAccessType" />
           description: ''
         - id: containerAcl
           type: '<xref uid="@azure/storage-blob.ISignedIdentifier" />[]'
@@ -504,7 +504,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IContainerSetAccessPolicyOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerSetAccessPolicyResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerSetAccessPolicyResponse" />&gt;
         description: ''
   - name: 'setMetadata(Aborter, IMetadata, IContainerSetMetadataOptions)'
     uid: '@azure/storage-blob.ContainerURL.setMetadata'
@@ -538,7 +538,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IContainerSetMetadataOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerSetMetadataResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ContainerSetMetadataResponse" />&gt;
         description: ''
   - name: withPipeline(Pipeline)
     uid: '@azure/storage-blob.ContainerURL.withPipeline'

@@ -74,10 +74,10 @@ methods:
 
             to the Get Messages or Update Message operation.
         - id: options
-          type: <xref uid="Models.MessageIdDeleteMethodOptionalParams" />
+          type: <xref uid="@azure/storage-queue.MessageIdDeleteMethodOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.MessageIdDeleteResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.MessageIdDeleteResponse" />&gt;
         description: Promise<Models.MessageIdDeleteResponse>
   - name: 'deleteMethod(string, ServiceCallback<void>)'
     uid: '@azure/storage-queue.MessageId.deleteMethod_1'
@@ -199,10 +199,10 @@ methods:
 
             later than the expiry time.
         - id: options
-          type: <xref uid="Models.MessageIdUpdateOptionalParams" />
+          type: <xref uid="@azure/storage-queue.MessageIdUpdateOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.MessageIdUpdateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.MessageIdUpdateResponse" />&gt;
         description: Promise<Models.MessageIdUpdateResponse>
   - name: 'update(QueueMessage, string, number, ServiceCallback<void>)'
     uid: '@azure/storage-queue.MessageId.update_1'

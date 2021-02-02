@@ -2,7 +2,7 @@
 name: FileGenerateSasUrlOptions
 uid: '@azure/storage-file-datalake.FileGenerateSasUrlOptions'
 package: '@azure/storage-file-datalake'
-summary: 'Options to configure <xref:DataLakeFileClient.generateSasUrl> operation.'
+summary: 'Options to configure <xref:@azure/storage-file-datalake.DataLakeFileClient.generateSasUrl> operation.'
 fullName: FileGenerateSasUrlOptions
 remarks: ''
 isPreview: false

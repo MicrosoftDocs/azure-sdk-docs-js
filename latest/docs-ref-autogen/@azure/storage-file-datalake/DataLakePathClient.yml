@@ -285,7 +285,7 @@ methods:
     uid: '@azure/storage-file-datalake.DataLakePathClient.getDataLakeLeaseClient'
     package: '@azure/storage-file-datalake'
     summary: >-
-      Get a <xref:DataLakeLeaseClient> that manages leases on the path
+      Get a <xref:@azure/storage-file-datalake.DataLakeLeaseClient> that manages leases on the path
       (directory or file).
     remarks: ''
     isPreview: false
@@ -314,7 +314,7 @@ methods:
       they originally contained uppercase characters. This differs from the
       metadata keys returned by
 
-      the methods of <xref:DataLakeFileSystemClient> that list paths using the
+      the methods of <xref:@azure/storage-file-datalake.DataLakeFileSystemClient> that list paths using the
       `includeMetadata` option, which
 
       will retain their original casing.

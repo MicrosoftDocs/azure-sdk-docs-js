@@ -114,7 +114,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IBlobAbortCopyFromURLOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobAbortCopyFromURLResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobAbortCopyFromURLResponse" />&gt;
         description: ''
   - name: 'acquireLease(Aborter, string, number, IBlobAcquireLeaseOptions)'
     uid: '@azure/storage-blob.AppendBlobURL.acquireLease'
@@ -147,7 +147,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IBlobAcquireLeaseOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobAcquireLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobAcquireLeaseResponse" />&gt;
         description: ''
   - name: >-
       appendBlock(Aborter, HttpRequestBody, number,
@@ -179,7 +179,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IAppendBlobAppendBlockOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.AppendBlobAppendBlockResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.AppendBlobAppendBlockResponse" />&gt;
         description: ''
   - name: >-
       appendBlockFromURL(Aborter, string, number, number,
@@ -257,7 +257,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IBlobBreakLeaseOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobBreakLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobBreakLeaseResponse" />&gt;
         description: ''
   - name: 'changeLease(Aborter, string, string, IBlobChangeLeaseOptions)'
     uid: '@azure/storage-blob.AppendBlobURL.changeLease'
@@ -287,7 +287,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IBlobChangeLeaseOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobChangeLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobChangeLeaseResponse" />&gt;
         description: ''
   - name: 'create(Aborter, IAppendBlobCreateOptions)'
     uid: '@azure/storage-blob.AppendBlobURL.create'
@@ -311,7 +311,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IAppendBlobCreateOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.AppendBlobCreateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.AppendBlobCreateResponse" />&gt;
         description: ''
   - name: 'createSnapshot(Aborter, IBlobCreateSnapshotOptions)'
     uid: '@azure/storage-blob.AppendBlobURL.createSnapshot'
@@ -335,7 +335,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IBlobCreateSnapshotOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobCreateSnapshotResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobCreateSnapshotResponse" />&gt;
         description: ''
   - name: 'delete(Aborter, IBlobDeleteOptions)'
     uid: '@azure/storage-blob.AppendBlobURL.delete'
@@ -366,7 +366,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IBlobDeleteOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobDeleteResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobDeleteResponse" />&gt;
         description: ''
   - name: 'download(Aborter, number, undefined | number, IBlobDownloadOptions)'
     uid: '@azure/storage-blob.AppendBlobURL.download'
@@ -404,7 +404,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IBlobDownloadOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobDownloadResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobDownloadResponse" />&gt;
         description: ''
   - name: fromBlobURL(BlobURL)
     uid: '@azure/storage-blob.AppendBlobURL.fromBlobURL'
@@ -469,7 +469,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IBlobGetPropertiesOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobGetPropertiesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobGetPropertiesResponse" />&gt;
         description: ''
   - name: 'newPipeline(Credential, INewPipelineOptions)'
     uid: '@azure/storage-blob.AppendBlobURL.newPipeline'
@@ -523,7 +523,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IBlobReleaseLeaseOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobReleaseLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobReleaseLeaseResponse" />&gt;
         description: ''
   - name: 'renewLease(Aborter, string, IBlobRenewLeaseOptions)'
     uid: '@azure/storage-blob.AppendBlobURL.renewLease'
@@ -550,7 +550,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IBlobRenewLeaseOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobRenewLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobRenewLeaseResponse" />&gt;
         description: ''
   - name: >-
       setHTTPHeaders(Aborter, Models.BlobHTTPHeaders,
@@ -579,13 +579,13 @@ methods:
             Aborter.timeout(),
                                      goto documents of Aborter for more examples about request cancellation
         - id: blobHTTPHeaders
-          type: <xref uid="Models.BlobHTTPHeaders" />
+          type: <xref uid="@azure/storage-blob.BlobHTTPHeaders" />
           description: ''
         - id: options
           type: <xref uid="@azure/storage-blob.IBlobSetHTTPHeadersOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobSetHTTPHeadersResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobSetHTTPHeadersResponse" />&gt;
         description: ''
   - name: 'setMetadata(Aborter, IMetadata, IBlobSetMetadataOptions)'
     uid: '@azure/storage-blob.AppendBlobURL.setMetadata'
@@ -618,7 +618,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IBlobSetMetadataOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobSetMetadataResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobSetMetadataResponse" />&gt;
         description: ''
   - name: >-
       setTier(Aborter, BlockBlobTier | PremiumPageBlobTier | string,
@@ -661,7 +661,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IBlobSetTierOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobSetTierResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobSetTierResponse" />&gt;
         description: ''
   - name: 'startCopyFromURL(Aborter, string, IBlobStartCopyFromURLOptions)'
     uid: '@azure/storage-blob.AppendBlobURL.startCopyFromURL'
@@ -704,7 +704,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IBlobStartCopyFromURLOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobStartCopyFromURLResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobStartCopyFromURLResponse" />&gt;
         description: ''
   - name: 'syncCopyFromURL(Aborter, string, IBlobSyncCopyFromURLOptions)'
     uid: '@azure/storage-blob.AppendBlobURL.syncCopyFromURL'
@@ -737,7 +737,7 @@ methods:
           type: <xref uid="@azure/storage-blob.IBlobSyncCopyFromURLOptions" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobCopyFromURLResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobCopyFromURLResponse" />&gt;
         description: ''
   - name: undelete(Aborter)
     uid: '@azure/storage-blob.AppendBlobURL.undelete'
@@ -762,7 +762,7 @@ methods:
             Aborter.timeout(),
                                      goto documents of Aborter for more examples about request cancellation
       return:
-        type: Promise&lt;<xref uid="Models.BlobUndeleteResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobUndeleteResponse" />&gt;
         description: ''
   - name: withPipeline(Pipeline)
     uid: '@azure/storage-blob.AppendBlobURL.withPipeline'

@@ -41,10 +41,10 @@ methods:
         Models.ServiceGetPropertiesOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.ServiceGetPropertiesOptionalParams" />
+          type: <xref uid="@azure/storage-queue.ServiceGetPropertiesOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceGetPropertiesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.ServiceGetPropertiesResponse" />&gt;
         description: Promise<Models.ServiceGetPropertiesResponse>
   - name: getProperties(ServiceCallback<StorageServiceProperties>)
     uid: '@azure/storage-queue.Service.getProperties_1'
@@ -109,10 +109,10 @@ methods:
         Models.ServiceGetStatisticsOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.ServiceGetStatisticsOptionalParams" />
+          type: <xref uid="@azure/storage-queue.ServiceGetStatisticsOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceGetStatisticsResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.ServiceGetStatisticsResponse" />&gt;
         description: Promise<Models.ServiceGetStatisticsResponse>
   - name: getStatistics(ServiceCallback<StorageServiceStats>)
     uid: '@azure/storage-queue.Service.getStatistics_1'
@@ -170,10 +170,10 @@ methods:
         Models.ServiceListQueuesSegmentOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.ServiceListQueuesSegmentOptionalParams" />
+          type: <xref uid="@azure/storage-queue.ServiceListQueuesSegmentOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceListQueuesSegmentResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.ServiceListQueuesSegmentResponse" />&gt;
         description: Promise<Models.ServiceListQueuesSegmentResponse>
   - name: listQueuesSegment(ServiceCallback<ListQueuesSegmentResponse>)
     uid: '@azure/storage-queue.Service.listQueuesSegment_1'
@@ -242,10 +242,10 @@ methods:
           type: <xref uid="@azure/storage-queue.StorageServiceProperties" />
           description: The StorageService properties.
         - id: options
-          type: <xref uid="Models.ServiceSetPropertiesOptionalParams" />
+          type: <xref uid="@azure/storage-queue.ServiceSetPropertiesOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceSetPropertiesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.ServiceSetPropertiesResponse" />&gt;
         description: Promise<Models.ServiceSetPropertiesResponse>
   - name: 'setProperties(StorageServiceProperties, ServiceCallback<void>)'
     uid: '@azure/storage-queue.Service.setProperties_1'

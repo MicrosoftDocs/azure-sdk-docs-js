@@ -54,10 +54,10 @@ methods:
       content: 'function clear(options?: Models.MessagesClearOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.MessagesClearOptionalParams" />
+          type: <xref uid="@azure/storage-queue.MessagesClearOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.MessagesClearResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.MessagesClearResponse" />&gt;
         description: Promise<Models.MessagesClearResponse>
   - name: clear(ServiceCallback<void>)
     uid: '@azure/storage-queue.Messages.clear_1'
@@ -109,10 +109,10 @@ methods:
       content: 'function dequeue(options?: Models.MessagesDequeueOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.MessagesDequeueOptionalParams" />
+          type: <xref uid="@azure/storage-queue.MessagesDequeueOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.MessagesDequeueResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.MessagesDequeueResponse" />&gt;
         description: Promise<Models.MessagesDequeueResponse>
   - name: 'dequeue(ServiceCallback<DequeuedMessageItem[]>)'
     uid: '@azure/storage-queue.Messages.dequeue_1'
@@ -186,10 +186,10 @@ methods:
           type: <xref uid="@azure/storage-queue.QueueMessage" />
           description: A Message object which can be stored in a Queue
         - id: options
-          type: <xref uid="Models.MessagesEnqueueOptionalParams" />
+          type: <xref uid="@azure/storage-queue.MessagesEnqueueOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.MessagesEnqueueResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.MessagesEnqueueResponse" />&gt;
         description: Promise<Models.MessagesEnqueueResponse>
   - name: 'enqueue(QueueMessage, ServiceCallback<EnqueuedMessage[]>)'
     uid: '@azure/storage-queue.Messages.enqueue_1'
@@ -248,10 +248,10 @@ methods:
       content: 'function peek(options?: Models.MessagesPeekOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.MessagesPeekOptionalParams" />
+          type: <xref uid="@azure/storage-queue.MessagesPeekOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.MessagesPeekResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.MessagesPeekResponse" />&gt;
         description: Promise<Models.MessagesPeekResponse>
   - name: 'peek(ServiceCallback<PeekedMessageItem[]>)'
     uid: '@azure/storage-queue.Messages.peek_1'

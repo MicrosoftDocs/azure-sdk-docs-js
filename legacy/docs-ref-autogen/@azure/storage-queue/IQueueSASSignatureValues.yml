@@ -61,7 +61,7 @@ properties:
     package: '@azure/storage-queue'
     summary: |-
       Optional only when identifier is provided.
-      Please refer to <xref:QueueSASPermissions>
+      Please refer to <xref:@azure/storage-queue.QueueSASPermissions>
       being accessed for help constructing the permissions string.
     fullName: permissions
     remarks: ''

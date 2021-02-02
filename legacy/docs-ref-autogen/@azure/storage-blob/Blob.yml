@@ -78,10 +78,10 @@ methods:
 
             operation.
         - id: options
-          type: <xref uid="Models.BlobAbortCopyFromURLOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobAbortCopyFromURLOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobAbortCopyFromURLResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobAbortCopyFromURLResponse" />&gt;
         description: Promise<Models.BlobAbortCopyFromURLResponse>
   - name: 'abortCopyFromURL(string, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Blob.abortCopyFromURL_1'
@@ -140,10 +140,10 @@ methods:
       content: 'function acquireLease(options?: Models.BlobAcquireLeaseOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.BlobAcquireLeaseOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobAcquireLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobAcquireLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobAcquireLeaseResponse" />&gt;
         description: Promise<Models.BlobAcquireLeaseResponse>
   - name: acquireLease(ServiceCallback<void>)
     uid: '@azure/storage-blob.Blob.acquireLease_1'
@@ -193,10 +193,10 @@ methods:
       content: 'function breakLease(options?: Models.BlobBreakLeaseOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.BlobBreakLeaseOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobBreakLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobBreakLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobBreakLeaseResponse" />&gt;
         description: Promise<Models.BlobBreakLeaseResponse>
   - name: breakLease(ServiceCallback<void>)
     uid: '@azure/storage-blob.Blob.breakLease_1'
@@ -276,10 +276,10 @@ methods:
 
             (String) for a list of valid GUID string formats.
         - id: options
-          type: <xref uid="Models.BlobChangeLeaseOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobChangeLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobChangeLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobChangeLeaseResponse" />&gt;
         description: Promise<Models.BlobChangeLeaseResponse>
   - name: 'changeLease(string, string, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Blob.changeLease_1'
@@ -372,10 +372,10 @@ methods:
 
             via a shared access signature.
         - id: options
-          type: <xref uid="Models.BlobCopyFromURLOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobCopyFromURLOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobCopyFromURLResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobCopyFromURLResponse" />&gt;
         description: Promise<Models.BlobCopyFromURLResponse>
   - name: 'copyFromURL(string, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Blob.copyFromURL_1'
@@ -438,10 +438,10 @@ methods:
         Models.BlobCreateSnapshotOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.BlobCreateSnapshotOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobCreateSnapshotOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobCreateSnapshotResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobCreateSnapshotResponse" />&gt;
         description: Promise<Models.BlobCreateSnapshotResponse>
   - name: createSnapshot(ServiceCallback<void>)
     uid: '@azure/storage-blob.Blob.createSnapshot_1'
@@ -521,10 +521,10 @@ methods:
       content: 'function deleteMethod(options?: Models.BlobDeleteMethodOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.BlobDeleteMethodOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobDeleteMethodOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobDeleteResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobDeleteResponse" />&gt;
         description: Promise<Models.BlobDeleteResponse>
   - name: deleteMethod(ServiceCallback<void>)
     uid: '@azure/storage-blob.Blob.deleteMethod_1'
@@ -574,10 +574,10 @@ methods:
       content: 'function download(options?: Models.BlobDownloadOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.BlobDownloadOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobDownloadOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobDownloadResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobDownloadResponse" />&gt;
         description: Promise<Models.BlobDownloadResponse>
   - name: download(ServiceCallback<void>)
     uid: '@azure/storage-blob.Blob.download_1'
@@ -629,10 +629,10 @@ methods:
         Models.BlobGetAccessControlOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.BlobGetAccessControlOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobGetAccessControlOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobGetAccessControlResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobGetAccessControlResponse" />&gt;
         description: Promise<Models.BlobGetAccessControlResponse>
   - name: getAccessControl(ServiceCallback<void>)
     uid: '@azure/storage-blob.Blob.getAccessControl_1'
@@ -662,7 +662,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobGetAccountInfoResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobGetAccountInfoResponse" />&gt;
         description: Promise<Models.BlobGetAccountInfoResponse>
   - name: 'getAccountInfo(RequestOptionsBase, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Blob.getAccountInfo_2'
@@ -732,10 +732,10 @@ methods:
       content: 'function getProperties(options?: Models.BlobGetPropertiesOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.BlobGetPropertiesOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobGetPropertiesOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobGetPropertiesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobGetPropertiesResponse" />&gt;
         description: Promise<Models.BlobGetPropertiesResponse>
   - name: getProperties(ServiceCallback<void>)
     uid: '@azure/storage-blob.Blob.getProperties_1'
@@ -795,10 +795,10 @@ methods:
           type: string
           description: Specifies the current lease ID on the resource.
         - id: options
-          type: <xref uid="Models.BlobReleaseLeaseOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobReleaseLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobReleaseLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobReleaseLeaseResponse" />&gt;
         description: Promise<Models.BlobReleaseLeaseResponse>
   - name: 'releaseLease(string, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Blob.releaseLease_1'
@@ -883,10 +883,10 @@ methods:
             overwrite the existing properties; otherwise, the existing
             properties will be preserved.
         - id: options
-          type: <xref uid="Models.BlobRenameOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobRenameOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobRenameResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobRenameResponse" />&gt;
         description: Promise<Models.BlobRenameResponse>
   - name: 'rename(string, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Blob.rename_1'
@@ -955,10 +955,10 @@ methods:
           type: string
           description: Specifies the current lease ID on the resource.
         - id: options
-          type: <xref uid="Models.BlobRenewLeaseOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobRenewLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobRenewLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobRenewLeaseResponse" />&gt;
         description: Promise<Models.BlobRenewLeaseResponse>
   - name: 'renewLease(string, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Blob.renewLease_1'
@@ -1013,10 +1013,10 @@ methods:
         Models.BlobSetAccessControlOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.BlobSetAccessControlOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobSetAccessControlOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobSetAccessControlResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobSetAccessControlResponse" />&gt;
         description: Promise<Models.BlobSetAccessControlResponse>
   - name: setAccessControl(ServiceCallback<void>)
     uid: '@azure/storage-blob.Blob.setAccessControl_1'
@@ -1064,10 +1064,10 @@ methods:
         Models.BlobSetHTTPHeadersOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.BlobSetHTTPHeadersOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobSetHTTPHeadersOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobSetHTTPHeadersResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobSetHTTPHeadersResponse" />&gt;
         description: Promise<Models.BlobSetHTTPHeadersResponse>
   - name: setHTTPHeaders(ServiceCallback<void>)
     uid: '@azure/storage-blob.Blob.setHTTPHeaders_1'
@@ -1117,10 +1117,10 @@ methods:
       content: 'function setMetadata(options?: Models.BlobSetMetadataOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.BlobSetMetadataOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobSetMetadataOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobSetMetadataResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobSetMetadataResponse" />&gt;
         description: Promise<Models.BlobSetMetadataResponse>
   - name: setMetadata(ServiceCallback<void>)
     uid: '@azure/storage-blob.Blob.setMetadata_1'
@@ -1151,7 +1151,7 @@ methods:
         BlobSetTierOptionalParams, callback: ServiceCallback<void>)
       parameters:
         - id: tier
-          type: <xref uid="Models.AccessTier" />
+          type: <xref uid="@azure/storage-blob.AccessTier" />
           description: >-
             Indicates the tier to be set on the blob. Possible values include:
             'P4', 'P6',
@@ -1191,7 +1191,7 @@ methods:
         Models.BlobSetTierOptionalParams)
       parameters:
         - id: tier
-          type: <xref uid="Models.AccessTier" />
+          type: <xref uid="@azure/storage-blob.AccessTier" />
           description: >-
             Indicates the tier to be set on the blob. Possible values include:
             'P4', 'P6',
@@ -1199,10 +1199,10 @@ methods:
             'P10', 'P15', 'P20', 'P30', 'P40', 'P50', 'P60', 'P70', 'P80',
             'Hot', 'Cool', 'Archive'
         - id: options
-          type: <xref uid="Models.BlobSetTierOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobSetTierOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobSetTierResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobSetTierResponse" />&gt;
         description: Promise<Models.BlobSetTierResponse>
   - name: 'setTier(Models.AccessTier, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Blob.setTier_1'
@@ -1217,7 +1217,7 @@ methods:
         ServiceCallback<void>)
       parameters:
         - id: tier
-          type: <xref uid="Models.AccessTier" />
+          type: <xref uid="@azure/storage-blob.AccessTier" />
           description: >-
             Indicates the tier to be set on the blob. Possible values include:
             'P4', 'P6',
@@ -1292,10 +1292,10 @@ methods:
 
             via a shared access signature.
         - id: options
-          type: <xref uid="Models.BlobStartCopyFromURLOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobStartCopyFromURLOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobStartCopyFromURLResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobStartCopyFromURLResponse" />&gt;
         description: Promise<Models.BlobStartCopyFromURLResponse>
   - name: 'startCopyFromURL(string, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Blob.startCopyFromURL_1'
@@ -1356,10 +1356,10 @@ methods:
       content: 'function undelete(options?: Models.BlobUndeleteOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.BlobUndeleteOptionalParams" />
+          type: <xref uid="@azure/storage-blob.BlobUndeleteOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobUndeleteResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.BlobUndeleteResponse" />&gt;
         description: Promise<Models.BlobUndeleteResponse>
   - name: undelete(ServiceCallback<void>)
     uid: '@azure/storage-blob.Blob.undelete_1'

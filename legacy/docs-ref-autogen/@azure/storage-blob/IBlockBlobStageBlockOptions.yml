@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'customerProvidedKey?: Models.CpkInfo'
       return:
-        type: <xref uid="Models.CpkInfo" />
+        type: <xref uid="@azure/storage-blob.CpkInfo" />
         description: ''
   - name: leaseAccessConditions
     uid: '@azure/storage-blob.IBlockBlobStageBlockOptions.leaseAccessConditions'
@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'leaseAccessConditions?: Models.LeaseAccessConditions'
       return:
-        type: <xref uid="Models.LeaseAccessConditions" />
+        type: <xref uid="@azure/storage-blob.LeaseAccessConditions" />
         description: ''
   - name: progress
     uid: '@azure/storage-blob.IBlockBlobStageBlockOptions.progress'

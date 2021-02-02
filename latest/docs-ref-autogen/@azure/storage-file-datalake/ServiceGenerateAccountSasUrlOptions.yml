@@ -3,7 +3,7 @@ name: ServiceGenerateAccountSasUrlOptions
 uid: '@azure/storage-file-datalake.ServiceGenerateAccountSasUrlOptions'
 package: '@azure/storage-file-datalake'
 summary: >-
-  Options to configure <xref:DataLakeServiceClient.generateAccountSasUrl>
+  Options to configure <xref:@azure/storage-file-datalake.DataLakeServiceClient.generateAccountSasUrl>
   operation.
 fullName: ServiceGenerateAccountSasUrlOptions
 remarks: ''

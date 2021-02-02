@@ -3,10 +3,10 @@ name: CommonGenerateSasUrlOptions
 uid: '@azure/storage-file-datalake.CommonGenerateSasUrlOptions'
 package: '@azure/storage-file-datalake'
 summary: >-
-  Common options of the <xref:FileSystemGenerateSasUrlOptions>,
-  <xref:DirectoryGenerateSasUrlOptions>
+  Common options of the <xref:@azure/storage-file-datalake.FileSystemGenerateSasUrlOptions>,
+  <xref:@azure/storage-file-datalake.DirectoryGenerateSasUrlOptions>
 
-  and <xref:FileGenerateSasUrlOptions>.
+  and <xref:@azure/storage-file-datalake.FileGenerateSasUrlOptions>.
 fullName: CommonGenerateSasUrlOptions
 remarks: ''
 isPreview: false

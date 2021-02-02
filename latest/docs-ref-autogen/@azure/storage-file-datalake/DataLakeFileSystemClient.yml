@@ -300,7 +300,7 @@ methods:
     uid: >-
       @azure/storage-file-datalake.DataLakeFileSystemClient.getDataLakeLeaseClient
     package: '@azure/storage-file-datalake'
-    summary: 'Get a <xref:DataLakeLeaseClient> that manages leases on the file system.'
+    summary: 'Get a <xref:@azure/storage-file-datalake.DataLakeLeaseClient> that manages leases on the file system.'
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -316,7 +316,7 @@ methods:
   - name: getDirectoryClient(string)
     uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.getDirectoryClient'
     package: '@azure/storage-file-datalake'
-    summary: 'Creates a <xref:DataLakeDirectoryClient> object under current file system.'
+    summary: 'Creates a <xref:@azure/storage-file-datalake.DataLakeDirectoryClient> object under current file system.'
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -332,7 +332,7 @@ methods:
   - name: getFileClient(string)
     uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.getFileClient'
     package: '@azure/storage-file-datalake'
-    summary: 'Creates a <xref:DataLakeFileClient> object under current file system.'
+    summary: 'Creates a <xref:@azure/storage-file-datalake.DataLakeFileClient> object under current file system.'
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -359,7 +359,7 @@ methods:
       they originally contained uppercase characters. This differs from the
       metadata keys returned by
 
-      the `listFileSystems` method of <xref:DataLakeServiceClient> using the
+      the `listFileSystems` method of <xref:@azure/storage-file-datalake.DataLakeServiceClient> using the
       `includeMetadata` option, which
 
       will retain their original casing.

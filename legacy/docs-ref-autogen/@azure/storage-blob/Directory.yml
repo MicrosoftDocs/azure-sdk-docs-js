@@ -66,10 +66,10 @@ methods:
       content: 'function create(options?: Models.DirectoryCreateOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.DirectoryCreateOptionalParams" />
+          type: <xref uid="@azure/storage-blob.DirectoryCreateOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DirectoryCreateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.DirectoryCreateResponse" />&gt;
         description: Promise<Models.DirectoryCreateResponse>
   - name: create(ServiceCallback<void>)
     uid: '@azure/storage-blob.Directory.create_1'
@@ -131,10 +131,10 @@ methods:
             If "true", all paths beneath the directory will be deleted. If
             "false" and the directory is non-empty, an error occurs.
         - id: options
-          type: <xref uid="Models.DirectoryDeleteMethodOptionalParams" />
+          type: <xref uid="@azure/storage-blob.DirectoryDeleteMethodOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DirectoryDeleteResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.DirectoryDeleteResponse" />&gt;
         description: Promise<Models.DirectoryDeleteResponse>
   - name: 'deleteMethod(boolean, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Directory.deleteMethod_1'
@@ -194,10 +194,10 @@ methods:
         Models.DirectoryGetAccessControlOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.DirectoryGetAccessControlOptionalParams" />
+          type: <xref uid="@azure/storage-blob.DirectoryGetAccessControlOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DirectoryGetAccessControlResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.DirectoryGetAccessControlResponse" />&gt;
         description: Promise<Models.DirectoryGetAccessControlResponse>
   - name: getAccessControl(ServiceCallback<void>)
     uid: '@azure/storage-blob.Directory.getAccessControl_1'
@@ -279,10 +279,10 @@ methods:
             overwrite the existing properties; otherwise, the existing
             properties will be preserved.
         - id: options
-          type: <xref uid="Models.DirectoryRenameOptionalParams" />
+          type: <xref uid="@azure/storage-blob.DirectoryRenameOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DirectoryRenameResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.DirectoryRenameResponse" />&gt;
         description: Promise<Models.DirectoryRenameResponse>
   - name: 'rename(string, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Directory.rename_1'
@@ -346,10 +346,10 @@ methods:
         Models.DirectorySetAccessControlOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.DirectorySetAccessControlOptionalParams" />
+          type: <xref uid="@azure/storage-blob.DirectorySetAccessControlOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DirectorySetAccessControlResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.DirectorySetAccessControlResponse" />&gt;
         description: Promise<Models.DirectorySetAccessControlResponse>
   - name: setAccessControl(ServiceCallback<void>)
     uid: '@azure/storage-blob.Directory.setAccessControl_1'

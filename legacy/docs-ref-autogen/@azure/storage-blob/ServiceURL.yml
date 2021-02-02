@@ -99,7 +99,7 @@ methods:
             Aborter.timeout(),
                                      goto documents of Aborter for more examples about request cancellation
       return:
-        type: Promise&lt;<xref uid="Models.ServiceGetAccountInfoResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ServiceGetAccountInfoResponse" />&gt;
         description: ''
   - name: getProperties(Aborter)
     uid: '@azure/storage-blob.ServiceURL.getProperties'
@@ -122,7 +122,7 @@ methods:
             Aborter.timeout(),
                                      goto documents of Aborter for more examples about request cancellation
       return:
-        type: Promise&lt;<xref uid="Models.ServiceGetPropertiesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ServiceGetPropertiesResponse" />&gt;
         description: ''
   - name: getStatistics(Aborter)
     uid: '@azure/storage-blob.ServiceURL.getStatistics'
@@ -145,7 +145,7 @@ methods:
           type: <xref uid="@azure/storage-blob.Aborter" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceGetStatisticsResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ServiceGetStatisticsResponse" />&gt;
         description: ''
   - name: 'getUserDelegationKey(Aborter, Date, Date)'
     uid: '@azure/storage-blob.ServiceURL.getUserDelegationKey'
@@ -269,7 +269,7 @@ methods:
           type: <xref uid="@azure/storage-blob.StorageServiceProperties" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceSetPropertiesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.ServiceSetPropertiesResponse" />&gt;
         description: ''
   - name: >-
       submitBatch(Aborter, BatchRequest,
@@ -295,7 +295,7 @@ methods:
           type: <xref uid="@azure/storage-blob.BatchRequest" />
           description: 'Supported batch request: BatchDeleteRequest or BatchSetTierRequest.'
         - id: options
-          type: <xref uid="Models.ServiceSubmitBatchOptionalParams" />
+          type: <xref uid="@azure/storage-blob.ServiceSubmitBatchOptionalParams" />
           description: ''
       return:
         type: >-

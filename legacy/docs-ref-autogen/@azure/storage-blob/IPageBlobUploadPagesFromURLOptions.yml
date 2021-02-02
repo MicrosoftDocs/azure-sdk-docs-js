@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'customerProvidedKey?: Models.CpkInfo'
       return:
-        type: <xref uid="Models.CpkInfo" />
+        type: <xref uid="@azure/storage-blob.CpkInfo" />
         description: ''
   - name: sourceContentCrc64
     uid: '@azure/storage-blob.IPageBlobUploadPagesFromURLOptions.sourceContentCrc64'
@@ -91,5 +91,5 @@ properties:
     syntax:
       content: 'sourceModifiedAccessConditions?: Models.ModifiedAccessConditions'
       return:
-        type: <xref uid="Models.ModifiedAccessConditions" />
+        type: <xref uid="@azure/storage-blob.ModifiedAccessConditions" />
         description: ''

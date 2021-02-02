@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'access?: Models.PublicAccessType'
       return:
-        type: <xref uid="Models.PublicAccessType" />
+        type: <xref uid="@azure/storage-blob.PublicAccessType" />
         description: ''
   - name: metadata
     uid: '@azure/storage-blob.IContainerCreateOptions.metadata'

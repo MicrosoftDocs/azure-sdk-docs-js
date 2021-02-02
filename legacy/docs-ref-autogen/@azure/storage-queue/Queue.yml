@@ -35,10 +35,10 @@ methods:
       content: 'function create(options?: Models.QueueCreateOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.QueueCreateOptionalParams" />
+          type: <xref uid="@azure/storage-queue.QueueCreateOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueCreateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.QueueCreateResponse" />&gt;
         description: Promise<Models.QueueCreateResponse>
   - name: 'create(QueueCreateOptionalParams, ServiceCallback<void>)'
     uid: '@azure/storage-queue.Queue.create_2'
@@ -84,10 +84,10 @@ methods:
       content: 'function deleteMethod(options?: Models.QueueDeleteMethodOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.QueueDeleteMethodOptionalParams" />
+          type: <xref uid="@azure/storage-queue.QueueDeleteMethodOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueDeleteResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.QueueDeleteResponse" />&gt;
         description: Promise<Models.QueueDeleteResponse>
   - name: 'deleteMethod(QueueDeleteMethodOptionalParams, ServiceCallback<void>)'
     uid: '@azure/storage-queue.Queue.deleteMethod_2'
@@ -139,10 +139,10 @@ methods:
         Models.QueueGetAccessPolicyOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.QueueGetAccessPolicyOptionalParams" />
+          type: <xref uid="@azure/storage-queue.QueueGetAccessPolicyOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueGetAccessPolicyResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.QueueGetAccessPolicyResponse" />&gt;
         description: Promise<Models.QueueGetAccessPolicyResponse>
   - name: >-
       getAccessPolicy(QueueGetAccessPolicyOptionalParams,
@@ -202,10 +202,10 @@ methods:
         Models.QueueGetPropertiesOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.QueueGetPropertiesOptionalParams" />
+          type: <xref uid="@azure/storage-queue.QueueGetPropertiesOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueGetPropertiesResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.QueueGetPropertiesResponse" />&gt;
         description: Promise<Models.QueueGetPropertiesResponse>
   - name: 'getProperties(QueueGetPropertiesOptionalParams, ServiceCallback<void>)'
     uid: '@azure/storage-queue.Queue.getProperties_2'
@@ -255,10 +255,10 @@ methods:
         Models.QueueSetAccessPolicyOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.QueueSetAccessPolicyOptionalParams" />
+          type: <xref uid="@azure/storage-queue.QueueSetAccessPolicyOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueSetAccessPolicyResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.QueueSetAccessPolicyResponse" />&gt;
         description: Promise<Models.QueueSetAccessPolicyResponse>
   - name: 'setAccessPolicy(QueueSetAccessPolicyOptionalParams, ServiceCallback<void>)'
     uid: '@azure/storage-queue.Queue.setAccessPolicy_2'
@@ -310,10 +310,10 @@ methods:
       content: 'function setMetadata(options?: Models.QueueSetMetadataOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.QueueSetMetadataOptionalParams" />
+          type: <xref uid="@azure/storage-queue.QueueSetMetadataOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueSetMetadataResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-queue.QueueSetMetadataResponse" />&gt;
         description: Promise<Models.QueueSetMetadataResponse>
   - name: 'setMetadata(QueueSetMetadataOptionalParams, ServiceCallback<void>)'
     uid: '@azure/storage-queue.Queue.setMetadata_2'

@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'customerProvidedKey?: Models.CpkInfo'
       return:
-        type: <xref uid="Models.CpkInfo" />
+        type: <xref uid="@azure/storage-blob.CpkInfo" />
         description: ''
