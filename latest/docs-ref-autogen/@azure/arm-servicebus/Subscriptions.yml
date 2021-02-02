@@ -263,7 +263,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.SubscriptionsGetResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.SubscriptionsGetResponse" />&gt;
         description: Promise<Models.SubscriptionsGetResponse>
   - name: >-
       get(string, string, string, string, RequestOptionsBase,
@@ -357,10 +357,10 @@ methods:
           type: string
           description: The topic name.
         - id: options
-          type: <xref uid="Models.SubscriptionsListByTopicOptionalParams" />
+          type: <xref uid="@azure/arm-servicebus.SubscriptionsListByTopicOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.SubscriptionsListByTopicResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.SubscriptionsListByTopicResponse" />&gt;
         description: Promise<Models.SubscriptionsListByTopicResponse>
   - name: >-
       listByTopic(string, string, string,

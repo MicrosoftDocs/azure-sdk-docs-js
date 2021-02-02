@@ -63,7 +63,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.RulesCreateOrUpdateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.RulesCreateOrUpdateResponse" />&gt;
         description: Promise<Models.RulesCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, string, string, string, Rule,
@@ -282,7 +282,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.RulesGetResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.RulesGetResponse" />&gt;
         description: Promise<Models.RulesGetResponse>
   - name: >-
       get(string, string, string, string, string, RequestOptionsBase,
@@ -381,10 +381,10 @@ methods:
           type: string
           description: The subscription name.
         - id: options
-          type: <xref uid="Models.RulesListBySubscriptionsOptionalParams" />
+          type: <xref uid="@azure/arm-servicebus.RulesListBySubscriptionsOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.RulesListBySubscriptionsResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.RulesListBySubscriptionsResponse" />&gt;
         description: Promise<Models.RulesListBySubscriptionsResponse>
   - name: >-
       listBySubscriptions(string, string, string, string,

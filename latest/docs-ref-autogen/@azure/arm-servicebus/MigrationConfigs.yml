@@ -270,7 +270,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.MigrationConfigsGetResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.MigrationConfigsGetResponse" />&gt;
         description: Promise<Models.MigrationConfigsGetResponse>
   - name: >-
       get(string, string, RequestOptionsBase,
@@ -348,7 +348,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.MigrationConfigsListResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.MigrationConfigsListResponse" />&gt;
         description: Promise<Models.MigrationConfigsListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -423,7 +423,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.MigrationConfigsListNextResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.MigrationConfigsListNextResponse" />&gt;
         description: Promise<Models.MigrationConfigsListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,

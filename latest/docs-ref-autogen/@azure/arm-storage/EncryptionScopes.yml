@@ -69,7 +69,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EncryptionScopesGetResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.EncryptionScopesGetResponse" />&gt;
         description: Promise<Models.EncryptionScopesGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -206,7 +206,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EncryptionScopesListResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.EncryptionScopesListResponse" />&gt;
         description: Promise<Models.EncryptionScopesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -305,7 +305,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EncryptionScopesListNextResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.EncryptionScopesListNextResponse" />&gt;
         description: Promise<Models.EncryptionScopesListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,
@@ -407,7 +407,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EncryptionScopesPatchResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.EncryptionScopesPatchResponse" />&gt;
         description: Promise<Models.EncryptionScopesPatchResponse>
   - name: >-
       patch(string, string, string, EncryptionScope, RequestOptionsBase,
@@ -575,7 +575,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EncryptionScopesPutResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.EncryptionScopesPutResponse" />&gt;
         description: Promise<Models.EncryptionScopesPutResponse>
   - name: >-
       put(string, string, string, EncryptionScope, RequestOptionsBase,

@@ -261,7 +261,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobContainersCreateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.BlobContainersCreateResponse" />&gt;
         description: Promise<Models.BlobContainersCreateResponse>
   - name: >-
       create(string, string, string, BlobContainer, RequestOptionsBase,
@@ -1136,7 +1136,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobContainersGetResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.BlobContainersGetResponse" />&gt;
         description: Promise<Models.BlobContainersGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -1511,10 +1511,10 @@ methods:
 
             a letter or number.
         - id: options
-          type: <xref uid="Models.BlobContainersLeaseOptionalParams" />
+          type: <xref uid="@azure/arm-storage.BlobContainersLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobContainersLeaseResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.BlobContainersLeaseResponse" />&gt;
         description: Promise<Models.BlobContainersLeaseResponse>
   - name: 'lease(string, string, string, ServiceCallback<LeaseContainerResponse>)'
     uid: '@azure/arm-storage.BlobContainers.lease_1'
@@ -1640,10 +1640,10 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="Models.BlobContainersListOptionalParams" />
+          type: <xref uid="@azure/arm-storage.BlobContainersListOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobContainersListResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.BlobContainersListResponse" />&gt;
         description: Promise<Models.BlobContainersListResponse>
   - name: 'list(string, string, ServiceCallback<ListContainerItems>)'
     uid: '@azure/arm-storage.BlobContainers.list_1'
@@ -1729,10 +1729,10 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.BlobContainersListNextOptionalParams" />
+          type: <xref uid="@azure/arm-storage.BlobContainersListNextOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobContainersListNextResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.BlobContainersListNextResponse" />&gt;
         description: Promise<Models.BlobContainersListNextResponse>
   - name: 'listNext(string, ServiceCallback<ListContainerItems>)'
     uid: '@azure/arm-storage.BlobContainers.listNext_1'
@@ -2181,7 +2181,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobContainersUpdateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.BlobContainersUpdateResponse" />&gt;
         description: Promise<Models.BlobContainersUpdateResponse>
   - name: >-
       update(string, string, string, BlobContainer, RequestOptionsBase,

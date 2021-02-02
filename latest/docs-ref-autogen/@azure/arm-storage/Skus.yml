@@ -40,7 +40,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.SkusListResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.SkusListResponse" />&gt;
         description: Promise<Models.SkusListResponse>
   - name: 'list(RequestOptionsBase, ServiceCallback<StorageSkuListResult>)'
     uid: '@azure/arm-storage.Skus.list_2'

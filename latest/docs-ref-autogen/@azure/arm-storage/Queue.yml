@@ -69,10 +69,10 @@ methods:
 
             characters.
         - id: options
-          type: <xref uid="Models.QueueCreateOptionalParams" />
+          type: <xref uid="@azure/arm-storage.QueueCreateOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueCreateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.QueueCreateResponse" />&gt;
         description: Promise<Models.QueueCreateResponse>
   - name: >-
       create(string, string, string, QueueCreateOptionalParams,
@@ -372,7 +372,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueGetResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.QueueGetResponse" />&gt;
         description: Promise<Models.QueueGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -506,10 +506,10 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="Models.QueueListOptionalParams" />
+          type: <xref uid="@azure/arm-storage.QueueListOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueListResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.QueueListResponse" />&gt;
         description: Promise<Models.QueueListResponse>
   - name: >-
       list(string, string, QueueListOptionalParams,
@@ -602,10 +602,10 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.QueueListNextOptionalParams" />
+          type: <xref uid="@azure/arm-storage.QueueListNextOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueListNextResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.QueueListNextResponse" />&gt;
         description: Promise<Models.QueueListNextResponse>
   - name: >-
       listNext(string, QueueListNextOptionalParams,
@@ -700,10 +700,10 @@ methods:
 
             characters.
         - id: options
-          type: <xref uid="Models.QueueUpdateOptionalParams" />
+          type: <xref uid="@azure/arm-storage.QueueUpdateOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueUpdateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.QueueUpdateResponse" />&gt;
         description: Promise<Models.QueueUpdateResponse>
   - name: >-
       update(string, string, string, QueueUpdateOptionalParams,

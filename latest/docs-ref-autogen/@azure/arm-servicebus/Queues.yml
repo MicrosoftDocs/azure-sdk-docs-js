@@ -55,7 +55,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueuesCreateOrUpdateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.QueuesCreateOrUpdateResponse" />&gt;
         description: Promise<Models.QueuesCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, string, SBQueue, RequestOptionsBase,
@@ -442,7 +442,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueuesGetResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.QueuesGetResponse" />&gt;
         description: Promise<Models.QueuesGetResponse>
   - name: 'get(string, string, string, RequestOptionsBase, ServiceCallback<SBQueue>)'
     uid: '@azure/arm-servicebus.Queues.get_2'
@@ -789,10 +789,10 @@ methods:
           type: string
           description: The namespace name
         - id: options
-          type: <xref uid="Models.QueuesListByNamespaceOptionalParams" />
+          type: <xref uid="@azure/arm-servicebus.QueuesListByNamespaceOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueuesListByNamespaceResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.QueuesListByNamespaceResponse" />&gt;
         description: Promise<Models.QueuesListByNamespaceResponse>
   - name: >-
       listByNamespace(string, string, QueuesListByNamespaceOptionalParams,
@@ -869,7 +869,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueuesListByNamespaceNextResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.QueuesListByNamespaceNextResponse" />&gt;
         description: Promise<Models.QueuesListByNamespaceNextResponse>
   - name: >-
       listByNamespaceNext(string, RequestOptionsBase,
@@ -947,7 +947,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueuesListKeysResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.QueuesListKeysResponse" />&gt;
         description: Promise<Models.QueuesListKeysResponse>
   - name: >-
       listKeys(string, string, string, string, RequestOptionsBase,
@@ -1050,7 +1050,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueuesRegenerateKeysResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.QueuesRegenerateKeysResponse" />&gt;
         description: Promise<Models.QueuesRegenerateKeysResponse>
   - name: >-
       regenerateKeys(string, string, string, string,

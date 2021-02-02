@@ -302,7 +302,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ManagementPoliciesGetResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.ManagementPoliciesGetResponse" />&gt;
         description: Promise<Models.ManagementPoliciesGetResponse>
   - name: 'get(string, string, RequestOptionsBase, ServiceCallback<ManagementPolicy>)'
     uid: '@azure/arm-storage.ManagementPolicies.get_2'

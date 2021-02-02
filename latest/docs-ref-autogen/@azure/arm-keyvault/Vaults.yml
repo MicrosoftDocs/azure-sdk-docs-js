@@ -191,7 +191,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.VaultsCreateOrUpdateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-keyvault.VaultsCreateOrUpdateResponse" />&gt;
         description: Promise<Models.VaultsCreateOrUpdateResponse>
   - name: 'deleteMethod(string, string, msRest.RequestOptionsBase)'
     uid: '@azure/arm-keyvault.Vaults.deleteMethod'
@@ -286,7 +286,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.VaultsGetResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-keyvault.VaultsGetResponse" />&gt;
         description: Promise<Models.VaultsGetResponse>
   - name: 'get(string, string, RequestOptionsBase, ServiceCallback<Vault>)'
     uid: '@azure/arm-keyvault.Vaults.get_2'
@@ -357,7 +357,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.VaultsGetDeletedResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-keyvault.VaultsGetDeletedResponse" />&gt;
         description: Promise<Models.VaultsGetDeletedResponse>
   - name: >-
       getDeleted(string, string, RequestOptionsBase,
@@ -425,10 +425,10 @@ methods:
       content: 'function list(options?: Models.VaultsListOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.VaultsListOptionalParams" />
+          type: <xref uid="@azure/arm-keyvault.VaultsListOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.VaultsListResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-keyvault.VaultsListResponse" />&gt;
         description: Promise<Models.VaultsListResponse>
   - name: list(ServiceCallback<ResourceListResult>)
     uid: '@azure/arm-keyvault.Vaults.list_1'
@@ -489,10 +489,10 @@ methods:
           type: string
           description: The name of the Resource Group to which the vault belongs.
         - id: options
-          type: <xref uid="Models.VaultsListByResourceGroupOptionalParams" />
+          type: <xref uid="@azure/arm-keyvault.VaultsListByResourceGroupOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.VaultsListByResourceGroupResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-keyvault.VaultsListByResourceGroupResponse" />&gt;
         description: Promise<Models.VaultsListByResourceGroupResponse>
   - name: 'listByResourceGroup(string, ServiceCallback<VaultListResult>)'
     uid: '@azure/arm-keyvault.Vaults.listByResourceGroup_1'
@@ -633,10 +633,10 @@ methods:
         Models.VaultsListBySubscriptionOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.VaultsListBySubscriptionOptionalParams" />
+          type: <xref uid="@azure/arm-keyvault.VaultsListBySubscriptionOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.VaultsListBySubscriptionResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-keyvault.VaultsListBySubscriptionResponse" />&gt;
         description: Promise<Models.VaultsListBySubscriptionResponse>
   - name: listBySubscription(ServiceCallback<VaultListResult>)
     uid: '@azure/arm-keyvault.Vaults.listBySubscription_1'
@@ -766,7 +766,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.VaultsListDeletedResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-keyvault.VaultsListDeletedResponse" />&gt;
         description: Promise<Models.VaultsListDeletedResponse>
   - name: 'listDeleted(RequestOptionsBase, ServiceCallback<DeletedVaultListResult>)'
     uid: '@azure/arm-keyvault.Vaults.listDeleted_2'
@@ -824,7 +824,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.VaultsListDeletedNextResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-keyvault.VaultsListDeletedNextResponse" />&gt;
         description: Promise<Models.VaultsListDeletedNextResponse>
   - name: >-
       listDeletedNext(string, RequestOptionsBase,
@@ -894,7 +894,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.VaultsListNextResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-keyvault.VaultsListNextResponse" />&gt;
         description: Promise<Models.VaultsListNextResponse>
   - name: 'listNext(string, RequestOptionsBase, ServiceCallback<ResourceListResult>)'
     uid: '@azure/arm-keyvault.Vaults.listNext_2'
@@ -992,7 +992,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.VaultsUpdateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-keyvault.VaultsUpdateResponse" />&gt;
         description: Promise<Models.VaultsUpdateResponse>
   - name: >-
       update(string, string, VaultPatchParameters, RequestOptionsBase,
@@ -1072,7 +1072,7 @@ methods:
           type: string
           description: Name of the vault
         - id: operationKind
-          type: <xref uid="Models.AccessPolicyUpdateKind" />
+          type: <xref uid="@azure/arm-keyvault.AccessPolicyUpdateKind" />
           description: >-
             Name of the operation. Possible values include: 'add', 'replace',
             'remove'
@@ -1083,7 +1083,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.VaultsUpdateAccessPolicyResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-keyvault.VaultsUpdateAccessPolicyResponse" />&gt;
         description: Promise<Models.VaultsUpdateAccessPolicyResponse>
   - name: >-
       updateAccessPolicy(string, string, Models.AccessPolicyUpdateKind,
@@ -1109,7 +1109,7 @@ methods:
           type: string
           description: Name of the vault
         - id: operationKind
-          type: <xref uid="Models.AccessPolicyUpdateKind" />
+          type: <xref uid="@azure/arm-keyvault.AccessPolicyUpdateKind" />
           description: >-
             Name of the operation. Possible values include: 'add', 'replace',
             'remove'
@@ -1148,7 +1148,7 @@ methods:
           type: string
           description: Name of the vault
         - id: operationKind
-          type: <xref uid="Models.AccessPolicyUpdateKind" />
+          type: <xref uid="@azure/arm-keyvault.AccessPolicyUpdateKind" />
           description: >-
             Name of the operation. Possible values include: 'add', 'replace',
             'remove'

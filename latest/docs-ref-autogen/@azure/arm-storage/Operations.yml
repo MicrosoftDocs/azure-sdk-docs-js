@@ -38,7 +38,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.OperationsListResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.OperationsListResponse" />&gt;
         description: Promise<Models.OperationsListResponse>
   - name: 'list(RequestOptionsBase, ServiceCallback<OperationListResult>)'
     uid: '@azure/arm-storage.Operations.list_2'

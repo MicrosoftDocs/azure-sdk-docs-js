@@ -176,7 +176,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TableServicesListResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.TableServicesListResponse" />&gt;
         description: Promise<Models.TableServicesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,

@@ -285,7 +285,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.StorageAccountsCreateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.StorageAccountsCreateResponse" />&gt;
         description: Promise<Models.StorageAccountsCreateResponse>
   - name: 'deleteMethod(string, string, msRest.RequestOptionsBase)'
     uid: '@azure/arm-storage.StorageAccounts.deleteMethod'
@@ -472,7 +472,7 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="Models.StorageAccountsGetPropertiesOptionalParams" />
+          type: <xref uid="@azure/arm-storage.StorageAccountsGetPropertiesOptionalParams" />
           description: ''
       return:
         type: >-
@@ -576,7 +576,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.StorageAccountsListResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.StorageAccountsListResponse" />&gt;
         description: Promise<Models.StorageAccountsListResponse>
   - name: 'list(RequestOptionsBase, ServiceCallback<StorageAccountListResult>)'
     uid: '@azure/arm-storage.StorageAccounts.list_2'
@@ -942,10 +942,10 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="Models.StorageAccountsListKeysOptionalParams" />
+          type: <xref uid="@azure/arm-storage.StorageAccountsListKeysOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.StorageAccountsListKeysResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.StorageAccountsListKeysResponse" />&gt;
         description: Promise<Models.StorageAccountsListKeysResponse>
   - name: 'listKeys(string, string, ServiceCallback<StorageAccountListKeysResult>)'
     uid: '@azure/arm-storage.StorageAccounts.listKeys_1'
@@ -1048,7 +1048,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.StorageAccountsListNextResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.StorageAccountsListNextResponse" />&gt;
         description: Promise<Models.StorageAccountsListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,
@@ -1577,7 +1577,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.StorageAccountsUpdateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.StorageAccountsUpdateResponse" />&gt;
         description: Promise<Models.StorageAccountsUpdateResponse>
   - name: >-
       update(string, string, StorageAccountUpdateParameters, RequestOptionsBase,

@@ -40,7 +40,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.OperationsListResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.OperationsListResponse" />&gt;
         description: Promise<Models.OperationsListResponse>
   - name: 'list(RequestOptionsBase, ServiceCallback<OperationListResult>)'
     uid: '@azure/arm-servicebus.Operations.list_2'
@@ -98,7 +98,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.OperationsListNextResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.OperationsListNextResponse" />&gt;
         description: Promise<Models.OperationsListNextResponse>
   - name: 'listNext(string, RequestOptionsBase, ServiceCallback<OperationListResult>)'
     uid: '@azure/arm-servicebus.Operations.listNext_2'

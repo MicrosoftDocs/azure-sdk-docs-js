@@ -306,7 +306,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobInventoryPoliciesGetResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.BlobInventoryPoliciesGetResponse" />&gt;
         description: Promise<Models.BlobInventoryPoliciesGetResponse>
   - name: >-
       get(string, string, RequestOptionsBase,
@@ -418,7 +418,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobInventoryPoliciesListResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.BlobInventoryPoliciesListResponse" />&gt;
         description: Promise<Models.BlobInventoryPoliciesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,

@@ -43,7 +43,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.RegionsListBySkuResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.RegionsListBySkuResponse" />&gt;
         description: Promise<Models.RegionsListBySkuResponse>
   - name: >-
       listBySku(string, RequestOptionsBase,
@@ -111,7 +111,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.RegionsListBySkuNextResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-servicebus.RegionsListBySkuNextResponse" />&gt;
         description: Promise<Models.RegionsListBySkuNextResponse>
   - name: >-
       listBySkuNext(string, RequestOptionsBase,
