@@ -2,7 +2,7 @@
 name: ServiceUndeleteContainerOptions
 uid: '@azure/storage-blob.ServiceUndeleteContainerOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:BlobServiceClient.undeleteContainer> operation.'
+summary: 'Options to configure <xref:@azure/storage-blob.BlobServiceClient.undeleteContainer> operation.'
 fullName: ServiceUndeleteContainerOptions
 remarks: ''
 isPreview: false

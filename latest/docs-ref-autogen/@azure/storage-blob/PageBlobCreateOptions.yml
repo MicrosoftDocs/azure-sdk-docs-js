@@ -2,7 +2,7 @@
 name: PageBlobCreateOptions
 uid: '@azure/storage-blob.PageBlobCreateOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:PageBlobClient.create> operation.'
+summary: 'Options to configure the <xref:@azure/storage-blob.PageBlobClient.create> operation.'
 fullName: PageBlobCreateOptions
 remarks: ''
 isPreview: false

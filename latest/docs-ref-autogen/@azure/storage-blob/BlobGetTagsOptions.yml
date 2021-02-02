@@ -2,7 +2,7 @@
 name: BlobGetTagsOptions
 uid: '@azure/storage-blob.BlobGetTagsOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:BlobClient.getTags> operation.'
+summary: 'Options to configure the <xref:@azure/storage-blob.BlobClient.getTags> operation.'
 fullName: BlobGetTagsOptions
 remarks: ''
 isPreview: false

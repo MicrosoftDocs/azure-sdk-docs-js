@@ -3,8 +3,8 @@ name: CommonGenerateSasUrlOptions
 uid: '@azure/storage-blob.CommonGenerateSasUrlOptions'
 package: '@azure/storage-blob'
 summary: >-
-  Common options of <xref:BlobGenerateSasUrlOptions> and
-  <xref:ContainerGenerateSasUrlOptions>.
+  Common options of <xref:@azure/storage-blob.BlobGenerateSasUrlOptions> and
+  <xref:@azure/storage-blob.ContainerGenerateSasUrlOptions>.
 fullName: CommonGenerateSasUrlOptions
 remarks: ''
 isPreview: false

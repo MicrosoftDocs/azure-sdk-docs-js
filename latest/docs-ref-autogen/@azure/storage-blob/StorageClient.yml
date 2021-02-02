@@ -3,8 +3,8 @@ name: StorageClient
 uid: '@azure/storage-blob.StorageClient'
 package: '@azure/storage-blob'
 summary: >-
-  A StorageClient represents a based URL class for <xref:BlobServiceClient>,
-  <xref:ContainerClient>
+  A StorageClient represents a based URL class for <xref:@azure/storage-blob.BlobServiceClient>,
+  <xref:@azure/storage-blob.ContainerClient>
 
   and etc.
 fullName: StorageClient

@@ -2,7 +2,7 @@
 name: BlobBeginCopyFromURLOptions
 uid: '@azure/storage-blob.BlobBeginCopyFromURLOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:BlobClient.beginCopyFromURL> operation.'
+summary: 'Options to configure the <xref:@azure/storage-blob.BlobClient.beginCopyFromURL> operation.'
 fullName: BlobBeginCopyFromURLOptions
 remarks: ''
 isPreview: false

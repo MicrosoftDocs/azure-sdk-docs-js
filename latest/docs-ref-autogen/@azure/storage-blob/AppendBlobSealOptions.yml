@@ -2,7 +2,7 @@
 name: AppendBlobSealOptions
 uid: '@azure/storage-blob.AppendBlobSealOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:AppendBlobClient.seal> operation.'
+summary: 'Options to configure <xref:@azure/storage-blob.AppendBlobClient.seal> operation.'
 fullName: AppendBlobSealOptions
 remarks: ''
 isPreview: false

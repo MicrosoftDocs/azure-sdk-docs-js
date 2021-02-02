@@ -2,7 +2,7 @@
 name: ContainerGetAccessPolicyOptions
 uid: '@azure/storage-blob.ContainerGetAccessPolicyOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:ContainerClient.getAccessPolicy> operation.'
+summary: 'Options to configure <xref:@azure/storage-blob.ContainerClient.getAccessPolicy> operation.'
 fullName: ContainerGetAccessPolicyOptions
 remarks: ''
 isPreview: false

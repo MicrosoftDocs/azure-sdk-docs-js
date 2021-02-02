@@ -5,8 +5,8 @@ package: '@azure/storage-blob'
 summary: |
   Options to configure Container - List Blobs operations.
   See:
-  - <xref:ContainerClient.listBlobsFlat>
-  - <xref:ContainerClient.listBlobsByHierarchy>
+  - <xref:@azure/storage-blob.ContainerClient.listBlobsFlat>
+  - <xref:@azure/storage-blob.ContainerClient.listBlobsByHierarchy>
 fullName: ContainerListBlobsOptions
 remarks: ''
 isPreview: false

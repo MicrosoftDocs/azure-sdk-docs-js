@@ -608,7 +608,7 @@ methods:
   - name: getBlobLeaseClient(string)
     uid: '@azure/storage-blob.BlockBlobClient.getBlobLeaseClient'
     package: '@azure/storage-blob'
-    summary: 'Get a <xref:BlobLeaseClient> that manages leases on the blob.'
+    summary: 'Get a <xref:@azure/storage-blob.BlobLeaseClient> that manages leases on the blob.'
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -1166,7 +1166,7 @@ methods:
       object to a BlockBlob.
 
       When data length is no more than the specifiled
-      <xref:BlockBlobParallelUploadOptions.maxSingleShotSize> (default is
+      <xref:@azure/storage-blob.BlockBlobParallelUploadOptions.maxSingleShotSize> (default is
 
       <xref:BLOCK_BLOB_MAX_UPLOAD_BLOB_BYTES>), this method will use 1
       <xref:upload> call to finish the upload.

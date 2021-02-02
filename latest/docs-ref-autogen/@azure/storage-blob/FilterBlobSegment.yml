@@ -2,7 +2,7 @@
 name: FilterBlobSegment
 uid: '@azure/storage-blob.FilterBlobSegment'
 package: '@azure/storage-blob'
-summary: 'Segment response of <xref:BlobServiceClient.findBlobsByTags> operation.'
+summary: 'Segment response of <xref:@azure/storage-blob.BlobServiceClient.findBlobsByTags> operation.'
 fullName: FilterBlobSegment
 remarks: ''
 isPreview: false

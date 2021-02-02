@@ -2,7 +2,7 @@
 name: SASQueryParametersOptions
 uid: '@azure/storage-blob.SASQueryParametersOptions'
 package: '@azure/storage-blob'
-summary: 'Options to construct <xref:SASQueryParameters>.'
+summary: 'Options to construct <xref:@azure/storage-blob.SASQueryParameters>.'
 fullName: SASQueryParametersOptions
 remarks: ''
 isPreview: false
@@ -109,7 +109,7 @@ properties:
   - name: identifier
     uid: '@azure/storage-blob.SASQueryParametersOptions.identifier'
     package: '@azure/storage-blob'
-    summary: 'Optional. The signed identifier (only for <xref:BlobSASSignatureValues>).'
+    summary: 'Optional. The signed identifier (only for <xref:@azure/storage-blob.BlobSASSignatureValues>).'
     fullName: identifier
     remarks: ''
     isPreview: false
@@ -138,8 +138,8 @@ properties:
     summary: >-
       Optional only when identifier is provided.
 
-      Please refer to <xref:AccountSASPermissions>, <xref:BlobSASPermissions>,
-      or <xref:ContainerSASPermissions> for
+      Please refer to <xref:@azure/storage-blob.AccountSASPermissions>, <xref:BlobSASPermissions>,
+      or <xref:@azure/storage-blob.ContainerSASPermissions> for
 
       more details.
     fullName: permissions
@@ -195,7 +195,7 @@ properties:
     package: '@azure/storage-blob'
     summary: >-
       Optional. Specifies which resources are accessible via the SAS (only for
-      <xref:BlobSASSignatureValues>).
+      <xref:@azure/storage-blob.BlobSASSignatureValues>).
     fullName: resource
     remarks: ''
     isPreview: false
@@ -212,7 +212,7 @@ properties:
       Optional. The storage resource types being accessed (only for Account
       SAS). Please refer to
 
-      <xref:AccountSASResourceTypes> for more details.
+      <xref:@azure/storage-blob.AccountSASResourceTypes> for more details.
     fullName: resourceTypes
     remarks: ''
     isPreview: false
@@ -227,7 +227,7 @@ properties:
     package: '@azure/storage-blob'
     summary: >-
       Optional. The storage services being accessed (only for Account SAS).
-      Please refer to <xref:AccountSASServices>
+      Please refer to <xref:@azure/storage-blob.AccountSASServices>
 
       for more details.
     fullName: services

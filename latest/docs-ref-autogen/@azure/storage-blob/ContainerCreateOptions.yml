@@ -2,7 +2,7 @@
 name: ContainerCreateOptions
 uid: '@azure/storage-blob.ContainerCreateOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:ContainerClient.create> operation.'
+summary: 'Options to configure <xref:@azure/storage-blob.ContainerClient.create> operation.'
 fullName: ContainerCreateOptions
 remarks: ''
 isPreview: false

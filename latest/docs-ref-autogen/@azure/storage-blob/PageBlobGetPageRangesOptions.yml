@@ -2,7 +2,7 @@
 name: PageBlobGetPageRangesOptions
 uid: '@azure/storage-blob.PageBlobGetPageRangesOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:PageBlobClient.getPageRanges> operation.'
+summary: 'Options to configure the <xref:@azure/storage-blob.PageBlobClient.getPageRanges> operation.'
 fullName: PageBlobGetPageRangesOptions
 remarks: ''
 isPreview: false

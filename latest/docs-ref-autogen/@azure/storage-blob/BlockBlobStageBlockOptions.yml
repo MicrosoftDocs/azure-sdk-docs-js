@@ -2,7 +2,7 @@
 name: BlockBlobStageBlockOptions
 uid: '@azure/storage-blob.BlockBlobStageBlockOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:BlockBlobClient.stageBlock> operation.'
+summary: 'Options to configure <xref:@azure/storage-blob.BlockBlobClient.stageBlock> operation.'
 fullName: BlockBlobStageBlockOptions
 remarks: ''
 isPreview: false

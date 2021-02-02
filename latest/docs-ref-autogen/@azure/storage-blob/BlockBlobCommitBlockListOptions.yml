@@ -2,7 +2,7 @@
 name: BlockBlobCommitBlockListOptions
 uid: '@azure/storage-blob.BlockBlobCommitBlockListOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:BlockBlobClient.commitBlockList> operation.'
+summary: 'Options to configure <xref:@azure/storage-blob.BlockBlobClient.commitBlockList> operation.'
 fullName: BlockBlobCommitBlockListOptions
 remarks: ''
 isPreview: false

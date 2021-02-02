@@ -2,7 +2,7 @@
 name: BlobSyncCopyFromURLOptions
 uid: '@azure/storage-blob.BlobSyncCopyFromURLOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:BlobClient.syncCopyFromURL> operation.'
+summary: 'Options to configure the <xref:@azure/storage-blob.BlobClient.syncCopyFromURL> operation.'
 fullName: BlobSyncCopyFromURLOptions
 remarks: ''
 isPreview: false

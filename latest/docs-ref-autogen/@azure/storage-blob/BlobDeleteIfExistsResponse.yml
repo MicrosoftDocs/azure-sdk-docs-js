@@ -2,7 +2,7 @@
 name: BlobDeleteIfExistsResponse
 uid: '@azure/storage-blob.BlobDeleteIfExistsResponse'
 package: '@azure/storage-blob'
-summary: 'Contains response data for the <xref:BlobClient.deleteIfExists> operation.'
+summary: 'Contains response data for the <xref:@azure/storage-blob.BlobClient.deleteIfExists> operation.'
 fullName: BlobDeleteIfExistsResponse
 remarks: ''
 isPreview: false

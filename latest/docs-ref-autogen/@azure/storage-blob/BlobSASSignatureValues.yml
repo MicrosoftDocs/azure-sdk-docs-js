@@ -173,8 +173,8 @@ properties:
     summary: >-
       Optional only when identifier is provided.
 
-      Please refer to either <xref:ContainerSASPermissions> or
-      <xref:BlobSASPermissions> depending on the resource
+      Please refer to either <xref:@azure/storage-blob.ContainerSASPermissions> or
+      <xref:@azure/storage-blob.BlobSASPermissions> depending on the resource
 
       being accessed for help constructing the permissions string.
     fullName: permissions

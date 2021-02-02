@@ -2,7 +2,7 @@
 name: AppendBlobAppendBlockOptions
 uid: '@azure/storage-blob.AppendBlobAppendBlockOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:AppendBlobClient.appendBlock> operation.'
+summary: 'Options to configure the <xref:@azure/storage-blob.AppendBlobClient.appendBlock> operation.'
 fullName: AppendBlobAppendBlockOptions
 remarks: ''
 isPreview: false

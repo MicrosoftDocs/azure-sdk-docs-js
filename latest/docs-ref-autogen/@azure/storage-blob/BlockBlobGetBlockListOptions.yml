@@ -2,7 +2,7 @@
 name: BlockBlobGetBlockListOptions
 uid: '@azure/storage-blob.BlockBlobGetBlockListOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:BlockBlobClient.getBlockList> operation.'
+summary: 'Options to configure <xref:@azure/storage-blob.BlockBlobClient.getBlockList> operation.'
 fullName: BlockBlobGetBlockListOptions
 remarks: ''
 isPreview: false

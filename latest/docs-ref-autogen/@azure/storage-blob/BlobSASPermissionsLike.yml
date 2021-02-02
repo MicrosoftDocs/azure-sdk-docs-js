@@ -4,7 +4,7 @@ uid: '@azure/storage-blob.BlobSASPermissionsLike'
 package: '@azure/storage-blob'
 summary: |-
   A type that looks like a Blob SAS permission.
-  Used in <xref:BlobSASPermissions> to parse SAS permissions from raw objects.
+  Used in <xref:@azure/storage-blob.BlobSASPermissions> to parse SAS permissions from raw objects.
 fullName: BlobSASPermissionsLike
 remarks: ''
 isPreview: false

@@ -2,7 +2,7 @@
 name: BlockBlobSyncUploadFromURLOptions
 uid: '@azure/storage-blob.BlockBlobSyncUploadFromURLOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:BlockBlobClient.syncUploadFromURL> operation.'
+summary: 'Options to configure <xref:@azure/storage-blob.BlockBlobClient.syncUploadFromURL> operation.'
 fullName: BlockBlobSyncUploadFromURLOptions
 remarks: ''
 isPreview: false

@@ -3,7 +3,7 @@ name: ContainerDeleteIfExistsResponse
 uid: '@azure/storage-blob.ContainerDeleteIfExistsResponse'
 package: '@azure/storage-blob'
 summary: >-
-  Contains response data for the <xref:ContainerClient.deleteIfExists>
+  Contains response data for the <xref:@azure/storage-blob.ContainerClient.deleteIfExists>
   operation.
 fullName: ContainerDeleteIfExistsResponse
 remarks: ''

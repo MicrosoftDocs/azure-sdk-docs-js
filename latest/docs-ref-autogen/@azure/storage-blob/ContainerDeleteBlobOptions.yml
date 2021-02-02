@@ -2,7 +2,7 @@
 name: ContainerDeleteBlobOptions
 uid: '@azure/storage-blob.ContainerDeleteBlobOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:ContainerClient.deleteBlob> operation.'
+summary: 'Options to configure the <xref:@azure/storage-blob.ContainerClient.deleteBlob> operation.'
 fullName: ContainerDeleteBlobOptions
 remarks: ''
 isPreview: false

@@ -2,7 +2,7 @@
 name: PageBlobResizeOptions
 uid: '@azure/storage-blob.PageBlobResizeOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:PageBlobClient.resize> operation.'
+summary: 'Options to configure <xref:@azure/storage-blob.PageBlobClient.resize> operation.'
 fullName: PageBlobResizeOptions
 remarks: ''
 isPreview: false

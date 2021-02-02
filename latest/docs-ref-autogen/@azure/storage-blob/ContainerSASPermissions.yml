@@ -12,7 +12,7 @@ summary: >-
   Once all the values are set, this should be serialized with toString and set
   as the permissions field on a
 
-  <xref:BlobSASSignatureValues> object. It is possible to construct the
+  <xref:@azure/storage-blob.BlobSASSignatureValues> object. It is possible to construct the
   permissions string without this class, but
 
   the order of the permissions is particular and this class guarantees
@@ -158,7 +158,7 @@ methods:
     uid: '@azure/storage-blob.ContainerSASPermissions.from'
     package: '@azure/storage-blob'
     summary: >-
-      Creates a <xref:ContainerSASPermissions> from a raw object which contains
+      Creates a <xref:@azure/storage-blob.ContainerSASPermissions> from a raw object which contains
       same keys as it
 
       and boolean values for them.
@@ -178,7 +178,7 @@ methods:
     uid: '@azure/storage-blob.ContainerSASPermissions.parse'
     package: '@azure/storage-blob'
     summary: >-
-      Creates an <xref:ContainerSASPermissions> from the specified permissions
+      Creates an <xref:@azure/storage-blob.ContainerSASPermissions> from the specified permissions
       string. This method will throw an
 
       Error if it encounters a character that does not correspond to a valid

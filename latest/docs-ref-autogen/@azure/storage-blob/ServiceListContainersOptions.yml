@@ -2,7 +2,7 @@
 name: ServiceListContainersOptions
 uid: '@azure/storage-blob.ServiceListContainersOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:BlobServiceClient.listContainers> operation.'
+summary: 'Options to configure the <xref:@azure/storage-blob.BlobServiceClient.listContainers> operation.'
 fullName: ServiceListContainersOptions
 remarks: ''
 isPreview: false

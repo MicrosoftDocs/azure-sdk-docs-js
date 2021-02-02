@@ -2,7 +2,7 @@
 name: PageBlobUpdateSequenceNumberOptions
 uid: '@azure/storage-blob.PageBlobUpdateSequenceNumberOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:PageBlobClient.updateSequenceNumber> operation.'
+summary: 'Options to configure <xref:@azure/storage-blob.PageBlobClient.updateSequenceNumber> operation.'
 fullName: PageBlobUpdateSequenceNumberOptions
 remarks: ''
 isPreview: false

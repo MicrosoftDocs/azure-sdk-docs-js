@@ -2,7 +2,7 @@
 name: BlockBlobUploadStreamOptions
 uid: '@azure/storage-blob.BlockBlobUploadStreamOptions'
 package: '@azure/storage-blob'
-summary: 'Option interface for the <xref:BlockBlobClient.uploadStream> operation.'
+summary: 'Option interface for the <xref:@azure/storage-blob.BlockBlobClient.uploadStream> operation.'
 fullName: BlockBlobUploadStreamOptions
 remarks: ''
 isPreview: false

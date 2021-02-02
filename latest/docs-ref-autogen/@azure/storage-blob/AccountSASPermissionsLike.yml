@@ -5,7 +5,7 @@ package: '@azure/storage-blob'
 summary: >-
   A type that looks like an account SAS permission.
 
-  Used in <xref:AccountSASPermissions> to parse SAS permissions from raw
+  Used in <xref:@azure/storage-blob.AccountSASPermissions> to parse SAS permissions from raw
   objects.
 fullName: AccountSASPermissionsLike
 remarks: ''

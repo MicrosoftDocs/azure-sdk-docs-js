@@ -2,7 +2,7 @@
 name: BlobGenerateSasUrlOptions
 uid: '@azure/storage-blob.BlobGenerateSasUrlOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:BlobClient.generateSasUrl> operation.'
+summary: 'Options to configure <xref:@azure/storage-blob.BlobClient.generateSasUrl> operation.'
 fullName: BlobGenerateSasUrlOptions
 remarks: ''
 isPreview: false

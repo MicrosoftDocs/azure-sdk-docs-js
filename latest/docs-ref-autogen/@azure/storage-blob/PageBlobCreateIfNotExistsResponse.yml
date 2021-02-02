@@ -3,7 +3,7 @@ name: PageBlobCreateIfNotExistsResponse
 uid: '@azure/storage-blob.PageBlobCreateIfNotExistsResponse'
 package: '@azure/storage-blob'
 summary: >-
-  Contains response data for the <xref:PageBlobClient.createIfNotExists>
+  Contains response data for the <xref:@azure/storage-blob.PageBlobClient.createIfNotExists>
   operation.
 fullName: PageBlobCreateIfNotExistsResponse
 remarks: ''

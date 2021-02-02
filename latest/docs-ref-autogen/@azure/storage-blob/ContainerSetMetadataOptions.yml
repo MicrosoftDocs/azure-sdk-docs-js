@@ -2,7 +2,7 @@
 name: ContainerSetMetadataOptions
 uid: '@azure/storage-blob.ContainerSetMetadataOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:ContainerClient.setMetadata> operation.'
+summary: 'Options to configure <xref:@azure/storage-blob.ContainerClient.setMetadata> operation.'
 fullName: ContainerSetMetadataOptions
 remarks: ''
 isPreview: false

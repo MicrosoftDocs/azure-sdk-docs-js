@@ -2,7 +2,7 @@
 name: BlobDeleteOptions
 uid: '@azure/storage-blob.BlobDeleteOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:BlobClient.delete> operation.'
+summary: 'Options to configure the <xref:@azure/storage-blob.BlobClient.delete> operation.'
 fullName: BlobDeleteOptions
 remarks: ''
 isPreview: false

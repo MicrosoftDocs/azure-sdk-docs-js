@@ -2,7 +2,7 @@
 name: BlobDownloadResponseParsed
 uid: '@azure/storage-blob.BlobDownloadResponseParsed'
 package: '@azure/storage-blob'
-summary: 'Contains response data for the <xref:BlobClient.download> operation.'
+summary: 'Contains response data for the <xref:@azure/storage-blob.BlobClient.download> operation.'
 fullName: BlobDownloadResponseParsed
 remarks: ''
 isPreview: false

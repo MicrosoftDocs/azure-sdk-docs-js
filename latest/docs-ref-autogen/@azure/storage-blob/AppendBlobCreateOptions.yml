@@ -2,7 +2,7 @@
 name: AppendBlobCreateOptions
 uid: '@azure/storage-blob.AppendBlobCreateOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:AppendBlobClient.create> operation.'
+summary: 'Options to configure <xref:@azure/storage-blob.AppendBlobClient.create> operation.'
 fullName: AppendBlobCreateOptions
 remarks: ''
 isPreview: false

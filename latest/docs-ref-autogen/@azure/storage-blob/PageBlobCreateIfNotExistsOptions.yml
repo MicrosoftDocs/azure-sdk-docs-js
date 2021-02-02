@@ -2,7 +2,7 @@
 name: PageBlobCreateIfNotExistsOptions
 uid: '@azure/storage-blob.PageBlobCreateIfNotExistsOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:PageBlobClient.createIfNotExists> operation.'
+summary: 'Options to configure the <xref:@azure/storage-blob.PageBlobClient.createIfNotExists> operation.'
 fullName: PageBlobCreateIfNotExistsOptions
 remarks: ''
 isPreview: false

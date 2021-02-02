@@ -3,7 +3,7 @@ name: AppendBlobCreateIfNotExistsResponse
 uid: '@azure/storage-blob.AppendBlobCreateIfNotExistsResponse'
 package: '@azure/storage-blob'
 summary: >-
-  Contains response data for the <xref:appendBlobClient.createIfNotExists>
+  Contains response data for the <xref:@azure/storage-blob.appendBlobClient.createIfNotExists>
   operation.
 fullName: AppendBlobCreateIfNotExistsResponse
 remarks: ''

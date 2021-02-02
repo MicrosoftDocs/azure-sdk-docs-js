@@ -2,7 +2,7 @@
 name: ContainerGenerateSasUrlOptions
 uid: '@azure/storage-blob.ContainerGenerateSasUrlOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:ContainerClient.generateSasUrl> operation.'
+summary: 'Options to configure <xref:@azure/storage-blob.ContainerClient.generateSasUrl> operation.'
 fullName: ContainerGenerateSasUrlOptions
 remarks: ''
 isPreview: false

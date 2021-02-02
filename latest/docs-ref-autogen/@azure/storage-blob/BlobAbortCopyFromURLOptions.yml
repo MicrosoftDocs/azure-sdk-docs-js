@@ -2,7 +2,7 @@
 name: BlobAbortCopyFromURLOptions
 uid: '@azure/storage-blob.BlobAbortCopyFromURLOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:BlobClient.abortCopyFromURL> operation.'
+summary: 'Options to configure the <xref:@azure/storage-blob.BlobClient.abortCopyFromURL> operation.'
 fullName: BlobAbortCopyFromURLOptions
 remarks: ''
 isPreview: false

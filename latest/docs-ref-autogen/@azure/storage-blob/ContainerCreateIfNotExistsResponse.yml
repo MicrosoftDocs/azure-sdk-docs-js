@@ -3,7 +3,7 @@ name: ContainerCreateIfNotExistsResponse
 uid: '@azure/storage-blob.ContainerCreateIfNotExistsResponse'
 package: '@azure/storage-blob'
 summary: >-
-  Contains response data for the <xref:ContainerClient.createIfNotExists>
+  Contains response data for the <xref:@azure/storage-blob.ContainerClient.createIfNotExists>
   operation.
 fullName: ContainerCreateIfNotExistsResponse
 remarks: ''

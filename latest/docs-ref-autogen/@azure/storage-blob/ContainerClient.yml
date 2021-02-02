@@ -369,7 +369,7 @@ methods:
   - name: getAppendBlobClient(string)
     uid: '@azure/storage-blob.ContainerClient.getAppendBlobClient'
     package: '@azure/storage-blob'
-    summary: 'Creates an <xref:AppendBlobClient>'
+    summary: 'Creates an <xref:@azure/storage-blob.AppendBlobClient>'
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -385,7 +385,7 @@ methods:
   - name: getBlobClient(string)
     uid: '@azure/storage-blob.ContainerClient.getBlobClient'
     package: '@azure/storage-blob'
-    summary: 'Creates a <xref:BlobClient>'
+    summary: 'Creates a <xref:@azure/storage-blob.BlobClient>'
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -401,7 +401,7 @@ methods:
   - name: getBlobLeaseClient(string)
     uid: '@azure/storage-blob.ContainerClient.getBlobLeaseClient'
     package: '@azure/storage-blob'
-    summary: 'Get a <xref:BlobLeaseClient> that manages leases on the container.'
+    summary: 'Get a <xref:@azure/storage-blob.BlobLeaseClient> that manages leases on the container.'
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -417,7 +417,7 @@ methods:
   - name: getBlockBlobClient(string)
     uid: '@azure/storage-blob.ContainerClient.getBlockBlobClient'
     package: '@azure/storage-blob'
-    summary: 'Creates a <xref:BlockBlobClient>'
+    summary: 'Creates a <xref:@azure/storage-blob.BlockBlobClient>'
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -433,7 +433,7 @@ methods:
   - name: getPageBlobClient(string)
     uid: '@azure/storage-blob.ContainerClient.getPageBlobClient'
     package: '@azure/storage-blob'
-    summary: 'Creates a <xref:PageBlobClient>'
+    summary: 'Creates a <xref:@azure/storage-blob.PageBlobClient>'
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -811,15 +811,15 @@ methods:
       overwritten with the new content. To perform a partial update of a block
       blob's,
 
-      use <xref:BlockBlobClient.stageBlock> and
-      <xref:BlockBlobClient.commitBlockList>.
+      use <xref:@azure/storage-blob.BlockBlobClient.stageBlock> and
+      <xref:@azure/storage-blob.BlockBlobClient.commitBlockList>.
 
 
       This is a non-parallel uploading method, please use
-      <xref:BlockBlobClient.uploadFile>,
+      <xref:@azure/storage-blob.BlockBlobClient.uploadFile>,
 
-      <xref:BlockBlobClient.uploadStream> or
-      <xref:BlockBlobClient.uploadBrowserData> for better
+      <xref:@azure/storage-blob.BlockBlobClient.uploadStream> or
+      <xref:@azure/storage-blob.BlockBlobClient.uploadBrowserData> for better
 
       performance with concurrency uploading.
     remarks: ''

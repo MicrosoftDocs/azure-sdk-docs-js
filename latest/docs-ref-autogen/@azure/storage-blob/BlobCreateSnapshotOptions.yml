@@ -2,7 +2,7 @@
 name: BlobCreateSnapshotOptions
 uid: '@azure/storage-blob.BlobCreateSnapshotOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:BlobClient.createSnapshot> operation.'
+summary: 'Options to configure the <xref:@azure/storage-blob.BlobClient.createSnapshot> operation.'
 fullName: BlobCreateSnapshotOptions
 remarks: ''
 isPreview: false

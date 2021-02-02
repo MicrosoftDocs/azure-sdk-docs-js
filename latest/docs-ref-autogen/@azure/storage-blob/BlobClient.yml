@@ -563,7 +563,7 @@ methods:
   - name: getBlobLeaseClient(string)
     uid: '@azure/storage-blob.BlobClient.getBlobLeaseClient'
     package: '@azure/storage-blob'
-    summary: 'Get a <xref:BlobLeaseClient> that manages leases on the blob.'
+    summary: 'Get a <xref:@azure/storage-blob.BlobLeaseClient> that manages leases on the blob.'
     remarks: ''
     isPreview: false
     isDeprecated: false

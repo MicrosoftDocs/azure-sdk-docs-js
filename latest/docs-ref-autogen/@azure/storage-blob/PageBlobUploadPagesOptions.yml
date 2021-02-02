@@ -2,7 +2,7 @@
 name: PageBlobUploadPagesOptions
 uid: '@azure/storage-blob.PageBlobUploadPagesOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:PageBlobClient.uploadPages> operation.'
+summary: 'Options to configure the <xref:@azure/storage-blob.PageBlobClient.uploadPages> operation.'
 fullName: PageBlobUploadPagesOptions
 remarks: ''
 isPreview: false

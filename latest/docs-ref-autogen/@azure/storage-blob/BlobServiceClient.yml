@@ -308,7 +308,7 @@ methods:
   - name: getContainerClient(string)
     uid: '@azure/storage-blob.BlobServiceClient.getContainerClient'
     package: '@azure/storage-blob'
-    summary: 'Creates a <xref:ContainerClient> object'
+    summary: 'Creates a <xref:@azure/storage-blob.ContainerClient> object'
     remarks: ''
     isPreview: false
     isDeprecated: false

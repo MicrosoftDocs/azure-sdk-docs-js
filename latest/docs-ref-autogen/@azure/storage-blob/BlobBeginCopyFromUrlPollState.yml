@@ -3,7 +3,7 @@ name: BlobBeginCopyFromUrlPollState
 uid: '@azure/storage-blob.BlobBeginCopyFromUrlPollState'
 package: '@azure/storage-blob'
 summary: |
-  The state used by the poller returned from <xref:BlobClient.beginCopyFromURL>.
+  The state used by the poller returned from <xref:@azure/storage-blob.BlobClient.beginCopyFromURL>.
   This state is passed into the user-specified `onProgress` callback
   whenever copy progress is detected.
 fullName: BlobBeginCopyFromUrlPollState
@@ -16,8 +16,8 @@ properties:
     uid: '@azure/storage-blob.BlobBeginCopyFromUrlPollState.blobClient'
     package: '@azure/storage-blob'
     summary: >-
-      The instance of <xref:BlobClient> that was used when calling
-      <xref:BlobClient.beginCopyFromURL>.
+      The instance of <xref:@azure/storage-blob.BlobClient> that was used when calling
+      <xref:@azure/storage-blob.BlobClient.beginCopyFromURL>.
     fullName: blobClient
     remarks: ''
     isPreview: false
@@ -56,7 +56,7 @@ properties:
   - name: copySource
     uid: '@azure/storage-blob.BlobBeginCopyFromUrlPollState.copySource'
     package: '@azure/storage-blob'
-    summary: 'The source URL provided in <xref:BlobClient.beginCopyFromURL>.'
+    summary: 'The source URL provided in <xref:@azure/storage-blob.BlobClient.beginCopyFromURL>.'
     fullName: copySource
     remarks: ''
     isPreview: false
@@ -136,7 +136,7 @@ properties:
     package: '@azure/storage-blob'
     summary: >-
       The options that were passed to the initial
-      <xref:BlobClient.beginCopyFromURL> call.
+      <xref:@azure/storage-blob.BlobClient.beginCopyFromURL> call.
 
       This is exposed for the poller and should not be modified directly.
     fullName: startCopyFromURLOptions

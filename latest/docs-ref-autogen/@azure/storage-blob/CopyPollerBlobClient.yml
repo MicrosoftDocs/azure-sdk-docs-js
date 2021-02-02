@@ -3,8 +3,8 @@ name: CopyPollerBlobClient
 uid: '@azure/storage-blob.CopyPollerBlobClient'
 package: '@azure/storage-blob'
 summary: |-
-  Defines the operations from a <xref:BlobClient> that are needed for the poller
-  returned by <xref:BlobClient.beginCopyFromURL> to work.
+  Defines the operations from a <xref:@azure/storage-blob.BlobClient> that are needed for the poller
+  returned by <xref:@azure/storage-blob.BlobClient.beginCopyFromURL> to work.
 fullName: CopyPollerBlobClient
 remarks: ''
 isPreview: false

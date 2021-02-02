@@ -2,7 +2,7 @@
 name: AppendBlobAppendBlockFromURLOptions
 uid: '@azure/storage-blob.AppendBlobAppendBlockFromURLOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:AppendBlobClient.appendBlockFromURL> operation.'
+summary: 'Options to configure the <xref:@azure/storage-blob.AppendBlobClient.appendBlockFromURL> operation.'
 fullName: AppendBlobAppendBlockFromURLOptions
 remarks: ''
 isPreview: false

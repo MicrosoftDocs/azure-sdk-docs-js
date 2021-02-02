@@ -2,7 +2,7 @@
 name: PageBlobClearPagesOptions
 uid: '@azure/storage-blob.PageBlobClearPagesOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:PageBlobClient.clearPages> operation.'
+summary: 'Options to configure the <xref:@azure/storage-blob.PageBlobClient.clearPages> operation.'
 fullName: PageBlobClearPagesOptions
 remarks: ''
 isPreview: false

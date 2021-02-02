@@ -72,7 +72,7 @@ methods:
     uid: '@azure/storage-blob.BlobBatchClient.createBatch'
     package: '@azure/storage-blob'
     summary: |-
-      Creates a <xref:BlobBatch>.
+      Creates a <xref:@azure/storage-blob.BlobBatch>.
       A BlobBatch represents an aggregated set of operations on blobs.
     remarks: ''
     isPreview: false

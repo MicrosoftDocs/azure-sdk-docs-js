@@ -2,7 +2,7 @@
 name: ContainerGetPropertiesOptions
 uid: '@azure/storage-blob.ContainerGetPropertiesOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:ContainerClient.getProperties> operation.'
+summary: 'Options to configure <xref:@azure/storage-blob.ContainerClient.getProperties> operation.'
 fullName: ContainerGetPropertiesOptions
 remarks: ''
 isPreview: false
