@@ -2,7 +2,7 @@
 name: QueueSetMetadataOptions
 uid: '@azure/storage-queue.QueueSetMetadataOptions'
 package: '@azure/storage-queue'
-summary: 'Options to configure <xref:QueueClient.setMetadata> operation'
+summary: 'Options to configure <xref:@azure/storage-queue.QueueClient.setMetadata> operation'
 fullName: QueueSetMetadataOptions
 remarks: ''
 isPreview: false

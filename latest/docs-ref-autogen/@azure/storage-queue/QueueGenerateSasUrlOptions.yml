@@ -2,7 +2,7 @@
 name: QueueGenerateSasUrlOptions
 uid: '@azure/storage-queue.QueueGenerateSasUrlOptions'
 package: '@azure/storage-queue'
-summary: 'Options to configure <xref:QueueClient.generateSasUrl> operation.'
+summary: 'Options to configure <xref:@azure/storage-queue.QueueClient.generateSasUrl> operation.'
 fullName: QueueGenerateSasUrlOptions
 remarks: ''
 isPreview: false
@@ -58,7 +58,7 @@ properties:
     summary: >-
       Optional only when identifier is provided.
 
-      Please refer to <xref:QueueSASPermissions> for help constructing the
+      Please refer to <xref:@azure/storage-queue.QueueSASPermissions> for help constructing the
       permissions string.
     fullName: permissions
     remarks: ''

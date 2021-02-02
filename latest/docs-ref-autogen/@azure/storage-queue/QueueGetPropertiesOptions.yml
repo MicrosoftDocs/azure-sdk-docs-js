@@ -2,7 +2,7 @@
 name: QueueGetPropertiesOptions
 uid: '@azure/storage-queue.QueueGetPropertiesOptions'
 package: '@azure/storage-queue'
-summary: 'Options to configure <xref:QueueClient.getProperties> operation'
+summary: 'Options to configure <xref:@azure/storage-queue.QueueClient.getProperties> operation'
 fullName: QueueGetPropertiesOptions
 remarks: ''
 isPreview: false

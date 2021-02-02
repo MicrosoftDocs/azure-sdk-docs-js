@@ -2,7 +2,7 @@
 name: QueueReceiveMessageOptions
 uid: '@azure/storage-queue.QueueReceiveMessageOptions'
 package: '@azure/storage-queue'
-summary: 'Options to configure <xref:QueueClient.receiveMessages> operation'
+summary: 'Options to configure <xref:@azure/storage-queue.QueueClient.receiveMessages> operation'
 fullName: QueueReceiveMessageOptions
 remarks: ''
 isPreview: false

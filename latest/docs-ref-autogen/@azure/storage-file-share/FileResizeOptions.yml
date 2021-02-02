@@ -2,7 +2,7 @@
 name: FileResizeOptions
 uid: '@azure/storage-file-share.FileResizeOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareFileClient.resize> operation.'
+summary: 'Options to configure the <xref:@azure/storage-file-share.ShareFileClient.resize> operation.'
 fullName: FileResizeOptions
 remarks: ''
 isPreview: false

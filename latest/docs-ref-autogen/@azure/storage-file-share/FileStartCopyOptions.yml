@@ -2,7 +2,7 @@
 name: FileStartCopyOptions
 uid: '@azure/storage-file-share.FileStartCopyOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareFileClient.startCopyFromURL> operation.'
+summary: 'Options to configure the <xref:@azure/storage-file-share.ShareFileClient.startCopyFromURL> operation.'
 fullName: FileStartCopyOptions
 remarks: ''
 isPreview: false

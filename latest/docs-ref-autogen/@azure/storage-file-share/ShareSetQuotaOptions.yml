@@ -2,7 +2,7 @@
 name: ShareSetQuotaOptions
 uid: '@azure/storage-file-share.ShareSetQuotaOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareClient.setQuota> operation.'
+summary: 'Options to configure the <xref:@azure/storage-file-share.ShareClient.setQuota> operation.'
 fullName: ShareSetQuotaOptions
 remarks: ''
 isPreview: false

@@ -2,7 +2,7 @@
 name: ShareCreateOptions
 uid: '@azure/storage-file-share.ShareCreateOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareClient.create> operation.'
+summary: 'Options to configure the <xref:@azure/storage-file-share.ShareClient.create> operation.'
 fullName: ShareCreateOptions
 remarks: ''
 isPreview: false

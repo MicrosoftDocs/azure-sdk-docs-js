@@ -2,7 +2,7 @@
 name: FileSetHttpHeadersOptions
 uid: '@azure/storage-file-share.FileSetHttpHeadersOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareFileClient.setHttpHeaders> operation.'
+summary: 'Options to configure the <xref:@azure/storage-file-share.ShareFileClient.setHttpHeaders> operation.'
 fullName: FileSetHttpHeadersOptions
 remarks: ''
 isPreview: false

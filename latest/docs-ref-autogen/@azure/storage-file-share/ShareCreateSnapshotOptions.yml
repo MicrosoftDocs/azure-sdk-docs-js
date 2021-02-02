@@ -2,7 +2,7 @@
 name: ShareCreateSnapshotOptions
 uid: '@azure/storage-file-share.ShareCreateSnapshotOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareClient.createSnapshot> operation.'
+summary: 'Options to configure the <xref:@azure/storage-file-share.ShareClient.createSnapshot> operation.'
 fullName: ShareCreateSnapshotOptions
 remarks: ''
 isPreview: false

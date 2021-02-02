@@ -2,7 +2,7 @@
 name: DirectoryForceCloseHandlesOptions
 uid: '@azure/storage-file-share.DirectoryForceCloseHandlesOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure <xref:ShareDirectoryClient.forceCloseHandle>.'
+summary: 'Options to configure <xref:@azure/storage-file-share.ShareDirectoryClient.forceCloseHandle>.'
 fullName: DirectoryForceCloseHandlesOptions
 remarks: ''
 isPreview: false

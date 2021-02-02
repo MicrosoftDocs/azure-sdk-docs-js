@@ -2,7 +2,7 @@
 name: ServiceListQueuesOptions
 uid: '@azure/storage-queue.ServiceListQueuesOptions'
 package: '@azure/storage-queue'
-summary: 'Options to configure <xref:QueueServiceClient.listQueues> operation'
+summary: 'Options to configure <xref:@azure/storage-queue.QueueServiceClient.listQueues> operation'
 fullName: ServiceListQueuesOptions
 remarks: ''
 isPreview: false

@@ -2,7 +2,7 @@
 name: FileGetRangeListOptions
 uid: '@azure/storage-file-share.FileGetRangeListOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareFileClient.getRangeList> operation.'
+summary: 'Options to configure the <xref:@azure/storage-file-share.ShareFileClient.getRangeList> operation.'
 fullName: FileGetRangeListOptions
 remarks: ''
 isPreview: false

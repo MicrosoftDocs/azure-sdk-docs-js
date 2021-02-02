@@ -14,7 +14,7 @@ summary: >
   the values are set, this should be serialized with toString and set as the
   permissions field on a
 
-  <xref:QueueSASSignatureValues> object. It is possible to construct the
+  <xref:@azure/storage-queue.QueueSASSignatureValues> object. It is possible to construct the
   permissions string without this class, but
 
   the order of the permissions is particular and this class guarantees
@@ -82,7 +82,7 @@ methods:
     uid: '@azure/storage-queue.QueueSASPermissions.parse'
     package: '@azure/storage-queue'
     summary: >-
-      Creates a <xref:QueueSASPermissions> from the specified permissions
+      Creates a <xref:@azure/storage-queue.QueueSASPermissions> from the specified permissions
       string. This method will throw an
 
       Error if it encounters a character that does not correspond to a valid

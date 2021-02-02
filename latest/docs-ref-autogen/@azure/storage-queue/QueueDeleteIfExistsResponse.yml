@@ -2,7 +2,7 @@
 name: QueueDeleteIfExistsResponse
 uid: '@azure/storage-queue.QueueDeleteIfExistsResponse'
 package: '@azure/storage-queue'
-summary: 'Contains response data for the <xref:QueueClient.deleteIfExists> operation.'
+summary: 'Contains response data for the <xref:@azure/storage-queue.QueueClient.deleteIfExists> operation.'
 fullName: QueueDeleteIfExistsResponse
 remarks: ''
 isPreview: false

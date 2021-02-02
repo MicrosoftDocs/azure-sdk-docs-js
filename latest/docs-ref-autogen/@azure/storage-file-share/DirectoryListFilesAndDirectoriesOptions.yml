@@ -3,7 +3,7 @@ name: DirectoryListFilesAndDirectoriesOptions
 uid: '@azure/storage-file-share.DirectoryListFilesAndDirectoriesOptions'
 package: '@azure/storage-file-share'
 summary: >-
-  Options to configure <xref:ShareDirectoryClient.listFilesAndDirectories>
+  Options to configure <xref:@azure/storage-file-share.ShareDirectoryClient.listFilesAndDirectories>
   operation.
 fullName: DirectoryListFilesAndDirectoriesOptions
 remarks: ''

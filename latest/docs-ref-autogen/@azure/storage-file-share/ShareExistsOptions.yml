@@ -2,7 +2,7 @@
 name: ShareExistsOptions
 uid: '@azure/storage-file-share.ShareExistsOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareClient.exists> operation.'
+summary: 'Options to configure the <xref:@azure/storage-file-share.ShareClient.exists> operation.'
 fullName: ShareExistsOptions
 remarks: ''
 isPreview: false

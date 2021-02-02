@@ -6,8 +6,8 @@ summary: |
   Options to configure File - Force Close Handles operations.
   See:
   - <xref:ShareFileClient.forceCloseHandlesSegment>
-  - <xref:ShareFileClient.forceCloseAllHandles>
-  - <xref:ShareFileClient.forceCloseHandle>
+  - <xref:@azure/storage-file-share.ShareFileClient.forceCloseAllHandles>
+  - <xref:@azure/storage-file-share.ShareFileClient.forceCloseHandle>
 fullName: FileForceCloseHandlesOptions
 remarks: ''
 isPreview: false

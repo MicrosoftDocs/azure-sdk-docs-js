@@ -3,8 +3,8 @@ name: StorageClient
 uid: '@azure/storage-queue.StorageClient'
 package: '@azure/storage-queue'
 summary: >-
-  A StorageClient represents a based client class for <xref:QueueServiceClient>,
-  <xref:QueueClient> and etc.
+  A StorageClient represents a based client class for <xref:@azure/storage-queue.QueueServiceClient>,
+  <xref:@azure/storage-queue.QueueClient> and etc.
 fullName: StorageClient
 remarks: ''
 isPreview: false

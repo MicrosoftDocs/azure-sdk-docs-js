@@ -3,7 +3,7 @@ name: ServiceGenerateAccountSasUrlOptions
 uid: '@azure/storage-queue.ServiceGenerateAccountSasUrlOptions'
 package: '@azure/storage-queue'
 summary: >-
-  Options to configure <xref:QueueServiceClient.generateAccountSasUrl>
+  Options to configure <xref:@azure/storage-queue.QueueServiceClient.generateAccountSasUrl>
   operation.
 fullName: ServiceGenerateAccountSasUrlOptions
 remarks: ''

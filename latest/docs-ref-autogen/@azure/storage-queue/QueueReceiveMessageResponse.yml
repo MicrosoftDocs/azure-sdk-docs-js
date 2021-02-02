@@ -3,7 +3,7 @@ name: QueueReceiveMessageResponse
 uid: '@azure/storage-queue.QueueReceiveMessageResponse'
 package: '@azure/storage-queue'
 summary: >-
-  Contains the response data for the <xref:QueueClient.receiveMessages>
+  Contains the response data for the <xref:@azure/storage-queue.QueueClient.receiveMessages>
   operation.
 fullName: QueueReceiveMessageResponse
 remarks: ''

@@ -2,7 +2,7 @@
 name: QueueSendMessageOptions
 uid: '@azure/storage-queue.QueueSendMessageOptions'
 package: '@azure/storage-queue'
-summary: 'Options to configure <xref:QueueClient.sendMessage> operation'
+summary: 'Options to configure <xref:@azure/storage-queue.QueueClient.sendMessage> operation'
 fullName: QueueSendMessageOptions
 remarks: ''
 isPreview: false

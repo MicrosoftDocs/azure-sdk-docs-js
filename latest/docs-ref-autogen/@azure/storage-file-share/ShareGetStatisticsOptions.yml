@@ -2,7 +2,7 @@
 name: ShareGetStatisticsOptions
 uid: '@azure/storage-file-share.ShareGetStatisticsOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareClient.getStatistics> operation.'
+summary: 'Options to configure the <xref:@azure/storage-file-share.ShareClient.getStatistics> operation.'
 fullName: ShareGetStatisticsOptions
 remarks: ''
 isPreview: false

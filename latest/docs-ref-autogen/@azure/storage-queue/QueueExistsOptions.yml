@@ -2,7 +2,7 @@
 name: QueueExistsOptions
 uid: '@azure/storage-queue.QueueExistsOptions'
 package: '@azure/storage-queue'
-summary: 'Options to configure <xref:QueueClient.exists> operation'
+summary: 'Options to configure <xref:@azure/storage-queue.QueueClient.exists> operation'
 fullName: QueueExistsOptions
 remarks: ''
 isPreview: false

@@ -2,7 +2,7 @@
 name: FileAbortCopyFromURLOptions
 uid: '@azure/storage-file-share.FileAbortCopyFromURLOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareFileClient.abortCopyFromURL> operation.'
+summary: 'Options to configure the <xref:@azure/storage-file-share.ShareFileClient.abortCopyFromURL> operation.'
 fullName: FileAbortCopyFromURLOptions
 remarks: ''
 isPreview: false

@@ -2,7 +2,7 @@
 name: FileUploadRangeFromURLOptions
 uid: '@azure/storage-file-share.FileUploadRangeFromURLOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareFileClient.uploadRangeFromURL> operation.'
+summary: 'Options to configure the <xref:@azure/storage-file-share.ShareFileClient.uploadRangeFromURL> operation.'
 fullName: FileUploadRangeFromURLOptions
 remarks: ''
 isPreview: false

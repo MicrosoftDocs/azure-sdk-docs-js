@@ -2,7 +2,7 @@
 name: FileGenerateSasUrlOptions
 uid: '@azure/storage-file-share.FileGenerateSasUrlOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure <xref:ShareFileClient.generateSasUrl> operation.'
+summary: 'Options to configure <xref:@azure/storage-file-share.ShareFileClient.generateSasUrl> operation.'
 fullName: FileGenerateSasUrlOptions
 remarks: ''
 isPreview: false

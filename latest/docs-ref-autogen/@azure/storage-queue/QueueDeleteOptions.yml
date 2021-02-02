@@ -2,7 +2,7 @@
 name: QueueDeleteOptions
 uid: '@azure/storage-queue.QueueDeleteOptions'
 package: '@azure/storage-queue'
-summary: 'Options to configure <xref:QueueClient.delete> operation'
+summary: 'Options to configure <xref:@azure/storage-queue.QueueClient.delete> operation'
 fullName: QueueDeleteOptions
 remarks: ''
 isPreview: false

@@ -3,8 +3,8 @@ name: CommonGenerateSasUrlOptions
 uid: '@azure/storage-file-share.CommonGenerateSasUrlOptions'
 package: '@azure/storage-file-share'
 summary: >-
-  Common options of the <xref:ShareGenerateSasUrlOptions> and
-  <xref:FileGenerateSasUrlOptions>.
+  Common options of the <xref:@azure/storage-file-share.ShareGenerateSasUrlOptions> and
+  <xref:@azure/storage-file-share.FileGenerateSasUrlOptions>.
 fullName: CommonGenerateSasUrlOptions
 remarks: ''
 isPreview: false

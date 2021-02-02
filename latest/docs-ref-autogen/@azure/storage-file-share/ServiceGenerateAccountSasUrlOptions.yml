@@ -3,7 +3,7 @@ name: ServiceGenerateAccountSasUrlOptions
 uid: '@azure/storage-file-share.ServiceGenerateAccountSasUrlOptions'
 package: '@azure/storage-file-share'
 summary: >-
-  Options to configure <xref:ShareServiceClient.generateAccountSasUrl>
+  Options to configure <xref:@azure/storage-file-share.ShareServiceClient.generateAccountSasUrl>
   operation.
 fullName: ServiceGenerateAccountSasUrlOptions
 remarks: ''

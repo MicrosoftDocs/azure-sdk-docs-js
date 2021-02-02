@@ -3,7 +3,7 @@ name: FileDeleteIfExistsResponse
 uid: '@azure/storage-file-share.FileDeleteIfExistsResponse'
 package: '@azure/storage-file-share'
 summary: >-
-  Contains response data for the <xref:ShareFileClient.deleteIfExists>
+  Contains response data for the <xref:@azure/storage-file-share.ShareFileClient.deleteIfExists>
   operation.
 fullName: FileDeleteIfExistsResponse
 remarks: ''

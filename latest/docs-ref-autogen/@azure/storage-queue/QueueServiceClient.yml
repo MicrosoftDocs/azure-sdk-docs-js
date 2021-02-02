@@ -232,7 +232,7 @@ methods:
   - name: getQueueClient(string)
     uid: '@azure/storage-queue.QueueServiceClient.getQueueClient'
     package: '@azure/storage-queue'
-    summary: 'Creates a <xref:QueueClient> object.'
+    summary: 'Creates a <xref:@azure/storage-queue.QueueClient> object.'
     remarks: ''
     isPreview: false
     isDeprecated: false

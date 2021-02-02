@@ -2,7 +2,7 @@
 name: FileGetPropertiesOptions
 uid: '@azure/storage-file-share.FileGetPropertiesOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareFileClient.getProperties> operation.'
+summary: 'Options to configure the <xref:@azure/storage-file-share.ShareFileClient.getProperties> operation.'
 fullName: FileGetPropertiesOptions
 remarks: ''
 isPreview: false

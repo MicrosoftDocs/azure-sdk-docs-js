@@ -2,7 +2,7 @@
 name: DirectoryCreateOptions
 uid: '@azure/storage-file-share.DirectoryCreateOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure <xref:ShareDirectoryClient.create> operation.'
+summary: 'Options to configure <xref:@azure/storage-file-share.ShareDirectoryClient.create> operation.'
 fullName: DirectoryCreateOptions
 remarks: ''
 isPreview: false

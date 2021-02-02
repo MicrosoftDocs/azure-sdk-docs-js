@@ -2,7 +2,7 @@
 name: FileSetMetadataOptions
 uid: '@azure/storage-file-share.FileSetMetadataOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareFileClient.setMetadata> operation.'
+summary: 'Options to configure the <xref:@azure/storage-file-share.ShareFileClient.setMetadata> operation.'
 fullName: FileSetMetadataOptions
 remarks: ''
 isPreview: false

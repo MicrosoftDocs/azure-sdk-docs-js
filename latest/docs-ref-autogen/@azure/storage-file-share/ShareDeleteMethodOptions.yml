@@ -2,7 +2,7 @@
 name: ShareDeleteMethodOptions
 uid: '@azure/storage-file-share.ShareDeleteMethodOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareClient.delete> operation.'
+summary: 'Options to configure the <xref:@azure/storage-file-share.ShareClient.delete> operation.'
 fullName: ShareDeleteMethodOptions
 remarks: ''
 isPreview: false

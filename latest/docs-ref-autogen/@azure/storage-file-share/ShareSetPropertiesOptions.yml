@@ -2,7 +2,7 @@
 name: ShareSetPropertiesOptions
 uid: '@azure/storage-file-share.ShareSetPropertiesOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareClient.setProperties> operation.'
+summary: 'Options to configure the <xref:@azure/storage-file-share.ShareClient.setProperties> operation.'
 fullName: ShareSetPropertiesOptions
 remarks: ''
 isPreview: false

@@ -2,7 +2,7 @@
 name: QueuePeekMessagesOptions
 uid: '@azure/storage-queue.QueuePeekMessagesOptions'
 package: '@azure/storage-queue'
-summary: 'Options to configure <xref:QueueClient.peekMessages> operation'
+summary: 'Options to configure <xref:@azure/storage-queue.QueueClient.peekMessages> operation'
 fullName: QueuePeekMessagesOptions
 remarks: ''
 isPreview: false

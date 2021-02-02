@@ -2,7 +2,7 @@
 name: DirectoryForceCloseHandlesResponse
 uid: '@azure/storage-file-share.DirectoryForceCloseHandlesResponse'
 package: '@azure/storage-file-share'
-summary: 'Response type for <xref:ShareDirectoryClient.forceCloseHandle>.'
+summary: 'Response type for <xref:@azure/storage-file-share.ShareDirectoryClient.forceCloseHandle>.'
 fullName: DirectoryForceCloseHandlesResponse
 remarks: ''
 isPreview: false

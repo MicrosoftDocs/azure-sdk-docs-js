@@ -4,7 +4,7 @@ uid: '@azure/storage-queue.StorageBrowserPolicyFactory'
 package: '@azure/storage-queue'
 summary: >-
   StorageBrowserPolicyFactory is a factory class helping generating
-  <xref:StorageBrowserPolicy> objects.
+  <xref:@azure/storage-queue.StorageBrowserPolicy> objects.
 fullName: StorageBrowserPolicyFactory
 remarks: ''
 isPreview: false
