@@ -810,6 +810,8 @@ items:
     items:
     - name: Key Vault Certificates
       items:
+      - name: User guide
+        href: ./key-vault/latest/Key-Vault-Certificates.md
       - name: '@azure/keyvault-certificates'
         items:
         - name: ActionType
@@ -958,6 +960,8 @@ items:
           uid: '@azure/keyvault-certificates.X509CertificateProperties|latest'
     - name: Key Vault Keys
       items:
+      - name: User guide
+        href: ./key-vault/latest/Key-Vault-Keys.md
       - name: '@azure/keyvault-keys'
         items:
         - name: BackupKeyOptions
@@ -1050,6 +1054,8 @@ items:
           uid: '@azure/keyvault-keys.WrapResult|latest'
     - name: Key Vault Secrets
       items:
+      - name: User guide
+        href: ./key-vault/latest/Key-Vault-Secrets.md
       - name: '@azure/keyvault-secrets'
         items:
         - name: BackupSecretOptions
@@ -1216,12 +1222,6 @@ items:
           uid: '@azure/arm-keyvault.VaultsUpdateResponse|latest'
         - name: VirtualNetworkRule
           uid: '@azure/arm-keyvault.VirtualNetworkRule|latest'
-  - name: User guide
-    href: ./key-vault/latest/Key-Vault-Certificates.md
-  - name: User guide
-    href: ./key-vault/latest/Key-Vault-Keys.md
-  - name: User guide
-    href: ./key-vault/latest/Key-Vault-Secrets.md
   - name: Preview
     items:
     - name: Key Vault Certificates
@@ -2024,6 +2024,8 @@ items:
     items:
     - name: Storage Blob
       items:
+      - name: User guide
+        href: ./storage/latest/Storage-Blob.md
       - name: '@azure/storage-blob'
         items:
         - name: AccessPolicy
@@ -2668,6 +2670,8 @@ items:
           uid: '@azure/storage-blob.UserDelegationKeyModel|latest'
     - name: Storage Queue
       items:
+      - name: User guide
+        href: ./storage/latest/Storage-Queue.md
       - name: '@azure/storage-queue'
         items:
         - name: AccessPolicy
@@ -2888,6 +2892,8 @@ items:
           uid: '@azure/storage-queue.StorageSharedKeyCredentialPolicy|latest'
     - name: Storage File Datalake
       items:
+      - name: User guide
+        href: ./storage/latest/Storage-File-Datalake.md
       - name: '@azure/storage-file-datalake'
         items:
         - name: AccessControlChangeCounters
@@ -3236,6 +3242,8 @@ items:
           uid: '@azure/storage-file-datalake.UserDelegationKey|latest'
     - name: Storage File Share
       items:
+      - name: User guide
+        href: ./storage/latest/Storage-File-Share.md
       - name: '@azure/storage-file-share'
         items:
         - name: AccessPolicy
@@ -4298,14 +4306,6 @@ items:
           uid: '@azure/arm-storage.UsageUnit|latest'
         - name: VirtualNetworkRule
           uid: '@azure/arm-storage.VirtualNetworkRule|latest'
-  - name: User guide
-    href: ./storage/latest/Storage-Blob.md
-  - name: User guide
-    href: ./storage/latest/Storage-Queue.md
-  - name: User guide
-    href: ./storage/latest/Storage-File-Datalake.md
-  - name: User guide
-    href: ./storage/latest/Storage-File-Share.md
   - name: Legacy
     items:
     - name: Storage Blob

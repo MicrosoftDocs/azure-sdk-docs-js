@@ -62,7 +62,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="F43D:608F:2D160B0:4043945:601ADA79" data-pjax-transient="true"/><meta name="html-safe-nonce" content="9b7b42d0e154b419f06b66a52f5bee9be53982eee763567c62ec232974ac0fe8" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJGNDNEOjYwOEY6MkQxNjBCMDo0MDQzOTQ1OjYwMUFEQTc5IiwidmlzaXRvcl9pZCI6Ijc5NzY0OTc4OTIzMzIwNjc0NDkiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="02bbbbd94ac58b610a121ca74f60385b5629d83c314df084ce2f6874e4f5714b" data-pjax-transient="true"/>
+  <meta name="request-id" content="F867:6A11:148198E:223C26E:601AE5D9" data-pjax-transient="true"/><meta name="html-safe-nonce" content="d2c9328238fac6c34e4121738d3d038ed7e22df54123a568d07c61fcbbaa25ad" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJGODY3OjZBMTE6MTQ4MTk4RToyMjNDMjZFOjYwMUFFNUQ5IiwidmlzaXRvcl9pZCI6IjU3NzkzNDM5NzQwNTEwMTQxMDUiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="d13d2607454462216abdb345870b8a37e506c17222d4dc79c5c8dc7029c12482" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:78446840" data-pjax-transient>
 
@@ -311,7 +311,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="Tg4y7JLFqsZXbkWMvB5bUwrNiWjsl4jymkPwtIABdEkKFQXlblTqGMwLdu/6noLYH9sX6Hepv6NnV7d2VyyzNg==" />
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="Jnrh+8OjGNDoiW06x52Cw2JNAGLbFLLaQqDhYXoDw+XxnyR5b7oD+Ir20VLrGUUu1Dw3bn+VMdwrky6ug72nCw==" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -783,17 +783,86 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      <include-fragment src="/MicrosoftDocs/azure-docs-sdk-node/contributors/master/docs-ref-services/latest/storage-overview.md" class="commit-loader">
-        <div class="Box-header Box-header--blue d-flex flex-items-center">
-          <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
-          <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
-        </div>
+      
+  <div class="Box-header Box-header--blue Details js-details-container">
+      <div class="d-flex flex-items-center">
+        <span class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1">
+          <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/ramya-rao-a/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/ramya-rao-a"><img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/16890566?s=48&amp;v=4" width="24" height="24" alt="@ramya-rao-a" /></a>
+        </span>
+        <div class="flex-1 d-flex flex-items-center ml-3 min-width-0">
+          <div class="css-truncate css-truncate-overflow">
+            <a class="text-bold link-gray-dark" rel="contributor" data-hovercard-type="user" data-hovercard-url="/users/ramya-rao-a/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/ramya-rao-a">ramya-rao-a</a>
 
-        <div class="Box-body d-flex flex-items-center" >
-          <div class="Skeleton Skeleton--text col-1">&nbsp;</div>
-          <span class="text-red h6 loader-error">Cannot retrieve contributors at this time</span>
+              <span>
+                <a data-pjax="true" title="Remove example for older package azure-arm-storage" class="link-gray" href="/MicrosoftDocs/azure-docs-sdk-node/commit/6249d5d855f722591861f2df6f8a1566fa3e60c3">Remove example for older package azure-arm-storage</a>
+              </span>
+          </div>
+
+
+          <span class="ml-2">
+            <include-fragment accept="text/fragment+html" src="/MicrosoftDocs/azure-docs-sdk-node/commit/6249d5d855f722591861f2df6f8a1566fa3e60c3/rollup?direction=e" class="d-inline"></include-fragment>
+          </span>
         </div>
-</include-fragment>    </div>
+        <div class="ml-3 d-flex flex-shrink-0 flex-items-center flex-justify-end text-gray no-wrap">
+          <span class="d-none d-md-inline">
+            <span>Latest commit</span>
+            <a class="text-small text-mono link-gray" href="/MicrosoftDocs/azure-docs-sdk-node/commit/6249d5d855f722591861f2df6f8a1566fa3e60c3" data-pjax>6249d5d</a>
+            <span itemprop="dateModified"><relative-time datetime="2021-01-06T01:50:23Z" class="no-wrap">Jan 5, 2021</relative-time></span>
+          </span>
+
+          <a data-pjax href="/MicrosoftDocs/azure-docs-sdk-node/commits/master/docs-ref-services/latest/storage-overview.md" class="ml-3 no-wrap link-gray-dark no-underline">
+            <svg class="octicon octicon-history text-gray" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path></svg>
+            <span class="d-none d-sm-inline">
+              <strong>History</strong>
+            </span>
+          </a>
+        </div>
+      </div>
+
+  </div>
+
+  <div class="Box-body d-flex flex-items-center flex-auto border-bottom-0 flex-wrap" >
+    <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-3" id="blob_contributors_box">
+      <summary class="link-gray-dark">
+        <svg class="octicon octicon-people text-gray" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path></svg>
+        <strong>3</strong>
+        
+        contributors
+      </summary>
+      <details-dialog
+        class="Box Box--overlay d-flex flex-column anim-fade-in fast"
+        aria-label="Users who have contributed to this file"
+        src="/MicrosoftDocs/azure-docs-sdk-node/contributors-list/master/docs-ref-services/latest/storage-overview.md" preload>
+        <div class="Box-header">
+          <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+            <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+          </button>
+          <h3 class="Box-title">
+            Users who have contributed to this file
+          </h3>
+        </div>
+        <include-fragment>
+          <svg viewBox="0 0 16 16" fill="none" style="box-sizing: content-box; color: var(--color-icon-primary);" class="my-3 mx-auto d-block" width="32" height="32">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke">
+    <animateTransform attributeName="transform" type="rotate" from="0 8 8" to="360 8 8" dur="1s" repeatCount="indefinite" />
+  </path>
+</svg>
+        </include-fragment>
+      </details-dialog>
+    </details>
+      <span class="">
+    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/ramya-rao-a/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/MicrosoftDocs/azure-docs-sdk-node/commits/master/docs-ref-services/latest/storage-overview.md?author=ramya-rao-a">
+      <img class="avatar mr-2 avatar-user" src="https://avatars.githubusercontent.com/u/16890566?s=48&amp;v=4" width="24" height="24" alt="@ramya-rao-a" /> 
+</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/yunair/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/MicrosoftDocs/azure-docs-sdk-node/commits/master/docs-ref-services/latest/storage-overview.md?author=yunair">
+      <img class="avatar mr-2 avatar-user" src="https://avatars.githubusercontent.com/u/4322540?s=48&amp;v=4" width="24" height="24" alt="@yunair" /> 
+</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/scbedd/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/MicrosoftDocs/azure-docs-sdk-node/commits/master/docs-ref-services/latest/storage-overview.md?author=scbedd">
+      <img class="avatar mr-2 avatar-user" src="https://avatars.githubusercontent.com/u/45376673?s=48&amp;v=4" width="24" height="24" alt="@scbedd" /> 
+</a>
+</span>
+
+  </div>
+    </div>
 
 
 

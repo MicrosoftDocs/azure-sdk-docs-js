@@ -62,7 +62,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="F439:2363:2D5D4:473D1:601ADA59" data-pjax-transient="true"/><meta name="html-safe-nonce" content="ef7841932d0ebfcce972b38f9f64bebfd7699127f8c56a9bca66b015b0e6a63d" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJGNDM5OjIzNjM6MkQ1RDQ6NDczRDE6NjAxQURBNTkiLCJ2aXNpdG9yX2lkIjoiMjAxNDIzNDQxMDk2NzgxNjc5MyIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="5827278762f2f3a1289ac10c28962c1ade5bc4b1decee76ff40bf9933fdce21c" data-pjax-transient="true"/>
+  <meta name="request-id" content="F84B:78A8:6F5ED:AD08B:601AE5B7" data-pjax-transient="true"/><meta name="html-safe-nonce" content="d6154537be7295bd4e634d049f540ed30cab032e3ac02a89561a7106e38c1112" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJGODRCOjc4QTg6NkY1RUQ6QUQwOEI6NjAxQUU1QjciLCJ2aXNpdG9yX2lkIjoiMjAyMzExMTk3Njg1MTE0Mjk1IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="64237f9f053167959f2f78b6e800fe137e8882d117c0f3bd55dc731bce8b2b75" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:78446840" data-pjax-transient>
 
@@ -311,7 +311,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="7Si/4OAY8SOtnwGWfIjKBbDin750IkaAr43A19b2igrHH81aGbKfIN+o3HP9NLiP2kGq7xBAlJ0TvpkJh3aVtw==" />
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="7U1nJfpNIrqrZfXhESk87OjnzSzxBeyos24EQKoPN0S5D0QFQ9A4hCZjUrTjuDNKFU01iQgBBjGCkiQ8rXqdww==" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
