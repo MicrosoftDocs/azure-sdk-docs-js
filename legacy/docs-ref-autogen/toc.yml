@@ -2,6 +2,217 @@ name: Reference
 landingPageType: Root
 expanded: false
 items:
+  - name: Cognitive Services
+    landingPageType: Service
+    items:
+      - name: '@azure/cognitiveservices-anomalydetector'
+        items:
+          - name: Overview
+            uid: '@azure/cognitiveservices-anomalydetector'
+          - uid: '@azure/cognitiveservices-anomalydetector.AnomalyDetectorClient'
+            name: AnomalyDetectorClient
+          - uid: >-
+              @azure/cognitiveservices-anomalydetector.AnomalyDetectorClientContext
+            name: AnomalyDetectorClientContext
+          - uid: '@azure/cognitiveservices-anomalydetector.APIError'
+            name: APIError
+          - uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectRequest'
+            name: ChangePointDetectRequest
+          - uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectResponse'
+            name: ChangePointDetectResponse
+          - uid: >-
+              @azure/cognitiveservices-anomalydetector.ChangePointDetectResponse2
+            name: ChangePointDetectResponse2
+          - uid: '@azure/cognitiveservices-anomalydetector.EntireDetectResponse'
+            name: EntireDetectResponse
+          - uid: '@azure/cognitiveservices-anomalydetector.EntireDetectResponse2'
+            name: EntireDetectResponse2
+          - uid: '@azure/cognitiveservices-anomalydetector.Granularity'
+            name: Granularity
+          - uid: '@azure/cognitiveservices-anomalydetector.LastDetectResponse'
+            name: LastDetectResponse
+          - uid: '@azure/cognitiveservices-anomalydetector.LastDetectResponse2'
+            name: LastDetectResponse2
+          - uid: '@azure/cognitiveservices-anomalydetector.Point'
+            name: Point
+          - uid: '@azure/cognitiveservices-anomalydetector.Request'
+            name: Request
+      - name: '@azure/cognitiveservices-formrecognizer'
+        items:
+          - name: Overview
+            uid: '@azure/cognitiveservices-formrecognizer'
+          - uid: '@azure/cognitiveservices-formrecognizer.AnalyzeResult'
+            name: AnalyzeResult
+          - uid: >-
+              @azure/cognitiveservices-formrecognizer.AnalyzeWithCustomModelResponse
+            name: AnalyzeWithCustomModelResponse
+          - uid: '@azure/cognitiveservices-formrecognizer.BatchReadReceiptHeaders'
+            name: BatchReadReceiptHeaders
+          - uid: >-
+              @azure/cognitiveservices-formrecognizer.BatchReadReceiptInStreamHeaders
+            name: BatchReadReceiptInStreamHeaders
+          - uid: >-
+              @azure/cognitiveservices-formrecognizer.BatchReadReceiptInStreamResponse
+            name: BatchReadReceiptInStreamResponse
+          - uid: '@azure/cognitiveservices-formrecognizer.BatchReadReceiptResponse'
+            name: BatchReadReceiptResponse
+          - uid: '@azure/cognitiveservices-formrecognizer.ComputerVisionError'
+            name: ComputerVisionError
+          - uid: '@azure/cognitiveservices-formrecognizer.ElementReference'
+            name: ElementReference
+          - uid: '@azure/cognitiveservices-formrecognizer.ErrorInformation'
+            name: ErrorInformation
+          - uid: '@azure/cognitiveservices-formrecognizer.ErrorResponse'
+            name: ErrorResponse
+          - uid: '@azure/cognitiveservices-formrecognizer.ExtractedKeyValuePair'
+            name: ExtractedKeyValuePair
+          - uid: '@azure/cognitiveservices-formrecognizer.ExtractedPage'
+            name: ExtractedPage
+          - uid: '@azure/cognitiveservices-formrecognizer.ExtractedTable'
+            name: ExtractedTable
+          - uid: '@azure/cognitiveservices-formrecognizer.ExtractedTableColumn'
+            name: ExtractedTableColumn
+          - uid: '@azure/cognitiveservices-formrecognizer.ExtractedToken'
+            name: ExtractedToken
+          - uid: '@azure/cognitiveservices-formrecognizer.FieldValue'
+            name: FieldValue
+          - uid: '@azure/cognitiveservices-formrecognizer.FieldValueUnion'
+            name: FieldValueUnion
+          - uid: '@azure/cognitiveservices-formrecognizer.FormDocumentReport'
+            name: FormDocumentReport
+          - uid: '@azure/cognitiveservices-formrecognizer.FormOperationError'
+            name: FormOperationError
+          - uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerClient'
+            name: FormRecognizerClient
+          - uid: >-
+              @azure/cognitiveservices-formrecognizer.FormRecognizerClientAnalyzeWithCustomModelOptionalParams
+            name: FormRecognizerClientAnalyzeWithCustomModelOptionalParams
+          - uid: >-
+              @azure/cognitiveservices-formrecognizer.FormRecognizerClientContext
+            name: FormRecognizerClientContext
+          - uid: '@azure/cognitiveservices-formrecognizer.GetCustomModelResponse'
+            name: GetCustomModelResponse
+          - uid: '@azure/cognitiveservices-formrecognizer.GetCustomModelsResponse'
+            name: GetCustomModelsResponse
+          - uid: '@azure/cognitiveservices-formrecognizer.GetExtractedKeysResponse'
+            name: GetExtractedKeysResponse
+          - uid: >-
+              @azure/cognitiveservices-formrecognizer.GetReadReceiptResultResponse
+            name: GetReadReceiptResultResponse
+          - uid: '@azure/cognitiveservices-formrecognizer.ImageUrl'
+            name: ImageUrl
+          - uid: '@azure/cognitiveservices-formrecognizer.InnerError'
+            name: InnerError
+          - uid: '@azure/cognitiveservices-formrecognizer.KeysResult'
+            name: KeysResult
+          - uid: '@azure/cognitiveservices-formrecognizer.Line'
+            name: Line
+          - uid: '@azure/cognitiveservices-formrecognizer.ModelResult'
+            name: ModelResult
+          - uid: '@azure/cognitiveservices-formrecognizer.ModelsResult'
+            name: ModelsResult
+          - uid: '@azure/cognitiveservices-formrecognizer.NumberValue'
+            name: NumberValue
+          - uid: '@azure/cognitiveservices-formrecognizer.ReadReceiptResult'
+            name: ReadReceiptResult
+          - uid: '@azure/cognitiveservices-formrecognizer.Status'
+            name: Status
+          - uid: '@azure/cognitiveservices-formrecognizer.Status1'
+            name: Status1
+          - uid: '@azure/cognitiveservices-formrecognizer.Status2'
+            name: Status2
+          - uid: '@azure/cognitiveservices-formrecognizer.StringValue'
+            name: StringValue
+          - uid: '@azure/cognitiveservices-formrecognizer.TextOperationStatusCodes'
+            name: TextOperationStatusCodes
+          - uid: '@azure/cognitiveservices-formrecognizer.TextRecognitionResult'
+            name: TextRecognitionResult
+          - uid: >-
+              @azure/cognitiveservices-formrecognizer.TextRecognitionResultConfidenceClass
+            name: TextRecognitionResultConfidenceClass
+          - uid: >-
+              @azure/cognitiveservices-formrecognizer.TextRecognitionResultDimensionUnit
+            name: TextRecognitionResultDimensionUnit
+          - uid: '@azure/cognitiveservices-formrecognizer.TrainCustomModelResponse'
+            name: TrainCustomModelResponse
+          - uid: '@azure/cognitiveservices-formrecognizer.TrainRequest'
+            name: TrainRequest
+          - uid: '@azure/cognitiveservices-formrecognizer.TrainResult'
+            name: TrainResult
+          - uid: '@azure/cognitiveservices-formrecognizer.TrainSourceFilter'
+            name: TrainSourceFilter
+          - uid: '@azure/cognitiveservices-formrecognizer.UnderstandingResult'
+            name: UnderstandingResult
+          - uid: '@azure/cognitiveservices-formrecognizer.Word'
+            name: Word
+      - name: '@azure/cognitiveservices-textanalytics'
+        items:
+          - name: Overview
+            uid: '@azure/cognitiveservices-textanalytics'
+          - uid: '@azure/cognitiveservices-textanalytics.DetectedLanguage'
+            name: DetectedLanguage
+          - uid: '@azure/cognitiveservices-textanalytics.DetectLanguageResponse'
+            name: DetectLanguageResponse
+          - uid: '@azure/cognitiveservices-textanalytics.DocumentStatistics'
+            name: DocumentStatistics
+          - uid: '@azure/cognitiveservices-textanalytics.EntitiesBatchResult'
+            name: EntitiesBatchResult
+          - uid: '@azure/cognitiveservices-textanalytics.EntitiesBatchResultItem'
+            name: EntitiesBatchResultItem
+          - uid: '@azure/cognitiveservices-textanalytics.EntitiesResponse'
+            name: EntitiesResponse
+          - uid: '@azure/cognitiveservices-textanalytics.EntityRecord'
+            name: EntityRecord
+          - uid: '@azure/cognitiveservices-textanalytics.ErrorRecord'
+            name: ErrorRecord
+          - uid: '@azure/cognitiveservices-textanalytics.ErrorResponse'
+            name: ErrorResponse
+          - uid: '@azure/cognitiveservices-textanalytics.InternalError'
+            name: InternalError
+          - uid: '@azure/cognitiveservices-textanalytics.KeyPhraseBatchResult'
+            name: KeyPhraseBatchResult
+          - uid: '@azure/cognitiveservices-textanalytics.KeyPhraseBatchResultItem'
+            name: KeyPhraseBatchResultItem
+          - uid: '@azure/cognitiveservices-textanalytics.KeyPhrasesResponse'
+            name: KeyPhrasesResponse
+          - uid: '@azure/cognitiveservices-textanalytics.LanguageBatchInput'
+            name: LanguageBatchInput
+          - uid: '@azure/cognitiveservices-textanalytics.LanguageBatchResult'
+            name: LanguageBatchResult
+          - uid: '@azure/cognitiveservices-textanalytics.LanguageBatchResultItem'
+            name: LanguageBatchResultItem
+          - uid: '@azure/cognitiveservices-textanalytics.LanguageInput'
+            name: LanguageInput
+          - uid: '@azure/cognitiveservices-textanalytics.MatchRecord'
+            name: MatchRecord
+          - uid: '@azure/cognitiveservices-textanalytics.MultiLanguageBatchInput'
+            name: MultiLanguageBatchInput
+          - uid: '@azure/cognitiveservices-textanalytics.MultiLanguageInput'
+            name: MultiLanguageInput
+          - uid: '@azure/cognitiveservices-textanalytics.RequestStatistics'
+            name: RequestStatistics
+          - uid: '@azure/cognitiveservices-textanalytics.SentimentBatchResult'
+            name: SentimentBatchResult
+          - uid: '@azure/cognitiveservices-textanalytics.SentimentBatchResultItem'
+            name: SentimentBatchResultItem
+          - uid: '@azure/cognitiveservices-textanalytics.SentimentResponse'
+            name: SentimentResponse
+          - uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClient'
+            name: TextAnalyticsClient
+          - uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClientContext'
+            name: TextAnalyticsClientContext
+          - uid: >-
+              @azure/cognitiveservices-textanalytics.TextAnalyticsClientDetectLanguageOptionalParams
+            name: TextAnalyticsClientDetectLanguageOptionalParams
+          - uid: >-
+              @azure/cognitiveservices-textanalytics.TextAnalyticsClientEntitiesOptionalParams
+            name: TextAnalyticsClientEntitiesOptionalParams
+          - uid: >-
+              @azure/cognitiveservices-textanalytics.TextAnalyticsClientKeyPhrasesOptionalParams
+            name: TextAnalyticsClientKeyPhrasesOptionalParams
+          - uid: >-
+              @azure/cognitiveservices-textanalytics.TextAnalyticsClientSentimentOptionalParams
+            name: TextAnalyticsClientSentimentOptionalParams
   - name: Key Vault
     items:
       - name: Overview
