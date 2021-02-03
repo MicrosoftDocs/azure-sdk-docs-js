@@ -2,12 +2,2112 @@ name: Reference
 landingPageType: Root
 expanded: false
 items:
+- name: App Configuration
+  items:
+  - name: Release
+    items:
+    - name: App Configuration Client
+      items:
+      - name: User guide
+        href: ./app-configuration/latest/App-Configuration-Client.md
+      - name: '@azure/app-configuration'
+        items:
+        - name: AddConfigurationSettingOptions
+          uid: '@azure/app-configuration.AddConfigurationSettingOptions|latest'
+        - name: AddConfigurationSettingParam
+          uid: '@azure/app-configuration.AddConfigurationSettingParam|latest'
+        - name: AddConfigurationSettingResponse
+          uid: '@azure/app-configuration.AddConfigurationSettingResponse|latest'
+        - name: AppConfigurationClient
+          uid: '@azure/app-configuration.AppConfigurationClient|latest'
+        - name: AppConfigurationClientOptions
+          uid: '@azure/app-configuration.AppConfigurationClientOptions|latest'
+        - name: ConfigurationSetting
+          uid: '@azure/app-configuration.ConfigurationSetting|latest'
+        - name: ConfigurationSettingId
+          uid: '@azure/app-configuration.ConfigurationSettingId|latest'
+        - name: ConfigurationSettingParam
+          uid: '@azure/app-configuration.ConfigurationSettingParam|latest'
+        - name: ConfigurationSettingResponse
+          uid: '@azure/app-configuration.ConfigurationSettingResponse|latest'
+        - name: DeleteConfigurationSettingOptions
+          uid: '@azure/app-configuration.DeleteConfigurationSettingOptions|latest'
+        - name: DeleteConfigurationSettingResponse
+          uid: '@azure/app-configuration.DeleteConfigurationSettingResponse|latest'
+        - name: GetConfigurationHeaders
+          uid: '@azure/app-configuration.GetConfigurationHeaders|latest'
+        - name: GetConfigurationSettingOptions
+          uid: '@azure/app-configuration.GetConfigurationSettingOptions|latest'
+        - name: GetConfigurationSettingResponse
+          uid: '@azure/app-configuration.GetConfigurationSettingResponse|latest'
+        - name: HttpOnlyIfChangedField
+          uid: '@azure/app-configuration.HttpOnlyIfChangedField|latest'
+        - name: HttpOnlyIfUnchangedField
+          uid: '@azure/app-configuration.HttpOnlyIfUnchangedField|latest'
+        - name: HttpResponseField
+          uid: '@azure/app-configuration.HttpResponseField|latest'
+        - name: HttpResponseFields
+          uid: '@azure/app-configuration.HttpResponseFields|latest'
+        - name: ListConfigurationSettingPage
+          uid: '@azure/app-configuration.ListConfigurationSettingPage|latest'
+        - name: ListConfigurationSettingsOptions
+          uid: '@azure/app-configuration.ListConfigurationSettingsOptions|latest'
+        - name: ListRevisionsOptions
+          uid: '@azure/app-configuration.ListRevisionsOptions|latest'
+        - name: ListRevisionsPage
+          uid: '@azure/app-configuration.ListRevisionsPage|latest'
+        - name: ListSettingsOptions
+          uid: '@azure/app-configuration.ListSettingsOptions|latest'
+        - name: OptionalFields
+          uid: '@azure/app-configuration.OptionalFields|latest'
+        - name: SetConfigurationSettingOptions
+          uid: '@azure/app-configuration.SetConfigurationSettingOptions|latest'
+        - name: SetConfigurationSettingParam
+          uid: '@azure/app-configuration.SetConfigurationSettingParam|latest'
+        - name: SetConfigurationSettingResponse
+          uid: '@azure/app-configuration.SetConfigurationSettingResponse|latest'
+        - name: SetReadOnlyOptions
+          uid: '@azure/app-configuration.SetReadOnlyOptions|latest'
+        - name: SetReadOnlyResponse
+          uid: '@azure/app-configuration.SetReadOnlyResponse|latest'
+        - name: SyncTokenHeaderField
+          uid: '@azure/app-configuration.SyncTokenHeaderField|latest'
+    - name: App Configuration Management
+      items:
+      - name: '@azure/arm-appconfiguration'
+        items:
+        - name: ActionsRequired
+          uid: '@azure/arm-appconfiguration.ActionsRequired|latest'
+        - name: ApiKey
+          uid: '@azure/arm-appconfiguration.ApiKey|latest'
+        - name: ApiKeyListResult
+          uid: '@azure/arm-appconfiguration.ApiKeyListResult|latest'
+        - name: AppConfigurationManagementClient
+          uid: '@azure/arm-appconfiguration.AppConfigurationManagementClient|latest'
+        - name: AppConfigurationManagementClientContext
+          uid: '@azure/arm-appconfiguration.AppConfigurationManagementClientContext|latest'
+        - name: AppConfigurationManagementClientOptions
+          uid: '@azure/arm-appconfiguration.AppConfigurationManagementClientOptions|latest'
+        - name: CheckNameAvailabilityParameters
+          uid: '@azure/arm-appconfiguration.CheckNameAvailabilityParameters|latest'
+        - name: ConfigurationStore
+          uid: '@azure/arm-appconfiguration.ConfigurationStore|latest'
+        - name: ConfigurationStoreListResult
+          uid: '@azure/arm-appconfiguration.ConfigurationStoreListResult|latest'
+        - name: ConfigurationStores
+          uid: '@azure/arm-appconfiguration.ConfigurationStores|latest'
+        - name: ConfigurationStoresBeginCreateResponse
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresBeginCreateResponse|latest'
+        - name: ConfigurationStoresBeginUpdateResponse
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresBeginUpdateResponse|latest'
+        - name: ConfigurationStoresCreateResponse
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresCreateResponse|latest'
+        - name: ConfigurationStoresGetResponse
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresGetResponse|latest'
+        - name: ConfigurationStoresListByResourceGroupNextResponse
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupNextResponse|latest'
+        - name: ConfigurationStoresListByResourceGroupOptionalParams
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupOptionalParams|latest'
+        - name: ConfigurationStoresListByResourceGroupResponse
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupResponse|latest'
+        - name: ConfigurationStoresListKeysNextResponse
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresListKeysNextResponse|latest'
+        - name: ConfigurationStoresListKeysOptionalParams
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresListKeysOptionalParams|latest'
+        - name: ConfigurationStoresListKeysResponse
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresListKeysResponse|latest'
+        - name: ConfigurationStoresListKeyValueResponse
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresListKeyValueResponse|latest'
+        - name: ConfigurationStoresListNextResponse
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresListNextResponse|latest'
+        - name: ConfigurationStoresListOptionalParams
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresListOptionalParams|latest'
+        - name: ConfigurationStoresListResponse
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresListResponse|latest'
+        - name: ConfigurationStoresRegenerateKeyResponse
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresRegenerateKeyResponse|latest'
+        - name: ConfigurationStoresUpdateResponse
+          uid: '@azure/arm-appconfiguration.ConfigurationStoresUpdateResponse|latest'
+        - name: ConfigurationStoreUpdateParameters
+          uid: '@azure/arm-appconfiguration.ConfigurationStoreUpdateParameters|latest'
+        - name: ConnectionStatus
+          uid: '@azure/arm-appconfiguration.ConnectionStatus|latest'
+        - name: EncryptionProperties
+          uid: '@azure/arm-appconfiguration.EncryptionProperties|latest'
+        - name: ErrorModel
+          uid: '@azure/arm-appconfiguration.ErrorModel|latest'
+        - name: IdentityType
+          uid: '@azure/arm-appconfiguration.IdentityType|latest'
+        - name: KeyValue
+          uid: '@azure/arm-appconfiguration.KeyValue|latest'
+        - name: KeyVaultProperties
+          uid: '@azure/arm-appconfiguration.KeyVaultProperties|latest'
+        - name: ListKeyValueParameters
+          uid: '@azure/arm-appconfiguration.ListKeyValueParameters|latest'
+        - name: NameAvailabilityStatus
+          uid: '@azure/arm-appconfiguration.NameAvailabilityStatus|latest'
+        - name: OperationDefinition
+          uid: '@azure/arm-appconfiguration.OperationDefinition|latest'
+        - name: OperationDefinitionDisplay
+          uid: '@azure/arm-appconfiguration.OperationDefinitionDisplay|latest'
+        - name: OperationDefinitionListResult
+          uid: '@azure/arm-appconfiguration.OperationDefinitionListResult|latest'
+        - name: Operations
+          uid: '@azure/arm-appconfiguration.Operations|latest'
+        - name: OperationsCheckNameAvailabilityResponse
+          uid: '@azure/arm-appconfiguration.OperationsCheckNameAvailabilityResponse|latest'
+        - name: OperationsListNextResponse
+          uid: '@azure/arm-appconfiguration.OperationsListNextResponse|latest'
+        - name: OperationsListOptionalParams
+          uid: '@azure/arm-appconfiguration.OperationsListOptionalParams|latest'
+        - name: OperationsListResponse
+          uid: '@azure/arm-appconfiguration.OperationsListResponse|latest'
+        - name: PrivateEndpoint
+          uid: '@azure/arm-appconfiguration.PrivateEndpoint|latest'
+        - name: PrivateEndpointConnection
+          uid: '@azure/arm-appconfiguration.PrivateEndpointConnection|latest'
+        - name: PrivateEndpointConnectionListResult
+          uid: '@azure/arm-appconfiguration.PrivateEndpointConnectionListResult|latest'
+        - name: PrivateEndpointConnectionReference
+          uid: '@azure/arm-appconfiguration.PrivateEndpointConnectionReference|latest'
+        - name: PrivateEndpointConnections
+          uid: '@azure/arm-appconfiguration.PrivateEndpointConnections|latest'
+        - name: PrivateEndpointConnectionsBeginCreateOrUpdateResponse
+          uid: '@azure/arm-appconfiguration.PrivateEndpointConnectionsBeginCreateOrUpdateResponse|latest'
+        - name: PrivateEndpointConnectionsCreateOrUpdateResponse
+          uid: '@azure/arm-appconfiguration.PrivateEndpointConnectionsCreateOrUpdateResponse|latest'
+        - name: PrivateEndpointConnectionsGetResponse
+          uid: '@azure/arm-appconfiguration.PrivateEndpointConnectionsGetResponse|latest'
+        - name: PrivateEndpointConnectionsListByConfigurationStoreNextResponse
+          uid: '@azure/arm-appconfiguration.PrivateEndpointConnectionsListByConfigurationStoreNextResponse|latest'
+        - name: PrivateEndpointConnectionsListByConfigurationStoreResponse
+          uid: '@azure/arm-appconfiguration.PrivateEndpointConnectionsListByConfigurationStoreResponse|latest'
+        - name: PrivateLinkResource
+          uid: '@azure/arm-appconfiguration.PrivateLinkResource|latest'
+        - name: PrivateLinkResourceListResult
+          uid: '@azure/arm-appconfiguration.PrivateLinkResourceListResult|latest'
+        - name: PrivateLinkResources
+          uid: '@azure/arm-appconfiguration.PrivateLinkResources|latest'
+        - name: PrivateLinkResourcesGetResponse
+          uid: '@azure/arm-appconfiguration.PrivateLinkResourcesGetResponse|latest'
+        - name: PrivateLinkResourcesListByConfigurationStoreNextResponse
+          uid: '@azure/arm-appconfiguration.PrivateLinkResourcesListByConfigurationStoreNextResponse|latest'
+        - name: PrivateLinkResourcesListByConfigurationStoreResponse
+          uid: '@azure/arm-appconfiguration.PrivateLinkResourcesListByConfigurationStoreResponse|latest'
+        - name: PrivateLinkServiceConnectionState
+          uid: '@azure/arm-appconfiguration.PrivateLinkServiceConnectionState|latest'
+        - name: ProvisioningState
+          uid: '@azure/arm-appconfiguration.ProvisioningState|latest'
+        - name: PublicNetworkAccess
+          uid: '@azure/arm-appconfiguration.PublicNetworkAccess|latest'
+        - name: RegenerateKeyParameters
+          uid: '@azure/arm-appconfiguration.RegenerateKeyParameters|latest'
+        - name: Resource
+          uid: '@azure/arm-appconfiguration.Resource|latest'
+        - name: ResourceIdentity
+          uid: '@azure/arm-appconfiguration.ResourceIdentity|latest'
+        - name: Sku
+          uid: '@azure/arm-appconfiguration.Sku|latest'
+        - name: UserIdentity
+          uid: '@azure/arm-appconfiguration.UserIdentity|latest'
+- name: Cognitive Services
+  items:
+  - name: Release
+    items:
+    - name: Anomaly Detector
+      items:
+      - name: User guide
+        href: ./cognitive-services/latest/Anomaly-Detector.md
+      - name: '@azure/ai-anomaly-detector'
+        items:
+        - name: AnomalyDetectorClient
+          uid: '@azure/ai-anomaly-detector.AnomalyDetectorClient|latest'
+        - name: AnomalyDetectorClientDetectChangePointResponse
+          uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientDetectChangePointResponse|latest'
+        - name: AnomalyDetectorClientDetectEntireResponse
+          uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientDetectEntireResponse|latest'
+        - name: AnomalyDetectorClientDetectLastPointResponse
+          uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientDetectLastPointResponse|latest'
+        - name: AnomalyDetectorClientOptions
+          uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientOptions|latest'
+        - name: DetectChangePointRequest
+          uid: '@azure/ai-anomaly-detector.DetectChangePointRequest|latest'
+        - name: DetectChangePointResponse
+          uid: '@azure/ai-anomaly-detector.DetectChangePointResponse|latest'
+        - name: DetectEntireResponse
+          uid: '@azure/ai-anomaly-detector.DetectEntireResponse|latest'
+        - name: DetectLastPointResponse
+          uid: '@azure/ai-anomaly-detector.DetectLastPointResponse|latest'
+        - name: DetectRequest
+          uid: '@azure/ai-anomaly-detector.DetectRequest|latest'
+        - name: TimeGranularity
+          uid: '@azure/ai-anomaly-detector.TimeGranularity|latest'
+        - name: TimeSeriesPoint
+          uid: '@azure/ai-anomaly-detector.TimeSeriesPoint|latest'
+    - name: Cognitive Search
+      items:
+      - name: '@azure/search-documents'
+        items:
+        - name: AnalyzedTokenInfo
+          uid: '@azure/search-documents.AnalyzedTokenInfo|latest'
+        - name: AnalyzeRequest
+          uid: '@azure/search-documents.AnalyzeRequest|latest'
+        - name: AnalyzeResult
+          uid: '@azure/search-documents.AnalyzeResult|latest'
+        - name: AnalyzeTextOptions
+          uid: '@azure/search-documents.AnalyzeTextOptions|latest'
+        - name: AsciiFoldingTokenFilter
+          uid: '@azure/search-documents.AsciiFoldingTokenFilter|latest'
+        - name: AutocompleteItem
+          uid: '@azure/search-documents.AutocompleteItem|latest'
+        - name: AutocompleteMode
+          uid: '@azure/search-documents.AutocompleteMode|latest'
+        - name: AutocompleteOptions
+          uid: '@azure/search-documents.AutocompleteOptions|latest'
+        - name: AutocompleteRequest
+          uid: '@azure/search-documents.AutocompleteRequest|latest'
+        - name: AutocompleteResult
+          uid: '@azure/search-documents.AutocompleteResult|latest'
+        - name: AzureActiveDirectoryApplicationCredentials
+          uid: '@azure/search-documents.AzureActiveDirectoryApplicationCredentials|latest'
+        - name: BM25Similarity
+          uid: '@azure/search-documents.BM25Similarity|latest'
+        - name: CharFilter
+          uid: '@azure/search-documents.CharFilter|latest'
+        - name: CjkBigramTokenFilter
+          uid: '@azure/search-documents.CjkBigramTokenFilter|latest'
+        - name: CjkBigramTokenFilterScripts
+          uid: '@azure/search-documents.CjkBigramTokenFilterScripts|latest'
+        - name: ClassicSimilarity
+          uid: '@azure/search-documents.ClassicSimilarity|latest'
+        - name: ClassicTokenizer
+          uid: '@azure/search-documents.ClassicTokenizer|latest'
+        - name: CognitiveServicesAccount
+          uid: '@azure/search-documents.CognitiveServicesAccount|latest'
+        - name: CognitiveServicesAccountKey
+          uid: '@azure/search-documents.CognitiveServicesAccountKey|latest'
+        - name: CommonGramTokenFilter
+          uid: '@azure/search-documents.CommonGramTokenFilter|latest'
+        - name: ComplexDataType
+          uid: '@azure/search-documents.ComplexDataType|latest'
+        - name: ComplexField
+          uid: '@azure/search-documents.ComplexField|latest'
+        - name: ConditionalSkill
+          uid: '@azure/search-documents.ConditionalSkill|latest'
+        - name: CorsOptions
+          uid: '@azure/search-documents.CorsOptions|latest'
+        - name: CountDocumentsOptions
+          uid: '@azure/search-documents.CountDocumentsOptions|latest'
+        - name: CreateDataSourceConnectionOptions
+          uid: '@azure/search-documents.CreateDataSourceConnectionOptions|latest'
+        - name: CreateIndexerOptions
+          uid: '@azure/search-documents.CreateIndexerOptions|latest'
+        - name: CreateIndexOptions
+          uid: '@azure/search-documents.CreateIndexOptions|latest'
+        - name: CreateorUpdateDataSourceConnectionOptions
+          uid: '@azure/search-documents.CreateorUpdateDataSourceConnectionOptions|latest'
+        - name: CreateorUpdateIndexerOptions
+          uid: '@azure/search-documents.CreateorUpdateIndexerOptions|latest'
+        - name: CreateOrUpdateIndexOptions
+          uid: '@azure/search-documents.CreateOrUpdateIndexOptions|latest'
+        - name: CreateOrUpdateSkillsetOptions
+          uid: '@azure/search-documents.CreateOrUpdateSkillsetOptions|latest'
+        - name: CreateOrUpdateSynonymMapOptions
+          uid: '@azure/search-documents.CreateOrUpdateSynonymMapOptions|latest'
+        - name: CreateSkillsetOptions
+          uid: '@azure/search-documents.CreateSkillsetOptions|latest'
+        - name: CreateSynonymMapOptions
+          uid: '@azure/search-documents.CreateSynonymMapOptions|latest'
+        - name: CustomAnalyzer
+          uid: '@azure/search-documents.CustomAnalyzer|latest'
+        - name: DataChangeDetectionPolicy
+          uid: '@azure/search-documents.DataChangeDetectionPolicy|latest'
+        - name: DataDeletionDetectionPolicy
+          uid: '@azure/search-documents.DataDeletionDetectionPolicy|latest'
+        - name: DefaultCognitiveServicesAccount
+          uid: '@azure/search-documents.DefaultCognitiveServicesAccount|latest'
+        - name: DeleteDataSourceConnectionOptions
+          uid: '@azure/search-documents.DeleteDataSourceConnectionOptions|latest'
+        - name: DeleteDocumentsOptions
+          uid: '@azure/search-documents.DeleteDocumentsOptions|latest'
+        - name: DeleteIndexerOptions
+          uid: '@azure/search-documents.DeleteIndexerOptions|latest'
+        - name: DeleteIndexOptions
+          uid: '@azure/search-documents.DeleteIndexOptions|latest'
+        - name: DeleteSkillsetOptions
+          uid: '@azure/search-documents.DeleteSkillsetOptions|latest'
+        - name: DeleteSynonymMapOptions
+          uid: '@azure/search-documents.DeleteSynonymMapOptions|latest'
+        - name: DictionaryDecompounderTokenFilter
+          uid: '@azure/search-documents.DictionaryDecompounderTokenFilter|latest'
+        - name: DistanceScoringFunction
+          uid: '@azure/search-documents.DistanceScoringFunction|latest'
+        - name: DistanceScoringParameters
+          uid: '@azure/search-documents.DistanceScoringParameters|latest'
+        - name: EdgeNGramTokenFilter
+          uid: '@azure/search-documents.EdgeNGramTokenFilter|latest'
+        - name: EdgeNGramTokenFilterSide
+          uid: '@azure/search-documents.EdgeNGramTokenFilterSide|latest'
+        - name: EdgeNGramTokenizer
+          uid: '@azure/search-documents.EdgeNGramTokenizer|latest'
+        - name: ElisionTokenFilter
+          uid: '@azure/search-documents.ElisionTokenFilter|latest'
+        - name: EntityCategory
+          uid: '@azure/search-documents.EntityCategory|latest'
+        - name: EntityRecognitionSkill
+          uid: '@azure/search-documents.EntityRecognitionSkill|latest'
+        - name: EntityRecognitionSkillLanguage
+          uid: '@azure/search-documents.EntityRecognitionSkillLanguage|latest'
+        - name: FacetResult
+          uid: '@azure/search-documents.FacetResult|latest'
+        - name: FieldMapping
+          uid: '@azure/search-documents.FieldMapping|latest'
+        - name: FieldMappingFunction
+          uid: '@azure/search-documents.FieldMappingFunction|latest'
+        - name: FreshnessScoringFunction
+          uid: '@azure/search-documents.FreshnessScoringFunction|latest'
+        - name: FreshnessScoringParameters
+          uid: '@azure/search-documents.FreshnessScoringParameters|latest'
+        - name: GeographyPoint
+          uid: '@azure/search-documents.GeographyPoint|latest'
+        - name: GetDataSourceConnectionOptions
+          uid: '@azure/search-documents.GetDataSourceConnectionOptions|latest'
+        - name: GetDocumentOptions
+          uid: '@azure/search-documents.GetDocumentOptions|latest'
+        - name: GetIndexerOptions
+          uid: '@azure/search-documents.GetIndexerOptions|latest'
+        - name: GetIndexerStatusOptions
+          uid: '@azure/search-documents.GetIndexerStatusOptions|latest'
+        - name: GetIndexOptions
+          uid: '@azure/search-documents.GetIndexOptions|latest'
+        - name: GetIndexStatisticsOptions
+          uid: '@azure/search-documents.GetIndexStatisticsOptions|latest'
+        - name: GetServiceStatisticsOptions
+          uid: '@azure/search-documents.GetServiceStatisticsOptions|latest'
+        - name: GetSkillSetOptions
+          uid: '@azure/search-documents.GetSkillSetOptions|latest'
+        - name: GetSynonymMapsOptions
+          uid: '@azure/search-documents.GetSynonymMapsOptions|latest'
+        - name: HighWaterMarkChangeDetectionPolicy
+          uid: '@azure/search-documents.HighWaterMarkChangeDetectionPolicy|latest'
+        - name: ImageAnalysisSkill
+          uid: '@azure/search-documents.ImageAnalysisSkill|latest'
+        - name: ImageAnalysisSkillLanguage
+          uid: '@azure/search-documents.ImageAnalysisSkillLanguage|latest'
+        - name: ImageDetail
+          uid: '@azure/search-documents.ImageDetail|latest'
+        - name: IndexActionType
+          uid: '@azure/search-documents.IndexActionType|latest'
+        - name: IndexDocumentsAction
+          uid: '@azure/search-documents.IndexDocumentsAction|latest'
+        - name: IndexDocumentsBatch
+          uid: '@azure/search-documents.IndexDocumentsBatch|latest'
+        - name: IndexDocumentsOptions
+          uid: '@azure/search-documents.IndexDocumentsOptions|latest'
+        - name: IndexDocumentsResult
+          uid: '@azure/search-documents.IndexDocumentsResult|latest'
+        - name: IndexerExecutionResult
+          uid: '@azure/search-documents.IndexerExecutionResult|latest'
+        - name: IndexerExecutionStatus
+          uid: '@azure/search-documents.IndexerExecutionStatus|latest'
+        - name: IndexerStatus
+          uid: '@azure/search-documents.IndexerStatus|latest'
+        - name: IndexingParameters
+          uid: '@azure/search-documents.IndexingParameters|latest'
+        - name: IndexingResult
+          uid: '@azure/search-documents.IndexingResult|latest'
+        - name: IndexingSchedule
+          uid: '@azure/search-documents.IndexingSchedule|latest'
+        - name: IndexIterator
+          uid: '@azure/search-documents.IndexIterator|latest'
+        - name: IndexNameIterator
+          uid: '@azure/search-documents.IndexNameIterator|latest'
+        - name: InputFieldMappingEntry
+          uid: '@azure/search-documents.InputFieldMappingEntry|latest'
+        - name: KeepTokenFilter
+          uid: '@azure/search-documents.KeepTokenFilter|latest'
+        - name: KeyPhraseExtractionSkill
+          uid: '@azure/search-documents.KeyPhraseExtractionSkill|latest'
+        - name: KeyPhraseExtractionSkillLanguage
+          uid: '@azure/search-documents.KeyPhraseExtractionSkillLanguage|latest'
+        - name: KeywordMarkerTokenFilter
+          uid: '@azure/search-documents.KeywordMarkerTokenFilter|latest'
+        - name: KeywordTokenizer
+          uid: '@azure/search-documents.KeywordTokenizer|latest'
+        - name: KnownAnalyzerNames
+          uid: '@azure/search-documents.KnownAnalyzerNames|latest'
+        - name: KnownCharFilterNames
+          uid: '@azure/search-documents.KnownCharFilterNames|latest'
+        - name: KnownTokenFilterNames
+          uid: '@azure/search-documents.KnownTokenFilterNames|latest'
+        - name: KnownTokenizerNames
+          uid: '@azure/search-documents.KnownTokenizerNames|latest'
+        - name: LanguageDetectionSkill
+          uid: '@azure/search-documents.LanguageDetectionSkill|latest'
+        - name: LengthTokenFilter
+          uid: '@azure/search-documents.LengthTokenFilter|latest'
+        - name: LexicalAnalyzer
+          uid: '@azure/search-documents.LexicalAnalyzer|latest'
+        - name: LexicalAnalyzerName
+          uid: '@azure/search-documents.LexicalAnalyzerName|latest'
+        - name: LexicalTokenizer
+          uid: '@azure/search-documents.LexicalTokenizer|latest'
+        - name: LimitTokenFilter
+          uid: '@azure/search-documents.LimitTokenFilter|latest'
+        - name: ListDataSourceConnectionsOptions
+          uid: '@azure/search-documents.ListDataSourceConnectionsOptions|latest'
+        - name: ListIndexersOptions
+          uid: '@azure/search-documents.ListIndexersOptions|latest'
+        - name: ListIndexesOptions
+          uid: '@azure/search-documents.ListIndexesOptions|latest'
+        - name: ListSearchResultsPageSettings
+          uid: '@azure/search-documents.ListSearchResultsPageSettings|latest'
+        - name: ListSkillsetsOptions
+          uid: '@azure/search-documents.ListSkillsetsOptions|latest'
+        - name: ListSynonymMapsOptions
+          uid: '@azure/search-documents.ListSynonymMapsOptions|latest'
+        - name: LuceneStandardAnalyzer
+          uid: '@azure/search-documents.LuceneStandardAnalyzer|latest'
+        - name: LuceneStandardTokenizer
+          uid: '@azure/search-documents.LuceneStandardTokenizer|latest'
+        - name: MagnitudeScoringFunction
+          uid: '@azure/search-documents.MagnitudeScoringFunction|latest'
+        - name: MagnitudeScoringParameters
+          uid: '@azure/search-documents.MagnitudeScoringParameters|latest'
+        - name: MappingCharFilter
+          uid: '@azure/search-documents.MappingCharFilter|latest'
+        - name: MergeDocumentsOptions
+          uid: '@azure/search-documents.MergeDocumentsOptions|latest'
+        - name: MergeOrUploadDocumentsOptions
+          uid: '@azure/search-documents.MergeOrUploadDocumentsOptions|latest'
+        - name: MergeSkill
+          uid: '@azure/search-documents.MergeSkill|latest'
+        - name: MicrosoftLanguageStemmingTokenizer
+          uid: '@azure/search-documents.MicrosoftLanguageStemmingTokenizer|latest'
+        - name: MicrosoftLanguageTokenizer
+          uid: '@azure/search-documents.MicrosoftLanguageTokenizer|latest'
+        - name: MicrosoftStemmingTokenizerLanguage
+          uid: '@azure/search-documents.MicrosoftStemmingTokenizerLanguage|latest'
+        - name: MicrosoftTokenizerLanguage
+          uid: '@azure/search-documents.MicrosoftTokenizerLanguage|latest'
+        - name: NGramTokenFilter
+          uid: '@azure/search-documents.NGramTokenFilter|latest'
+        - name: NGramTokenizer
+          uid: '@azure/search-documents.NGramTokenizer|latest'
+        - name: OcrSkill
+          uid: '@azure/search-documents.OcrSkill|latest'
+        - name: OcrSkillLanguage
+          uid: '@azure/search-documents.OcrSkillLanguage|latest'
+        - name: OutputFieldMappingEntry
+          uid: '@azure/search-documents.OutputFieldMappingEntry|latest'
+        - name: PathHierarchyTokenizer
+          uid: '@azure/search-documents.PathHierarchyTokenizer|latest'
+        - name: PatternAnalyzer
+          uid: '@azure/search-documents.PatternAnalyzer|latest'
+        - name: PatternCaptureTokenFilter
+          uid: '@azure/search-documents.PatternCaptureTokenFilter|latest'
+        - name: PatternReplaceCharFilter
+          uid: '@azure/search-documents.PatternReplaceCharFilter|latest'
+        - name: PatternReplaceTokenFilter
+          uid: '@azure/search-documents.PatternReplaceTokenFilter|latest'
+        - name: PatternTokenizer
+          uid: '@azure/search-documents.PatternTokenizer|latest'
+        - name: PhoneticEncoder
+          uid: '@azure/search-documents.PhoneticEncoder|latest'
+        - name: PhoneticTokenFilter
+          uid: '@azure/search-documents.PhoneticTokenFilter|latest'
+        - name: QueryType
+          uid: '@azure/search-documents.QueryType|latest'
+        - name: RegexFlags
+          uid: '@azure/search-documents.RegexFlags|latest'
+        - name: ResetIndexerOptions
+          uid: '@azure/search-documents.ResetIndexerOptions|latest'
+        - name: ResourceCounter
+          uid: '@azure/search-documents.ResourceCounter|latest'
+        - name: RunIndexerOptions
+          uid: '@azure/search-documents.RunIndexerOptions|latest'
+        - name: ScoringFunction
+          uid: '@azure/search-documents.ScoringFunction|latest'
+        - name: ScoringFunctionAggregation
+          uid: '@azure/search-documents.ScoringFunctionAggregation|latest'
+        - name: ScoringFunctionInterpolation
+          uid: '@azure/search-documents.ScoringFunctionInterpolation|latest'
+        - name: ScoringProfile
+          uid: '@azure/search-documents.ScoringProfile|latest'
+        - name: SearchClient
+          uid: '@azure/search-documents.SearchClient|latest'
+        - name: SearchClientOptions
+          uid: '@azure/search-documents.SearchClientOptions|latest'
+        - name: SearchDocumentsPageResult
+          uid: '@azure/search-documents.SearchDocumentsPageResult|latest'
+        - name: SearchDocumentsResult
+          uid: '@azure/search-documents.SearchDocumentsResult|latest'
+        - name: SearchDocumentsResultBase
+          uid: '@azure/search-documents.SearchDocumentsResultBase|latest'
+        - name: SearchField
+          uid: '@azure/search-documents.SearchField|latest'
+        - name: SearchFieldDataType
+          uid: '@azure/search-documents.SearchFieldDataType|latest'
+        - name: SearchIndex
+          uid: '@azure/search-documents.SearchIndex|latest'
+        - name: SearchIndexClient
+          uid: '@azure/search-documents.SearchIndexClient|latest'
+        - name: SearchIndexClientOptions
+          uid: '@azure/search-documents.SearchIndexClientOptions|latest'
+        - name: SearchIndexer
+          uid: '@azure/search-documents.SearchIndexer|latest'
+        - name: SearchIndexerClient
+          uid: '@azure/search-documents.SearchIndexerClient|latest'
+        - name: SearchIndexerClientOptions
+          uid: '@azure/search-documents.SearchIndexerClientOptions|latest'
+        - name: SearchIndexerDataContainer
+          uid: '@azure/search-documents.SearchIndexerDataContainer|latest'
+        - name: SearchIndexerDataSourceConnection
+          uid: '@azure/search-documents.SearchIndexerDataSourceConnection|latest'
+        - name: SearchIndexerDataSourceType
+          uid: '@azure/search-documents.SearchIndexerDataSourceType|latest'
+        - name: SearchIndexerError
+          uid: '@azure/search-documents.SearchIndexerError|latest'
+        - name: SearchIndexerLimits
+          uid: '@azure/search-documents.SearchIndexerLimits|latest'
+        - name: SearchIndexerSkill
+          uid: '@azure/search-documents.SearchIndexerSkill|latest'
+        - name: SearchIndexerSkillset
+          uid: '@azure/search-documents.SearchIndexerSkillset|latest'
+        - name: SearchIndexerStatus
+          uid: '@azure/search-documents.SearchIndexerStatus|latest'
+        - name: SearchIndexerWarning
+          uid: '@azure/search-documents.SearchIndexerWarning|latest'
+        - name: SearchIndexStatistics
+          uid: '@azure/search-documents.SearchIndexStatistics|latest'
+        - name: SearchIterator
+          uid: '@azure/search-documents.SearchIterator|latest'
+        - name: SearchMode
+          uid: '@azure/search-documents.SearchMode|latest'
+        - name: SearchOptions
+          uid: '@azure/search-documents.SearchOptions|latest'
+        - name: SearchRequest
+          uid: '@azure/search-documents.SearchRequest|latest'
+        - name: SearchRequestOptions
+          uid: '@azure/search-documents.SearchRequestOptions|latest'
+        - name: SearchResourceEncryptionKey
+          uid: '@azure/search-documents.SearchResourceEncryptionKey|latest'
+        - name: SearchResult
+          uid: '@azure/search-documents.SearchResult|latest'
+        - name: SearchServiceStatistics
+          uid: '@azure/search-documents.SearchServiceStatistics|latest'
+        - name: SearchSuggester
+          uid: '@azure/search-documents.SearchSuggester|latest'
+        - name: SentimentSkill
+          uid: '@azure/search-documents.SentimentSkill|latest'
+        - name: SentimentSkillLanguage
+          uid: '@azure/search-documents.SentimentSkillLanguage|latest'
+        - name: ServiceCounters
+          uid: '@azure/search-documents.ServiceCounters|latest'
+        - name: ServiceLimits
+          uid: '@azure/search-documents.ServiceLimits|latest'
+        - name: ShaperSkill
+          uid: '@azure/search-documents.ShaperSkill|latest'
+        - name: ShingleTokenFilter
+          uid: '@azure/search-documents.ShingleTokenFilter|latest'
+        - name: SimilarityAlgorithm
+          uid: '@azure/search-documents.SimilarityAlgorithm|latest'
+        - name: SimpleField
+          uid: '@azure/search-documents.SimpleField|latest'
+        - name: SnowballTokenFilter
+          uid: '@azure/search-documents.SnowballTokenFilter|latest'
+        - name: SnowballTokenFilterLanguage
+          uid: '@azure/search-documents.SnowballTokenFilterLanguage|latest'
+        - name: SoftDeleteColumnDeletionDetectionPolicy
+          uid: '@azure/search-documents.SoftDeleteColumnDeletionDetectionPolicy|latest'
+        - name: SplitSkill
+          uid: '@azure/search-documents.SplitSkill|latest'
+        - name: SplitSkillLanguage
+          uid: '@azure/search-documents.SplitSkillLanguage|latest'
+        - name: SqlIntegratedChangeTrackingPolicy
+          uid: '@azure/search-documents.SqlIntegratedChangeTrackingPolicy|latest'
+        - name: StemmerOverrideTokenFilter
+          uid: '@azure/search-documents.StemmerOverrideTokenFilter|latest'
+        - name: StemmerTokenFilter
+          uid: '@azure/search-documents.StemmerTokenFilter|latest'
+        - name: StemmerTokenFilterLanguage
+          uid: '@azure/search-documents.StemmerTokenFilterLanguage|latest'
+        - name: StopAnalyzer
+          uid: '@azure/search-documents.StopAnalyzer|latest'
+        - name: StopwordsList
+          uid: '@azure/search-documents.StopwordsList|latest'
+        - name: StopwordsTokenFilter
+          uid: '@azure/search-documents.StopwordsTokenFilter|latest'
+        - name: SuggestDocumentsResult
+          uid: '@azure/search-documents.SuggestDocumentsResult|latest'
+        - name: SuggestOptions
+          uid: '@azure/search-documents.SuggestOptions|latest'
+        - name: SuggestRequest
+          uid: '@azure/search-documents.SuggestRequest|latest'
+        - name: SuggestResult
+          uid: '@azure/search-documents.SuggestResult|latest'
+        - name: SynonymMap
+          uid: '@azure/search-documents.SynonymMap|latest'
+        - name: SynonymTokenFilter
+          uid: '@azure/search-documents.SynonymTokenFilter|latest'
+        - name: TagScoringFunction
+          uid: '@azure/search-documents.TagScoringFunction|latest'
+        - name: TagScoringParameters
+          uid: '@azure/search-documents.TagScoringParameters|latest'
+        - name: TextSplitMode
+          uid: '@azure/search-documents.TextSplitMode|latest'
+        - name: TextTranslationSkill
+          uid: '@azure/search-documents.TextTranslationSkill|latest'
+        - name: TextTranslationSkillLanguage
+          uid: '@azure/search-documents.TextTranslationSkillLanguage|latest'
+        - name: TextWeights
+          uid: '@azure/search-documents.TextWeights|latest'
+        - name: TokenCharacterKind
+          uid: '@azure/search-documents.TokenCharacterKind|latest'
+        - name: TokenFilter
+          uid: '@azure/search-documents.TokenFilter|latest'
+        - name: TruncateTokenFilter
+          uid: '@azure/search-documents.TruncateTokenFilter|latest'
+        - name: UaxUrlEmailTokenizer
+          uid: '@azure/search-documents.UaxUrlEmailTokenizer|latest'
+        - name: UniqueTokenFilter
+          uid: '@azure/search-documents.UniqueTokenFilter|latest'
+        - name: UploadDocumentsOptions
+          uid: '@azure/search-documents.UploadDocumentsOptions|latest'
+        - name: VisualFeature
+          uid: '@azure/search-documents.VisualFeature|latest'
+        - name: WebApiSkill
+          uid: '@azure/search-documents.WebApiSkill|latest'
+        - name: WordDelimiterTokenFilter
+          uid: '@azure/search-documents.WordDelimiterTokenFilter|latest'
+    - name: Form Recognizer
+      items:
+      - name: '@azure/ai-form-recognizer'
+        items:
+        - name: AccountProperties
+          uid: '@azure/ai-form-recognizer.AccountProperties|latest'
+        - name: BeginCopyModelOptions
+          uid: '@azure/ai-form-recognizer.BeginCopyModelOptions|latest'
+        - name: BeginRecognizeContentOptions
+          uid: '@azure/ai-form-recognizer.BeginRecognizeContentOptions|latest'
+        - name: BeginRecognizeFormsOptions
+          uid: '@azure/ai-form-recognizer.BeginRecognizeFormsOptions|latest'
+        - name: BeginRecognizeReceiptsOptions
+          uid: '@azure/ai-form-recognizer.BeginRecognizeReceiptsOptions|latest'
+        - name: BeginTrainingOptions
+          uid: '@azure/ai-form-recognizer.BeginTrainingOptions|latest'
+        - name: CommonFieldValue
+          uid: '@azure/ai-form-recognizer.CommonFieldValue|latest'
+        - name: ContentPollerLike
+          uid: '@azure/ai-form-recognizer.ContentPollerLike|latest'
+        - name: CopyAuthorization
+          uid: '@azure/ai-form-recognizer.CopyAuthorization|latest'
+        - name: CopyModelOperationState
+          uid: '@azure/ai-form-recognizer.CopyModelOperationState|latest'
+        - name: CopyModelOptions
+          uid: '@azure/ai-form-recognizer.CopyModelOptions|latest'
+        - name: CustomFormModel
+          uid: '@azure/ai-form-recognizer.CustomFormModel|latest'
+        - name: CustomFormModelField
+          uid: '@azure/ai-form-recognizer.CustomFormModelField|latest'
+        - name: CustomFormModelInfo
+          uid: '@azure/ai-form-recognizer.CustomFormModelInfo|latest'
+        - name: CustomFormSubmodel
+          uid: '@azure/ai-form-recognizer.CustomFormSubmodel|latest'
+        - name: DeleteModelOptions
+          uid: '@azure/ai-form-recognizer.DeleteModelOptions|latest'
+        - name: FieldData
+          uid: '@azure/ai-form-recognizer.FieldData|latest'
+        - name: FormContentType
+          uid: '@azure/ai-form-recognizer.FormContentType|latest'
+        - name: FormElement
+          uid: '@azure/ai-form-recognizer.FormElement|latest'
+        - name: FormElementCommon
+          uid: '@azure/ai-form-recognizer.FormElementCommon|latest'
+        - name: FormField
+          uid: '@azure/ai-form-recognizer.FormField|latest'
+        - name: FormFieldsReport
+          uid: '@azure/ai-form-recognizer.FormFieldsReport|latest'
+        - name: FormLine
+          uid: '@azure/ai-form-recognizer.FormLine|latest'
+        - name: FormModelResponse
+          uid: '@azure/ai-form-recognizer.FormModelResponse|latest'
+        - name: FormPage
+          uid: '@azure/ai-form-recognizer.FormPage|latest'
+        - name: FormPageArray
+          uid: '@azure/ai-form-recognizer.FormPageArray|latest'
+        - name: FormPageRange
+          uid: '@azure/ai-form-recognizer.FormPageRange|latest'
+        - name: FormPollerLike
+          uid: '@azure/ai-form-recognizer.FormPollerLike|latest'
+        - name: FormRecognizerClient
+          uid: '@azure/ai-form-recognizer.FormRecognizerClient|latest'
+        - name: FormRecognizerClientOptions
+          uid: '@azure/ai-form-recognizer.FormRecognizerClientOptions|latest'
+        - name: FormRecognizerError
+          uid: '@azure/ai-form-recognizer.FormRecognizerError|latest'
+        - name: FormRecognizerOperationOptions
+          uid: '@azure/ai-form-recognizer.FormRecognizerOperationOptions|latest'
+        - name: FormRecognizerRequestBody
+          uid: '@azure/ai-form-recognizer.FormRecognizerRequestBody|latest'
+        - name: FormTable
+          uid: '@azure/ai-form-recognizer.FormTable|latest'
+        - name: FormTableCell
+          uid: '@azure/ai-form-recognizer.FormTableCell|latest'
+        - name: FormTrainingClient
+          uid: '@azure/ai-form-recognizer.FormTrainingClient|latest'
+        - name: FormWord
+          uid: '@azure/ai-form-recognizer.FormWord|latest'
+        - name: GetAccountPropertiesOptions
+          uid: '@azure/ai-form-recognizer.GetAccountPropertiesOptions|latest'
+        - name: GetCopyAuthorizationOptions
+          uid: '@azure/ai-form-recognizer.GetCopyAuthorizationOptions|latest'
+        - name: GetCopyModelResultOptions
+          uid: '@azure/ai-form-recognizer.GetCopyModelResultOptions|latest'
+        - name: GetModelOptions
+          uid: '@azure/ai-form-recognizer.GetModelOptions|latest'
+        - name: KeysResult
+          uid: '@azure/ai-form-recognizer.KeysResult|latest'
+        - name: KeyValueElementModel
+          uid: '@azure/ai-form-recognizer.KeyValueElementModel|latest'
+        - name: KeyValuePairModel
+          uid: '@azure/ai-form-recognizer.KeyValuePairModel|latest'
+        - name: Language
+          uid: '@azure/ai-form-recognizer.Language|latest'
+        - name: LengthUnit
+          uid: '@azure/ai-form-recognizer.LengthUnit|latest'
+        - name: ListCustomModelsResponse
+          uid: '@azure/ai-form-recognizer.ListCustomModelsResponse|latest'
+        - name: ListModelsOptions
+          uid: '@azure/ai-form-recognizer.ListModelsOptions|latest'
+        - name: Model
+          uid: '@azure/ai-form-recognizer.Model|latest'
+        - name: Models
+          uid: '@azure/ai-form-recognizer.Models|latest'
+        - name: ModelsSummary
+          uid: '@azure/ai-form-recognizer.ModelsSummary|latest'
+        - name: ModelStatus
+          uid: '@azure/ai-form-recognizer.ModelStatus|latest'
+        - name: OperationStatus
+          uid: '@azure/ai-form-recognizer.OperationStatus|latest'
+        - name: Point2D
+          uid: '@azure/ai-form-recognizer.Point2D|latest'
+        - name: RecognizeContentOperationState
+          uid: '@azure/ai-form-recognizer.RecognizeContentOperationState|latest'
+        - name: RecognizeContentOptions
+          uid: '@azure/ai-form-recognizer.RecognizeContentOptions|latest'
+        - name: RecognizedForm
+          uid: '@azure/ai-form-recognizer.RecognizedForm|latest'
+        - name: RecognizedFormArray
+          uid: '@azure/ai-form-recognizer.RecognizedFormArray|latest'
+        - name: RecognizeFormsOperationState
+          uid: '@azure/ai-form-recognizer.RecognizeFormsOperationState|latest'
+        - name: RecognizeFormsOptions
+          uid: '@azure/ai-form-recognizer.RecognizeFormsOptions|latest'
+        - name: TrainingDocumentInfo
+          uid: '@azure/ai-form-recognizer.TrainingDocumentInfo|latest'
+        - name: TrainingFileFilter
+          uid: '@azure/ai-form-recognizer.TrainingFileFilter|latest'
+        - name: TrainingOperationState
+          uid: '@azure/ai-form-recognizer.TrainingOperationState|latest'
+        - name: TrainingStatus
+          uid: '@azure/ai-form-recognizer.TrainingStatus|latest'
+        - name: TrainResult
+          uid: '@azure/ai-form-recognizer.TrainResult|latest'
+    - name: Text Analytics
+      items:
+      - name: '@azure/ai-text-analytics'
+        items:
+        - name: AnalyzeSentimentErrorResult
+          uid: '@azure/ai-text-analytics.AnalyzeSentimentErrorResult|latest'
+        - name: AnalyzeSentimentOptions
+          uid: '@azure/ai-text-analytics.AnalyzeSentimentOptions|latest'
+        - name: AnalyzeSentimentResult
+          uid: '@azure/ai-text-analytics.AnalyzeSentimentResult|latest'
+        - name: AnalyzeSentimentResultArray
+          uid: '@azure/ai-text-analytics.AnalyzeSentimentResultArray|latest'
+        - name: AnalyzeSentimentSuccessResult
+          uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult|latest'
+        - name: CategorizedEntity
+          uid: '@azure/ai-text-analytics.CategorizedEntity|latest'
+        - name: DetectedLanguage
+          uid: '@azure/ai-text-analytics.DetectedLanguage|latest'
+        - name: DetectLanguageErrorResult
+          uid: '@azure/ai-text-analytics.DetectLanguageErrorResult|latest'
+        - name: DetectLanguageInput
+          uid: '@azure/ai-text-analytics.DetectLanguageInput|latest'
+        - name: DetectLanguageOptions
+          uid: '@azure/ai-text-analytics.DetectLanguageOptions|latest'
+        - name: DetectLanguageResult
+          uid: '@azure/ai-text-analytics.DetectLanguageResult|latest'
+        - name: DetectLanguageResultArray
+          uid: '@azure/ai-text-analytics.DetectLanguageResultArray|latest'
+        - name: DetectLanguageSuccessResult
+          uid: '@azure/ai-text-analytics.DetectLanguageSuccessResult|latest'
+        - name: DocumentSentimentLabel
+          uid: '@azure/ai-text-analytics.DocumentSentimentLabel|latest'
+        - name: Entity
+          uid: '@azure/ai-text-analytics.Entity|latest'
+        - name: ErrorCode
+          uid: '@azure/ai-text-analytics.ErrorCode|latest'
+        - name: ErrorCodeValue
+          uid: '@azure/ai-text-analytics.ErrorCodeValue|latest'
+        - name: ExtractKeyPhrasesErrorResult
+          uid: '@azure/ai-text-analytics.ExtractKeyPhrasesErrorResult|latest'
+        - name: ExtractKeyPhrasesOptions
+          uid: '@azure/ai-text-analytics.ExtractKeyPhrasesOptions|latest'
+        - name: ExtractKeyPhrasesResult
+          uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest'
+        - name: ExtractKeyPhrasesResultArray
+          uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray|latest'
+        - name: ExtractKeyPhrasesSuccessResult
+          uid: '@azure/ai-text-analytics.ExtractKeyPhrasesSuccessResult|latest'
+        - name: InnerErrorCodeValue
+          uid: '@azure/ai-text-analytics.InnerErrorCodeValue|latest'
+        - name: LinkedEntity
+          uid: '@azure/ai-text-analytics.LinkedEntity|latest'
+        - name: Match
+          uid: '@azure/ai-text-analytics.Match|latest'
+        - name: RecognizeCategorizedEntitiesErrorResult
+          uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesErrorResult|latest'
+        - name: RecognizeCategorizedEntitiesOptions
+          uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions|latest'
+        - name: RecognizeCategorizedEntitiesResult
+          uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest'
+        - name: RecognizeCategorizedEntitiesResultArray
+          uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray|latest'
+        - name: RecognizeCategorizedEntitiesSuccessResult
+          uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesSuccessResult|latest'
+        - name: RecognizeLinkedEntitiesErrorResult
+          uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesErrorResult|latest'
+        - name: RecognizeLinkedEntitiesOptions
+          uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesOptions|latest'
+        - name: RecognizeLinkedEntitiesResult
+          uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|latest'
+        - name: RecognizeLinkedEntitiesResultArray
+          uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesResultArray|latest'
+        - name: RecognizeLinkedEntitiesSuccessResult
+          uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesSuccessResult|latest'
+        - name: SentenceSentiment
+          uid: '@azure/ai-text-analytics.SentenceSentiment|latest'
+        - name: SentenceSentimentLabel
+          uid: '@azure/ai-text-analytics.SentenceSentimentLabel|latest'
+        - name: SentimentConfidenceScores
+          uid: '@azure/ai-text-analytics.SentimentConfidenceScores|latest'
+        - name: TextAnalyticsClient
+          uid: '@azure/ai-text-analytics.TextAnalyticsClient|latest'
+        - name: TextAnalyticsClientOptions
+          uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions|latest'
+        - name: TextAnalyticsError
+          uid: '@azure/ai-text-analytics.TextAnalyticsError|latest'
+        - name: TextAnalyticsErrorResult
+          uid: '@azure/ai-text-analytics.TextAnalyticsErrorResult|latest'
+        - name: TextAnalyticsOperationOptions
+          uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions|latest'
+        - name: TextAnalyticsResult
+          uid: '@azure/ai-text-analytics.TextAnalyticsResult|latest'
+        - name: TextAnalyticsSuccessResult
+          uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult|latest'
+        - name: TextAnalyticsWarning
+          uid: '@azure/ai-text-analytics.TextAnalyticsWarning|latest'
+        - name: TextDocumentBatchStatistics
+          uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics|latest'
+        - name: TextDocumentInput
+          uid: '@azure/ai-text-analytics.TextDocumentInput|latest'
+        - name: TextDocumentStatistics
+          uid: '@azure/ai-text-analytics.TextDocumentStatistics|latest'
+        - name: WarningCode
+          uid: '@azure/ai-text-analytics.WarningCode|latest'
+    - name: Cognitive Services Management
+      items:
+      - name: '@azure/arm-cognitiveservices'
+        items:
+        - name: Accounts
+          uid: '@azure/arm-cognitiveservices.Accounts|latest'
+        - name: AccountsCreateResponse
+          uid: '@azure/arm-cognitiveservices.AccountsCreateResponse|latest'
+        - name: AccountsGetPropertiesResponse
+          uid: '@azure/arm-cognitiveservices.AccountsGetPropertiesResponse|latest'
+        - name: AccountsGetUsagesOptionalParams
+          uid: '@azure/arm-cognitiveservices.AccountsGetUsagesOptionalParams|latest'
+        - name: AccountsGetUsagesResponse
+          uid: '@azure/arm-cognitiveservices.AccountsGetUsagesResponse|latest'
+        - name: AccountsListByResourceGroupNextResponse
+          uid: '@azure/arm-cognitiveservices.AccountsListByResourceGroupNextResponse|latest'
+        - name: AccountsListByResourceGroupResponse
+          uid: '@azure/arm-cognitiveservices.AccountsListByResourceGroupResponse|latest'
+        - name: AccountsListKeysResponse
+          uid: '@azure/arm-cognitiveservices.AccountsListKeysResponse|latest'
+        - name: AccountsListNextResponse
+          uid: '@azure/arm-cognitiveservices.AccountsListNextResponse|latest'
+        - name: AccountsListResponse
+          uid: '@azure/arm-cognitiveservices.AccountsListResponse|latest'
+        - name: AccountsListSkusResponse
+          uid: '@azure/arm-cognitiveservices.AccountsListSkusResponse|latest'
+        - name: AccountsRegenerateKeyResponse
+          uid: '@azure/arm-cognitiveservices.AccountsRegenerateKeyResponse|latest'
+        - name: AccountsUpdateResponse
+          uid: '@azure/arm-cognitiveservices.AccountsUpdateResponse|latest'
+        - name: AzureEntityResource
+          uid: '@azure/arm-cognitiveservices.AzureEntityResource|latest'
+        - name: CheckDomainAvailabilityParameter
+          uid: '@azure/arm-cognitiveservices.CheckDomainAvailabilityParameter|latest'
+        - name: CheckDomainAvailabilityResponse
+          uid: '@azure/arm-cognitiveservices.CheckDomainAvailabilityResponse|latest'
+        - name: CheckDomainAvailabilityResult
+          uid: '@azure/arm-cognitiveservices.CheckDomainAvailabilityResult|latest'
+        - name: CheckSkuAvailabilityParameter
+          uid: '@azure/arm-cognitiveservices.CheckSkuAvailabilityParameter|latest'
+        - name: CheckSkuAvailabilityResponse
+          uid: '@azure/arm-cognitiveservices.CheckSkuAvailabilityResponse|latest'
+        - name: CheckSkuAvailabilityResult
+          uid: '@azure/arm-cognitiveservices.CheckSkuAvailabilityResult|latest'
+        - name: CheckSkuAvailabilityResultList
+          uid: '@azure/arm-cognitiveservices.CheckSkuAvailabilityResultList|latest'
+        - name: CognitiveServicesAccount
+          uid: '@azure/arm-cognitiveservices.CognitiveServicesAccount|latest'
+        - name: CognitiveServicesAccountApiProperties
+          uid: '@azure/arm-cognitiveservices.CognitiveServicesAccountApiProperties|latest'
+        - name: CognitiveServicesAccountEnumerateSkusResult
+          uid: '@azure/arm-cognitiveservices.CognitiveServicesAccountEnumerateSkusResult|latest'
+        - name: CognitiveServicesAccountKeys
+          uid: '@azure/arm-cognitiveservices.CognitiveServicesAccountKeys|latest'
+        - name: CognitiveServicesAccountListResult
+          uid: '@azure/arm-cognitiveservices.CognitiveServicesAccountListResult|latest'
+        - name: CognitiveServicesAccountProperties
+          uid: '@azure/arm-cognitiveservices.CognitiveServicesAccountProperties|latest'
+        - name: CognitiveServicesManagementClient
+          uid: '@azure/arm-cognitiveservices.CognitiveServicesManagementClient|latest'
+        - name: CognitiveServicesManagementClientContext
+          uid: '@azure/arm-cognitiveservices.CognitiveServicesManagementClientContext|latest'
+        - name: CognitiveServicesManagementClientOptions
+          uid: '@azure/arm-cognitiveservices.CognitiveServicesManagementClientOptions|latest'
+        - name: CognitiveServicesResourceAndSku
+          uid: '@azure/arm-cognitiveservices.CognitiveServicesResourceAndSku|latest'
+        - name: Encryption
+          uid: '@azure/arm-cognitiveservices.Encryption|latest'
+        - name: ErrorBody
+          uid: '@azure/arm-cognitiveservices.ErrorBody|latest'
+        - name: ErrorModel
+          uid: '@azure/arm-cognitiveservices.ErrorModel|latest'
+        - name: Identity
+          uid: '@azure/arm-cognitiveservices.Identity|latest'
+        - name: IdentityType
+          uid: '@azure/arm-cognitiveservices.IdentityType|latest'
+        - name: IpRule
+          uid: '@azure/arm-cognitiveservices.IpRule|latest'
+        - name: KeyName
+          uid: '@azure/arm-cognitiveservices.KeyName|latest'
+        - name: KeySource
+          uid: '@azure/arm-cognitiveservices.KeySource|latest'
+        - name: KeyVaultProperties
+          uid: '@azure/arm-cognitiveservices.KeyVaultProperties|latest'
+        - name: MetricName
+          uid: '@azure/arm-cognitiveservices.MetricName|latest'
+        - name: NetworkRuleAction
+          uid: '@azure/arm-cognitiveservices.NetworkRuleAction|latest'
+        - name: NetworkRuleSet
+          uid: '@azure/arm-cognitiveservices.NetworkRuleSet|latest'
+        - name: OperationDisplayInfo
+          uid: '@azure/arm-cognitiveservices.OperationDisplayInfo|latest'
+        - name: OperationEntity
+          uid: '@azure/arm-cognitiveservices.OperationEntity|latest'
+        - name: OperationEntityListResult
+          uid: '@azure/arm-cognitiveservices.OperationEntityListResult|latest'
+        - name: Operations
+          uid: '@azure/arm-cognitiveservices.Operations|latest'
+        - name: OperationsListNextResponse
+          uid: '@azure/arm-cognitiveservices.OperationsListNextResponse|latest'
+        - name: OperationsListResponse
+          uid: '@azure/arm-cognitiveservices.OperationsListResponse|latest'
+        - name: PrivateEndpoint
+          uid: '@azure/arm-cognitiveservices.PrivateEndpoint|latest'
+        - name: PrivateEndpointConnection
+          uid: '@azure/arm-cognitiveservices.PrivateEndpointConnection|latest'
+        - name: PrivateEndpointConnectionProperties
+          uid: '@azure/arm-cognitiveservices.PrivateEndpointConnectionProperties|latest'
+        - name: PrivateEndpointConnections
+          uid: '@azure/arm-cognitiveservices.PrivateEndpointConnections|latest'
+        - name: PrivateEndpointConnectionsCreateOrUpdateResponse
+          uid: '@azure/arm-cognitiveservices.PrivateEndpointConnectionsCreateOrUpdateResponse|latest'
+        - name: PrivateEndpointConnectionsGetResponse
+          uid: '@azure/arm-cognitiveservices.PrivateEndpointConnectionsGetResponse|latest'
+        - name: PrivateEndpointServiceConnectionStatus
+          uid: '@azure/arm-cognitiveservices.PrivateEndpointServiceConnectionStatus|latest'
+        - name: PrivateLinkResource
+          uid: '@azure/arm-cognitiveservices.PrivateLinkResource|latest'
+        - name: PrivateLinkResourceListResult
+          uid: '@azure/arm-cognitiveservices.PrivateLinkResourceListResult|latest'
+        - name: PrivateLinkResourceProperties
+          uid: '@azure/arm-cognitiveservices.PrivateLinkResourceProperties|latest'
+        - name: PrivateLinkResources
+          uid: '@azure/arm-cognitiveservices.PrivateLinkResources|latest'
+        - name: PrivateLinkResourcesListResponse
+          uid: '@azure/arm-cognitiveservices.PrivateLinkResourcesListResponse|latest'
+        - name: PrivateLinkServiceConnectionState
+          uid: '@azure/arm-cognitiveservices.PrivateLinkServiceConnectionState|latest'
+        - name: ProvisioningState
+          uid: '@azure/arm-cognitiveservices.ProvisioningState|latest'
+        - name: ProxyResource
+          uid: '@azure/arm-cognitiveservices.ProxyResource|latest'
+        - name: PublicNetworkAccess
+          uid: '@azure/arm-cognitiveservices.PublicNetworkAccess|latest'
+        - name: QuotaUsageStatus
+          uid: '@azure/arm-cognitiveservices.QuotaUsageStatus|latest'
+        - name: RegenerateKeyParameters
+          uid: '@azure/arm-cognitiveservices.RegenerateKeyParameters|latest'
+        - name: Resource
+          uid: '@azure/arm-cognitiveservices.Resource|latest'
+        - name: ResourceSku
+          uid: '@azure/arm-cognitiveservices.ResourceSku|latest'
+        - name: ResourceSkuRestrictionInfo
+          uid: '@azure/arm-cognitiveservices.ResourceSkuRestrictionInfo|latest'
+        - name: ResourceSkuRestrictions
+          uid: '@azure/arm-cognitiveservices.ResourceSkuRestrictions|latest'
+        - name: ResourceSkuRestrictionsReasonCode
+          uid: '@azure/arm-cognitiveservices.ResourceSkuRestrictionsReasonCode|latest'
+        - name: ResourceSkuRestrictionsType
+          uid: '@azure/arm-cognitiveservices.ResourceSkuRestrictionsType|latest'
+        - name: ResourceSkus
+          uid: '@azure/arm-cognitiveservices.ResourceSkus|latest'
+        - name: ResourceSkusListNextResponse
+          uid: '@azure/arm-cognitiveservices.ResourceSkusListNextResponse|latest'
+        - name: ResourceSkusListResponse
+          uid: '@azure/arm-cognitiveservices.ResourceSkusListResponse|latest'
+        - name: ResourceSkusResult
+          uid: '@azure/arm-cognitiveservices.ResourceSkusResult|latest'
+        - name: Sku
+          uid: '@azure/arm-cognitiveservices.Sku|latest'
+        - name: SkuCapability
+          uid: '@azure/arm-cognitiveservices.SkuCapability|latest'
+        - name: SkuTier
+          uid: '@azure/arm-cognitiveservices.SkuTier|latest'
+        - name: TrackedResource
+          uid: '@azure/arm-cognitiveservices.TrackedResource|latest'
+        - name: UnitType
+          uid: '@azure/arm-cognitiveservices.UnitType|latest'
+        - name: Usage
+          uid: '@azure/arm-cognitiveservices.Usage|latest'
+        - name: UsagesResult
+          uid: '@azure/arm-cognitiveservices.UsagesResult|latest'
+        - name: UserAssignedIdentity
+          uid: '@azure/arm-cognitiveservices.UserAssignedIdentity|latest'
+        - name: UserOwnedStorage
+          uid: '@azure/arm-cognitiveservices.UserOwnedStorage|latest'
+        - name: VirtualNetworkRule
+          uid: '@azure/arm-cognitiveservices.VirtualNetworkRule|latest'
+  - name: Preview
+    items:
+    - name: Cognitive Search
+      items:
+      - name: '@azure/search-documents'
+        items:
+        - name: AnalyzedTokenInfo
+          uid: '@azure/search-documents.AnalyzedTokenInfo|preview'
+        - name: AnalyzeRequest
+          uid: '@azure/search-documents.AnalyzeRequest|preview'
+        - name: AnalyzeResult
+          uid: '@azure/search-documents.AnalyzeResult|preview'
+        - name: AnalyzeTextOptions
+          uid: '@azure/search-documents.AnalyzeTextOptions|preview'
+        - name: AsciiFoldingTokenFilter
+          uid: '@azure/search-documents.AsciiFoldingTokenFilter|preview'
+        - name: AutocompleteItem
+          uid: '@azure/search-documents.AutocompleteItem|preview'
+        - name: AutocompleteMode
+          uid: '@azure/search-documents.AutocompleteMode|preview'
+        - name: AutocompleteOptions
+          uid: '@azure/search-documents.AutocompleteOptions|preview'
+        - name: AutocompleteRequest
+          uid: '@azure/search-documents.AutocompleteRequest|preview'
+        - name: AutocompleteResult
+          uid: '@azure/search-documents.AutocompleteResult|preview'
+        - name: AzureActiveDirectoryApplicationCredentials
+          uid: '@azure/search-documents.AzureActiveDirectoryApplicationCredentials|preview'
+        - name: BlobIndexerDataToExtract
+          uid: '@azure/search-documents.BlobIndexerDataToExtract|preview'
+        - name: BlobIndexerImageAction
+          uid: '@azure/search-documents.BlobIndexerImageAction|preview'
+        - name: BlobIndexerParsingMode
+          uid: '@azure/search-documents.BlobIndexerParsingMode|preview'
+        - name: BlobIndexerPDFTextRotationAlgorithm
+          uid: '@azure/search-documents.BlobIndexerPDFTextRotationAlgorithm|preview'
+        - name: BM25Similarity
+          uid: '@azure/search-documents.BM25Similarity|preview'
+        - name: CharFilter
+          uid: '@azure/search-documents.CharFilter|preview'
+        - name: CjkBigramTokenFilter
+          uid: '@azure/search-documents.CjkBigramTokenFilter|preview'
+        - name: CjkBigramTokenFilterScripts
+          uid: '@azure/search-documents.CjkBigramTokenFilterScripts|preview'
+        - name: ClassicSimilarity
+          uid: '@azure/search-documents.ClassicSimilarity|preview'
+        - name: ClassicTokenizer
+          uid: '@azure/search-documents.ClassicTokenizer|preview'
+        - name: CognitiveServicesAccount
+          uid: '@azure/search-documents.CognitiveServicesAccount|preview'
+        - name: CognitiveServicesAccountKey
+          uid: '@azure/search-documents.CognitiveServicesAccountKey|preview'
+        - name: CommonGramTokenFilter
+          uid: '@azure/search-documents.CommonGramTokenFilter|preview'
+        - name: ComplexDataType
+          uid: '@azure/search-documents.ComplexDataType|preview'
+        - name: ComplexField
+          uid: '@azure/search-documents.ComplexField|preview'
+        - name: ConditionalSkill
+          uid: '@azure/search-documents.ConditionalSkill|preview'
+        - name: CorsOptions
+          uid: '@azure/search-documents.CorsOptions|preview'
+        - name: CountDocumentsOptions
+          uid: '@azure/search-documents.CountDocumentsOptions|preview'
+        - name: CreateDataSourceConnectionOptions
+          uid: '@azure/search-documents.CreateDataSourceConnectionOptions|preview'
+        - name: CreateIndexerOptions
+          uid: '@azure/search-documents.CreateIndexerOptions|preview'
+        - name: CreateIndexOptions
+          uid: '@azure/search-documents.CreateIndexOptions|preview'
+        - name: CreateorUpdateDataSourceConnectionOptions
+          uid: '@azure/search-documents.CreateorUpdateDataSourceConnectionOptions|preview'
+        - name: CreateorUpdateIndexerOptions
+          uid: '@azure/search-documents.CreateorUpdateIndexerOptions|preview'
+        - name: CreateOrUpdateIndexOptions
+          uid: '@azure/search-documents.CreateOrUpdateIndexOptions|preview'
+        - name: CreateOrUpdateSkillsetOptions
+          uid: '@azure/search-documents.CreateOrUpdateSkillsetOptions|preview'
+        - name: CreateOrUpdateSynonymMapOptions
+          uid: '@azure/search-documents.CreateOrUpdateSynonymMapOptions|preview'
+        - name: CreateSkillsetOptions
+          uid: '@azure/search-documents.CreateSkillsetOptions|preview'
+        - name: CreateSynonymMapOptions
+          uid: '@azure/search-documents.CreateSynonymMapOptions|preview'
+        - name: CustomAnalyzer
+          uid: '@azure/search-documents.CustomAnalyzer|preview'
+        - name: DataChangeDetectionPolicy
+          uid: '@azure/search-documents.DataChangeDetectionPolicy|preview'
+        - name: DataDeletionDetectionPolicy
+          uid: '@azure/search-documents.DataDeletionDetectionPolicy|preview'
+        - name: DefaultCognitiveServicesAccount
+          uid: '@azure/search-documents.DefaultCognitiveServicesAccount|preview'
+        - name: DeleteDataSourceConnectionOptions
+          uid: '@azure/search-documents.DeleteDataSourceConnectionOptions|preview'
+        - name: DeleteDocumentsOptions
+          uid: '@azure/search-documents.DeleteDocumentsOptions|preview'
+        - name: DeleteIndexerOptions
+          uid: '@azure/search-documents.DeleteIndexerOptions|preview'
+        - name: DeleteIndexOptions
+          uid: '@azure/search-documents.DeleteIndexOptions|preview'
+        - name: DeleteSkillsetOptions
+          uid: '@azure/search-documents.DeleteSkillsetOptions|preview'
+        - name: DeleteSynonymMapOptions
+          uid: '@azure/search-documents.DeleteSynonymMapOptions|preview'
+        - name: DictionaryDecompounderTokenFilter
+          uid: '@azure/search-documents.DictionaryDecompounderTokenFilter|preview'
+        - name: DistanceScoringFunction
+          uid: '@azure/search-documents.DistanceScoringFunction|preview'
+        - name: DistanceScoringParameters
+          uid: '@azure/search-documents.DistanceScoringParameters|preview'
+        - name: EdgeNGramTokenFilter
+          uid: '@azure/search-documents.EdgeNGramTokenFilter|preview'
+        - name: EdgeNGramTokenFilterSide
+          uid: '@azure/search-documents.EdgeNGramTokenFilterSide|preview'
+        - name: EdgeNGramTokenizer
+          uid: '@azure/search-documents.EdgeNGramTokenizer|preview'
+        - name: ElisionTokenFilter
+          uid: '@azure/search-documents.ElisionTokenFilter|preview'
+        - name: EntityCategory
+          uid: '@azure/search-documents.EntityCategory|preview'
+        - name: EntityRecognitionSkill
+          uid: '@azure/search-documents.EntityRecognitionSkill|preview'
+        - name: EntityRecognitionSkillLanguage
+          uid: '@azure/search-documents.EntityRecognitionSkillLanguage|preview'
+        - name: FacetResult
+          uid: '@azure/search-documents.FacetResult|preview'
+        - name: FieldMapping
+          uid: '@azure/search-documents.FieldMapping|preview'
+        - name: FieldMappingFunction
+          uid: '@azure/search-documents.FieldMappingFunction|preview'
+        - name: FreshnessScoringFunction
+          uid: '@azure/search-documents.FreshnessScoringFunction|preview'
+        - name: FreshnessScoringParameters
+          uid: '@azure/search-documents.FreshnessScoringParameters|preview'
+        - name: GeographyPoint
+          uid: '@azure/search-documents.GeographyPoint|preview'
+        - name: GetDataSourceConnectionOptions
+          uid: '@azure/search-documents.GetDataSourceConnectionOptions|preview'
+        - name: GetDocumentOptions
+          uid: '@azure/search-documents.GetDocumentOptions|preview'
+        - name: GetIndexerOptions
+          uid: '@azure/search-documents.GetIndexerOptions|preview'
+        - name: GetIndexerStatusOptions
+          uid: '@azure/search-documents.GetIndexerStatusOptions|preview'
+        - name: GetIndexOptions
+          uid: '@azure/search-documents.GetIndexOptions|preview'
+        - name: GetIndexStatisticsOptions
+          uid: '@azure/search-documents.GetIndexStatisticsOptions|preview'
+        - name: GetServiceStatisticsOptions
+          uid: '@azure/search-documents.GetServiceStatisticsOptions|preview'
+        - name: GetSkillSetOptions
+          uid: '@azure/search-documents.GetSkillSetOptions|preview'
+        - name: GetSynonymMapsOptions
+          uid: '@azure/search-documents.GetSynonymMapsOptions|preview'
+        - name: HighWaterMarkChangeDetectionPolicy
+          uid: '@azure/search-documents.HighWaterMarkChangeDetectionPolicy|preview'
+        - name: ImageAnalysisSkill
+          uid: '@azure/search-documents.ImageAnalysisSkill|preview'
+        - name: ImageAnalysisSkillLanguage
+          uid: '@azure/search-documents.ImageAnalysisSkillLanguage|preview'
+        - name: ImageDetail
+          uid: '@azure/search-documents.ImageDetail|preview'
+        - name: IndexActionType
+          uid: '@azure/search-documents.IndexActionType|preview'
+        - name: IndexDocumentsAction
+          uid: '@azure/search-documents.IndexDocumentsAction|preview'
+        - name: IndexDocumentsBatch
+          uid: '@azure/search-documents.IndexDocumentsBatch|preview'
+        - name: IndexDocumentsOptions
+          uid: '@azure/search-documents.IndexDocumentsOptions|preview'
+        - name: IndexDocumentsResult
+          uid: '@azure/search-documents.IndexDocumentsResult|preview'
+        - name: IndexerExecutionEnvironment
+          uid: '@azure/search-documents.IndexerExecutionEnvironment|preview'
+        - name: IndexerExecutionResult
+          uid: '@azure/search-documents.IndexerExecutionResult|preview'
+        - name: IndexerExecutionStatus
+          uid: '@azure/search-documents.IndexerExecutionStatus|preview'
+        - name: IndexerStatus
+          uid: '@azure/search-documents.IndexerStatus|preview'
+        - name: IndexingParameters
+          uid: '@azure/search-documents.IndexingParameters|preview'
+        - name: IndexingParametersConfiguration
+          uid: '@azure/search-documents.IndexingParametersConfiguration|preview'
+        - name: IndexingResult
+          uid: '@azure/search-documents.IndexingResult|preview'
+        - name: IndexingSchedule
+          uid: '@azure/search-documents.IndexingSchedule|preview'
+        - name: IndexIterator
+          uid: '@azure/search-documents.IndexIterator|preview'
+        - name: IndexNameIterator
+          uid: '@azure/search-documents.IndexNameIterator|preview'
+        - name: InputFieldMappingEntry
+          uid: '@azure/search-documents.InputFieldMappingEntry|preview'
+        - name: KeepTokenFilter
+          uid: '@azure/search-documents.KeepTokenFilter|preview'
+        - name: KeyPhraseExtractionSkill
+          uid: '@azure/search-documents.KeyPhraseExtractionSkill|preview'
+        - name: KeyPhraseExtractionSkillLanguage
+          uid: '@azure/search-documents.KeyPhraseExtractionSkillLanguage|preview'
+        - name: KeywordMarkerTokenFilter
+          uid: '@azure/search-documents.KeywordMarkerTokenFilter|preview'
+        - name: KeywordTokenizer
+          uid: '@azure/search-documents.KeywordTokenizer|preview'
+        - name: KnownAnalyzerNames
+          uid: '@azure/search-documents.KnownAnalyzerNames|preview'
+        - name: KnownCharFilterNames
+          uid: '@azure/search-documents.KnownCharFilterNames|preview'
+        - name: KnownTokenFilterNames
+          uid: '@azure/search-documents.KnownTokenFilterNames|preview'
+        - name: KnownTokenizerNames
+          uid: '@azure/search-documents.KnownTokenizerNames|preview'
+        - name: LanguageDetectionSkill
+          uid: '@azure/search-documents.LanguageDetectionSkill|preview'
+        - name: LengthTokenFilter
+          uid: '@azure/search-documents.LengthTokenFilter|preview'
+        - name: LexicalAnalyzer
+          uid: '@azure/search-documents.LexicalAnalyzer|preview'
+        - name: LexicalAnalyzerName
+          uid: '@azure/search-documents.LexicalAnalyzerName|preview'
+        - name: LexicalTokenizer
+          uid: '@azure/search-documents.LexicalTokenizer|preview'
+        - name: LimitTokenFilter
+          uid: '@azure/search-documents.LimitTokenFilter|preview'
+        - name: ListDataSourceConnectionsOptions
+          uid: '@azure/search-documents.ListDataSourceConnectionsOptions|preview'
+        - name: ListIndexersOptions
+          uid: '@azure/search-documents.ListIndexersOptions|preview'
+        - name: ListIndexesOptions
+          uid: '@azure/search-documents.ListIndexesOptions|preview'
+        - name: ListSearchResultsPageSettings
+          uid: '@azure/search-documents.ListSearchResultsPageSettings|preview'
+        - name: ListSkillsetsOptions
+          uid: '@azure/search-documents.ListSkillsetsOptions|preview'
+        - name: ListSynonymMapsOptions
+          uid: '@azure/search-documents.ListSynonymMapsOptions|preview'
+        - name: LuceneStandardAnalyzer
+          uid: '@azure/search-documents.LuceneStandardAnalyzer|preview'
+        - name: LuceneStandardTokenizer
+          uid: '@azure/search-documents.LuceneStandardTokenizer|preview'
+        - name: MagnitudeScoringFunction
+          uid: '@azure/search-documents.MagnitudeScoringFunction|preview'
+        - name: MagnitudeScoringParameters
+          uid: '@azure/search-documents.MagnitudeScoringParameters|preview'
+        - name: MappingCharFilter
+          uid: '@azure/search-documents.MappingCharFilter|preview'
+        - name: MergeDocumentsOptions
+          uid: '@azure/search-documents.MergeDocumentsOptions|preview'
+        - name: MergeOrUploadDocumentsOptions
+          uid: '@azure/search-documents.MergeOrUploadDocumentsOptions|preview'
+        - name: MergeSkill
+          uid: '@azure/search-documents.MergeSkill|preview'
+        - name: MicrosoftLanguageStemmingTokenizer
+          uid: '@azure/search-documents.MicrosoftLanguageStemmingTokenizer|preview'
+        - name: MicrosoftLanguageTokenizer
+          uid: '@azure/search-documents.MicrosoftLanguageTokenizer|preview'
+        - name: MicrosoftStemmingTokenizerLanguage
+          uid: '@azure/search-documents.MicrosoftStemmingTokenizerLanguage|preview'
+        - name: MicrosoftTokenizerLanguage
+          uid: '@azure/search-documents.MicrosoftTokenizerLanguage|preview'
+        - name: NGramTokenFilter
+          uid: '@azure/search-documents.NGramTokenFilter|preview'
+        - name: NGramTokenizer
+          uid: '@azure/search-documents.NGramTokenizer|preview'
+        - name: OcrSkill
+          uid: '@azure/search-documents.OcrSkill|preview'
+        - name: OcrSkillLanguage
+          uid: '@azure/search-documents.OcrSkillLanguage|preview'
+        - name: OutputFieldMappingEntry
+          uid: '@azure/search-documents.OutputFieldMappingEntry|preview'
+        - name: PathHierarchyTokenizer
+          uid: '@azure/search-documents.PathHierarchyTokenizer|preview'
+        - name: PatternAnalyzer
+          uid: '@azure/search-documents.PatternAnalyzer|preview'
+        - name: PatternCaptureTokenFilter
+          uid: '@azure/search-documents.PatternCaptureTokenFilter|preview'
+        - name: PatternReplaceCharFilter
+          uid: '@azure/search-documents.PatternReplaceCharFilter|preview'
+        - name: PatternReplaceTokenFilter
+          uid: '@azure/search-documents.PatternReplaceTokenFilter|preview'
+        - name: PatternTokenizer
+          uid: '@azure/search-documents.PatternTokenizer|preview'
+        - name: PhoneticEncoder
+          uid: '@azure/search-documents.PhoneticEncoder|preview'
+        - name: PhoneticTokenFilter
+          uid: '@azure/search-documents.PhoneticTokenFilter|preview'
+        - name: QueryType
+          uid: '@azure/search-documents.QueryType|preview'
+        - name: RegexFlags
+          uid: '@azure/search-documents.RegexFlags|preview'
+        - name: ResetIndexerOptions
+          uid: '@azure/search-documents.ResetIndexerOptions|preview'
+        - name: ResourceCounter
+          uid: '@azure/search-documents.ResourceCounter|preview'
+        - name: RunIndexerOptions
+          uid: '@azure/search-documents.RunIndexerOptions|preview'
+        - name: ScoringFunction
+          uid: '@azure/search-documents.ScoringFunction|preview'
+        - name: ScoringFunctionAggregation
+          uid: '@azure/search-documents.ScoringFunctionAggregation|preview'
+        - name: ScoringFunctionInterpolation
+          uid: '@azure/search-documents.ScoringFunctionInterpolation|preview'
+        - name: ScoringProfile
+          uid: '@azure/search-documents.ScoringProfile|preview'
+        - name: ScoringStatistics
+          uid: '@azure/search-documents.ScoringStatistics|preview'
+        - name: SearchClient
+          uid: '@azure/search-documents.SearchClient|preview'
+        - name: SearchClientOptions
+          uid: '@azure/search-documents.SearchClientOptions|preview'
+        - name: SearchDocumentsPageResult
+          uid: '@azure/search-documents.SearchDocumentsPageResult|preview'
+        - name: SearchDocumentsResult
+          uid: '@azure/search-documents.SearchDocumentsResult|preview'
+        - name: SearchDocumentsResultBase
+          uid: '@azure/search-documents.SearchDocumentsResultBase|preview'
+        - name: SearchField
+          uid: '@azure/search-documents.SearchField|preview'
+        - name: SearchFieldDataType
+          uid: '@azure/search-documents.SearchFieldDataType|preview'
+        - name: SearchIndex
+          uid: '@azure/search-documents.SearchIndex|preview'
+        - name: SearchIndexClient
+          uid: '@azure/search-documents.SearchIndexClient|preview'
+        - name: SearchIndexClientOptions
+          uid: '@azure/search-documents.SearchIndexClientOptions|preview'
+        - name: SearchIndexer
+          uid: '@azure/search-documents.SearchIndexer|preview'
+        - name: SearchIndexerClient
+          uid: '@azure/search-documents.SearchIndexerClient|preview'
+        - name: SearchIndexerClientOptions
+          uid: '@azure/search-documents.SearchIndexerClientOptions|preview'
+        - name: SearchIndexerDataContainer
+          uid: '@azure/search-documents.SearchIndexerDataContainer|preview'
+        - name: SearchIndexerDataSourceConnection
+          uid: '@azure/search-documents.SearchIndexerDataSourceConnection|preview'
+        - name: SearchIndexerDataSourceType
+          uid: '@azure/search-documents.SearchIndexerDataSourceType|preview'
+        - name: SearchIndexerError
+          uid: '@azure/search-documents.SearchIndexerError|preview'
+        - name: SearchIndexerLimits
+          uid: '@azure/search-documents.SearchIndexerLimits|preview'
+        - name: SearchIndexerSkill
+          uid: '@azure/search-documents.SearchIndexerSkill|preview'
+        - name: SearchIndexerSkillset
+          uid: '@azure/search-documents.SearchIndexerSkillset|preview'
+        - name: SearchIndexerStatus
+          uid: '@azure/search-documents.SearchIndexerStatus|preview'
+        - name: SearchIndexerWarning
+          uid: '@azure/search-documents.SearchIndexerWarning|preview'
+        - name: SearchIndexingBufferedSender
+          uid: '@azure/search-documents.SearchIndexingBufferedSender|preview'
+        - name: SearchIndexingBufferedSenderDeleteDocumentsOptions
+          uid: '@azure/search-documents.SearchIndexingBufferedSenderDeleteDocumentsOptions|preview'
+        - name: SearchIndexingBufferedSenderFlushDocumentsOptions
+          uid: '@azure/search-documents.SearchIndexingBufferedSenderFlushDocumentsOptions|preview'
+        - name: SearchIndexingBufferedSenderMergeDocumentsOptions
+          uid: '@azure/search-documents.SearchIndexingBufferedSenderMergeDocumentsOptions|preview'
+        - name: SearchIndexingBufferedSenderMergeOrUploadDocumentsOptions
+          uid: '@azure/search-documents.SearchIndexingBufferedSenderMergeOrUploadDocumentsOptions|preview'
+        - name: SearchIndexingBufferedSenderOptions
+          uid: '@azure/search-documents.SearchIndexingBufferedSenderOptions|preview'
+        - name: SearchIndexingBufferedSenderUploadDocumentsOptions
+          uid: '@azure/search-documents.SearchIndexingBufferedSenderUploadDocumentsOptions|preview'
+        - name: SearchIndexStatistics
+          uid: '@azure/search-documents.SearchIndexStatistics|preview'
+        - name: SearchIterator
+          uid: '@azure/search-documents.SearchIterator|preview'
+        - name: SearchMode
+          uid: '@azure/search-documents.SearchMode|preview'
+        - name: SearchOptions
+          uid: '@azure/search-documents.SearchOptions|preview'
+        - name: SearchRequest
+          uid: '@azure/search-documents.SearchRequest|preview'
+        - name: SearchRequestOptions
+          uid: '@azure/search-documents.SearchRequestOptions|preview'
+        - name: SearchResourceEncryptionKey
+          uid: '@azure/search-documents.SearchResourceEncryptionKey|preview'
+        - name: SearchResult
+          uid: '@azure/search-documents.SearchResult|preview'
+        - name: SearchServiceStatistics
+          uid: '@azure/search-documents.SearchServiceStatistics|preview'
+        - name: SearchSuggester
+          uid: '@azure/search-documents.SearchSuggester|preview'
+        - name: SentimentSkill
+          uid: '@azure/search-documents.SentimentSkill|preview'
+        - name: SentimentSkillLanguage
+          uid: '@azure/search-documents.SentimentSkillLanguage|preview'
+        - name: ServiceCounters
+          uid: '@azure/search-documents.ServiceCounters|preview'
+        - name: ServiceLimits
+          uid: '@azure/search-documents.ServiceLimits|preview'
+        - name: ShaperSkill
+          uid: '@azure/search-documents.ShaperSkill|preview'
+        - name: ShingleTokenFilter
+          uid: '@azure/search-documents.ShingleTokenFilter|preview'
+        - name: SimilarityAlgorithm
+          uid: '@azure/search-documents.SimilarityAlgorithm|preview'
+        - name: SimpleField
+          uid: '@azure/search-documents.SimpleField|preview'
+        - name: SnowballTokenFilter
+          uid: '@azure/search-documents.SnowballTokenFilter|preview'
+        - name: SnowballTokenFilterLanguage
+          uid: '@azure/search-documents.SnowballTokenFilterLanguage|preview'
+        - name: SoftDeleteColumnDeletionDetectionPolicy
+          uid: '@azure/search-documents.SoftDeleteColumnDeletionDetectionPolicy|preview'
+        - name: SplitSkill
+          uid: '@azure/search-documents.SplitSkill|preview'
+        - name: SplitSkillLanguage
+          uid: '@azure/search-documents.SplitSkillLanguage|preview'
+        - name: SqlIntegratedChangeTrackingPolicy
+          uid: '@azure/search-documents.SqlIntegratedChangeTrackingPolicy|preview'
+        - name: StemmerOverrideTokenFilter
+          uid: '@azure/search-documents.StemmerOverrideTokenFilter|preview'
+        - name: StemmerTokenFilter
+          uid: '@azure/search-documents.StemmerTokenFilter|preview'
+        - name: StemmerTokenFilterLanguage
+          uid: '@azure/search-documents.StemmerTokenFilterLanguage|preview'
+        - name: StopAnalyzer
+          uid: '@azure/search-documents.StopAnalyzer|preview'
+        - name: StopwordsList
+          uid: '@azure/search-documents.StopwordsList|preview'
+        - name: StopwordsTokenFilter
+          uid: '@azure/search-documents.StopwordsTokenFilter|preview'
+        - name: SuggestDocumentsResult
+          uid: '@azure/search-documents.SuggestDocumentsResult|preview'
+        - name: SuggestOptions
+          uid: '@azure/search-documents.SuggestOptions|preview'
+        - name: SuggestRequest
+          uid: '@azure/search-documents.SuggestRequest|preview'
+        - name: SuggestResult
+          uid: '@azure/search-documents.SuggestResult|preview'
+        - name: SynonymMap
+          uid: '@azure/search-documents.SynonymMap|preview'
+        - name: SynonymTokenFilter
+          uid: '@azure/search-documents.SynonymTokenFilter|preview'
+        - name: TagScoringFunction
+          uid: '@azure/search-documents.TagScoringFunction|preview'
+        - name: TagScoringParameters
+          uid: '@azure/search-documents.TagScoringParameters|preview'
+        - name: TextSplitMode
+          uid: '@azure/search-documents.TextSplitMode|preview'
+        - name: TextTranslationSkill
+          uid: '@azure/search-documents.TextTranslationSkill|preview'
+        - name: TextTranslationSkillLanguage
+          uid: '@azure/search-documents.TextTranslationSkillLanguage|preview'
+        - name: TextWeights
+          uid: '@azure/search-documents.TextWeights|preview'
+        - name: TokenCharacterKind
+          uid: '@azure/search-documents.TokenCharacterKind|preview'
+        - name: TokenFilter
+          uid: '@azure/search-documents.TokenFilter|preview'
+        - name: TruncateTokenFilter
+          uid: '@azure/search-documents.TruncateTokenFilter|preview'
+        - name: UaxUrlEmailTokenizer
+          uid: '@azure/search-documents.UaxUrlEmailTokenizer|preview'
+        - name: UniqueTokenFilter
+          uid: '@azure/search-documents.UniqueTokenFilter|preview'
+        - name: UploadDocumentsOptions
+          uid: '@azure/search-documents.UploadDocumentsOptions|preview'
+        - name: VisualFeature
+          uid: '@azure/search-documents.VisualFeature|preview'
+        - name: WebApiSkill
+          uid: '@azure/search-documents.WebApiSkill|preview'
+        - name: WordDelimiterTokenFilter
+          uid: '@azure/search-documents.WordDelimiterTokenFilter|preview'
+    - name: Form Recognizer
+      items:
+      - name: '@azure/ai-form-recognizer'
+        items:
+        - name: AccountProperties
+          uid: '@azure/ai-form-recognizer.AccountProperties|preview'
+        - name: Appearance
+          uid: '@azure/ai-form-recognizer.Appearance|preview'
+        - name: BeginCopyModelOptions
+          uid: '@azure/ai-form-recognizer.BeginCopyModelOptions|preview'
+        - name: BeginCreateComposedModelOptions
+          uid: '@azure/ai-form-recognizer.BeginCreateComposedModelOptions|preview'
+        - name: BeginRecognizeBusinessCardsOptions
+          uid: '@azure/ai-form-recognizer.BeginRecognizeBusinessCardsOptions|preview'
+        - name: BeginRecognizeContentOptions
+          uid: '@azure/ai-form-recognizer.BeginRecognizeContentOptions|preview'
+        - name: BeginRecognizeCustomFormsOptions
+          uid: '@azure/ai-form-recognizer.BeginRecognizeCustomFormsOptions|preview'
+        - name: BeginRecognizeFormsOptions
+          uid: '@azure/ai-form-recognizer.BeginRecognizeFormsOptions|preview'
+        - name: BeginRecognizeInvoicesOptions
+          uid: '@azure/ai-form-recognizer.BeginRecognizeInvoicesOptions|preview'
+        - name: BeginRecognizePrebuiltOptions
+          uid: '@azure/ai-form-recognizer.BeginRecognizePrebuiltOptions|preview'
+        - name: BeginRecognizeReceiptsOptions
+          uid: '@azure/ai-form-recognizer.BeginRecognizeReceiptsOptions|preview'
+        - name: BeginTrainingOptions
+          uid: '@azure/ai-form-recognizer.BeginTrainingOptions|preview'
+        - name: CommonFieldValue
+          uid: '@azure/ai-form-recognizer.CommonFieldValue|preview'
+        - name: ContentPollerLike
+          uid: '@azure/ai-form-recognizer.ContentPollerLike|preview'
+        - name: CopyAuthorization
+          uid: '@azure/ai-form-recognizer.CopyAuthorization|preview'
+        - name: CopyModelOperationState
+          uid: '@azure/ai-form-recognizer.CopyModelOperationState|preview'
+        - name: CopyModelOptions
+          uid: '@azure/ai-form-recognizer.CopyModelOptions|preview'
+        - name: CustomFormModel
+          uid: '@azure/ai-form-recognizer.CustomFormModel|preview'
+        - name: CustomFormModelField
+          uid: '@azure/ai-form-recognizer.CustomFormModelField|preview'
+        - name: CustomFormModelInfo
+          uid: '@azure/ai-form-recognizer.CustomFormModelInfo|preview'
+        - name: CustomFormModelProperties
+          uid: '@azure/ai-form-recognizer.CustomFormModelProperties|preview'
+        - name: CustomFormSubmodel
+          uid: '@azure/ai-form-recognizer.CustomFormSubmodel|preview'
+        - name: DeleteModelOptions
+          uid: '@azure/ai-form-recognizer.DeleteModelOptions|preview'
+        - name: FieldData
+          uid: '@azure/ai-form-recognizer.FieldData|preview'
+        - name: FormContentType
+          uid: '@azure/ai-form-recognizer.FormContentType|preview'
+        - name: FormElement
+          uid: '@azure/ai-form-recognizer.FormElement|preview'
+        - name: FormElementCommon
+          uid: '@azure/ai-form-recognizer.FormElementCommon|preview'
+        - name: FormField
+          uid: '@azure/ai-form-recognizer.FormField|preview'
+        - name: FormFieldsReport
+          uid: '@azure/ai-form-recognizer.FormFieldsReport|preview'
+        - name: FormLine
+          uid: '@azure/ai-form-recognizer.FormLine|preview'
+        - name: FormModelResponse
+          uid: '@azure/ai-form-recognizer.FormModelResponse|preview'
+        - name: FormPage
+          uid: '@azure/ai-form-recognizer.FormPage|preview'
+        - name: FormPageArray
+          uid: '@azure/ai-form-recognizer.FormPageArray|preview'
+        - name: FormPageRange
+          uid: '@azure/ai-form-recognizer.FormPageRange|preview'
+        - name: FormPollerLike
+          uid: '@azure/ai-form-recognizer.FormPollerLike|preview'
+        - name: FormRecognizerClient
+          uid: '@azure/ai-form-recognizer.FormRecognizerClient|preview'
+        - name: FormRecognizerClientOptions
+          uid: '@azure/ai-form-recognizer.FormRecognizerClientOptions|preview'
+        - name: FormRecognizerError
+          uid: '@azure/ai-form-recognizer.FormRecognizerError|preview'
+        - name: FormRecognizerOperationOptions
+          uid: '@azure/ai-form-recognizer.FormRecognizerOperationOptions|preview'
+        - name: FormRecognizerRequestBody
+          uid: '@azure/ai-form-recognizer.FormRecognizerRequestBody|preview'
+        - name: FormSelectionMark
+          uid: '@azure/ai-form-recognizer.FormSelectionMark|preview'
+        - name: FormTable
+          uid: '@azure/ai-form-recognizer.FormTable|preview'
+        - name: FormTableCell
+          uid: '@azure/ai-form-recognizer.FormTableCell|preview'
+        - name: FormTrainingClient
+          uid: '@azure/ai-form-recognizer.FormTrainingClient|preview'
+        - name: FormTrainingPollOperationOptions
+          uid: '@azure/ai-form-recognizer.FormTrainingPollOperationOptions|preview'
+        - name: FormWord
+          uid: '@azure/ai-form-recognizer.FormWord|preview'
+        - name: GetAccountPropertiesOptions
+          uid: '@azure/ai-form-recognizer.GetAccountPropertiesOptions|preview'
+        - name: GetCopyAuthorizationOptions
+          uid: '@azure/ai-form-recognizer.GetCopyAuthorizationOptions|preview'
+        - name: GetCopyModelResultOptions
+          uid: '@azure/ai-form-recognizer.GetCopyModelResultOptions|preview'
+        - name: GetModelOptions
+          uid: '@azure/ai-form-recognizer.GetModelOptions|preview'
+        - name: KeysResult
+          uid: '@azure/ai-form-recognizer.KeysResult|preview'
+        - name: KeyValueElementModel
+          uid: '@azure/ai-form-recognizer.KeyValueElementModel|preview'
+        - name: KeyValuePairModel
+          uid: '@azure/ai-form-recognizer.KeyValuePairModel|preview'
+        - name: KeyValueType
+          uid: '@azure/ai-form-recognizer.KeyValueType|preview'
+        - name: Language
+          uid: '@azure/ai-form-recognizer.Language|preview'
+        - name: LengthUnit
+          uid: '@azure/ai-form-recognizer.LengthUnit|preview'
+        - name: ListCustomModelsResponse
+          uid: '@azure/ai-form-recognizer.ListCustomModelsResponse|preview'
+        - name: ListModelsOptions
+          uid: '@azure/ai-form-recognizer.ListModelsOptions|preview'
+        - name: Model
+          uid: '@azure/ai-form-recognizer.Model|preview'
+        - name: Models
+          uid: '@azure/ai-form-recognizer.Models|preview'
+        - name: ModelsSummary
+          uid: '@azure/ai-form-recognizer.ModelsSummary|preview'
+        - name: ModelStatus
+          uid: '@azure/ai-form-recognizer.ModelStatus|preview'
+        - name: OperationStatus
+          uid: '@azure/ai-form-recognizer.OperationStatus|preview'
+        - name: Point2D
+          uid: '@azure/ai-form-recognizer.Point2D|preview'
+        - name: RecognizeContentOperationState
+          uid: '@azure/ai-form-recognizer.RecognizeContentOperationState|preview'
+        - name: RecognizeContentOptions
+          uid: '@azure/ai-form-recognizer.RecognizeContentOptions|preview'
+        - name: RecognizedForm
+          uid: '@azure/ai-form-recognizer.RecognizedForm|preview'
+        - name: RecognizedFormArray
+          uid: '@azure/ai-form-recognizer.RecognizedFormArray|preview'
+        - name: RecognizeFormsOperationState
+          uid: '@azure/ai-form-recognizer.RecognizeFormsOperationState|preview'
+        - name: RecognizeFormsOptions
+          uid: '@azure/ai-form-recognizer.RecognizeFormsOptions|preview'
+        - name: SelectionMarkState
+          uid: '@azure/ai-form-recognizer.SelectionMarkState|preview'
+        - name: Style
+          uid: '@azure/ai-form-recognizer.Style|preview'
+        - name: TextStyle
+          uid: '@azure/ai-form-recognizer.TextStyle|preview'
+        - name: TrainingDocumentInfo
+          uid: '@azure/ai-form-recognizer.TrainingDocumentInfo|preview'
+        - name: TrainingFileFilter
+          uid: '@azure/ai-form-recognizer.TrainingFileFilter|preview'
+        - name: TrainingOperationState
+          uid: '@azure/ai-form-recognizer.TrainingOperationState|preview'
+        - name: TrainingStatus
+          uid: '@azure/ai-form-recognizer.TrainingStatus|preview'
+        - name: TrainResult
+          uid: '@azure/ai-form-recognizer.TrainResult|preview'
+    - name: Text Analytics
+      items:
+      - name: '@azure/ai-text-analytics'
+        items:
+        - name: AnalyzeJobOptions
+          uid: '@azure/ai-text-analytics.AnalyzeJobOptions|preview'
+        - name: AnalyzePollerLike
+          uid: '@azure/ai-text-analytics.AnalyzePollerLike|preview'
+        - name: AnalyzeResult
+          uid: '@azure/ai-text-analytics.AnalyzeResult|preview'
+        - name: AnalyzeSentimentErrorResult
+          uid: '@azure/ai-text-analytics.AnalyzeSentimentErrorResult|preview'
+        - name: AnalyzeSentimentOptions
+          uid: '@azure/ai-text-analytics.AnalyzeSentimentOptions|preview'
+        - name: AnalyzeSentimentResult
+          uid: '@azure/ai-text-analytics.AnalyzeSentimentResult|preview'
+        - name: AnalyzeSentimentResultArray
+          uid: '@azure/ai-text-analytics.AnalyzeSentimentResultArray|preview'
+        - name: AnalyzeSentimentSuccessResult
+          uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult|preview'
+        - name: AspectConfidenceScoreLabel
+          uid: '@azure/ai-text-analytics.AspectConfidenceScoreLabel|preview'
+        - name: AspectSentiment
+          uid: '@azure/ai-text-analytics.AspectSentiment|preview'
+        - name: BeginAnalyzeHealthcareOperationState
+          uid: '@azure/ai-text-analytics.BeginAnalyzeHealthcareOperationState|preview'
+        - name: BeginAnalyzeHealthcareOptions
+          uid: '@azure/ai-text-analytics.BeginAnalyzeHealthcareOptions|preview'
+        - name: BeginAnalyzeOperationState
+          uid: '@azure/ai-text-analytics.BeginAnalyzeOperationState|preview'
+        - name: BeginAnalyzeOptions
+          uid: '@azure/ai-text-analytics.BeginAnalyzeOptions|preview'
+        - name: CategorizedEntity
+          uid: '@azure/ai-text-analytics.CategorizedEntity|preview'
+        - name: DetectedLanguage
+          uid: '@azure/ai-text-analytics.DetectedLanguage|preview'
+        - name: DetectLanguageErrorResult
+          uid: '@azure/ai-text-analytics.DetectLanguageErrorResult|preview'
+        - name: DetectLanguageInput
+          uid: '@azure/ai-text-analytics.DetectLanguageInput|preview'
+        - name: DetectLanguageOptions
+          uid: '@azure/ai-text-analytics.DetectLanguageOptions|preview'
+        - name: DetectLanguageResult
+          uid: '@azure/ai-text-analytics.DetectLanguageResult|preview'
+        - name: DetectLanguageResultArray
+          uid: '@azure/ai-text-analytics.DetectLanguageResultArray|preview'
+        - name: DetectLanguageSuccessResult
+          uid: '@azure/ai-text-analytics.DetectLanguageSuccessResult|preview'
+        - name: DocumentSentimentLabel
+          uid: '@azure/ai-text-analytics.DocumentSentimentLabel|preview'
+        - name: EntitiesTask
+          uid: '@azure/ai-text-analytics.EntitiesTask|preview'
+        - name: Entity
+          uid: '@azure/ai-text-analytics.Entity|preview'
+        - name: ErrorCode
+          uid: '@azure/ai-text-analytics.ErrorCode|preview'
+        - name: ErrorCodeValue
+          uid: '@azure/ai-text-analytics.ErrorCodeValue|preview'
+        - name: ExtractKeyPhrasesErrorResult
+          uid: '@azure/ai-text-analytics.ExtractKeyPhrasesErrorResult|preview'
+        - name: ExtractKeyPhrasesOptions
+          uid: '@azure/ai-text-analytics.ExtractKeyPhrasesOptions|preview'
+        - name: ExtractKeyPhrasesResult
+          uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResult|preview'
+        - name: ExtractKeyPhrasesResultArray
+          uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray|preview'
+        - name: ExtractKeyPhrasesSuccessResult
+          uid: '@azure/ai-text-analytics.ExtractKeyPhrasesSuccessResult|preview'
+        - name: HealthcareEntitiesArray
+          uid: '@azure/ai-text-analytics.HealthcareEntitiesArray|preview'
+        - name: HealthcareEntity
+          uid: '@azure/ai-text-analytics.HealthcareEntity|preview'
+        - name: HealthcareEntityLink
+          uid: '@azure/ai-text-analytics.HealthcareEntityLink|preview'
+        - name: HealthcareErrorResult
+          uid: '@azure/ai-text-analytics.HealthcareErrorResult|preview'
+        - name: HealthcareJobOptions
+          uid: '@azure/ai-text-analytics.HealthcareJobOptions|preview'
+        - name: HealthcareRelation
+          uid: '@azure/ai-text-analytics.HealthcareRelation|preview'
+        - name: HealthcareResult
+          uid: '@azure/ai-text-analytics.HealthcareResult|preview'
+        - name: HealthcareSuccessResult
+          uid: '@azure/ai-text-analytics.HealthcareSuccessResult|preview'
+        - name: HealthPollerLike
+          uid: '@azure/ai-text-analytics.HealthPollerLike|preview'
+        - name: InnerErrorCodeValue
+          uid: '@azure/ai-text-analytics.InnerErrorCodeValue|preview'
+        - name: JobManifestTasks
+          uid: '@azure/ai-text-analytics.JobManifestTasks|preview'
+        - name: KeyPhrasesTask
+          uid: '@azure/ai-text-analytics.KeyPhrasesTask|preview'
+        - name: LinkedEntity
+          uid: '@azure/ai-text-analytics.LinkedEntity|preview'
+        - name: Match
+          uid: '@azure/ai-text-analytics.Match|preview'
+        - name: MinedOpinion
+          uid: '@azure/ai-text-analytics.MinedOpinion|preview'
+        - name: OpinionSentiment
+          uid: '@azure/ai-text-analytics.OpinionSentiment|preview'
+        - name: PagedAsyncIterableAnalyzeResults
+          uid: '@azure/ai-text-analytics.PagedAsyncIterableAnalyzeResults|preview'
+        - name: PagedAsyncIterableHealthEntities
+          uid: '@azure/ai-text-analytics.PagedAsyncIterableHealthEntities|preview'
+        - name: PaginatedAnalyzeResults
+          uid: '@azure/ai-text-analytics.PaginatedAnalyzeResults|preview'
+        - name: PaginatedHealthcareEntities
+          uid: '@azure/ai-text-analytics.PaginatedHealthcareEntities|preview'
+        - name: PiiEntity
+          uid: '@azure/ai-text-analytics.PiiEntity|preview'
+        - name: PiiEntityDomainType
+          uid: '@azure/ai-text-analytics.PiiEntityDomainType|preview'
+        - name: PiiTask
+          uid: '@azure/ai-text-analytics.PiiTask|preview'
+        - name: PiiTaskParametersDomain
+          uid: '@azure/ai-text-analytics.PiiTaskParametersDomain|preview'
+        - name: PollingOptions
+          uid: '@azure/ai-text-analytics.PollingOptions|preview'
+        - name: RecognizeCategorizedEntitiesErrorResult
+          uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesErrorResult|preview'
+        - name: RecognizeCategorizedEntitiesOptions
+          uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions|preview'
+        - name: RecognizeCategorizedEntitiesResult
+          uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|preview'
+        - name: RecognizeCategorizedEntitiesResultArray
+          uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray|preview'
+        - name: RecognizeCategorizedEntitiesSuccessResult
+          uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesSuccessResult|preview'
+        - name: RecognizeLinkedEntitiesErrorResult
+          uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesErrorResult|preview'
+        - name: RecognizeLinkedEntitiesOptions
+          uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesOptions|preview'
+        - name: RecognizeLinkedEntitiesResult
+          uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview'
+        - name: RecognizeLinkedEntitiesResultArray
+          uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesResultArray|preview'
+        - name: RecognizeLinkedEntitiesSuccessResult
+          uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesSuccessResult|preview'
+        - name: RecognizePiiEntitiesErrorResult
+          uid: '@azure/ai-text-analytics.RecognizePiiEntitiesErrorResult|preview'
+        - name: RecognizePiiEntitiesOptions
+          uid: '@azure/ai-text-analytics.RecognizePiiEntitiesOptions|preview'
+        - name: RecognizePiiEntitiesResult
+          uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview'
+        - name: RecognizePiiEntitiesResultArray
+          uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray|preview'
+        - name: RecognizePiiEntitiesSuccessResult
+          uid: '@azure/ai-text-analytics.RecognizePiiEntitiesSuccessResult|preview'
+        - name: SentenceOpinion
+          uid: '@azure/ai-text-analytics.SentenceOpinion|preview'
+        - name: SentenceSentiment
+          uid: '@azure/ai-text-analytics.SentenceSentiment|preview'
+        - name: SentenceSentimentLabel
+          uid: '@azure/ai-text-analytics.SentenceSentimentLabel|preview'
+        - name: SentimentConfidenceScores
+          uid: '@azure/ai-text-analytics.SentimentConfidenceScores|preview'
+        - name: TextAnalyticsClient
+          uid: '@azure/ai-text-analytics.TextAnalyticsClient|preview'
+        - name: TextAnalyticsClientOptions
+          uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions|preview'
+        - name: TextAnalyticsError
+          uid: '@azure/ai-text-analytics.TextAnalyticsError|preview'
+        - name: TextAnalyticsErrorResult
+          uid: '@azure/ai-text-analytics.TextAnalyticsErrorResult|preview'
+        - name: TextAnalyticsOperationOptions
+          uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions|preview'
+        - name: TextAnalyticsResult
+          uid: '@azure/ai-text-analytics.TextAnalyticsResult|preview'
+        - name: TextAnalyticsSuccessResult
+          uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult|preview'
+        - name: TextAnalyticsWarning
+          uid: '@azure/ai-text-analytics.TextAnalyticsWarning|preview'
+        - name: TextDocumentBatchStatistics
+          uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics|preview'
+        - name: TextDocumentInput
+          uid: '@azure/ai-text-analytics.TextDocumentInput|preview'
+        - name: TextDocumentStatistics
+          uid: '@azure/ai-text-analytics.TextDocumentStatistics|preview'
+        - name: TokenSentimentValue
+          uid: '@azure/ai-text-analytics.TokenSentimentValue|preview'
+        - name: WarningCode
+          uid: '@azure/ai-text-analytics.WarningCode|preview'
+  - name: Legacy
+    items:
+    - name: Anomaly Detector
+      items:
+      - name: '@azure/cognitiveservices-anomalydetector'
+        items:
+        - name: AnomalyDetectorClient
+          uid: '@azure/cognitiveservices-anomalydetector.AnomalyDetectorClient|legacy'
+        - name: AnomalyDetectorClientContext
+          uid: '@azure/cognitiveservices-anomalydetector.AnomalyDetectorClientContext|legacy'
+        - name: APIError
+          uid: '@azure/cognitiveservices-anomalydetector.APIError|legacy'
+        - name: ChangePointDetectRequest
+          uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectRequest|legacy'
+        - name: ChangePointDetectResponse
+          uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectResponse|legacy'
+        - name: ChangePointDetectResponse2
+          uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectResponse2|legacy'
+        - name: EntireDetectResponse
+          uid: '@azure/cognitiveservices-anomalydetector.EntireDetectResponse|legacy'
+        - name: EntireDetectResponse2
+          uid: '@azure/cognitiveservices-anomalydetector.EntireDetectResponse2|legacy'
+        - name: Granularity
+          uid: '@azure/cognitiveservices-anomalydetector.Granularity|legacy'
+        - name: LastDetectResponse
+          uid: '@azure/cognitiveservices-anomalydetector.LastDetectResponse|legacy'
+        - name: LastDetectResponse2
+          uid: '@azure/cognitiveservices-anomalydetector.LastDetectResponse2|legacy'
+        - name: Point
+          uid: '@azure/cognitiveservices-anomalydetector.Point|legacy'
+        - name: Request
+          uid: '@azure/cognitiveservices-anomalydetector.Request|legacy'
+    - name: Form Recognizer
+      items:
+      - name: '@azure/cognitiveservices-formrecognizer'
+        items:
+        - name: AnalyzeResult
+          uid: '@azure/cognitiveservices-formrecognizer.AnalyzeResult|legacy'
+        - name: AnalyzeWithCustomModelResponse
+          uid: '@azure/cognitiveservices-formrecognizer.AnalyzeWithCustomModelResponse|legacy'
+        - name: BatchReadReceiptHeaders
+          uid: '@azure/cognitiveservices-formrecognizer.BatchReadReceiptHeaders|legacy'
+        - name: BatchReadReceiptInStreamHeaders
+          uid: '@azure/cognitiveservices-formrecognizer.BatchReadReceiptInStreamHeaders|legacy'
+        - name: BatchReadReceiptInStreamResponse
+          uid: '@azure/cognitiveservices-formrecognizer.BatchReadReceiptInStreamResponse|legacy'
+        - name: BatchReadReceiptResponse
+          uid: '@azure/cognitiveservices-formrecognizer.BatchReadReceiptResponse|legacy'
+        - name: ComputerVisionError
+          uid: '@azure/cognitiveservices-formrecognizer.ComputerVisionError|legacy'
+        - name: ElementReference
+          uid: '@azure/cognitiveservices-formrecognizer.ElementReference|legacy'
+        - name: ErrorInformation
+          uid: '@azure/cognitiveservices-formrecognizer.ErrorInformation|legacy'
+        - name: ErrorResponse
+          uid: '@azure/cognitiveservices-formrecognizer.ErrorResponse|legacy'
+        - name: ExtractedKeyValuePair
+          uid: '@azure/cognitiveservices-formrecognizer.ExtractedKeyValuePair|legacy'
+        - name: ExtractedPage
+          uid: '@azure/cognitiveservices-formrecognizer.ExtractedPage|legacy'
+        - name: ExtractedTable
+          uid: '@azure/cognitiveservices-formrecognizer.ExtractedTable|legacy'
+        - name: ExtractedTableColumn
+          uid: '@azure/cognitiveservices-formrecognizer.ExtractedTableColumn|legacy'
+        - name: ExtractedToken
+          uid: '@azure/cognitiveservices-formrecognizer.ExtractedToken|legacy'
+        - name: FieldValue
+          uid: '@azure/cognitiveservices-formrecognizer.FieldValue|legacy'
+        - name: FieldValueUnion
+          uid: '@azure/cognitiveservices-formrecognizer.FieldValueUnion|legacy'
+        - name: FormDocumentReport
+          uid: '@azure/cognitiveservices-formrecognizer.FormDocumentReport|legacy'
+        - name: FormOperationError
+          uid: '@azure/cognitiveservices-formrecognizer.FormOperationError|legacy'
+        - name: FormRecognizerClient
+          uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerClient|legacy'
+        - name: FormRecognizerClientAnalyzeWithCustomModelOptionalParams
+          uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerClientAnalyzeWithCustomModelOptionalParams|legacy'
+        - name: FormRecognizerClientContext
+          uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerClientContext|legacy'
+        - name: GetCustomModelResponse
+          uid: '@azure/cognitiveservices-formrecognizer.GetCustomModelResponse|legacy'
+        - name: GetCustomModelsResponse
+          uid: '@azure/cognitiveservices-formrecognizer.GetCustomModelsResponse|legacy'
+        - name: GetExtractedKeysResponse
+          uid: '@azure/cognitiveservices-formrecognizer.GetExtractedKeysResponse|legacy'
+        - name: GetReadReceiptResultResponse
+          uid: '@azure/cognitiveservices-formrecognizer.GetReadReceiptResultResponse|legacy'
+        - name: ImageUrl
+          uid: '@azure/cognitiveservices-formrecognizer.ImageUrl|legacy'
+        - name: InnerError
+          uid: '@azure/cognitiveservices-formrecognizer.InnerError|legacy'
+        - name: KeysResult
+          uid: '@azure/cognitiveservices-formrecognizer.KeysResult|legacy'
+        - name: Line
+          uid: '@azure/cognitiveservices-formrecognizer.Line|legacy'
+        - name: ModelResult
+          uid: '@azure/cognitiveservices-formrecognizer.ModelResult|legacy'
+        - name: ModelsResult
+          uid: '@azure/cognitiveservices-formrecognizer.ModelsResult|legacy'
+        - name: NumberValue
+          uid: '@azure/cognitiveservices-formrecognizer.NumberValue|legacy'
+        - name: ReadReceiptResult
+          uid: '@azure/cognitiveservices-formrecognizer.ReadReceiptResult|legacy'
+        - name: Status
+          uid: '@azure/cognitiveservices-formrecognizer.Status|legacy'
+        - name: Status1
+          uid: '@azure/cognitiveservices-formrecognizer.Status1|legacy'
+        - name: Status2
+          uid: '@azure/cognitiveservices-formrecognizer.Status2|legacy'
+        - name: StringValue
+          uid: '@azure/cognitiveservices-formrecognizer.StringValue|legacy'
+        - name: TextOperationStatusCodes
+          uid: '@azure/cognitiveservices-formrecognizer.TextOperationStatusCodes|legacy'
+        - name: TextRecognitionResult
+          uid: '@azure/cognitiveservices-formrecognizer.TextRecognitionResult|legacy'
+        - name: TextRecognitionResultConfidenceClass
+          uid: '@azure/cognitiveservices-formrecognizer.TextRecognitionResultConfidenceClass|legacy'
+        - name: TextRecognitionResultDimensionUnit
+          uid: '@azure/cognitiveservices-formrecognizer.TextRecognitionResultDimensionUnit|legacy'
+        - name: TrainCustomModelResponse
+          uid: '@azure/cognitiveservices-formrecognizer.TrainCustomModelResponse|legacy'
+        - name: TrainRequest
+          uid: '@azure/cognitiveservices-formrecognizer.TrainRequest|legacy'
+        - name: TrainResult
+          uid: '@azure/cognitiveservices-formrecognizer.TrainResult|legacy'
+        - name: TrainSourceFilter
+          uid: '@azure/cognitiveservices-formrecognizer.TrainSourceFilter|legacy'
+        - name: UnderstandingResult
+          uid: '@azure/cognitiveservices-formrecognizer.UnderstandingResult|legacy'
+        - name: Word
+          uid: '@azure/cognitiveservices-formrecognizer.Word|legacy'
+    - name: Text Analytics
+      items:
+      - name: '@azure/cognitiveservices-textanalytics'
+        items:
+        - name: DetectedLanguage
+          uid: '@azure/cognitiveservices-textanalytics.DetectedLanguage|legacy'
+        - name: DetectLanguageResponse
+          uid: '@azure/cognitiveservices-textanalytics.DetectLanguageResponse|legacy'
+        - name: DocumentStatistics
+          uid: '@azure/cognitiveservices-textanalytics.DocumentStatistics|legacy'
+        - name: EntitiesBatchResult
+          uid: '@azure/cognitiveservices-textanalytics.EntitiesBatchResult|legacy'
+        - name: EntitiesBatchResultItem
+          uid: '@azure/cognitiveservices-textanalytics.EntitiesBatchResultItem|legacy'
+        - name: EntitiesResponse
+          uid: '@azure/cognitiveservices-textanalytics.EntitiesResponse|legacy'
+        - name: EntityRecord
+          uid: '@azure/cognitiveservices-textanalytics.EntityRecord|legacy'
+        - name: ErrorRecord
+          uid: '@azure/cognitiveservices-textanalytics.ErrorRecord|legacy'
+        - name: ErrorResponse
+          uid: '@azure/cognitiveservices-textanalytics.ErrorResponse|legacy'
+        - name: InternalError
+          uid: '@azure/cognitiveservices-textanalytics.InternalError|legacy'
+        - name: KeyPhraseBatchResult
+          uid: '@azure/cognitiveservices-textanalytics.KeyPhraseBatchResult|legacy'
+        - name: KeyPhraseBatchResultItem
+          uid: '@azure/cognitiveservices-textanalytics.KeyPhraseBatchResultItem|legacy'
+        - name: KeyPhrasesResponse
+          uid: '@azure/cognitiveservices-textanalytics.KeyPhrasesResponse|legacy'
+        - name: LanguageBatchInput
+          uid: '@azure/cognitiveservices-textanalytics.LanguageBatchInput|legacy'
+        - name: LanguageBatchResult
+          uid: '@azure/cognitiveservices-textanalytics.LanguageBatchResult|legacy'
+        - name: LanguageBatchResultItem
+          uid: '@azure/cognitiveservices-textanalytics.LanguageBatchResultItem|legacy'
+        - name: LanguageInput
+          uid: '@azure/cognitiveservices-textanalytics.LanguageInput|legacy'
+        - name: MatchRecord
+          uid: '@azure/cognitiveservices-textanalytics.MatchRecord|legacy'
+        - name: MultiLanguageBatchInput
+          uid: '@azure/cognitiveservices-textanalytics.MultiLanguageBatchInput|legacy'
+        - name: MultiLanguageInput
+          uid: '@azure/cognitiveservices-textanalytics.MultiLanguageInput|legacy'
+        - name: RequestStatistics
+          uid: '@azure/cognitiveservices-textanalytics.RequestStatistics|legacy'
+        - name: SentimentBatchResult
+          uid: '@azure/cognitiveservices-textanalytics.SentimentBatchResult|legacy'
+        - name: SentimentBatchResultItem
+          uid: '@azure/cognitiveservices-textanalytics.SentimentBatchResultItem|legacy'
+        - name: SentimentResponse
+          uid: '@azure/cognitiveservices-textanalytics.SentimentResponse|legacy'
+        - name: TextAnalyticsClient
+          uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClient|legacy'
+        - name: TextAnalyticsClientContext
+          uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClientContext|legacy'
+        - name: TextAnalyticsClientDetectLanguageOptionalParams
+          uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClientDetectLanguageOptionalParams|legacy'
+        - name: TextAnalyticsClientEntitiesOptionalParams
+          uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClientEntitiesOptionalParams|legacy'
+        - name: TextAnalyticsClientKeyPhrasesOptionalParams
+          uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClientKeyPhrasesOptionalParams|legacy'
+        - name: TextAnalyticsClientSentimentOptionalParams
+          uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClientSentimentOptionalParams|legacy'
 - name: Core
   items:
   - name: Release
     items:
     - name: AMQP
       items:
+      - name: User guide
+        href: ./core/latest/AMQP.md
       - name: '@azure/core-amqp'
         items:
         - name: AmqpAnnotatedMessage
@@ -78,6 +2178,8 @@ items:
           uid: '@azure/core-auth.TokenCredential|latest'
     - name: HTTP
       items:
+      - name: User guide
+        href: ./core/latest/HTTP.md
       - name: '@azure/core-http'
         items:
         - name: AccessTokenCache
@@ -312,6 +2414,8 @@ items:
           uid: '@azure/core-http.XhrHttpClient|latest'
     - name: LRO (Long Running Operations)
       items:
+      - name: User guide
+        href: ./core/latest/LRO-(Long-Running-Operations).md
       - name: '@azure/core-lro'
         items:
         - name: CancelOnProgress
@@ -748,6 +2852,8 @@ items:
     items:
     - name: Identity
       items:
+      - name: User guide
+        href: ./identity/latest/Identity.md
       - name: '@azure/identity'
         items:
         - name: AggregateAuthenticationError
@@ -1572,6 +3678,24 @@ items:
           uid: '@azure/keyvault-admin.SelectiveRestoreOperationState|preview'
         - name: SUPPORTED_API_VERSIONS
           uid: '@azure/keyvault-admin.SUPPORTED_API_VERSIONS|preview'
+- name: Logger
+  items:
+  - name: Release
+    items:
+    - name: Logger
+      items:
+      - name: User guide
+        href: ./logger/latest/Logger.md
+      - name: '@azure/logger'
+        items:
+        - name: AzureClientLogger
+          uid: '@azure/logger.AzureClientLogger|latest'
+        - name: AzureLogger
+          uid: '@azure/logger.AzureLogger|latest'
+        - name: AzureLogLevel
+          uid: '@azure/logger.AzureLogLevel|latest'
+        - name: Debugger
+          uid: '@azure/logger.Debugger|latest'
 - name: Service Bus
   items:
   - name: Release
