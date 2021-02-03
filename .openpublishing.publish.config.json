@@ -2,11 +2,11 @@
   "docsets_to_publish": [
     {
       "docset_name": "azure-sdk-docs-js",
-      "build_source_folder": ".",
+      "build_source_folder": "publish",
       "build_output_subfolder": "azure-sdk-docs-js",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": ["azure-node-latest","azure-node-preview","azure-node-legacy"],
+      "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
