@@ -2,7 +2,7 @@
   "docsets_to_publish": [
     {
       "docset_name": "azure-sdk-docs-js",
-      "build_source_folder": "publish",
+      "build_source_folder": ".",
       "build_output_subfolder": "azure-sdk-docs-js",
       "locale": "en-us",
       "monikers": [],
